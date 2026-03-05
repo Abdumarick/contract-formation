@@ -1,0 +1,126 @@
+AUDIT TRAIL — 20260304 100734 20250124  Sto Rates
+Generated: 2026-03-04 10:07:49.988392
+================================================================================
+
+[2026-03-04T10:07:39] INFO       | module_01                 |                      | PDF type: text, pages: 1
+[2026-03-04T10:07:39] GUESSED    | module_01                 | hotel_name           | Inferred/assumed
+[2026-03-04T10:07:39] GUESSED    | module_01                 | contract_year        | Inferred/assumed
+[2026-03-04T10:07:44] EXTRACTED  | module_02                 | raw_text             | Extracted from source
+[2026-03-04T10:07:44] INFO       | module_03                 |                      | Text reduced from 2755 to 2671 chars
+[2026-03-04T10:07:44] EXTRACTED  | module_04                 | section              | 55 lines
+[2026-03-04T10:07:44] EXTRACTED  | module_04                 | section              | 10 lines
+[2026-03-04T10:07:44] EXTRACTED  | module_04                 | section              | 4 lines
+[2026-03-04T10:07:44] WARNING    | module_05                 |                      | No seasons detected. Rows will have empty dates.
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:07:49] INFO       | module_09                 |                      | Generated 34 CSV rows
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 0 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 0 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 1 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 1 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 2 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 2 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 3 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 3 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 4 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 4 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 5 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 5 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 6 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 6 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 7 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 7 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 8 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 8 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 9 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 9 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 10 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 10 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 11 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 11 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 12 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 12 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 13 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 13 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 14 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 14 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 15 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 15 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 16 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 16 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 17 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 17 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 18 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 18 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 19 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 19 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 20 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 20 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 21 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 21 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 22 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 22 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 23 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 23 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 24 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 24 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 25 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 25 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 26 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 26 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 27 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 27 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 28 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 28 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 29 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 29 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 30 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 30 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 31 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 31 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 32 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 32 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 33 | start_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] ERROR      | module_10                 |                      | [ERROR] Row 33 | end_date: Required field is empty (value: '')
+[2026-03-04T10:07:49] EXTRACTED  | module_11                 | csv_file             | Final CSV generated
+
+================================================================================
+
+── Audit Summary ──
+  ERROR       : 68
+  EXTRACTED   : 39
+  GUESSED     : 2
+  INFO        : 3
+  WARNING     : 1

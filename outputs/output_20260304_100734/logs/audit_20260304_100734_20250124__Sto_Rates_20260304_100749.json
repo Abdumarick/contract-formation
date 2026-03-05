@@ -1,0 +1,918 @@
+{
+  "hotel_name": "20260304 100734 20250124  Sto Rates",
+  "generated": "2026-03-04T10:07:49.989792",
+  "total_entries": 113,
+  "summary": {
+    "INFO": 3,
+    "GUESSED": 2,
+    "EXTRACTED": 39,
+    "WARNING": 1,
+    "ERROR": 68
+  },
+  "entries": [
+    {
+      "timestamp": "2026-03-04T10:07:39",
+      "level": "INFO",
+      "module": "module_01",
+      "field": null,
+      "value": "",
+      "note": "PDF type: text, pages: 1"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:39",
+      "level": "GUESSED",
+      "module": "module_01",
+      "field": "hotel_name",
+      "value": "20260304 100734 20250124  Sto Rates",
+      "note": "Inferred/assumed"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:39",
+      "level": "GUESSED",
+      "module": "module_01",
+      "field": "contract_year",
+      "value": "2026",
+      "note": "Inferred/assumed"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:44",
+      "level": "EXTRACTED",
+      "module": "module_02",
+      "field": "raw_text",
+      "value": "2755 chars",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:44",
+      "level": "INFO",
+      "module": "module_03",
+      "field": null,
+      "value": "",
+      "note": "Text reduced from 2755 to 2671 chars"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:44",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "season_definitions",
+      "note": "55 lines"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:44",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "meal_plans",
+      "note": "10 lines"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:44",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "other",
+      "note": "4 lines"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:44",
+      "level": "WARNING",
+      "module": "module_05",
+      "field": null,
+      "value": "",
+      "note": "No seasons detected. Rows will have empty dates."
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "147.00/Exclusive\nuse Per Unit\n(4xx)/1680.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "147.00/Day\nCottage\nPer Unit\n(1xx)/196.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "147.00/Exclusive\nUse Per\nUnit\n(2xx)/1120.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "117.60/Exclusive\nuse Per Unit\n(4xx)/1344.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "117.60/Day\nCottage\nPer Unit\n(1xx)/156.8USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "117.60/Exclusive\nUse Per\nUnit\n(2xx)/896.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "126.00/Exclusive\nuse Per Unit\n(4xx)/1440.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "126.00/Day\nCottage\nPer Unit\n(1xx)/168.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "126.00/Exclusive\nUse Per\nUnit\n(2xx)/960.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "100.80/Exclusive\nuse Per Unit\n(4xx)/1152.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "100.80/Day\nCottage\nPer Unit\n(1xx)/134.4USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "100.80/Exclusive\nUse Per\nUnit\n(2xx)/768.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "77.00/Exclusive\nuse Per Unit\n(4xx)/880.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "77.00/Day\nCottage\nPer Unit\n(1xx)/105.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "77.00/Exclusive\nUse Per\nUnit\n(2xx)/600.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "61.60/Exclusive\nuse Per Unit\n(4xx)/704.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "61.60/Day\nCottage\nPer Unit\n(1xx)/84.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "61.60/Exclusive\nUse Per\nUnit\n(2xx)/480.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/1.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/2.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/18.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/4.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/15.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/21.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/147.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/117.6USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/126.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/100.8USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/77.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/61.6USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/3.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Default/60.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Rivertrees Country Inn/Default/221.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Usa River/Default/255.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "INFO",
+      "module": "module_09",
+      "field": null,
+      "value": "",
+      "note": "Generated 34 CSV rows"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 0 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 0 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 1 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 1 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 2 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 2 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 3 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 3 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 4 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 4 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 5 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 5 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 6 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 6 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 7 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 7 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 8 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 8 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 9 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 9 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 10 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 10 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 11 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 11 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 12 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 12 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 13 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 13 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 14 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 14 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 15 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 15 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 16 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 16 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 17 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 17 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 18 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 18 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 19 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 19 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 20 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 20 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 21 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 21 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 22 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 22 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 23 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 23 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 24 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 24 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 25 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 25 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 26 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 26 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 27 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 27 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 28 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 28 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 29 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 29 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 30 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 30 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 31 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 31 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 32 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 32 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 33 | start_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "ERROR",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[ERROR] Row 33 | end_date: Required field is empty (value: '')"
+    },
+    {
+      "timestamp": "2026-03-04T10:07:49",
+      "level": "EXTRACTED",
+      "module": "module_11",
+      "field": "csv_file",
+      "value": "outputs\\output_20260304_100734\\20260304_100734_20250124_Sto_Rates_2026.csv",
+      "note": "Final CSV generated"
+    }
+  ]
+}

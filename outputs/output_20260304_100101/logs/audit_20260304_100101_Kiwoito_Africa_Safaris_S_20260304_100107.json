@@ -1,0 +1,1052 @@
+{
+  "hotel_name": "20260304 100101 Kiwoito Africa Safaris Sto",
+  "generated": "2026-03-04T10:01:07.293520",
+  "total_entries": 130,
+  "summary": {
+    "INFO": 3,
+    "GUESSED": 2,
+    "EXTRACTED": 125
+  },
+  "entries": [
+    {
+      "timestamp": "2026-03-04T10:01:03",
+      "level": "INFO",
+      "module": "module_01",
+      "field": null,
+      "value": "",
+      "note": "PDF type: text, pages: 5"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:03",
+      "level": "GUESSED",
+      "module": "module_01",
+      "field": "hotel_name",
+      "value": "20260304 100101 Kiwoito Africa Safaris Sto",
+      "note": "Inferred/assumed"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:03",
+      "level": "GUESSED",
+      "module": "module_01",
+      "field": "contract_year",
+      "value": "2026",
+      "note": "Inferred/assumed"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:05",
+      "level": "EXTRACTED",
+      "module": "module_02",
+      "field": "raw_text",
+      "value": "12648 chars",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:05",
+      "level": "INFO",
+      "module": "module_03",
+      "field": null,
+      "value": "",
+      "note": "Text reduced from 12648 to 12167 chars"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:05",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "season_definitions",
+      "note": "127 lines"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:05",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "meal_plans",
+      "note": "13 lines"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:05",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "children_policy",
+      "note": "18 lines"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:05",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "general_conditions",
+      "note": "21 lines"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:05",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "other",
+      "note": "11 lines"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:05",
+      "level": "EXTRACTED",
+      "module": "module_05",
+      "field": "season",
+      "value": "January: 2026-01-07 → 2026-01-31",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:05",
+      "level": "EXTRACTED",
+      "module": "module_05",
+      "field": "season",
+      "value": "December: 2026-12-01 → 2026-12-20",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:05",
+      "level": "EXTRACTED",
+      "module": "module_05",
+      "field": "season",
+      "value": "September: 2026-09-16 → 2026-10-31",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/January/180.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/September/185.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/January/205.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/January/210.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/September/215.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/January/235.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/January/315.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/September/320.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/January/340.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/January/230.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/September/235.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/January/255.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/January/260.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/September/265.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/January/285.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/January/4.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/January/370.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/September/375.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/January/395.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/January/310.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/September/315.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/January/335.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/January/190.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/September/195.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/January/215.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/January/220.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/September/225.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/January/245.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/January/325.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/September/330.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/January/350.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/January/240.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/September/245.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/January/265.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/January/270.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/September/275.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/January/295.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/January/380.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/September/385.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/January/405.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/January/320.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/September/325.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/January/345.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Early Check -In/January/100.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Early Check -In/September/100.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Early Check -In/January/120.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Late Check - out/January/100.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Late Check - out/September/100.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Late Check - out/January/120.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Day Use Room (SGL or DBL)/January/100.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Day Use Room (SGL or DBL)/September/120.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Day Use Room (SGL or DBL)/January/120.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Extra Bed /Crib/January/55.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Extra Bed /Crib/September/55.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/1.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/6.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/2673.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/7.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/16.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/December/1.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/180.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/210.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/315.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room/January/230.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room/January/260.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/4.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/310.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/190.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/220.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/325.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room/January/240.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room/January/270.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/320.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Early Check/January/100.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Late Check/January/100.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/100.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/55.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/18.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/September/15.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/2.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/2026.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/15.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/3.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Set Menu or Buffet Lunch/January/28.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Set Menu or Buffet Dinner/January/35.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Above/January/18.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/5.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "The Hotel check/January/2.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Check/January/10.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Check/January/14.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/50.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/8.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Day-use rooms are available at above/January/10.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/9.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/30.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/10.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Full pre/January/30.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/20.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/11.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/29.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/14.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/12.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/13.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/7.1USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Account number/January/2.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Account number/January/1.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/January/17.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Date/January/6.0USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 2-11: FREE",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 2-11: FREE",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "meal_plan",
+      "value": "RO: 2673.0 USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "meal_plan",
+      "value": "RO: 1.0 USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "meal_plan",
+      "value": "AI (Check): 2.0 USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "meal_plan",
+      "value": "RO (Single): 10.0 USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "meal_plan",
+      "value": "RO (Single): 14.0 USD",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "INFO",
+      "module": "module_09",
+      "field": null,
+      "value": "",
+      "note": "Generated 324 CSV rows"
+    },
+    {
+      "timestamp": "2026-03-04T10:01:07",
+      "level": "EXTRACTED",
+      "module": "module_11",
+      "field": "csv_file",
+      "value": "outputs\\output_20260304_100101\\20260304_100101_Kiwoito_Africa_Safaris_Sto_2026.csv",
+      "note": "Final CSV generated"
+    }
+  ]
+}

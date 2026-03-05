@@ -1,0 +1,83 @@
+hotel_name,room_name,room_description,capacity_adults,capacity_children,season_name,start_date,end_date,rate,currency,meal_plan,age_band_from,age_band_to,discount_pct,free_of_charge,margin,ignore_proposal_margin,contract_year,notes
+20260304 100734 20250124  Sto Rates,147.00,147.00,2,0,"Exclusive
+use Per Unit
+(4xx)",,,1680.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,147.00,147.00,2,0,"Day
+Cottage
+Per Unit
+(1xx)",,,196.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,147.00,147.00,2,0,"Exclusive
+Use Per
+Unit
+(2xx)",,,1120.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,117.60,117.60,2,0,"Exclusive
+use Per Unit
+(4xx)",,,1344.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,117.60,117.60,2,0,"Day
+Cottage
+Per Unit
+(1xx)",,,156.8,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,117.60,117.60,2,0,"Exclusive
+Use Per
+Unit
+(2xx)",,,896.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,126.00,126.00,2,0,"Exclusive
+use Per Unit
+(4xx)",,,1440.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,126.00,126.00,2,0,"Day
+Cottage
+Per Unit
+(1xx)",,,168.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,126.00,126.00,2,0,"Exclusive
+Use Per
+Unit
+(2xx)",,,960.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,100.80,100.80,2,0,"Exclusive
+use Per Unit
+(4xx)",,,1152.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,100.80,100.80,2,0,"Day
+Cottage
+Per Unit
+(1xx)",,,134.4,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,100.80,100.80,2,0,"Exclusive
+Use Per
+Unit
+(2xx)",,,768.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,77.00,77.00,2,0,"Exclusive
+use Per Unit
+(4xx)",,,880.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,77.00,77.00,2,0,"Day
+Cottage
+Per Unit
+(1xx)",,,105.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,77.00,77.00,2,0,"Exclusive
+Use Per
+Unit
+(2xx)",,,600.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,61.60,61.60,2,0,"Exclusive
+use Per Unit
+(4xx)",,,704.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,61.60,61.60,2,0,"Day
+Cottage
+Per Unit
+(1xx)",,,84.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,61.60,61.60,2,0,"Exclusive
+Use Per
+Unit
+(2xx)",,,480.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,1.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,2.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,18.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,4.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,15.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,21.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,147.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,117.6,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,126.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,100.8,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,77.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,61.6,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,3.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Room,Room,2,0,Default,,,60.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Rivertrees Country Inn,Rivertrees Country Inn,2,0,Default,,,221.0,USD,,18,99,0.0,FALSE,0.0,0,2026,
+20260304 100734 20250124  Sto Rates,Usa River,Usa River,2,0,Default,,,255.0,USD,,18,99,0.0,FALSE,0.0,0,2026,

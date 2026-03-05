@@ -1,0 +1,141 @@
+AUDIT TRAIL — 20260304 100101 Kiwoito Africa Safaris Sto
+Generated: 2026-03-04 10:01:07.292149
+================================================================================
+
+[2026-03-04T10:01:03] INFO       | module_01                 |                      | PDF type: text, pages: 5
+[2026-03-04T10:01:03] GUESSED    | module_01                 | hotel_name           | Inferred/assumed
+[2026-03-04T10:01:03] GUESSED    | module_01                 | contract_year        | Inferred/assumed
+[2026-03-04T10:01:05] EXTRACTED  | module_02                 | raw_text             | Extracted from source
+[2026-03-04T10:01:05] INFO       | module_03                 |                      | Text reduced from 12648 to 12167 chars
+[2026-03-04T10:01:05] EXTRACTED  | module_04                 | section              | 127 lines
+[2026-03-04T10:01:05] EXTRACTED  | module_04                 | section              | 13 lines
+[2026-03-04T10:01:05] EXTRACTED  | module_04                 | section              | 18 lines
+[2026-03-04T10:01:05] EXTRACTED  | module_04                 | section              | 21 lines
+[2026-03-04T10:01:05] EXTRACTED  | module_04                 | section              | 11 lines
+[2026-03-04T10:01:05] EXTRACTED  | module_05                 | season               | Extracted from source
+[2026-03-04T10:01:05] EXTRACTED  | module_05                 | season               | Extracted from source
+[2026-03-04T10:01:05] EXTRACTED  | module_05                 | season               | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_06                 | room_rate            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_07                 | age_rule             | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_07                 | age_rule             | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_08                 | meal_plan            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_08                 | meal_plan            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_08                 | meal_plan            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_08                 | meal_plan            | Extracted from source
+[2026-03-04T10:01:07] EXTRACTED  | module_08                 | meal_plan            | Extracted from source
+[2026-03-04T10:01:07] INFO       | module_09                 |                      | Generated 324 CSV rows
+[2026-03-04T10:01:07] EXTRACTED  | module_11                 | csv_file             | Final CSV generated
+
+================================================================================
+
+── Audit Summary ──
+  EXTRACTED   : 125
+  GUESSED     : 2
+  INFO        : 3
