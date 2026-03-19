@@ -1,0 +1,51 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room ( Single ),,1,0,6,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-03-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room ( Single ),,1,7,99,1,1,95.0,0.0,30.0,50.0,2026-01-01,2026-03-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room ( Single ),,1,0,6,1,1,0.0,0.0,0.0,0.0,2026-03-15,2026-05-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room ( Single ),,1,7,99,1,1,80.0,0.0,30.0,50.0,2026-03-15,2026-05-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room ( Single ),,1,0,6,1,1,0.0,0.0,0.0,0.0,2026-06-01,2026-10-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room ( Single ),,1,7,99,1,1,95.0,0.0,30.0,50.0,2026-06-01,2026-10-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room ( Single ),,1,0,6,1,1,0.0,0.0,0.0,0.0,2026-10-15,2026-12-20
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room ( Single ),,1,7,99,1,1,80.0,0.0,30.0,50.0,2026-10-15,2026-12-20
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room ( Single ),,1,0,6,1,1,0.0,0.0,0.0,0.0,2026-12-21,2026-12-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room ( Single ),,1,7,99,1,1,95.0,0.0,30.0,50.0,2026-12-21,2026-12-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Double),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-03-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Double),,2,7,99,1,2,55.0,55.0,30.0,50.0,2026-01-01,2026-03-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Double),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-03-15,2026-05-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Double),,2,7,99,1,2,45.0,45.0,30.0,50.0,2026-03-15,2026-05-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Double),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-06-01,2026-10-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Double),,2,7,99,1,2,55.0,55.0,30.0,50.0,2026-06-01,2026-10-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Double),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-10-15,2026-12-20
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Double),,2,7,99,1,2,45.0,45.0,30.0,50.0,2026-10-15,2026-12-20
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Double),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-12-21,2026-12-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Double),,2,7,99,1,2,55.0,55.0,30.0,50.0,2026-12-21,2026-12-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Twin),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-03-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Twin),,2,7,99,1,2,55.0,55.0,30.0,50.0,2026-01-01,2026-03-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Twin),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-03-15,2026-05-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Twin),,2,7,99,1,2,45.0,45.0,30.0,50.0,2026-03-15,2026-05-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Twin),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-06-01,2026-10-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Twin),,2,7,99,1,2,55.0,55.0,30.0,50.0,2026-06-01,2026-10-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Twin),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-10-15,2026-12-20
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Twin),,2,7,99,1,2,45.0,45.0,30.0,50.0,2026-10-15,2026-12-20
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Twin),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-12-21,2026-12-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room (Twin),,2,7,99,1,2,55.0,55.0,30.0,50.0,2026-12-21,2026-12-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Single),,1,0,6,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-03-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Single),,1,7,99,1,1,105.0,0.0,30.0,50.0,2026-01-01,2026-03-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Single),,1,0,6,1,1,0.0,0.0,0.0,0.0,2026-03-15,2026-05-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Single),,1,7,99,1,1,90.0,0.0,30.0,50.0,2026-03-15,2026-05-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Single),,1,0,6,1,1,0.0,0.0,0.0,0.0,2026-06-01,2026-10-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Single),,1,7,99,1,1,105.0,0.0,30.0,50.0,2026-06-01,2026-10-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Single),,1,0,6,1,1,0.0,0.0,0.0,0.0,2026-10-15,2026-12-20
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Single),,1,7,99,1,1,90.0,0.0,30.0,50.0,2026-10-15,2026-12-20
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Single),,1,0,6,1,1,0.0,0.0,0.0,0.0,2026-12-21,2026-12-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Single),,1,7,99,1,1,105.0,0.0,30.0,50.0,2026-12-21,2026-12-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Double),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-03-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Double),,2,7,99,1,2,60.0,60.0,30.0,50.0,2026-01-01,2026-03-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Double),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-03-15,2026-05-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Double),,2,7,99,1,2,52.5,52.5,30.0,50.0,2026-03-15,2026-05-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Double),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-06-01,2026-10-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Double),,2,7,99,1,2,60.0,60.0,30.0,50.0,2026-06-01,2026-10-14
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Double),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-10-15,2026-12-20
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Double),,2,7,99,1,2,52.5,52.5,30.0,50.0,2026-10-15,2026-12-20
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Double),,2,0,6,1,2,0.0,0.0,0.0,0.0,2026-12-21,2026-12-31
+,Manual 20260310 120555 Brubru Lodge Sto Rates,,,,0,,USD,Classic Room  With a Balcony(Double),,2,7,99,1,2,60.0,60.0,30.0,50.0,2026-12-21,2026-12-31

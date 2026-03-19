@@ -1,0 +1,73 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,4,11,1,1,429.0,0.0,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,12,15,1,1,715.0,0.0,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,16,99,1,1,1430.0,710.0,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,4,11,1,1,349.5,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,12,15,1,1,582.5,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,16,99,1,1,1165.0,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,4,11,1,1,349.5,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,12,15,1,1,582.5,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,16,99,1,1,1165.0,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,4,11,1,1,429.0,0.0,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,12,15,1,1,715.0,0.0,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,16,99,1,1,1430.0,710.0,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,4,11,1,1,349.5,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,12,15,1,1,582.5,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,16,99,1,1,1165.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,4,11,1,1,471.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,12,15,1,1,785.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Single),,1,16,99,1,1,1570.0,775.0,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,4,11,1,2,429.0,1430.0,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,12,15,1,2,715.0,1430.0,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,16,99,1,2,1430.0,1430.0,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,4,11,1,2,349.5,1165.0,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,12,15,1,2,582.5,1165.0,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,16,99,1,2,1165.0,1165.0,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,4,11,1,2,349.5,1165.0,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,12,15,1,2,582.5,1165.0,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,16,99,1,2,1165.0,1165.0,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,4,11,1,2,429.0,1430.0,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,12,15,1,2,715.0,1430.0,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,16,99,1,2,1430.0,1430.0,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,4,11,1,2,349.5,1165.0,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,12,15,1,2,582.5,1165.0,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,16,99,1,2,1165.0,1165.0,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,4,11,1,2,471.0,1570.0,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,12,15,1,2,785.0,1570.0,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Vintage tent (Double),,2,16,99,1,2,1570.0,1570.0,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,4,11,1,4,373.88,1246.25,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,12,15,1,4,623.12,1246.25,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,16,99,1,4,1246.25,1246.25,0.0,0.0,2026-01-06,2026-02-28
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,4,11,1,4,304.88,1016.25,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,12,15,1,4,508.12,1016.25,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,16,99,1,4,1016.25,1016.25,0.0,0.0,2026-03-01,2026-03-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,4,11,1,4,304.88,1016.25,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,12,15,1,4,508.12,1016.25,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,16,99,1,4,1016.25,1016.25,0.0,0.0,2026-05-15,2026-05-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,4,11,1,4,373.88,1246.25,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,12,15,1,4,623.12,1246.25,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,16,99,1,4,1246.25,1246.25,0.0,0.0,2026-06-01,2026-10-31
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,4,11,1,4,304.88,1016.25,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,12,15,1,4,508.12,1016.25,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,16,99,1,4,1016.25,1016.25,0.0,0.0,2026-11-01,2026-12-19
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,4,11,1,4,410.62,1368.75,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,12,15,1,4,684.38,1368.75,0.0,0.0,2026-12-20,2027-01-05
+,Little  Chem Chem,,,,0,,USD,Family tent,,4,16,99,1,4,1368.75,1368.75,0.0,0.0,2026-12-20,2027-01-05

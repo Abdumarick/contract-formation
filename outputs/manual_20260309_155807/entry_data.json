@@ -1,0 +1,156 @@
+{
+  "hotel_name": "Moon Bow Lodge",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "",
+  "notes": "",
+  "season_types": [
+    {
+      "stid": "st_1",
+      "name": "High",
+      "room_costs": [
+        {
+          "name": "Single Room",
+          "cost": 255
+        },
+        {
+          "name": "Double Room",
+          "cost": 300
+        },
+        {
+          "name": "Twin Room",
+          "cost": 300
+        },
+        {
+          "name": "Triple Room",
+          "cost": 375
+        }
+      ]
+    },
+    {
+      "stid": "st_2",
+      "name": "Mid",
+      "room_costs": [
+        {
+          "name": "Single Room",
+          "cost": 220
+        },
+        {
+          "name": "Double Room",
+          "cost": 260
+        },
+        {
+          "name": "Twin Room",
+          "cost": 260
+        },
+        {
+          "name": "Triple Room",
+          "cost": 300
+        }
+      ]
+    },
+    {
+      "stid": "st_3",
+      "name": "Low",
+      "room_costs": [
+        {
+          "name": "Single Room",
+          "cost": 157
+        },
+        {
+          "name": "Double Room",
+          "cost": 180
+        },
+        {
+          "name": "Twin Room",
+          "cost": 180
+        },
+        {
+          "name": "Triple Room",
+          "cost": 263
+        }
+      ]
+    }
+  ],
+  "date_ranges": [
+    {
+      "stid": "st_1",
+      "start": "2026-01-01",
+      "end": "2026-03-31"
+    },
+    {
+      "stid": "st_3",
+      "start": "2026-04-01",
+      "end": "2026-05-31"
+    },
+    {
+      "stid": "st_1",
+      "start": "2026-06-01",
+      "end": "2026-10-31"
+    },
+    {
+      "stid": "st_2",
+      "start": "2026-11-01",
+      "end": "2026-12-15"
+    },
+    {
+      "stid": "st_1",
+      "start": "2026-12-16",
+      "end": "2027-01-06"
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person"
+    },
+    {
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 0,
+      "notes": "For children aged 5 to 16 years sharing with 2 adults, 50% of the per persons adult twin rate will apply for each child."
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 16,
+      "discount": 50,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "notes": ""
+    }
+  ],
+  "single_supplement": 0,
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

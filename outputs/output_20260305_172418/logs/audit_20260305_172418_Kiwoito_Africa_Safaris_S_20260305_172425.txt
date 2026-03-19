@@ -1,0 +1,140 @@
+AUDIT TRAIL — 20260305 172418 Kiwoito Africa Safaris Sto
+Generated : 2026-03-05 17:24:25.003070
+==========================================================================================
+
+[2026-03-05T17:24:19] INFO       | module_01                 |                        | PDF type=text, pages=5
+[2026-03-05T17:24:19] GUESSED    | module_01                 | hotel_name             | Inferred/assumed
+[2026-03-05T17:24:19] GUESSED    | module_01                 | contract_year          | Inferred/assumed
+[2026-03-05T17:24:22] EXTRACTED  | module_02                 | raw_text               | Extracted from source
+[2026-03-05T17:24:22] INFO       | module_03                 |                        | Text: 12648 → 12167 chars
+[2026-03-05T17:24:22] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-05T17:24:22] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-05T17:24:22] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-05T17:24:22] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-05T17:24:22] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-05T17:24:22] EXTRACTED  | module_05                 | season                 | Extracted from source
+[2026-03-05T17:24:22] EXTRACTED  | module_05                 | season                 | Extracted from source
+[2026-03-05T17:24:22] EXTRACTED  | module_05                 | season                 | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_07                 | age_rule               | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_07                 | age_rule               | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_08                 | base_meal_plan         | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_08                 | hb_supplement          | Extracted from source
+[2026-03-05T17:24:24] EXTRACTED  | module_08                 | fb_supplement          | Extracted from source
+[2026-03-05T17:24:24] INFO       | module_09                 |                        | Generated 108 CSV rows
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 1 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 3 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 5 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 7 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 9 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 11 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 13 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 15 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 17 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 19 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 21 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 23 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 25 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 27 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 29 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 31 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 33 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 35 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 37 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 39 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 41 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 43 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 45 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 47 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 49 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 51 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 53 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 55 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 57 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 59 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 61 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 63 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 65 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 67 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 69 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 71 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 73 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 75 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 77 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 79 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 81 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 83 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 85 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 87 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 89 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 91 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 93 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 95 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 97 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 99 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 101 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 103 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 105 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:24] WARNING    | module_10                 |                        | [WARNING] Row 107 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-05T17:24:25] EXTRACTED  | module_11                 | output_csv             | Extracted from source
+
+==========================================================================================
+
+── Audit Summary ──────────────────────
+  EXTRACTED     : 69
+  GUESSED       : 2
+  INFO          : 3
+  WARNING       : 54

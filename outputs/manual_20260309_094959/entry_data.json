@@ -1,0 +1,513 @@
+{
+  "hotel_name": "Mount Meru Hotel",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "",
+  "notes": "",
+  "seasons": [
+    {
+      "name": "high",
+      "start": "2026-01-01",
+      "end": "2026-01-06"
+    },
+    {
+      "name": "low",
+      "start": "2026-01-07",
+      "end": "2026-01-31"
+    },
+    {
+      "name": "normal",
+      "start": "2026-02-01",
+      "end": "2026-02-28"
+    },
+    {
+      "name": "low",
+      "start": "2026-03-01",
+      "end": "2026-05-31"
+    },
+    {
+      "name": "normal",
+      "start": "2026-06-01",
+      "end": "2026-06-15"
+    },
+    {
+      "name": "high",
+      "start": "2026-06-16",
+      "end": "2026-09-15"
+    },
+    {
+      "name": "Normal",
+      "start": "2026-09-16",
+      "end": "2026-10-31"
+    },
+    {
+      "name": "low",
+      "start": "2026-11-01",
+      "end": "2026-12-20"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 0,
+      "notes": "Children up to five (05) years of age staying at their parent’s room stay free of charge with a maximum of two (02) child"
+    },
+    {
+      "label": "child",
+      "min_age": 6,
+      "max_age": 12,
+      "discount": 50,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "notes": ""
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "season": "January",
+      "cost": 180,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_person"
+    },
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "season": "September",
+      "cost": 185,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_person"
+    },
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "season": "January",
+      "cost": 205,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_person"
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 52.5,
+      "single_supplement": 52.5,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "season": "September",
+      "cost": 53.75,
+      "single_supplement": 53.75,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 58.75,
+      "single_supplement": 58.75,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "season": "January",
+      "cost": 35,
+      "single_supplement": 70,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "season": "September",
+      "cost": 35.56,
+      "single_supplement": 71.12,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "season": "January",
+      "cost": 37.78,
+      "single_supplement": 75.56,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "season": "January",
+      "cost": 230,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_person"
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "season": "September",
+      "cost": 235,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_person"
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "season": "January",
+      "cost": 255,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_person"
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 65,
+      "single_supplement": 65,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "season": "September",
+      "cost": 66.25,
+      "single_supplement": 66.25,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 71.25,
+      "single_supplement": 71.25,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "season": "January",
+      "cost": 0.25,
+      "single_supplement": 0.75,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "season": "January",
+      "cost": 23.13,
+      "single_supplement": 69.39,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "season": "September",
+      "cost": 23.44,
+      "single_supplement": 70.32,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "season": "January",
+      "cost": 24.69,
+      "single_supplement": 74.07,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 77.5,
+      "single_supplement": 77.5,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "season": "September",
+      "cost": 78.75,
+      "single_supplement": 78.75,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 83.75,
+      "single_supplement": 83.75,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "season": "January",
+      "cost": 190,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "season": "September",
+      "cost": 195,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "season": "January",
+      "cost": 215,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 55,
+      "single_supplement": 55,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "season": "September",
+      "cost": 56.25,
+      "single_supplement": 56.25,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 61.25,
+      "single_supplement": 61.25,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "season": "January",
+      "cost": 36.11,
+      "single_supplement": 72.22,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "season": "September",
+      "cost": 36.67,
+      "single_supplement": 73.34,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "season": "January",
+      "cost": 38.89,
+      "single_supplement": 77.78,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "season": "January",
+      "cost": 240,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_person"
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "season": "September",
+      "cost": 245,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_person"
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "season": "January",
+      "cost": 265,
+      "single_supplement": 0,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_person"
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 67.5,
+      "single_supplement": 67.5,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "season": "September",
+      "cost": 68.75,
+      "single_supplement": 68.75,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 73.75,
+      "single_supplement": 73.75,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "season": "January",
+      "cost": 23.75,
+      "single_supplement": 71.25,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "season": "September",
+      "cost": 24.06,
+      "single_supplement": 72.18,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "season": "January",
+      "cost": 25.31,
+      "single_supplement": 75.93,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 80,
+      "single_supplement": 80,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "season": "September",
+      "cost": 81.25,
+      "single_supplement": 81.25,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "season": "January",
+      "cost": 86.25,
+      "single_supplement": 86.25,
+      "hb_supplement": 50,
+      "fb_supplement": 73,
+      "cost_basis": "per_room"
+    }
+  ],
+  "single_supplement": 0,
+  "hb_supplement": 50,
+  "fb_supplement": 73,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 38,
+    "dinner": 35
+  },
+  "extra_supplements": []
+}

@@ -1,0 +1,126 @@
+{
+  "hotel_name": "Moon Bow Lodge",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "",
+  "notes": "",
+  "seasons": [
+    {
+      "sid": "sid_10",
+      "name": "high",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "cost": 255
+    },
+    {
+      "sid": "sid_11",
+      "name": "Low",
+      "start": "2026-04-01",
+      "end": "2026-05-31",
+      "cost": 157
+    },
+    {
+      "sid": "sid_12",
+      "name": "High",
+      "start": "2026-06-01",
+      "end": "2026-10-31",
+      "cost": 255
+    },
+    {
+      "sid": "sid_13",
+      "name": "Mid",
+      "start": "2026-11-01",
+      "end": "2026-12-15",
+      "cost": 220
+    },
+    {
+      "sid": "sid_14",
+      "name": "High",
+      "start": "2026-12-16",
+      "end": "2026-12-31",
+      "cost": 255
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 0,
+      "notes": "For children aged 5 to 16 years sharing with 2 adults, 50% of the per persons adult twin rate will apply for each child."
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 16,
+      "discount": 50,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "notes": ""
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "single_supplement": 0,
+      "hb_supplement": 30,
+      "fb_supplement": 55
+    },
+    {
+      "name": "Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 30,
+      "fb_supplement": 55
+    },
+    {
+      "name": "Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 30,
+      "fb_supplement": 55
+    },
+    {
+      "name": "Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "single_supplement": 0,
+      "hb_supplement": 30,
+      "fb_supplement": 55
+    },
+    {
+      "name": "Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "single_supplement": 0,
+      "hb_supplement": 30,
+      "fb_supplement": 55
+    },
+    {
+      "name": "Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 30,
+      "fb_supplement": 55
+    }
+  ],
+  "single_supplement": 0,
+  "hb_supplement": 30,
+  "fb_supplement": 55,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 25,
+    "dinner": 30
+  },
+  "extra_supplements": []
+}

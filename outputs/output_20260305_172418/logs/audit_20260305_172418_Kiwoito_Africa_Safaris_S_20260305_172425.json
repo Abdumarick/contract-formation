@@ -1,0 +1,1037 @@
+{
+  "hotel_name": "20260305 172418 Kiwoito Africa Safaris Sto",
+  "generated": "2026-03-05T17:24:25.004303",
+  "total_entries": 128,
+  "summary": {
+    "INFO": 3,
+    "GUESSED": 2,
+    "EXTRACTED": 69,
+    "WARNING": 54
+  },
+  "entries": [
+    {
+      "timestamp": "2026-03-05T17:24:19",
+      "level": "INFO",
+      "module": "module_01",
+      "field": null,
+      "value": "",
+      "note": "PDF type=text, pages=5"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:19",
+      "level": "GUESSED",
+      "module": "module_01",
+      "field": "hotel_name",
+      "value": "20260305 172418 Kiwoito Africa Safaris Sto",
+      "note": "Inferred/assumed"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:19",
+      "level": "GUESSED",
+      "module": "module_01",
+      "field": "contract_year",
+      "value": "2025",
+      "note": "Inferred/assumed"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:22",
+      "level": "EXTRACTED",
+      "module": "module_02",
+      "field": "raw_text",
+      "value": "12648 chars",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:22",
+      "level": "INFO",
+      "module": "module_03",
+      "field": null,
+      "value": "",
+      "note": "Text: 12648 → 12167 chars"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:22",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "season_definitions",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:22",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "meal_plans",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:22",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "children_policy",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:22",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "general_conditions",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:22",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "other",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:22",
+      "level": "EXTRACTED",
+      "module": "module_05",
+      "field": "season",
+      "value": "January: 2025-01-07 → 2025-01-31",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:22",
+      "level": "EXTRACTED",
+      "module": "module_05",
+      "field": "season",
+      "value": "December: 2025-12-01 → 2025-12-20",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:22",
+      "level": "EXTRACTED",
+      "module": "module_05",
+      "field": "season",
+      "value": "September: 2025-09-16 → 2025-10-31",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/January/180.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/September/185.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/January/205.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/January/210.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/September/215.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/January/235.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/January/315.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/September/320.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/January/340.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/January/230.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/September/235.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/January/255.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/January/260.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/September/265.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/January/285.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/January/4.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/January/370.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/September/375.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/January/395.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/January/310.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/September/315.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/January/335.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/January/190.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/September/195.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Single/January/215.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/January/220.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/September/225.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Double/Twin/January/245.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/January/325.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/September/330.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Triple (Executive Room)/January/350.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/January/240.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/September/245.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Single/January/265.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/January/270.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/September/275.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room - Double/January/295.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/January/380.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/September/385.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Family Room (4 pax)/January/405.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/January/320.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/September/325.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Junior Suite/January/345.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Early Check -In/January/100.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Early Check -In/September/100.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Early Check -In/January/120.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Late Check - out/January/100.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Late Check - out/September/100.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Late Check - out/January/120.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Day Use Room (SGL or DBL)/January/100.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Day Use Room (SGL or DBL)/September/120.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Day Use Room (SGL or DBL)/January/120.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Extra Bed /Crib/January/55.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Extra Bed /Crib/September/55.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 3-12: FREE",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 13-99: 100% of adult cost",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "base_meal_plan",
+      "value": "AI",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "hb_supplement",
+      "value": "0.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "fb_supplement",
+      "value": "0.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "INFO",
+      "module": "module_09",
+      "field": null,
+      "value": "",
+      "note": "Generated 108 CSV rows"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 1 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 3 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 5 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 7 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 9 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 11 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 13 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 15 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 17 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 19 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 21 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 23 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 25 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 27 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 29 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 31 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 33 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 35 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 37 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 39 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 41 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 43 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 45 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 47 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 49 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 51 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 53 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 55 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 57 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 59 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 61 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 63 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 65 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 67 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 69 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 71 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 73 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 75 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 77 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 79 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 81 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 83 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 85 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 87 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 89 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 91 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 93 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 95 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 97 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 99 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 101 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 103 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 105 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:24",
+      "level": "WARNING",
+      "module": "module_10",
+      "field": null,
+      "value": "",
+      "note": "[WARNING] Row 107 | cost: Cost is zero for a non-infant row (value: '0')"
+    },
+    {
+      "timestamp": "2026-03-05T17:24:25",
+      "level": "EXTRACTED",
+      "module": "module_11",
+      "field": "output_csv",
+      "value": "outputs\\output_20260305_172418\\20260305_172418_Kiwoito_Africa_Safaris_Sto_2025.csv",
+      "note": "Extracted from source"
+    }
+  ]
+}

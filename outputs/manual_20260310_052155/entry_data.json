@@ -1,0 +1,125 @@
+{
+  "hotel_name": "Moon Bow Lodge",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "High"
+    },
+    {
+      "sid": "row_2",
+      "name": "Mid"
+    },
+    {
+      "sid": "row_3",
+      "name": "Low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person"
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room"
+    },
+    {
+      "colId": "col_3",
+      "name": "Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_room"
+    },
+    {
+      "colId": "col_4",
+      "name": "Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 255,
+      "col_2": 300,
+      "col_3": 300,
+      "col_4": 387
+    },
+    "row_2": {
+      "col_1": 220,
+      "col_2": 260,
+      "col_3": 260,
+      "col_4": 300
+    },
+    "row_3": {
+      "col_1": 157,
+      "col_2": 185,
+      "col_3": 185,
+      "col_4": 262.98
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "2026-01-01",
+      "end": "2026-03-31"
+    },
+    {
+      "sid": "row_3",
+      "start": "2026-04-01",
+      "end": "2026-05-31"
+    },
+    {
+      "sid": "row_1",
+      "start": "2026-06-01",
+      "end": "2026-10-31"
+    },
+    {
+      "sid": "row_2",
+      "start": "2026-11-01",
+      "end": "2026-12-15"
+    },
+    {
+      "sid": "row_1",
+      "start": "2026-12-16",
+      "end": "2026-12-31"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 16,
+      "discount": 50,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

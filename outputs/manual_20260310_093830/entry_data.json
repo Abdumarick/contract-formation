@@ -1,0 +1,112 @@
+{
+  "hotel_name": "Salinero Serengeti Rateskiwoito Africa Safaris",
+  "contract_year": "2025",
+  "base_plan": "AI",
+  "hotel_desc": "",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "Pick"
+    },
+    {
+      "sid": "row_2",
+      "name": "Green"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person"
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person"
+    },
+    {
+      "colId": "col_3",
+      "name": "Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_person"
+    },
+    {
+      "colId": "col_4",
+      "name": "Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_person"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 520,
+      "col_2": 440,
+      "col_3": 440,
+      "col_4": 330
+    },
+    "row_2": {
+      "col_1": 350,
+      "col_2": 230,
+      "col_3": 230,
+      "col_4": 210
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "2026-01-01",
+      "end": "2026-03-31"
+    },
+    {
+      "sid": "row_2",
+      "start": "2026-04-10",
+      "end": "2026-05-31"
+    },
+    {
+      "sid": "row_1",
+      "start": "2026-06-01",
+      "end": "2026-12-31"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 6,
+      "max_age": 12,
+      "discount": 50,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 13,
+      "max_age": 17,
+      "discount": 75,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 18,
+      "max_age": 99,
+      "discount": 100,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

@@ -1,0 +1,171 @@
+{
+  "hotel_name": "Legendary Lodge",
+  "contract_year": "2026",
+  "base_plan": "HB",
+  "hotel_desc": "",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "Peak"
+    },
+    {
+      "sid": "row_2",
+      "name": "Green"
+    },
+    {
+      "sid": "row_3",
+      "name": "Premier"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Garden Cottages (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Garden Cottages (Double)",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Garden Cottages (Triple)",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Meru Cottages 2 Bedroom",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Kahawa Cottages 2 Bedroom",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 505,
+      "col_2": 505,
+      "col_3": 505,
+      "col_4": 1780,
+      "col_5": 1780
+    },
+    "row_2": {
+      "col_1": 405,
+      "col_2": 405,
+      "col_3": 405,
+      "col_4": 1395,
+      "col_5": 1395
+    },
+    "row_3": {
+      "col_1": 560,
+      "col_2": 560,
+      "col_3": 560,
+      "col_4": 1975,
+      "col_5": 1975
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "2026-01-01",
+      "end": "2026-03-31"
+    },
+    {
+      "sid": "row_2",
+      "start": "2026-04-01",
+      "end": "2026-06-30"
+    },
+    {
+      "sid": "row_1",
+      "start": "2026-07-01",
+      "end": "2026-10-31"
+    },
+    {
+      "sid": "row_2",
+      "start": "2026-11-01",
+      "end": "2026-12-19"
+    },
+    {
+      "sid": "row_3",
+      "start": "2026-12-20",
+      "end": "2027-01-05"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 3,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 4,
+      "max_age": 11,
+      "discount": 31,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 12,
+      "max_age": 15,
+      "discount": 51,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 16,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": [
+    {
+      "name": "Single supplement",
+      "amount": 203,
+      "override_type": "single_supp",
+      "room": "Garden Cottages (Single)",
+      "band": "adult",
+      "season": ""
+    }
+  ]
+}

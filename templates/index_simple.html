@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Contract Parser</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .upload-section {
+            padding: 40px;
+        }
+        
+        .upload-area {
+            border: 3px dashed #ddd;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background: #fafafa;
+        }
+        
+        .upload-area:hover {
+            border-color: #4facfe;
+            background: #f0f8ff;
+        }
+        
+        .upload-area.dragover {
+            border-color: #4facfe;
+            background: #e6f3ff;
+        }
+        
+        .upload-icon {
+            font-size: 48px;
+            color: #4facfe;
+            margin-bottom: 20px;
+        }
+        
+        .upload-text {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .upload-hint {
+            font-size: 0.9em;
+            color: #999;
+        }
+        
+        input[type="file"] {
+            display: none;
+        }
+        
+        .options-section {
+            padding: 0 40px 20px;
+            background: #f8f9fa;
+        }
+        
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .option-group {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .option-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        
+        .option-group input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #e1e5e9;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+        
+        .option-group input[type="text"]:focus {
+            outline: none;
+            border-color: #4facfe;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .checkbox-group input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+        
+        .process-btn {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: block;
+            margin: 30px auto;
+            min-width: 200px;
+        }
+        
+        .process-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(79, 172, 254, 0.3);
+        }
+        
+        .process-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .progress-section {
+            padding: 0 40px 40px;
+            display: none;
+        }
+        
+        .progress-bar {
+            background: #e1e5e9;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, #4facfe, #00f2fe);
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        
+        .status-message {
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .status-message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status-message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .status-message.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        
+        .results-section {
+            padding: 0 40px 40px;
+            display: none;
+        }
+        
+        .result-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #4facfe;
+        }
+        
+        .download-btn {
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            display: inline-block;
+            margin-right: 10px;
+            transition: background 0.3s ease;
+        }
+        
+        .download-btn:hover {
+            background: #218838;
+        }
+        
+        .logs-btn {
+            background: #6c757d;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+        
+        .logs-btn:hover {
+            background: #5a6268;
+        }
+        
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #4facfe;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏨 Hotel Contract Parser</h1>
+            <p>Convert hotel contract PDFs to structured CSV data</p>
+        </div>
+        
+        <div class="upload-section">
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">📄</div>
+                <div class="upload-text">Drop your PDF here or click to browse</div>
+                <div class="upload-hint">Maximum file size: 16MB</div>
+                <input type="file" id="fileInput" accept=".pdf">
+            </div>
+        </div>
+        
+        <div class="options-section">
+            <div class="options-grid">
+                <div class="option-group">
+                    <label for="yearInput">Contract Year (optional)</label>
+                    <input type="text" id="yearInput" placeholder="e.g., 2025">
+                </div>
+            </div>
+        </div>
+        
+        <button class="process-btn" id="processBtn" disabled>Process PDF</button>
+        
+        <div class="progress-section" id="progressSection">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="status-message info" id="statusMessage">
+                <span class="loading-spinner"></span>
+                Processing your PDF...
+            </div>
+        </div>
+        
+        <div class="results-section" id="resultsSection">
+            <div class="result-card">
+                <h3>✅ Processing Complete!</h3>
+                <p>Your PDF has been successfully processed and converted to CSV format.</p>
+                <div style="margin-top: 20px;">
+                    <a href="#" class="download-btn" id="downloadBtn">📥 Download CSV</a>
+                    <a href="#" class="logs-btn" id="logsBtn">📋 View Logs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const processBtn = document.getElementById('processBtn');
+        const progressSection = document.getElementById('progressSection');
+        const resultsSection = document.getElementById('resultsSection');
+        const statusMessage = document.getElementById('statusMessage');
+        const progressFill = document.getElementById('progressFill');
+        
+        let selectedFile = null;
+        let currentResult = null;
+
+        // File upload handlers
+        uploadArea.addEventListener('click', () => fileInput.click());
+        
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            handleFiles(e.dataTransfer.files);
+        });
+        
+        fileInput.addEventListener('change', (e) => {
+            handleFiles(e.target.files);
+        });
+        
+        function handleFiles(files) {
+            if (files.length === 0) return;
+            
+            const file = files[0];
+            if (file.type !== 'application/pdf') {
+                showError('Please select a PDF file');
+                return;
+            }
+            
+            if (file.size > 16 * 1024 * 1024) {
+                showError('File size must be less than 16MB');
+                return;
+            }
+            
+            selectedFile = file;
+            processBtn.disabled = false;
+            
+            // Update UI
+            uploadArea.innerHTML = `
+                <div class="upload-icon">✅</div>
+                <div class="upload-text">${file.name}</div>
+                <div class="upload-hint">Click to change file</div>
+            `;
+        }
+        
+        // Process button handler
+        processBtn.addEventListener('click', async () => {
+            if (!selectedFile) return;
+            
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+            formData.append('year', document.getElementById('yearInput').value);
+            
+            // Show progress
+            processBtn.disabled = true;
+            progressSection.style.display = 'block';
+            resultsSection.style.display = 'none';
+            updateProgress(0, 'Starting PDF processing...');
+            
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    currentResult = result;
+                    updateProgress(100, 'Processing complete!');
+                    showResults(result);
+                } else {
+                    showError(result.error);
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            } finally {
+                processBtn.disabled = false;
+            }
+        });
+        
+        function updateProgress(percent, message) {
+            progressFill.style.width = percent + '%';
+            statusMessage.innerHTML = `
+                <span class="loading-spinner"></span>
+                ${message}
+            `;
+            statusMessage.className = 'status-message info';
+        }
+        
+        function showError(message) {
+            statusMessage.innerHTML = `❌ ${message}`;
+            statusMessage.className = 'status-message error';
+            progressSection.style.display = 'block';
+        }
+        
+        function showResults(result) {
+            statusMessage.innerHTML = `✅ ${result.message}`;
+            statusMessage.className = 'status-message success';
+            
+            // Setup download button
+            const downloadBtn = document.getElementById('downloadBtn');
+            downloadBtn.href = `/download/${result.output_dir}/${result.csv_file}`;
+            downloadBtn.download = result.csv_file;
+            
+            // Setup logs button
+            const logsBtn = document.getElementById('logsBtn');
+            logsBtn.onclick = () => showLogs(result.output_dir);
+            
+            resultsSection.style.display = 'block';
+        }
+        
+        function showLogs(outputDir) {
+            fetch(`/logs/${outputDir}`)
+                .then(response => response.json())
+                .then(logs => {
+                    let logContent = '';
+                    if (logs.text) {
+                        logContent = logs.text;
+                    } else if (logs.json) {
+                        logContent = JSON.stringify(logs.json, null, 2);
+                    } else {
+                        logContent = 'No logs available';
+                    }
+                    
+                    // Create a modal or new window to show logs
+                    const logWindow = window.open('', '_blank', 'width=800,height=600');
+                    logWindow.document.write(`
+                        <html>
+                            <head><title>Processing Logs</title></head>
+                            <body style="font-family: monospace; padding: 20px; white-space: pre-wrap;">
+                                <h2>Processing Logs</h2>
+                                <pre>${logContent}</pre>
+                            </body>
+                        </html>
+                    `);
+                })
+                .catch(error => {
+                    alert('Error loading logs: ' + error.message);
+                });
+        }
+    </script>
+</body>
+</html>

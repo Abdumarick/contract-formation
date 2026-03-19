@@ -1,0 +1,349 @@
+{
+  "hotel_name": "20260309 152634 Kiwoito Africa Safaris Sto Contract Kibo Palace Hotel Arusha  1",
+  "generated": "2026-03-09T15:26:40.652310",
+  "total_entries": 42,
+  "summary": {
+    "INFO": 3,
+    "GUESSED": 1,
+    "EXTRACTED": 37,
+    "SKIPPED": 1
+  },
+  "entries": [
+    {
+      "timestamp": "2026-03-09T15:26:35",
+      "level": "INFO",
+      "module": "module_01",
+      "field": null,
+      "value": "",
+      "note": "PDF type=text, pages=12"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:35",
+      "level": "GUESSED",
+      "module": "module_01",
+      "field": "hotel_name",
+      "value": "20260309 152634 Kiwoito Africa Safaris Sto Contract Kibo Palace Hotel Arusha  1",
+      "note": "Inferred/assumed"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:38",
+      "level": "EXTRACTED",
+      "module": "module_02",
+      "field": "raw_text",
+      "value": "16770 chars",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:38",
+      "level": "INFO",
+      "module": "module_03",
+      "field": null,
+      "value": "",
+      "note": "Text: 16770 → 16699 chars"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:38",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "room_rates",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:38",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "children_policy",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:38",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "general_conditions",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:38",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "other",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:38",
+      "level": "EXTRACTED",
+      "module": "module_05",
+      "field": "season",
+      "value": "Package: 2026-01-01 → 2026-03-31",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:38",
+      "level": "EXTRACTED",
+      "module": "module_05",
+      "field": "season",
+      "value": "Payment: 2025-12-21 → 2026-01-03",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room/Package/67.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room/Package/77.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room/Package/82.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room/Package/92.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Twin Room/Package/77.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Twin Room/Package/100.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Twin Room/Package/92.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Twin Room/Package/115.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Deluxe Suite/Package/117.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Deluxe Suite/Package/132.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Deluxe Suite/Package/125.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Deluxe Suite/Package/137.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Suite/Package/165.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Suite/Package/177.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Suite/Package/167.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Suite/Package/192.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room/Package/50.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Room/Package/60.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Twin Room/Package/60.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Deluxe Suite/Package/70.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Deluxe Suite/Package/75.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Suite/Package/90.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Executive Suite/Package/100.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 0-5: FREE",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "SKIPPED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 0-11: 75% [UNSUPPORTED — no row]",
+      "note": "Unsupported discount 75% — no row will be created"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 13-99: 100% of adult cost",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "base_meal_plan",
+      "value": "BB",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "single_supplement",
+      "value": "0.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "hb_supplement",
+      "value": "30.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "fb_supplement",
+      "value": "55.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "INFO",
+      "module": "module_09",
+      "field": null,
+      "value": "",
+      "note": "Generated 46 CSV rows"
+    },
+    {
+      "timestamp": "2026-03-09T15:26:40",
+      "level": "EXTRACTED",
+      "module": "module_11",
+      "field": "output_csv",
+      "value": "outputs\\output_20260309_152634\\20260309_152634_Kiwoito_Africa_Safaris_Sto_Contract_Kibo_Pal_2026.csv",
+      "note": "Extracted from source"
+    }
+  ]
+}

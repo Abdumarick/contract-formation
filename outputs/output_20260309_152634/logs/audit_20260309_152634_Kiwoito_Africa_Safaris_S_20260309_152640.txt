@@ -1,0 +1,54 @@
+AUDIT TRAIL — 20260309 152634 Kiwoito Africa Safaris Sto Contract Kibo Palace Hotel Arusha  1
+Generated : 2026-03-09 15:26:40.650970
+==========================================================================================
+
+[2026-03-09T15:26:35] INFO       | module_01                 |                        | PDF type=text, pages=12
+[2026-03-09T15:26:35] GUESSED    | module_01                 | hotel_name             | Inferred/assumed
+[2026-03-09T15:26:38] EXTRACTED  | module_02                 | raw_text               | Extracted from source
+[2026-03-09T15:26:38] INFO       | module_03                 |                        | Text: 16770 → 16699 chars
+[2026-03-09T15:26:38] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-09T15:26:38] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-09T15:26:38] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-09T15:26:38] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-09T15:26:38] EXTRACTED  | module_05                 | season                 | Extracted from source
+[2026-03-09T15:26:38] EXTRACTED  | module_05                 | season                 | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_07                 | age_rule               | Extracted from source
+[2026-03-09T15:26:40] SKIPPED    | module_07                 | age_rule               | Unsupported discount 75% — no row will be created
+[2026-03-09T15:26:40] EXTRACTED  | module_07                 | age_rule               | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_08                 | base_meal_plan         | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_08                 | single_supplement      | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_08                 | hb_supplement          | Extracted from source
+[2026-03-09T15:26:40] EXTRACTED  | module_08                 | fb_supplement          | Extracted from source
+[2026-03-09T15:26:40] INFO       | module_09                 |                        | Generated 46 CSV rows
+[2026-03-09T15:26:40] EXTRACTED  | module_11                 | output_csv             | Extracted from source
+
+==========================================================================================
+
+── Audit Summary ──────────────────────
+  EXTRACTED     : 37
+  GUESSED       : 1
+  INFO          : 3
+  SKIPPED       : 1

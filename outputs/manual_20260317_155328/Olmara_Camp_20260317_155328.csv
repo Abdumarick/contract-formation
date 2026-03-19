@@ -1,0 +1,25 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,0,4,1,2,0.0,0.0,0.0,0.0,01/01/2026,15/03/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,5,12,1,2,529.0,130.0,0.0,0.0,01/01/2026,15/03/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,13,16,1,2,529.0,130.0,0.0,0.0,01/01/2026,15/03/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,17,99,1,2,690.0,130.0,0.0,0.0,01/01/2026,15/03/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,0,4,1,2,0.0,0.0,0.0,0.0,16/03/2026,31/05/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,5,12,1,2,536.0,98.0,0.0,0.0,16/03/2026,31/05/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,13,16,1,2,536.0,98.0,0.0,0.0,16/03/2026,31/05/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,17,99,1,2,597.0,98.0,0.0,0.0,16/03/2026,31/05/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,0,4,1,2,0.0,0.0,0.0,0.0,01/06/2026,31/12/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,5,12,1,2,529.0,130.0,0.0,0.0,01/06/2026,31/12/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,13,16,1,2,529.0,130.0,0.0,0.0,01/06/2026,31/12/2026
+,Olmara Camp,,,,0,,USD,Tented Suite,,2,17,99,1,2,690.0,130.0,0.0,0.0,01/06/2026,31/12/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,0,4,1,2,0.0,0.0,0.0,0.0,01/01/2026,15/03/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,5,12,1,2,529.0,130.0,0.0,0.0,01/01/2026,15/03/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,13,16,1,2,529.0,130.0,0.0,0.0,01/01/2026,15/03/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,17,99,1,2,690.0,130.0,0.0,0.0,01/01/2026,15/03/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,0,4,1,2,0.0,0.0,0.0,0.0,16/03/2026,31/05/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,5,12,1,2,536.0,98.0,0.0,0.0,16/03/2026,31/05/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,13,16,1,2,536.0,98.0,0.0,0.0,16/03/2026,31/05/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,17,99,1,2,597.0,98.0,0.0,0.0,16/03/2026,31/05/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,0,4,1,2,0.0,0.0,0.0,0.0,01/06/2026,31/12/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,5,12,1,2,529.0,130.0,0.0,0.0,01/06/2026,31/12/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,13,16,1,2,529.0,130.0,0.0,0.0,01/06/2026,31/12/2026
+,Olmara Camp,,,,0,,USD,Stargazer Tented Suite,,2,17,99,1,2,690.0,130.0,0.0,0.0,01/06/2026,31/12/2026

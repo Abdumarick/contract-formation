@@ -1,0 +1,175 @@
+{
+  "hotel_name": "Tulivu Kilimanjaro Retreat",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "High"
+    },
+    {
+      "sid": "row_2",
+      "name": "Low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Standard Room (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person"
+    },
+    {
+      "colId": "col_2",
+      "name": "Standard Room  (Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room"
+    },
+    {
+      "colId": "col_3",
+      "name": "Standard Room  (Twin)",
+      "max_cap": 2,
+      "cost_basis": "per_room"
+    },
+    {
+      "colId": "col_4",
+      "name": "Cottage With Private Garden (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person"
+    },
+    {
+      "colId": "col_5",
+      "name": "Cottage With Private Garden (Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room"
+    },
+    {
+      "colId": "col_6",
+      "name": "Cottage With Private Garden( Twin)",
+      "max_cap": 2,
+      "cost_basis": "per_room"
+    },
+    {
+      "colId": "col_7",
+      "name": "Executive Cottage With Plunge Pool (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person"
+    },
+    {
+      "colId": "col_8",
+      "name": "Executive Cottage With Plunge Pool (Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room"
+    },
+    {
+      "colId": "col_9",
+      "name": "Executive Cottage With Plunge Pool (Twin)",
+      "max_cap": 2,
+      "cost_basis": "per_room"
+    },
+    {
+      "colId": "col_10",
+      "name": "Executive Cottage With Plunge Pool (Triple)",
+      "max_cap": 3,
+      "cost_basis": "per_room"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 70,
+      "col_2": 106,
+      "col_3": 106,
+      "col_4": 106,
+      "col_5": 118,
+      "col_6": 118,
+      "col_7": 177,
+      "col_8": 177,
+      "col_9": 177,
+      "col_10": 236
+    },
+    "row_2": {
+      "col_1": 47,
+      "col_2": 82,
+      "col_3": 82,
+      "col_4": 82,
+      "col_5": 94,
+      "col_6": 94,
+      "col_7": 153,
+      "col_8": 153,
+      "col_9": 153,
+      "col_10": 212
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "2026-01-01",
+      "end": "2026-03-14"
+    },
+    {
+      "sid": "row_2",
+      "start": "2026-03-15",
+      "end": "2026-06-14"
+    },
+    {
+      "sid": "row_1",
+      "start": "2026-06-15",
+      "end": "2026-10-15"
+    },
+    {
+      "sid": "row_2",
+      "start": "2026-10-16",
+      "end": "2026-12-05"
+    },
+    {
+      "sid": "row_1",
+      "start": "2026-12-06",
+      "end": "2026-12-31"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 16,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 28,
+  "fb_supplement": 55,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 27,
+    "dinner": 28
+  },
+  "extra_supplements": []
+}

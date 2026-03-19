@@ -1,0 +1,221 @@
+{
+  "hotel_name": "20260306 094919 Gran Melia Arusha Dmc Contract",
+  "generated": "2026-03-06T09:49:26.537656",
+  "total_entries": 26,
+  "summary": {
+    "INFO": 3,
+    "GUESSED": 2,
+    "EXTRACTED": 18,
+    "SKIPPED": 3
+  },
+  "entries": [
+    {
+      "timestamp": "2026-03-06T09:49:20",
+      "level": "INFO",
+      "module": "module_01",
+      "field": null,
+      "value": "",
+      "note": "PDF type=text, pages=9"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:20",
+      "level": "GUESSED",
+      "module": "module_01",
+      "field": "hotel_name",
+      "value": "20260306 094919 Gran Melia Arusha Dmc Contract",
+      "note": "Inferred/assumed"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:20",
+      "level": "GUESSED",
+      "module": "module_01",
+      "field": "contract_year",
+      "value": "2026",
+      "note": "Inferred/assumed"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:23",
+      "level": "EXTRACTED",
+      "module": "module_02",
+      "field": "raw_text",
+      "value": "17807 chars",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:23",
+      "level": "INFO",
+      "module": "module_03",
+      "field": null,
+      "value": "",
+      "note": "Text: 17807 → 16700 chars"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:23",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "room_rates",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:23",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "children_policy",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:23",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "general_conditions",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:23",
+      "level": "EXTRACTED",
+      "module": "module_04",
+      "field": "section",
+      "value": "other",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:23",
+      "level": "EXTRACTED",
+      "module": "module_05",
+      "field": "season",
+      "value": "Payment: 2026-01-04 → 2026-12-20",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Day use rates on room only basis e-mail/Payment/1.5",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_06",
+      "field": "room_rate",
+      "value": "Room/Payment/2.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "SKIPPED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 4-11: 25% [UNSUPPORTED — no row]",
+      "note": "Unsupported discount 25% — no row will be created"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 4-11: 50% of adult cost",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "SKIPPED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 4-11: 25% [UNSUPPORTED — no row]",
+      "note": "Unsupported discount 25% — no row will be created"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 4-11: 50% of adult cost",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "SKIPPED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 4-11: 25% [UNSUPPORTED — no row]",
+      "note": "Unsupported discount 25% — no row will be created"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 4-11: 100% of adult cost",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 13-99: 100% of adult cost",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_07",
+      "field": "age_rule",
+      "value": "Age 13-99: 100% of adult cost",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "base_meal_plan",
+      "value": "BB",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "single_supplement",
+      "value": "0.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "hb_supplement",
+      "value": "33.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_08",
+      "field": "fb_supplement",
+      "value": "66.0",
+      "note": "Extracted from source"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "INFO",
+      "module": "module_09",
+      "field": null,
+      "value": "",
+      "note": "Generated 12 CSV rows"
+    },
+    {
+      "timestamp": "2026-03-06T09:49:26",
+      "level": "EXTRACTED",
+      "module": "module_11",
+      "field": "output_csv",
+      "value": "outputs\\output_20260306_094919\\20260306_094919_Gran_Melia_Arusha_Dmc_Contract_2026.csv",
+      "note": "Extracted from source"
+    }
+  ]
+}

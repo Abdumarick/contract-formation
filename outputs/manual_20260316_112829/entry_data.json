@@ -1,0 +1,129 @@
+{
+  "hotel_name": "Manual 20260316 112534 Olea Collection Rates 2 1",
+  "contract_year": "2025",
+  "base_plan": "FB",
+  "hotel_desc": "",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "High"
+    },
+    {
+      "sid": "row_2",
+      "name": "low"
+    },
+    {
+      "sid": "row_3",
+      "name": "green"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Triple",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 454,
+      "col_2": 343,
+      "col_3": 454
+    },
+    "row_2": {
+      "col_1": 0,
+      "col_2": 0,
+      "col_3": 0
+    },
+    "row_3": {
+      "col_1": 0,
+      "col_2": 0,
+      "col_3": 0
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/04/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/06/2026",
+      "end": "31/07/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/08/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Child Policy Rate: (excluding concession and its vat & TDL) o Children of 2 to 12 years sharing with one or two adults:"
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Child Policy Rate: (excluding concession and its vat & TDL) o Children of 2 to 12 years sharing with one or two adults:"
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

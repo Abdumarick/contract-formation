@@ -122,17 +122,28 @@ def parse_pdf(
 
     # ── M8: Meal Plan Detection ────────────────────────────────────────────────
     _section("8", "Meal Plan & Supplements")
-    meal_text  = get_section_text(sections, "meal_plans") or clean
-    base_plan  = detect_base_meal_plan(meal_text)
-    hb_global, fb_global = extract_supplements(meal_text)
-    _print(f"Base meal plan: {base_plan}")
-    _print(f"HB supplement: {hb_global}  |  FB supplement: {fb_global}")
-    log.extracted("module_08", "base_meal_plan", base_plan)
-    log.extracted("module_08", "hb_supplement",  hb_global)
-    log.extracted("module_08", "fb_supplement",  fb_global)
+    # Search meal section + full clean text so supplements are always found
+    # regardless of which section they appear in.
+    meal_text   = get_section_text(sections, "meal_plans") or ""
+    search_text = meal_text + "\n" + clean
 
-    # Push global supplements onto any room records that have 0 for hb/fb
+    base_plan                        = detect_base_meal_plan(search_text)
+    sgl_global, hb_global, fb_global = extract_supplements(search_text, base_plan)
+
+    _print(f"Base meal plan    : {base_plan}")
+    _print(f"Single supplement : {sgl_global}")
+    _print(f"HB supplement     : {hb_global}")
+    _print(f"FB supplement     : {fb_global}")
+    log.extracted("module_08", "base_meal_plan",    base_plan)
+    log.extracted("module_08", "single_supplement", sgl_global)
+    log.extracted("module_08", "hb_supplement",     hb_global)
+    log.extracted("module_08", "fb_supplement",     fb_global)
+
+    # Push globally extracted supplements onto room records that still have 0.
+    # single_supplement only applies to rooms with capacity > 1.
     for rr in room_rates:
+        if rr.single_supplement == 0.0 and sgl_global > 0 and rr.max_cap > 1:
+            rr.single_supplement = sgl_global
         if rr.hb_supplement == 0.0 and hb_global > 0:
             rr.hb_supplement = hb_global
         if rr.fb_supplement == 0.0 and fb_global > 0:
@@ -235,3 +246,106 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def extract_for_manual(
+    pdf_path: str,
+    year_override: Optional[str] = None,
+) -> dict:
+    """
+    Runs modules 1-8 on the PDF and returns a structured dict that the
+    manual-entry UI can use to pre-populate its form.
+
+    Returns:
+    {
+        hotel_name, contract_year, base_plan,
+        single_supplement, hb_supplement, fb_supplement,
+        seasons:   [{name, start, end}],
+        age_bands: [{label, min_age, max_age, discount, notes}],
+        rooms:     [{name, max_cap, season, cost, single_supplement,
+                     hb_supplement, fb_supplement, cost_basis}],
+    }
+    """
+    # M1
+    meta = identify_pdf(pdf_path)
+    hotel_name    = meta.hotel_name_guess or "Unknown Hotel"
+    contract_year = year_override or meta.contract_year_guess or ""
+
+    # M2-M3
+    raw_text = extract_text(pdf_path, meta.pdf_type)
+    clean    = clean_text(raw_text)
+
+    # M4
+    sections = detect_sections(clean)
+
+    # M5 – seasons
+    season_text = get_section_text(sections, "season_definitions") or clean
+    fallback_yr = int(contract_year) if contract_year and contract_year.isdigit() else None
+    seasons = extract_seasons(season_text, fallback_year=fallback_yr)
+
+    seasons_out = [
+        {"name": s.name, "start": s.start_date.isoformat(),
+         "end":  s.end_date.isoformat()}
+        for s in seasons
+    ]
+
+    # M6 – rooms
+    rates_text = get_section_text(sections, "room_rates") or clean
+    room_rates = parse_room_rates(rates_text, seasons, file_path=pdf_path)
+
+    # M7 – age bands
+    child_text = get_section_text(sections, "children_policy") or ""
+    age_rules  = extract_children_policy(child_text)
+
+    age_bands_out = []
+    for r in age_rules:
+        if not r.supported:
+            continue
+        age_bands_out.append({
+            "label":    r.band_label,
+            "min_age":  r.age_from,
+            "max_age":  r.age_to,
+            "discount": 0 if r.free_of_charge else int(100 - r.discount_pct),
+            "notes":    r.notes or "",
+        })
+
+    # M8 – supplements
+    meal_text   = get_section_text(sections, "meal_plans") or ""
+    search_text = meal_text + "\n" + clean
+    base_plan                        = detect_base_meal_plan(search_text)
+    sgl_global, hb_global, fb_global = extract_supplements(search_text, base_plan)
+
+    # Push globals to rooms
+    for rr in room_rates:
+        if rr.single_supplement == 0.0 and sgl_global > 0 and rr.max_cap > 1:
+            rr.single_supplement = sgl_global
+        if rr.hb_supplement == 0.0 and hb_global > 0:
+            rr.hb_supplement = hb_global
+        if rr.fb_supplement == 0.0 and fb_global > 0:
+            rr.fb_supplement = fb_global
+
+    rooms_out = [
+        {
+            "name":              rr.room_name,
+            "max_cap":           rr.max_cap,
+            "season":            rr.season_name,
+            "cost":              rr.cost,
+            "single_supplement": rr.single_supplement,
+            "hb_supplement":     rr.hb_supplement,
+            "fb_supplement":     rr.fb_supplement,
+            "cost_basis":        rr.cost_basis,
+        }
+        for rr in room_rates
+    ]
+
+    return {
+        "hotel_name":        hotel_name,
+        "contract_year":     contract_year,
+        "base_plan":         base_plan,
+        "single_supplement": sgl_global,
+        "hb_supplement":     hb_global,
+        "fb_supplement":     fb_global,
+        "seasons":           seasons_out,
+        "age_bands":         age_bands_out,
+        "rooms":             rooms_out,
+    }

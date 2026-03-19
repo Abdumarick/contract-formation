@@ -118,6 +118,19 @@ def map_to_csv_rows(
     child_bands  = [r for r in age_band_rules if r.band_label == "child"  and r.supported]
     infant_bands = [r for r in age_band_rules if r.band_label == "infant" and r.supported]
 
+    # ALWAYS generate infant rows — even if free of charge.
+    # If the contract did not define an infant band, create a default 0-2 free band.
+    if not infant_bands:
+        from module_07_children import AgeBandRule
+        infant_bands = [AgeBandRule(
+            band_label="infant",
+            age_from=0, age_to=2,
+            discount_pct=0.0,
+            free_of_charge=True,
+            supported=True,
+            notes="Default infant band (contract did not specify)",
+        )]
+
     for rr in room_rates:
         season = season_map.get(rr.season_name)
         start_str = season.start_date.isoformat() if season else ""

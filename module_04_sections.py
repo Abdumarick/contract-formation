@@ -1,30 +1,56 @@
 """
-Module 4: Logical Section Detection
-Reads cleaned text and splits it into named logical sections
-using keyword and pattern matching.
+Module 4: Logical Section Detection (v3 — Fixed)
+Reads cleaned text and splits it into named logical sections.
+
+Key fixes:
+  - Heading detection now REQUIRES the line to look like a heading:
+    short, no price/currency numbers, no date patterns.
+  - Dangerous broad patterns (e.g. "discount", "season", "supplement",
+    "infant") are ONLY allowed when the line has no data noise.
+  - Section patterns use stricter anchoring to avoid firing on data lines.
 """
 
 import re
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Dict, List, Optional
 
 
-# Ordered list of section names and their keyword triggers
+# ── Heading-only patterns (strict) ───────────────────────────────────────────
+# These fire ONLY on lines that pass the _is_heading_line() guard.
 SECTION_PATTERNS: List[tuple] = [
-    ("hotel_details",       [r"hotel\s+details?", r"property\s+info", r"accommodation\s+details?"]),
-    ("season_definitions",  [r"season\s+dates?", r"seasons?", r"validity\s+period", r"contract\s+period"]),
-    ("room_rates",          [r"room\s+rates?", r"rate\s+table", r"tariff", r"price\s+list", r"room\s+types?"]),
-    ("meal_plans",          [r"meal\s+plan", r"board\s+basis", r"supplement", r"breakfast", r"half\s+board",
-                              r"full\s+board", r"all\s+inclusive"]),
-    ("children_policy",     [r"child(ren)?'?s?\s+polic", r"infant", r"age\s+polic", r"child\s+discount",
-                              r"free\s+of\s+charge.*child", r"child.*free"]),
-    ("general_conditions",  [r"general\s+condition", r"terms\s+and\s+condition", r"booking\s+condition",
-                              r"cancellation\s+polic", r"payment\s+polic"]),
-    ("special_offers",      [r"special\s+offer", r"early\s+booking", r"discount", r"promotion"]),
+    ("hotel_details",      [r"hotel\s+details?", r"property\s+info",
+                             r"accommodation\s+details?", r"hotel\s+info"]),
+    ("season_definitions", [r"season\s+dates?", r"validity\s+dates?",
+                             r"contract\s+period", r"validity\s+period",
+                             r"^seasons?$"]),          # only bare "Seasons" heading
+    ("room_rates",         [r"room\s+rates?", r"rate\s+table", r"tariff",
+                             r"price\s+list", r"room\s+types?\s*$",
+                             r"accommodation\s+rates?"]),
+    ("meal_plans",         [r"meal\s+plan", r"board\s+basis",
+                             r"supplement\s*$",        # bare "Supplements" heading only
+                             r"meal\s+supplement",
+                             r"^breakfast\s*$",        # bare heading only
+                             r"half\s+board\s+supplement",
+                             r"full\s+board\s+supplement"]),
+    ("children_policy",    [r"child(ren)?'?s?\s+polic",
+                             r"age\s+polic",
+                             r"infant\s+polic",
+                             r"child(ren)?\s+rates?",
+                             r"age\s+band"]),
+    ("general_conditions", [r"general\s+condition", r"terms\s+and\s+condition",
+                             r"booking\s+condition", r"cancellation\s+polic",
+                             r"payment\s+polic"]),
+    ("special_offers",     [r"special\s+offer", r"early\s+booking\s+discount",
+                             r"promotion"]),           # removed bare "discount"
 ]
 
-# Fallback section for text that does not match any known section
 UNKNOWN_SECTION = "other"
+
+# Patterns that indicate a line is DATA, not a heading
+_PRICE_RE   = re.compile(r"\b\d{2,6}(?:\.\d{1,2})?\s*(?:usd|eur|gbp|aed|€|\$|£)?", re.I)
+_DATE_RE    = re.compile(r"\b\d{1,2}[\s/\-\.]\w+[\s/\-\.]\d{2,4}\b"
+                          r"|\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\w*\s+\d{1,2}", re.I)
+_COLON_DATA = re.compile(r":\s*\d")          # "Room: 150" style data lines
 
 
 @dataclass
@@ -32,14 +58,12 @@ class Section:
     name: str
     content: str
     start_line: int = 0
-    end_line: int = 0
 
 
-def detect_sections(clean_text: str) -> Dict[str, Section]:
+def detect_sections(clean_text: str) -> Dict[str, "Section"]:
     """
     Split clean text into logical sections.
     Returns a dict mapping section_name -> Section.
-    Multiple blocks of the same section are merged.
     """
     lines = clean_text.splitlines()
     sections: Dict[str, List[str]] = {name: [] for name, _ in SECTION_PATTERNS}
@@ -56,50 +80,75 @@ def detect_sections(clean_text: str) -> Dict[str, Section]:
                 section_line_starts[detected] = line_no
         sections[current_section].append(line)
 
-    result: Dict[str, Section] = {}
+    result: Dict[str, "Section"] = {}
     for name, content_lines in sections.items():
-        if content_lines:
-            content = "\n".join(content_lines).strip()
-            if content:
-                result[name] = Section(
-                    name=name,
-                    content=content,
-                    start_line=section_line_starts.get(name, 0),
-                )
-
+        content = "\n".join(content_lines).strip()
+        if content:
+            result[name] = Section(
+                name=name,
+                content=content,
+                start_line=section_line_starts.get(name, 0),
+            )
     return result
 
 
 def _detect_section_from_line(line: str) -> Optional[str]:
     """
-    Returns a section name if the line looks like a section heading,
-    otherwise returns None.
+    Return a section name only if the line looks like a section HEADING.
+    Data lines (prices, dates, colon-number patterns) are always ignored.
     """
-    line_lower = line.lower().strip()
-    if not line_lower:
+    stripped = line.strip()
+    ll = stripped.lower()
+
+    if not ll:
         return None
 
-    # Section headings are usually short lines (< 80 chars) possibly in caps
-    if len(line_lower) > 100:
+    # Hard cap on heading length
+    if len(ll) > 80:
+        return None
+
+    # Skip lines that look like data
+    if not _is_heading_line(stripped):
         return None
 
     for section_name, patterns in SECTION_PATTERNS:
         for pattern in patterns:
-            if re.search(pattern, line_lower):
+            if re.search(pattern, ll):
                 return section_name
 
     return None
 
 
-def get_section_text(sections: Dict[str, Section], name: str) -> str:
-    """Helper to safely get section content."""
-    if name in sections:
-        return sections[name].content
-    return ""
+def _is_heading_line(line: str) -> bool:
+    """
+    Return True if this line looks like a section heading rather than data.
+    Headings:
+      - Do NOT contain a price/amount (two or more digits followed optionally by currency)
+      - Do NOT contain a date
+      - Do NOT look like "Key: numeric_value"
+      - Are reasonably short (enforced upstream)
+    """
+    # Contains "colon + number" → data line (e.g. "Low Season: 150 USD")
+    if _COLON_DATA.search(line):
+        return False
+
+    # Contains a date pattern → data line
+    if _DATE_RE.search(line):
+        return False
+
+    # Contains a standalone price amount (2+ digits with optional currency)
+    if _PRICE_RE.search(line):
+        return False
+
+    return True
 
 
-def summarise_sections(sections: Dict[str, Section]) -> None:
-    """Print a summary of detected sections."""
+def get_section_text(sections: Dict[str, "Section"], name: str) -> str:
+    """Helper to safely get section content, empty string if missing."""
+    return sections[name].content if name in sections else ""
+
+
+def summarise_sections(sections: Dict[str, "Section"]) -> None:
     print(f"\nDetected {len(sections)} section(s):")
     for name, sec in sections.items():
         lines = sec.content.count("\n") + 1

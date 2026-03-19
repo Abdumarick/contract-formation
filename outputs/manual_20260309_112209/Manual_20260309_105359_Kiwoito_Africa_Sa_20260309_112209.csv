@@ -1,0 +1,199 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,205.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-07,2026-01-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-07,2026-01-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,180.0,0.0,35.0,63.0,2026-01-07,2026-01-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-02-01,2026-02-28
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-02-01,2026-02-28
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,185.0,0.0,35.0,63.0,2026-02-01,2026-02-28
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-03-01,2026-05-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-03-01,2026-05-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,180.0,0.0,35.0,63.0,2026-03-01,2026-05-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-06-01,2026-06-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-06-01,2026-06-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,185.0,0.0,35.0,63.0,2026-06-01,2026-06-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-06-16,2026-09-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-06-16,2026-09-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,205.0,0.0,35.0,63.0,2026-06-16,2026-09-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-09-16,2026-10-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-09-16,2026-10-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,185.0,0.0,35.0,63.0,2026-09-16,2026-10-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-11-01,2026-12-20
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-11-01,2026-12-20
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,180.0,0.0,35.0,63.0,2026-11-01,2026-12-20
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-12-21,2027-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-12-21,2027-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,205.0,0.0,35.0,63.0,2026-12-21,2027-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,13,99,1,2,58.75,58.75,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-07,2026-01-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-07,2026-01-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,13,99,1,2,52.5,52.5,35.0,63.0,2026-01-07,2026-01-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-02-01,2026-02-28
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-02-01,2026-02-28
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,13,99,1,2,53.75,53.75,35.0,63.0,2026-02-01,2026-02-28
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-03-01,2026-05-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-03-01,2026-05-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,13,99,1,2,52.5,52.5,35.0,63.0,2026-03-01,2026-05-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-06-01,2026-06-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-06-01,2026-06-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,13,99,1,2,53.75,53.75,35.0,63.0,2026-06-01,2026-06-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-06-16,2026-09-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-06-16,2026-09-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,13,99,1,2,58.75,58.75,35.0,63.0,2026-06-16,2026-09-15
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-09-16,2026-10-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-09-16,2026-10-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,13,99,1,2,53.75,53.75,35.0,63.0,2026-09-16,2026-10-31
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-11-01,2026-12-20
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-11-01,2026-12-20
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,13,99,1,2,52.5,52.5,35.0,63.0,2026-11-01,2026-12-20
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-12-21,2027-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-12-21,2027-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double,,2,13,99,1,2,58.75,58.75,35.0,63.0,2026-12-21,2027-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,0,5,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,6,12,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,13,99,1,3,35.0,70.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,0,5,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,6,12,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,13,99,1,3,35.56,71.12,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,0,5,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,6,12,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,13,99,1,3,37.78,75.56,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,13,99,1,1,230.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,13,99,1,1,235.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,13,99,1,1,255.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,13,99,1,2,65.0,65.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,13,99,1,2,66.25,66.25,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,13,99,1,2,71.25,71.25,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,0,5,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,6,12,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,13,99,1,4,0.25,0.75,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,0,5,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,6,12,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,13,99,1,4,23.13,69.39,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,0,5,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,6,12,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,13,99,1,4,23.44,70.32,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,0,5,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,6,12,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,13,99,1,4,24.69,74.07,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,13,99,1,2,77.5,77.5,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,13,99,1,2,78.75,78.75,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,13,99,1,2,83.75,83.75,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,190.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,195.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Single,,1,13,99,1,1,215.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double/Twin,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double/Twin,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double/Twin,,2,13,99,1,2,55.0,55.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double/Twin,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double/Twin,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double/Twin,,2,13,99,1,2,56.25,56.25,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double/Twin,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double/Twin,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Double/Twin,,2,13,99,1,2,61.25,61.25,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,0,5,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,6,12,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,13,99,1,3,36.11,72.22,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,0,5,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,6,12,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,13,99,1,3,36.67,73.34,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,0,5,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,6,12,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Triple (Executive Room),,3,13,99,1,3,38.89,77.78,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,13,99,1,1,240.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,13,99,1,1,245.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Single,,1,13,99,1,1,265.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,13,99,1,2,67.5,67.5,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,13,99,1,2,68.75,68.75,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Executive Room - Double,,2,13,99,1,2,73.75,73.75,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,0,5,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,6,12,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,13,99,1,4,23.75,71.25,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,0,5,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,6,12,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,13,99,1,4,24.06,72.18,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,0,5,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,6,12,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Family Room (4 pax),,4,13,99,1,4,25.31,75.93,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,13,99,1,2,80.0,80.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,13,99,1,2,81.25,81.25,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Junior Suite,,2,13,99,1,2,86.25,86.25,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Early Check -In,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Early Check -In,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Early Check -In,,2,13,99,1,2,25.0,25.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Early Check -In,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Early Check -In,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Early Check -In,,2,13,99,1,2,25.0,25.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Early Check -In,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Early Check -In,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Early Check -In,,2,13,99,1,2,30.0,30.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Late Check - out,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Late Check - out,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Late Check - out,,2,13,99,1,2,25.0,25.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Late Check - out,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Late Check - out,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Late Check - out,,2,13,99,1,2,25.0,25.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Late Check - out,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Late Check - out,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Late Check - out,,2,13,99,1,2,30.0,30.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Day Use Room (SGL or DBL),,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Day Use Room (SGL or DBL),,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Day Use Room (SGL or DBL),,1,13,99,1,1,100.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Day Use Room (SGL or DBL),,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Day Use Room (SGL or DBL),,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Day Use Room (SGL or DBL),,1,13,99,1,1,120.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Day Use Room (SGL or DBL),,1,0,5,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Day Use Room (SGL or DBL),,1,6,12,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Day Use Room (SGL or DBL),,1,13,99,1,1,120.0,0.0,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Extra Bed /Crib,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Extra Bed /Crib,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Extra Bed /Crib,,2,13,99,1,2,13.75,13.75,35.0,63.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Extra Bed /Crib,,2,0,5,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Extra Bed /Crib,,2,6,12,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-01-06
+,Manual 20260309 105359 Kiwoito Africa Safaris Sto   2,,,,0,,USD,Extra Bed /Crib,,2,13,99,1,2,13.75,13.75,35.0,63.0,2026-01-01,2026-01-06

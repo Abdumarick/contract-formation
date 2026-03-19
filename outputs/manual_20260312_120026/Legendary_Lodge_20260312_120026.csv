@@ -1,0 +1,101 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,4,11,1,1,156.55,0.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,12,15,1,1,257.55,0.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,16,99,1,1,505.0,203.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,4,11,1,1,125.55,0.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,12,15,1,1,206.55,0.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,16,99,1,1,405.0,203.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,4,11,1,1,156.55,0.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,12,15,1,1,257.55,0.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,16,99,1,1,505.0,203.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,4,11,1,1,125.55,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,12,15,1,1,206.55,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,16,99,1,1,405.0,203.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,4,11,1,1,173.6,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,12,15,1,1,285.6,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Single),,1,16,99,1,1,560.0,203.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,4,11,1,2,156.55,505.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,12,15,1,2,257.55,505.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,16,99,1,2,505.0,505.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,4,11,1,2,125.55,405.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,12,15,1,2,206.55,405.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,16,99,1,2,405.0,405.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,4,11,1,2,156.55,505.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,12,15,1,2,257.55,505.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,16,99,1,2,505.0,505.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,4,11,1,2,125.55,405.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,12,15,1,2,206.55,405.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,16,99,1,2,405.0,405.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,4,11,1,2,173.6,560.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,12,15,1,2,285.6,560.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Double),,2,16,99,1,2,560.0,560.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,0,3,1,3,0.0,0.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,4,11,1,3,156.55,505.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,12,15,1,3,257.55,505.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,16,99,1,3,505.0,505.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,0,3,1,3,0.0,0.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,4,11,1,3,125.55,405.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,12,15,1,3,206.55,405.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,16,99,1,3,405.0,405.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,0,3,1,3,0.0,0.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,4,11,1,3,156.55,505.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,12,15,1,3,257.55,505.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,16,99,1,3,505.0,505.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,0,3,1,3,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,4,11,1,3,125.55,405.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,12,15,1,3,206.55,405.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,16,99,1,3,405.0,405.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,0,3,1,3,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,4,11,1,3,173.6,560.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,12,15,1,3,285.6,560.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Garden Cottages (Triple),,3,16,99,1,3,560.0,560.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,4,11,1,4,137.95,445.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,12,15,1,4,226.95,445.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,16,99,1,4,445.0,445.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,4,11,1,4,108.11,348.75,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,12,15,1,4,177.86,348.75,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,16,99,1,4,348.75,348.75,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,4,11,1,4,137.95,445.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,12,15,1,4,226.95,445.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,16,99,1,4,445.0,445.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,4,11,1,4,108.11,348.75,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,12,15,1,4,177.86,348.75,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,16,99,1,4,348.75,348.75,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,4,11,1,4,153.06,493.75,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,12,15,1,4,251.81,493.75,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Meru Cottages 2 Bedroom,,4,16,99,1,4,493.75,493.75,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,4,11,1,4,137.95,445.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,12,15,1,4,226.95,445.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,16,99,1,4,445.0,445.0,0.0,0.0,2026-01-01,2026-03-31
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,4,11,1,4,108.11,348.75,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,12,15,1,4,177.86,348.75,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,16,99,1,4,348.75,348.75,0.0,0.0,2026-04-01,2026-06-30
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,4,11,1,4,137.95,445.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,12,15,1,4,226.95,445.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,16,99,1,4,445.0,445.0,0.0,0.0,2026-07-01,2026-10-31
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,4,11,1,4,108.11,348.75,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,12,15,1,4,177.86,348.75,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,16,99,1,4,348.75,348.75,0.0,0.0,2026-11-01,2026-12-19
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,4,11,1,4,153.06,493.75,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,12,15,1,4,251.81,493.75,0.0,0.0,2026-12-20,2027-01-05
+,Legendary Lodge,,,,0,,USD,Kahawa Cottages 2 Bedroom,,4,16,99,1,4,493.75,493.75,0.0,0.0,2026-12-20,2027-01-05

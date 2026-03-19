@@ -4,486 +4,2043 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Contract Parser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg:        #0d1117;
+            --surface:   #161b22;
+            --surface2:  #1c2333;
+            --border:    #30363d;
+            --border-hi: #58a6ff;
+            --text:      #e6edf3;
+            --muted:     #8b949e;
+            --accent:    #58a6ff;
+            --accent2:   #3fb950;
+            --amber:     #d29922;
+            --rose:      #f85149;
+            --purple:    #bc8cff;
+            --teal:      #39d3bb;
+            --glow:      0 0 24px rgba(88,166,255,.15);
         }
-        
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg);
+            color: var(--text);
             min-height: 100vh;
-            padding: 20px;
+            padding: 0 0 80px;
         }
-        
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+
+        /* ── header ───────────────────────────────── */
+        .header {
+            background: linear-gradient(135deg, #1a237e 0%, #0d47a1 50%, #006064 100%);
+            padding: 36px 40px;
+            text-align: center;
+            position: relative;
             overflow: hidden;
         }
-        
-        .header {
-            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-            color: white;
-            padding: 30px;
-            text-align: center;
+        .header::before {
+            content: '';
+            position: absolute; inset: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
-        
         .header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6em;
+            font-weight: 700;
+            letter-spacing: -.01em;
+            position: relative;
         }
-        
         .header p {
-            font-size: 1.1em;
-            opacity: 0.9;
+            font-size: 1.05em;
+            opacity: .75;
+            margin-top: 8px;
+            font-weight: 300;
+            position: relative;
         }
-        
-        .upload-section {
-            padding: 40px;
+
+        /* ── layout ───────────────────────────────── */
+        .page { max-width: 860px; margin: 0 auto; padding: 36px 20px 0; }
+
+        /* ── mode tabs ────────────────────────────── */
+        .mode-tabs {
+            display: flex;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 5px;
+            margin-bottom: 28px;
+            gap: 4px;
         }
-        
-        .upload-area {
-            border: 3px dashed #ddd;
-            border-radius: 8px;
-            padding: 40px;
-            text-align: center;
-            transition: all 0.3s ease;
+        .mode-tab {
+            flex: 1;
+            padding: 10px 16px;
+            background: none;
+            border: none;
+            border-radius: 7px;
+            color: var(--muted);
+            font-family: 'Outfit', sans-serif;
+            font-size: .9em;
+            font-weight: 500;
             cursor: pointer;
-            background: #fafafa;
+            transition: all .2s;
         }
-        
-        .upload-area:hover {
-            border-color: #4facfe;
-            background: #f0f8ff;
+        .mode-tab.active {
+            background: var(--surface2);
+            color: var(--text);
+            box-shadow: 0 1px 6px rgba(0,0,0,.4);
         }
-        
-        .upload-area.dragover {
-            border-color: #4facfe;
-            background: #e6f3ff;
-        }
-        
-        .upload-icon {
-            font-size: 48px;
-            color: #4facfe;
+        .mode-tab:hover:not(.active) { color: var(--text); }
+
+        .mode-panel { display: none; }
+        .mode-panel.active { display: block; }
+
+        /* ── card ─────────────────────────────────── */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
             margin-bottom: 20px;
+            transition: box-shadow .3s;
         }
-        
-        .upload-text {
-            font-size: 1.2em;
-            color: #666;
-            margin-bottom: 10px;
+        .card:hover { box-shadow: var(--glow); }
+
+        .card-header {
+            padding: 18px 24px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
-        
-        .upload-hint {
-            font-size: 0.9em;
-            color: #999;
+        .card-icon {
+            width: 38px; height: 38px;
+            border-radius: 9px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
         }
-        
-        input[type="file"] {
+        .ci-blue   { background: rgba(88,166,255,.15); }
+        .ci-green  { background: rgba(63,185,80,.15); }
+        .ci-amber  { background: rgba(210,153,34,.15); }
+        .ci-rose   { background: rgba(248,81,73,.15); }
+        .ci-purple { background: rgba(188,140,255,.15); }
+        .ci-teal   { background: rgba(57,211,187,.15); }
+
+        .card-header-text h3 { font-size: .95em; font-weight: 600; }
+        .card-header-text p  { font-size: .78em; color: var(--muted); margin-top: 2px; }
+
+        .card-body { padding: 22px 24px; }
+
+        /* ── upload area ──────────────────────────── */
+        .upload-area {
+            border: 2px dashed var(--border);
+            border-radius: 10px;
+            padding: 44px 32px;
+            text-align: center;
+            cursor: pointer;
+            transition: all .25s;
+            background: var(--surface2);
+        }
+        .upload-area:hover, .upload-area.dragover {
+            border-color: var(--accent);
+            background: rgba(88,166,255,.06);
+        }
+        .upload-icon { font-size: 44px; margin-bottom: 14px; }
+        .upload-text { font-size: 1.05em; font-weight: 500; margin-bottom: 6px; }
+        .upload-hint { font-size: .82em; color: var(--muted); }
+        input[type="file"] { display: none; }
+
+        /* ── form fields ──────────────────────────── */
+        .field {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 16px;
+        }
+        .field:last-child { margin-bottom: 0; }
+        .field > label {
+            font-size: .75em;
+            font-weight: 600;
+            letter-spacing: .06em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+        .field input, .field select, .field textarea {
+            background: var(--surface2);
+            border: 1.5px solid var(--border);
+            border-radius: 7px;
+            color: var(--text);
+            font-family: 'Outfit', sans-serif;
+            font-size: .92em;
+            padding: 10px 13px;
+            transition: border-color .2s, box-shadow .2s;
+            width: 100%;
+        }
+        .field input:focus, .field select:focus, .field textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(88,166,255,.12);
+        }
+        .field input::placeholder { color: var(--muted); }
+        .field textarea { resize: vertical; min-height: 80px; }
+        .field select option { background: var(--surface2); }
+
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+        .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+
+        /* ── dynamic rows (seasons / age bands / supplements / rooms) ── */
+        .dynamic-list { display: flex; flex-direction: column; gap: 10px; }
+
+        .drow {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 9px;
+            padding: 14px 16px;
+            display: grid;
+            gap: 10px;
+            align-items: end;
+            transition: border-color .2s;
+            position: relative;
+        }
+        .drow:hover { border-color: #40464e; }
+
+        /* column layouts per type */
+        .drow-season   { grid-template-columns: 1.6fr 1fr 1fr 1fr auto; }
+        .drow-ageband  { grid-template-columns: 1.1fr .55fr .55fr 1fr .6fr .6fr 1fr 1fr auto; }
+        .drow-ageband .child-only { display:none; }
+        .drow-ageband.is-child .child-only { display:flex; }
+        .drow-room     { grid-template-columns: 2fr 1fr 1.2fr auto auto; }
+        .drow-supp     { grid-template-columns: 1.8fr 1fr 1fr auto; }
+
+        .drow-field { display: flex; flex-direction: column; gap: 5px; }
+        .drow-label {
+            font-size: .7em;
+            font-weight: 600;
+            letter-spacing: .05em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+        .drow input, .drow select {
+            background: var(--bg);
+            border: 1.5px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            font-family: 'Outfit', sans-serif;
+            font-size: .88em;
+            padding: 8px 11px;
+            transition: border-color .2s;
+            width: 100%;
+        }
+        .drow input:focus, .drow select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        .drow input[type="date"]::-webkit-calendar-picker-indicator {
+            filter: invert(1) opacity(.5);
+            cursor: pointer;
+        }
+
+        .del-btn {
+            width: 30px; height: 30px;
+            background: rgba(248,81,73,.15);
+            border: 1px solid rgba(248,81,73,.25);
+            border-radius: 7px;
+            color: var(--rose);
+            font-size: 16px;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            transition: background .2s;
+            flex-shrink: 0;
+            align-self: end;
+            margin-bottom: 1px;
+        }
+        .del-btn:hover { background: rgba(248,81,73,.3); }
+
+        .dup-btn {
+            width: 30px; height: 30px;
+            background: rgba(57,211,187,.15);
+            border: 1px solid rgba(57,211,187,.3);
+            border-radius: 7px;
+            color: var(--teal);
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            transition: background .2s, transform .15s;
+            flex-shrink: 0;
+            align-self: end;
+            margin-bottom: 1px;
+        }
+        .dup-btn:hover { background: rgba(57,211,187,.28); transform: scale(1.12); }
+
+        .add-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: none;
+            border: 1.5px dashed var(--border);
+            border-radius: 7px;
+            color: var(--muted);
+            font-family: 'Outfit', sans-serif;
+            font-size: .85em;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all .2s;
+            margin-top: 8px;
+            width: fit-content;
+        }
+        .add-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+        /* ── section heading inside card ──────────── */
+        .section-sep {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 22px 0 16px;
+        }
+        .section-sep span {
+            font-family: 'Playfair Display', serif;
+            font-size: 1em;
+            white-space: nowrap;
+        }
+        .section-sep::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        /* ── hint box ─────────────────────────────── */
+        .hint-box {
+            background: rgba(88,166,255,.08);
+            border: 1px solid rgba(88,166,255,.2);
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: .82em;
+            color: #93c5fd;
+            margin-bottom: 16px;
+            line-height: 1.55;
             display: none;
         }
-        
-        .options-section {
-            padding: 0 40px 20px;
-            background: #f8f9fa;
-        }
-        
-        .options-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        
-        .option-group {
-            background: white;
-            padding: 20px;
+        .hint-box.show { display: block; }
+
+        /* ── action buttons ───────────────────────── */
+        .actions { display: flex; gap: 12px; margin-top: 26px; flex-wrap: wrap; }
+
+        .btn {
+            padding: 12px 26px;
+            border: none;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-        
-        .option-group label {
-            display: block;
+            font-family: 'Outfit', sans-serif;
+            font-size: .92em;
             font-weight: 600;
-            margin-bottom: 8px;
-            color: #333;
-        }
-        
-        .option-group input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            border: 2px solid #e1e5e9;
-            border-radius: 6px;
-            font-size: 14px;
-            transition: border-color 0.3s ease;
-        }
-        
-        .option-group input[type="text"]:focus {
-            outline: none;
-            border-color: #4facfe;
-        }
-        
-        .checkbox-group {
+            cursor: pointer;
+            transition: all .22s;
             display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn:disabled { opacity: .4; cursor: not-allowed; transform: none !important; box-shadow: none !important; }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #1565c0, #0288d1);
+            color: #fff;
+        }
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(88,166,255,.35);
+        }
+        .btn-green {
+            background: linear-gradient(135deg, #1b5e20, #2e7d32);
+            color: #fff;
+        }
+        .btn-green:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(63,185,80,.3);
+        }
+        .btn-ghost {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            color: var(--muted);
+        }
+        .btn-ghost:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+
+        /* ── progress ─────────────────────────────── */
+        .progress-wrap { display: none; margin-top: 22px; }
+        .progress-track {
+            background: var(--surface2);
+            border-radius: 20px;
+            height: 5px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), var(--teal));
+            border-radius: 20px;
+            width: 0%;
+            transition: width .4s ease;
+        }
+        .progress-label { font-size: .8em; color: var(--muted); margin-top: 8px; }
+
+        /* ── status / result ──────────────────────── */
+        .status {
+            display: none;
+            padding: 13px 18px;
+            border-radius: 8px;
+            font-size: .88em;
+            font-weight: 500;
+            margin-top: 18px;
             align-items: center;
             gap: 10px;
         }
-        
-        .checkbox-group input[type="checkbox"] {
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-        }
-        
-        .process-btn {
-            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-            color: white;
-            border: none;
-            padding: 15px 40px;
-            font-size: 1.1em;
-            font-weight: 600;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            display: block;
-            margin: 30px auto;
-            min-width: 200px;
-        }
-        
-        .process-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(79, 172, 254, 0.3);
-        }
-        
-        .process-btn:disabled {
-            background: #ccc;
-            cursor: not-allowed;
-            transform: none;
-            box-shadow: none;
-        }
-        
-        .progress-section {
-            padding: 0 40px 40px;
+        .status.show { display: flex; }
+        .status-ok    { background: rgba(63,185,80,.12);  border: 1px solid rgba(63,185,80,.3);  color: #7ee787; }
+        .status-err   { background: rgba(248,81,73,.12);  border: 1px solid rgba(248,81,73,.3);  color: #ff7b72; }
+        .status-info  { background: rgba(88,166,255,.1);  border: 1px solid rgba(88,166,255,.25);color: #79c0ff; }
+
+        .result-block {
             display: none;
-        }
-        
-        .progress-bar {
-            background: #e1e5e9;
+            background: rgba(63,185,80,.07);
+            border: 1px solid rgba(63,185,80,.2);
             border-radius: 10px;
-            overflow: hidden;
-            height: 8px;
-            margin-bottom: 20px;
+            padding: 20px 22px;
+            margin-top: 18px;
         }
-        
-        .progress-fill {
-            background: linear-gradient(90deg, #4facfe, #00f2fe);
-            height: 100%;
-            width: 0%;
-            transition: width 0.3s ease;
-        }
-        
-        .status-message {
-            text-align: center;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            font-weight: 500;
-        }
-        
-        .status-message.success {
-            background: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-        }
-        
-        .status-message.error {
-            background: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-        }
-        
-        .status-message.info {
-            background: #d1ecf1;
-            color: #0c5460;
-            border: 1px solid #bee5eb;
-        }
-        
-        .results-section {
-            padding: 0 40px 40px;
-            display: none;
-        }
-        
-        .result-card {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            border-left: 4px solid #4facfe;
-        }
-        
-        .download-btn {
-            background: #28a745;
-            color: white;
+        .result-block.show { display: block; }
+        .result-block h3 { font-family: 'Playfair Display', serif; font-size: 1.1em; color: #7ee787; margin-bottom: 6px; }
+        .result-block p  { font-size: .85em; color: var(--muted); margin-bottom: 14px; }
+        .dl-row { display: flex; gap: 10px; flex-wrap: wrap; }
+
+        .dl-btn {
+            padding: 9px 18px;
+            border-radius: 7px;
+            font-family: 'Outfit', sans-serif;
+            font-size: .85em;
+            font-weight: 600;
             text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 6px;
+            cursor: pointer;
+            border: none;
+            transition: all .2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .dl-btn-csv  { background: #2e7d32; color: #fff; }
+        .dl-btn-csv:hover  { background: #388e3c; }
+        .dl-btn-log  { background: var(--surface2); border: 1px solid var(--border); color: var(--muted); }
+        .dl-btn-log:hover  { color: var(--text); }
+
+        /* ── spinner ──────────────────────────────── */
+        .spin {
             display: inline-block;
-            margin-right: 10px;
-            transition: background 0.3s ease;
-        }
-        
-        .download-btn:hover {
-            background: #218838;
-        }
-        
-        .logs-btn {
-            background: #6c757d;
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 6px;
-            display: inline-block;
-            transition: background 0.3s ease;
-        }
-        
-        .logs-btn:hover {
-            background: #5a6268;
-        }
-        
-        .loading-spinner {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            border: 3px solid #f3f3f3;
-            border-top: 3px solid #4facfe;
+            width: 15px; height: 15px;
+            border: 2px solid rgba(255,255,255,.2);
+            border-top-color: #fff;
             border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-right: 10px;
+            animation: rot .7s linear infinite;
         }
-        
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+        @keyframes rot { to { transform: rotate(360deg); } }
+
+        @media(max-width:640px) {
+            .grid-2, .grid-3 { grid-template-columns: 1fr; }
+            .drow-season, .drow-ageband, .drow-room, .drow-supp { grid-template-columns: 1fr 1fr; }
+            .header { padding: 24px 20px; }
+            .header h1 { font-size: 1.9em; }
         }
-    </style>
+    
+        /* ── Rate Table ─────────────────────────────────────── */
+        .rate-table-wrap { overflow-x:auto; border-radius:9px; border:1px solid var(--border); }
+        .rate-table { border-collapse:collapse; width:100%; min-width:360px; font-size:.87em; }
+        .rate-table th,.rate-table td { border:1px solid var(--border); padding:0; }
+        .rt-corner {
+            background:var(--surface); color:var(--muted); font-size:.68em; font-weight:600;
+            letter-spacing:.04em; text-transform:uppercase; padding:10px 14px;
+            text-align:left; min-width:120px; white-space:nowrap;
+        }
+        .rt-room-th { background:var(--surface); min-width:130px; }
+        .rt-room-th-inner { display:flex; align-items:center; gap:4px; padding:6px 8px 6px 12px; }
+        .rt-room-name-input {
+            flex:1; background:transparent; border:none; color:var(--text);
+            font-family:Outfit,sans-serif; font-size:.85em; font-weight:600;
+            outline:none; min-width:80px;
+        }
+        .rt-room-name-input::placeholder { color:var(--muted); font-weight:400; }
+        .rt-del-col {
+            width:20px; height:20px; background:rgba(248,81,73,.12);
+            border:1px solid rgba(248,81,73,.2); border-radius:5px;
+            color:var(--rose); font-size:12px; cursor:pointer;
+            display:flex; align-items:center; justify-content:center; flex-shrink:0;
+            transition:background .15s; padding:0;
+        }
+        .rt-del-col:hover { background:rgba(248,81,73,.28); }
+        .rt-season-cell { background:var(--surface); min-width:120px; }
+        .rt-season-input {
+            width:100%; background:transparent; border:none; color:var(--text);
+            font-family:Outfit,sans-serif; font-size:.88em; font-weight:600;
+            padding:10px 14px; outline:none;
+        }
+        .rt-season-input::placeholder { color:var(--muted); font-weight:400; }
+        .rt-cost-cell { background:var(--bg); }
+        .rt-cost-input {
+            width:100%; background:transparent; border:none; color:var(--text);
+            font-family:Outfit,sans-serif; font-size:.88em;
+            padding:10px 12px; outline:none; text-align:right; min-width:100px;
+        }
+        .rt-cost-input:focus { background:rgba(88,166,255,.06); }
+        .rt-cost-input::placeholder { color:#3a4149; }
+        .rt-del-row-cell { background:var(--surface); width:32px; text-align:center; vertical-align:middle; padding:4px; }
+        .rt-del-row {
+            width:22px; height:22px; background:rgba(248,81,73,.12);
+            border:1px solid rgba(248,81,73,.2); border-radius:5px;
+            color:var(--rose); font-size:13px; cursor:pointer;
+            display:inline-flex; align-items:center; justify-content:center;
+            transition:background .15s;
+        }
+        .rt-del-row:hover { background:rgba(248,81,73,.28); }
+        .rt-add-col { background:var(--surface); padding:6px 8px; width:80px; }
+        .rt-add-btn {
+            background:none; border:1.5px dashed var(--border); border-radius:6px;
+            color:var(--muted); font-family:Outfit,sans-serif; font-size:.78em;
+            padding:5px 8px; cursor:pointer; white-space:nowrap; transition:color .2s,border-color .2s;
+        }
+        .rt-add-btn:hover { color:var(--accent); border-color:var(--accent); }
+        /* Room capacity rows */
+        .room-cap-row {
+            display:grid; grid-template-columns:2fr 1fr 1.4fr 1.8fr;
+            gap:12px; padding:14px 16px;
+            background:var(--surface2); border:1px solid var(--border);
+            border-radius:9px; align-items:end;
+        }
+        .input-with-unit {
+            display:flex; gap:6px; align-items:stretch;
+        }
+        .input-with-unit input { flex:1; min-width:0; }
+        .unit-sel {
+            background: var(--bg);
+            border: 1.5px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            font-family: 'Outfit', sans-serif;
+            font-size: .82em; font-weight: 600;
+            padding: 0 8px; cursor: pointer;
+            outline: none; flex-shrink: 0;
+            transition: border-color .2s;
+        }
+        .unit-sel:focus { border-color: var(--accent); }
+        .rcr-field { display:flex; flex-direction:column; gap:5px; }
+        .rcr-label {
+            font-size:.7em; font-weight:600; letter-spacing:.05em;
+            text-transform:uppercase; color:var(--muted);
+        }
+        .rcr-name { font-size:.88em; font-weight:600; color:var(--text); padding:8px 0 2px; }
+        .rcr-input {
+            background:var(--bg); border:1.5px solid var(--border); border-radius:6px;
+            color:var(--text); font-family:Outfit,sans-serif; font-size:.88em;
+            padding:8px 11px; outline:none; width:100%; transition:border-color .2s;
+        }
+        .rcr-input:focus { border-color:var(--accent); }
+        /* Date range row */
+        .drow-daterange { grid-template-columns:1.6fr 1fr 1fr auto; }
+
+        /* ── Extra Supplement rows ──────────────────────────── */
+        .supp-row {
+            background: var(--surface2);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 14px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            transition: border-color .2s;
+        }
+        .supp-row:hover { border-color: #40464e; }
+
+        /* Top row: Name | Overrides | Room | Band | ✕ */
+        .supp-row-top {
+            display: grid;
+            grid-template-columns: 2fr 180px 160px 200px 28px;
+            gap: 10px;
+            align-items: end;
+        }
+        .supp-name-col { min-width: 0; }
+
+        .supp-field {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            min-width: 0;
+        }
+        .supp-label {
+            font-size: .69em;
+            font-weight: 600;
+            letter-spacing: .06em;
+            text-transform: uppercase;
+            color: var(--muted);
+            white-space: nowrap;
+        }
+        .supp-input {
+            background: var(--bg);
+            border: 1.5px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            font-family: 'Outfit', sans-serif;
+            font-size: .88em;
+            padding: 8px 10px;
+            width: 100%;
+            outline: none;
+            transition: border-color .2s;
+        }
+        .supp-input:focus { border-color: var(--accent); }
+        .supp-input::placeholder { color: var(--muted); }
+
+        /* Per-season amounts section */
+        .supp-row-seasons {
+            border-top: 1px solid var(--border);
+            padding-top: 10px;
+        }
+        .sa-header {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        .sa-title {
+            font-size: .72em;
+            font-weight: 700;
+            letter-spacing: .06em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+        .sa-hint {
+            font-size: .7em;
+            color: #4a5568;
+        }
+        .sa-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .sa-row {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 7px;
+            padding: 6px 10px 6px 12px;
+        }
+        .sa-season-name {
+            font-size: .82em;
+            font-weight: 600;
+            color: var(--text);
+            white-space: nowrap;
+            min-width: 60px;
+        }
+        .sa-empty {
+            font-size: .8em;
+            color: var(--muted);
+            font-style: italic;
+        }
+        .supp-amt-wrap {
+            display: flex;
+            gap: 5px;
+            align-items: stretch;
+        }
+        .supp-amt-wrap .supp-input {
+            width: 80px;
+            min-width: 0;
+            text-align: right;
+        }
+
+        @media(max-width:860px) {
+            .supp-row-top { grid-template-columns: 1fr 1fr 1fr; }
+        }
+        @media(max-width:560px) {
+            .supp-row-top { grid-template-columns: 1fr 1fr; }
+        }
+        .card-header[onclick] { user-select: none; }
+        .card-header[onclick]:hover { background: rgba(88,166,255,.04); border-radius: 12px 12px 0 0; }
+
+        /* ── General input polish ───────────────────────────── */
+        .drow input, .drow select {
+            text-align: left;
+        }
+        .rt-cost-input { text-align: right; }
+        .drow-label, .rcr-label, .supp-label {
+            font-size: .69em;
+            letter-spacing: .06em;
+        }
+        /* Section separator polish */
+        .section-sep {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 18px 0 14px;
+            color: var(--muted);
+            font-size: .75em;
+            font-weight: 600;
+            letter-spacing: .06em;
+            text-transform: uppercase;
+        }
+        .section-sep::before, .section-sep::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🏨 Hotel Contract Parser</h1>
-            <p>Convert hotel contract PDFs to structured CSV data</p>
-        </div>
-        
-        <div class="upload-section">
-            <div class="upload-area" id="uploadArea">
-                <div class="upload-icon">📄</div>
-                <div class="upload-text">Drop your PDF here or click to browse</div>
-                <div class="upload-hint">Maximum file size: 16MB</div>
-                <input type="file" id="fileInput" accept=".pdf">
-            </div>
-        </div>
-        
-        <div class="options-section">
-            <div class="options-grid">
-                <div class="option-group">
-                    <label for="yearInput">Contract Year (optional)</label>
-                    <input type="text" id="yearInput" placeholder="e.g., 2025">
+
+<div class="header">
+    <h1>🏨 Hotel Contract Parser</h1>
+    <p>Convert hotel contract PDFs to structured CSV data</p>
+</div>
+
+<div class="page">
+
+    <!-- ── Mode tabs ──────────────────────────────────────────── -->
+    <div class="mode-tabs">
+        <button class="mode-tab active" data-target="panel-pdf">📄 PDF Upload</button>
+        <button class="mode-tab"        data-target="panel-manual">✏️ Manual Entry</button>
+    </div>
+
+    <!-- ════════════════════════════════════════════════════════
+         PANEL A — PDF UPLOAD  (original logic, kept intact)
+    ════════════════════════════════════════════════════════ -->
+    <div class="mode-panel active" id="panel-pdf">
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon ci-blue">📄</div>
+                <div class="card-header-text">
+                    <h3>Upload Contract PDF</h3>
+                    <p>System extracts all data automatically</p>
                 </div>
-                
-                <div class="option-group">
-                    <div class="checkbox-group">
-                        <input type="checkbox" id="semiAutoCheck">
-                        <label for="semiAutoCheck">Enable interactive review mode</label>
+            </div>
+            <div class="card-body">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📋</div>
+                    <div class="upload-text">Drop your PDF here or click to browse</div>
+                    <div class="upload-hint">Maximum file size: 16 MB · PDF only</div>
+                    <input type="file" id="fileInput" accept=".pdf">
+                </div>
+
+                <div style="margin-top:20px; max-width:260px;">
+                    <div class="field">
+                        <label>Contract Year (optional)</label>
+                        <input type="text" id="yearInput" placeholder="e.g. 2025">
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button class="btn btn-primary" id="processBtn" disabled>
+                        <span>Process PDF</span>
+                    </button>
+                </div>
+
+                <div class="progress-wrap" id="progressSection">
+                    <div class="progress-track"><div class="progress-bar" id="progressFill"></div></div>
+                    <div class="progress-label" id="progressLabel">Processing…</div>
+                </div>
+
+                <div class="status" id="pdfStatus"></div>
+
+                <div class="result-block" id="pdfResult">
+                    <h3>✅ Processing Complete</h3>
+                    <p id="pdfResultMsg">Your PDF has been converted to CSV.</p>
+                    <div class="dl-row">
+                        <a class="dl-btn dl-btn-csv" id="downloadBtn" href="#">📥 Download CSV</a>
+                        <button class="dl-btn dl-btn-log" id="logsBtn">📋 View Logs</button>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <button class="process-btn" id="processBtn" disabled>Process PDF</button>
-        
-        <div class="progress-section" id="progressSection">
-            <div class="progress-bar">
-                <div class="progress-fill" id="progressFill"></div>
+
+    </div><!-- /panel-pdf -->
+
+    <!-- ════════════════════════════════════════════════════════
+         PANEL B — MANUAL ENTRY
+    ════════════════════════════════════════════════════════ -->
+    <div class="mode-panel" id="panel-manual">
+
+        <!-- ── Optional PDF Auto-fill ───────────────────────── -->
+        <div class="card" id="manualPdfCard">
+            <div class="card-header" style="cursor:pointer;" onclick="togglePdfHelper()">
+                <div class="card-icon ci-blue">📄</div>
+                <div class="card-header-text">
+                    <h3>Auto-fill from PDF <span style="color:var(--accent);font-size:.75em;font-weight:400;">optional</span></h3>
+                    <p>Upload a contract PDF to pre-fill the form automatically — or fill it manually below</p>
+                </div>
+                <div id="pdfHelperChevron" style="margin-left:auto;color:var(--muted);font-size:1.1em;transition:transform .3s;">▼</div>
             </div>
-            <div class="status-message info" id="statusMessage">
-                <span class="loading-spinner"></span>
-                Processing your PDF...
+            <div id="pdfHelperBody" style="display:none;">
+            <div class="card-body">
+                <div class="upload-area" id="manualUploadArea">
+                    <div class="upload-icon">📋</div>
+                    <div class="upload-text">Drop your contract PDF here or click to browse</div>
+                    <div class="upload-hint">Maximum file size: 16 MB · PDF only</div>
+                    <input type="file" id="manualFileInput" accept=".pdf">
+                </div>
+                <div style="margin-top:16px; max-width:220px;">
+                    <div class="field">
+                        <label>Contract Year (optional)</label>
+                        <input type="text" id="m_pdfyear" placeholder="e.g. 2025">
+                    </div>
+                </div>
+                <div class="actions">
+                    <button class="btn btn-primary" id="parsePdfBtn" disabled>
+                        <span>Parse PDF &amp; Fill Form</span>
+                    </button>
+                </div>
+                <div class="progress-wrap" id="parseProgress">
+                    <div class="progress-track"><div class="progress-bar" id="parseBar"></div></div>
+                    <div class="progress-label" id="parseLabel">Parsing…</div>
+                </div>
+                <div class="status" id="parseStatus"></div>
+            </div>
             </div>
         </div>
-        
-        <div class="results-section" id="resultsSection">
-            <div class="result-card">
-                <h3>✅ Processing Complete!</h3>
-                <p>Your PDF has been successfully processed and converted to CSV format.</p>
-                <div style="margin-top: 20px;">
-                    <a href="#" class="download-btn" id="downloadBtn">📥 Download CSV</a>
-                    <a href="#" class="logs-btn" id="logsBtn">📋 View Logs</a>
+
+        <!-- ── Form (always unlocked) ────────────────────────── -->
+        <div id="manualFormWrap">
+
+        <!-- ── Hotel Info ───────────────────────────────────── -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon ci-purple">🏨</div>
+                <div class="card-header-text">
+                    <h3>Hotel Information</h3>
+                    <p>Enter hotel details — all fields except Hotel Name are optional</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="grid-3">
+                    <div class="field">
+                        <label>Hotel Name *</label>
+                        <input type="text" id="m_name" placeholder="e.g. Blue Lagoon Resort">
+                    </div>
+                    <div class="field">
+                        <label>Contract Year</label>
+                        <input type="text" id="m_year" placeholder="e.g. 2025">
+                    </div>
+                    <div class="field">
+                        <label>Base Meal Plan</label>
+                        <select id="m_plan">
+                            <option value="BB">BB – Bed &amp; Breakfast</option>
+                            <option value="RO">RO – Room Only</option>
+                            <option value="HB">HB – Half Board</option>
+                            <option value="FB">FB – Full Board</option>
+                            <option value="AI">AI – All Inclusive</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="field" style="margin-top:4px;">
+                    <label>Description (optional)</label>
+                    <textarea id="m_desc" placeholder="Short description of the property, location, facilities…"></textarea>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script>
-        const uploadArea = document.getElementById('uploadArea');
-        const fileInput = document.getElementById('fileInput');
-        const processBtn = document.getElementById('processBtn');
-        const progressSection = document.getElementById('progressSection');
-        const resultsSection = document.getElementById('resultsSection');
-        const statusMessage = document.getElementById('statusMessage');
-        const progressFill = document.getElementById('progressFill');
-        
-        let selectedFile = null;
-        let currentResult = null;
+        <!-- ── Rate Table: Seasons × Rooms ───────────────── -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon ci-amber">💰</div>
+                <div class="card-header-text">
+                    <h3>Season × Room Rate Table</h3>
+                    <p>Seasons down · Room types across · Enter total room cost per cell · Single supplement = cost ÷ capacity (adults &amp; children only)</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="rate-table-wrap">
+                    <table class="rate-table" id="rateTable">
+                        <thead>
+                            <tr id="rateTableHead">
+                                <th class="rt-corner">Season ↓ &nbsp;/&nbsp; Room →</th>
+                                <th class="rt-add-col">
+                                    <button class="rt-add-btn" id="addRoomColBtn">＋ Room</button>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="rateTableBody"></tbody>
+                    </table>
+                </div>
+                <button class="add-btn" id="addSeasonRowBtn" style="margin-top:12px;">＋ Add Season</button>
+            </div>
+        </div>
 
-        // File upload handlers
-        uploadArea.addEventListener('click', () => fileInput.click());
-        
-        uploadArea.addEventListener('dragover', (e) => {
-            e.preventDefault();
-            uploadArea.classList.add('dragover');
-        });
-        
-        uploadArea.addEventListener('dragleave', () => {
-            uploadArea.classList.remove('dragover');
-        });
-        
-        uploadArea.addEventListener('drop', (e) => {
-            e.preventDefault();
-            uploadArea.classList.remove('dragover');
-            handleFiles(e.dataTransfer.files);
-        });
-        
-        fileInput.addEventListener('change', (e) => {
-            handleFiles(e.target.files);
-        });
-        
-        function handleFiles(files) {
-            if (files.length === 0) return;
-            
-            const file = files[0];
-            if (file.type !== 'application/pdf') {
-                showError('Please select a PDF file');
-                return;
+        <!-- ── Date Ranges ─────────────────────────────────── -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon ci-amber">📅</div>
+                <div class="card-header-text">
+                    <h3>Date Ranges</h3>
+                    <p>Map each date period to a season — costs pull through automatically from the table above</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="dynamic-list" id="dateRangeList"></div>
+                <button class="add-btn" id="addDateRangeBtn">＋ Add Date Range</button>
+            </div>
+        </div>
+
+        <!-- ── Room Capacities (auto-synced from table) ────── -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon ci-blue">🛏️</div>
+                <div class="card-header-text">
+                    <h3>Room Capacities</h3>
+                    <p>Room names sync from the table — set max capacity and cost basis for each</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div id="roomList"></div>
+            </div>
+        </div>
+
+        <!-- ── Age Bands ───────────────────────────────────── -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon ci-rose">👶</div>
+                <div class="card-header-text">
+                    <h3>Age Bands</h3>
+                    <p>Define infant, child, and adult bands with age limits and discount rates</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="dynamic-list" id="ageBandList"></div>
+                <button class="add-btn" id="addBandBtn">＋ Add Age Band</button>
+            </div>
+        </div>
+
+        <!-- ── Supplements ─────────────────────────────────── -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon ci-teal">🍽️</div>
+                <div class="card-header-text">
+                    <h3>Supplements</h3>
+                    <p>Individual meal costs are composed automatically into HB / FB amounts</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="section-sep"><span>Individual Meal Costs (per person)</span></div>
+                <div class="hint-box" id="hintBox"></div>
+                <div class="grid-3">
+                    <div class="field">
+                        <label>Breakfast</label>
+                        <input type="number" id="s_bfast" placeholder="0.00" min="0" step="0.01">
+                    </div>
+                    <div class="field">
+                        <label>Lunch</label>
+                        <input type="number" id="s_lunch" placeholder="0.00" min="0" step="0.01">
+                    </div>
+                    <div class="field">
+                        <label>Dinner</label>
+                        <input type="number" id="s_dinner" placeholder="0.00" min="0" step="0.01">
+                    </div>
+                </div>
+                <div class="section-sep"><span>Supplement Amounts (override or direct entry)</span></div>
+                <div class="grid-3">
+                    <div class="field">
+                        <label>Single Supplement</label>
+                        <input type="number" id="s_single" placeholder="Auto-derived" min="0" step="0.01">
+                    </div>
+                    <div class="field">
+                        <label>HB Supplement</label>
+                        <input type="number" id="s_hb" placeholder="Auto-composed ↑" min="0" step="0.01">
+                    </div>
+                    <div class="field">
+                        <label>FB Supplement</label>
+                        <input type="number" id="s_fb" placeholder="Auto-composed ↑" min="0" step="0.01">
+                    </div>
+                </div>
+                <div class="section-sep"><span>Extra Supplements</span></div>
+                <div class="dynamic-list" id="extraSuppList"></div>
+                <button class="add-btn" id="addSuppBtn">＋ Add Extra Supplement</button>
+            </div>
+        </div>
+
+        <!-- ── Notes ───────────────────────────────────────── -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon ci-green">📝</div>
+                <div class="card-header-text">
+                    <h3>Additional Notes (optional)</h3>
+                    <p>Cancellation policy, special offers, remarks</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="field">
+                    <textarea id="m_notes" placeholder="e.g. Free cancellation up to 14 days before arrival…"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── Actions ─────────────────────────────────────── -->
+        <div class="actions">
+            <button class="btn btn-green" id="generateBtn">
+                <span>Generate CSV</span>
+            </button>
+            <button class="btn btn-ghost" id="clearBtn">🗑 Clear Form</button>
+        </div>
+
+        <div class="status" id="manualStatus"></div>
+        <div class="result-block" id="manualResult">
+            <h3>✅ CSV Generated</h3>
+            <p id="manualResultMsg">Your contract data is ready.</p>
+            <div class="dl-row">
+                <a class="dl-btn dl-btn-csv" id="manualDownloadBtn" href="#">📥 Download CSV</a>
+            </div>
+        </div>
+
+        </div><!-- /manualFormWrap -->
+
+    </div><!-- /panel-manual -->
+
+</div><!-- /page -->
+
+<script>
+/* ── PDF helper toggle ───────────────────────────────── */
+function togglePdfHelper() {
+    const body    = document.getElementById('pdfHelperBody');
+    const chevron = document.getElementById('pdfHelperChevron');
+    const open    = body.style.display === 'none';
+    body.style.display    = open ? 'block' : 'none';
+    chevron.style.transform = open ? 'rotate(180deg)' : 'rotate(0deg)';
+}
+
+/* ══════════════════════════════════════════════════════
+   TABS
+══════════════════════════════════════════════════════ */
+document.querySelectorAll('.mode-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.mode-tab').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.mode-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.target).classList.add('active');
+    });
+});
+
+/* ══════════════════════════════════════════════════════
+   PDF UPLOAD (original logic preserved)
+══════════════════════════════════════════════════════ */
+const uploadArea  = document.getElementById('uploadArea');
+const fileInput   = document.getElementById('fileInput');
+const processBtn  = document.getElementById('processBtn');
+let selectedFile  = null;
+
+uploadArea.addEventListener('click', () => fileInput.click());
+uploadArea.addEventListener('dragover', e => { e.preventDefault(); uploadArea.classList.add('dragover'); });
+uploadArea.addEventListener('dragleave', () => uploadArea.classList.remove('dragover'));
+uploadArea.addEventListener('drop', e => { e.preventDefault(); uploadArea.classList.remove('dragover'); handleFile(e.dataTransfer.files[0]); });
+fileInput.addEventListener('change', e => handleFile(e.target.files[0]));
+
+function handleFile(f) {
+    if (!f) return;
+    if (f.type !== 'application/pdf') { alert('Please select a PDF file'); return; }
+    if (f.size > 16 * 1024 * 1024)   { alert('File must be under 16 MB'); return; }
+    selectedFile = f;
+    processBtn.disabled = false;
+    uploadArea.innerHTML = `<div class="upload-icon">✅</div>
+        <div class="upload-text">${f.name}</div>
+        <div class="upload-hint">Click to change file</div>`;
+}
+
+const STEPS = [
+    {pct:10, msg:'📥 Uploading file…'},
+    {pct:25, msg:'🔍 Detecting PDF type…'},
+    {pct:40, msg:'📝 Extracting text…'},
+    {pct:55, msg:'📅 Parsing seasons…'},
+    {pct:70, msg:'🛏️ Extracting room rates…'},
+    {pct:82, msg:'🍽️ Processing supplements…'},
+    {pct:92, msg:'✅ Building CSV rows…'},
+    {pct:100,msg:'Done!'},
+];
+
+function runProgress(fillId, labelId, wrapId) {
+    document.getElementById(wrapId).style.display = 'block';
+    let i = 0, stopped = false;
+    const go = () => {
+        if (stopped || i >= STEPS.length) return;
+        document.getElementById(fillId).style.width  = STEPS[i].pct + '%';
+        document.getElementById(labelId).textContent = STEPS[i].msg;
+        i++;
+        if (i < STEPS.length) setTimeout(go, 550 + Math.random()*300);
+    };
+    go();
+    // Return a stop function
+    return () => {
+        stopped = true;
+        document.getElementById(wrapId).style.display = 'none';
+        document.getElementById(fillId).style.width   = '0%';
+    };
+}
+
+function setStatus(id, type, msg) {
+    const el = document.getElementById(id);
+    el.className = `status status-${type} show`;
+    el.textContent = msg;
+}
+
+processBtn.addEventListener('click', async () => {
+    if (!selectedFile) return;
+    const fd = new FormData();
+    fd.append('file', selectedFile);
+    fd.append('year', document.getElementById('yearInput').value);
+
+    processBtn.disabled = true;
+    document.getElementById('pdfResult').classList.remove('show');
+    document.getElementById('pdfStatus').classList.remove('show');
+    const stopPdfProgress = runProgress('progressFill', 'progressLabel', 'progressSection');
+
+    try {
+        const res  = await fetch('/upload', { method: 'POST', body: fd });
+        const data = await res.json();
+        stopPdfProgress();
+        if (data.success) {
+            const dl = document.getElementById('downloadBtn');
+            dl.href = `/download/${data.output_dir}/${data.csv_file}`;
+            dl.download = data.csv_file;
+            document.getElementById('pdfResultMsg').textContent = data.message || 'Processing complete.';
+            document.getElementById('pdfResult').classList.add('show');
+        } else {
+            setStatus('pdfStatus', 'err', '❌ ' + data.error);
+        }
+    } catch(e) {
+        stopPdfProgress();
+        setStatus('pdfStatus', 'err', '❌ Network error: ' + e.message);
+    } finally {
+        processBtn.disabled = false;
+    }
+});
+
+document.getElementById('logsBtn').addEventListener('click', () => openLogs('latest'));
+
+function openLogs(dir) {
+    fetch(`/logs/${dir}`).then(r => r.json()).then(logs => {
+        const txt = logs.text || JSON.stringify(logs.json || logs, null, 2) || 'No logs.';
+        const w = window.open('','_blank','width=880,height=640');
+        w.document.write(`<!DOCTYPE html><html><head><title>Audit Log</title>
+        <style>body{font-family:monospace;background:#0d1117;color:#e6edf3;padding:28px;white-space:pre-wrap;font-size:13px;line-height:1.6}
+        h2{font-family:sans-serif;color:#58a6ff;margin-bottom:16px}</style></head>
+        <body><h2>🏨 Audit Log</h2><pre>${txt.replace(/</g,'&lt;')}</pre></body></html>`);
+    }).catch(() => alert('Could not load logs.'));
+}
+
+/* ══════════════════════════════════════════════════════
+   HELPERS
+══════════════════════════════════════════════════════ */
+let _id = 0;
+function uid() { return 'r' + (++_id); }
+function removeRow(id) { const el = document.getElementById(id); if (el) el.remove(); }
+let _col = 0, _row = 0;
+
+/* ══════════════════════════════════════════════════════
+   RATE TABLE — add / remove columns (rooms)
+══════════════════════════════════════════════════════ */
+function addRoomColumn(name = '') {
+    const ci    = ++_col;
+    const colId = 'col_' + ci;
+    const headRow = document.getElementById('rateTableHead');
+    const addTh   = headRow.querySelector('.rt-add-col');
+
+    const th = document.createElement('th');
+    th.className  = 'rt-room-th';
+    th.dataset.col = colId;
+    th.innerHTML = `<div class="rt-room-th-inner">
+      <input class="rt-room-name-input" type="text" placeholder="Room name"
+             value="${name}" data-col="${colId}"
+             oninput="onRoomNameChange('${colId}',this.value)">
+      <button class="rt-del-col" onclick="removeRoomColumn('${colId}')" title="Remove column">×</button>
+    </div>`;
+    headRow.insertBefore(th, addTh);
+
+    // Add cost cell to every existing season row
+    document.querySelectorAll('#rateTableBody tr[data-row]').forEach(tr => {
+        const sid   = tr.dataset.row;
+        const delTd = tr.querySelector('.rt-del-row-cell');
+        const td    = document.createElement('td');
+        td.className  = 'rt-cost-cell';
+        td.dataset.col = colId;
+        td.innerHTML = `<input class="rt-cost-input" type="number" min="0" step="0.01"
+                               placeholder="0.00" data-row="${sid}" data-col="${colId}">`;
+        tr.insertBefore(td, delTd);
+    });
+    syncRoomCapPanel();
+}
+
+function removeRoomColumn(colId) {
+    document.querySelectorAll(`[data-col="${colId}"]`).forEach(el => {
+        const cell = el.closest('th,td');
+        if (cell) cell.remove();
+    });
+    syncRoomCapPanel();
+}
+
+function onRoomNameChange(colId, val) {
+    syncRoomCapPanel();
+}
+
+/* ══════════════════════════════════════════════════════
+   RATE TABLE — add / remove rows (seasons)
+══════════════════════════════════════════════════════ */
+function addSeasonTableRow(name = '', costs = {}) {
+    const ri  = ++_row;
+    const sid = 'row_' + ri;
+    const tbody = document.getElementById('rateTableBody');
+    const tr    = document.createElement('tr');
+    tr.dataset.row = sid;
+
+    let html = `<td class="rt-season-cell">
+      <input class="rt-season-input" type="text" placeholder="e.g. High"
+             value="${name}" oninput="refreshDateRangeDropdowns()">
+    </td>`;
+
+    document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => {
+        const colId = th.dataset.col;
+        const val   = costs[colId] !== undefined ? costs[colId] : '';
+        html += `<td class="rt-cost-cell" data-col="${colId}">
+          <input class="rt-cost-input" type="number" min="0" step="0.01"
+                 placeholder="0.00" data-row="${sid}" data-col="${colId}" value="${val}">
+        </td>`;
+    });
+
+    html += `<td class="rt-del-row-cell">
+      <button class="rt-del-row" onclick="removeSeasonTableRow('${sid}')">×</button>
+    </td>`;
+
+    tr.innerHTML = html;
+    tbody.appendChild(tr);
+    refreshDateRangeDropdowns();
+}
+
+function removeSeasonTableRow(sid) {
+    const tr = document.querySelector(`#rateTableBody tr[data-row="${sid}"]`);
+    if (tr) tr.remove();
+    // Remove date ranges pointing to this season
+    document.querySelectorAll('#dateRangeList .drow-daterange').forEach(row => {
+        if (row.querySelector('.dr-season-sel').value === sid) row.remove();
+    });
+    refreshDateRangeDropdowns();
+}
+
+/* ── Read table data ─────────────────────────────────── */
+function getSeasonRows() {
+    const out = [];
+    document.querySelectorAll('#rateTableBody tr[data-row]').forEach(tr => {
+        const name = tr.querySelector('.rt-season-input').value.trim();
+        if (name) out.push({ sid: tr.dataset.row, name });
+    });
+    return out;
+}
+
+function getRoomColumns() {
+    const out = [];
+    document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => {
+        out.push({ colId: th.dataset.col, name: th.querySelector('.rt-room-name-input').value.trim() });
+    });
+    return out;
+}
+
+function getTableCost(sid, colId) {
+    const inp = document.querySelector(
+        `#rateTableBody tr[data-row="${sid}"] td[data-col="${colId}"] .rt-cost-input`);
+    return inp ? (parseFloat(inp.value) || 0) : 0;
+}
+
+/* ══════════════════════════════════════════════════════
+   ROOM CAPACITIES PANEL  (auto-synced from table)
+══════════════════════════════════════════════════════ */
+function syncRoomCapPanel() {
+    const cols  = getRoomColumns();
+    const panel = document.getElementById('roomList');
+
+    // Remove rows for deleted columns
+    panel.querySelectorAll('.room-cap-row').forEach(row => {
+        if (!cols.find(c => c.colId === row.dataset.col)) row.remove();
+    });
+
+    // Add or update
+    cols.forEach(({ colId, name }) => {
+        let ex = panel.querySelector(`.room-cap-row[data-col="${colId}"]`);
+        if (ex) {
+            ex.querySelector('.rcr-name').textContent = name || '(unnamed)';
+        } else {
+            const div = document.createElement('div');
+            div.className   = 'room-cap-row';
+            div.dataset.col  = colId;
+            div.innerHTML = `
+              <div class="rcr-field">
+                <div class="rcr-label">Room Name</div>
+                <div class="rcr-name">${name || '(unnamed)'}</div>
+              </div>
+              <div class="rcr-field">
+                <div class="rcr-label">Max Capacity</div>
+                <input class="rcr-input rm-cap" type="number" min="1" max="20" placeholder="2">
+              </div>
+              <div class="rcr-field">
+                <div class="rcr-label">Cost Basis</div>
+                <select class="rcr-input rm-basis">
+                  <option value="per_room">Per Room ÷ cap</option>
+                  <option value="per_person">Per Person</option>
+                </select>
+              </div>
+              <div class="rcr-field">
+                <div class="rcr-label">Single Supp Override</div>
+                <div class="input-with-unit">
+                  <input class="rcr-input rm-sgl-override" type="number" min="0" step="0.01"
+                         placeholder="Auto">
+                  <select class="unit-sel rm-sgl-unit">
+                    <option value="usd">$</option>
+                    <option value="pct">%</option>
+                  </select>
+                </div>
+              </div>`;
+            panel.appendChild(div);
+        }
+    });
+}
+
+/* ══════════════════════════════════════════════════════
+   DATE RANGES
+══════════════════════════════════════════════════════ */
+function refreshDateRangeDropdowns() {
+    const seasons = getSeasonRows();
+    document.querySelectorAll('#dateRangeList .dr-season-sel').forEach(sel => {
+        const cur = sel.value;
+        sel.innerHTML = seasons.map(s =>
+            `<option value="${s.sid}" ${s.sid === cur ? 'selected' : ''}>${s.name}</option>`
+        ).join('') || '<option value="">— add seasons first —</option>';
+    });
+    refreshSuppSeasonSelects();
+}
+
+function addDateRange(d = {}) {
+    const id  = uid();
+    const div = document.createElement('div');
+    div.className = 'drow drow-daterange';
+    div.id = id;
+
+    const seasons = getSeasonRows();
+    const opts    = seasons.map(s =>
+        `<option value="${s.sid}" ${(d.sid === s.sid) ? 'selected' : ''}>${s.name}</option>`
+    ).join('') || '<option value="">— add seasons first —</option>';
+
+    div.innerHTML = `
+      <div class="drow-field">
+        <div class="drow-label">Season</div>
+        <select class="dr-season-sel">${opts}</select>
+      </div>
+      <div class="drow-field">
+        <div class="drow-label">Start Date</div>
+        <input type="date" class="dr-start" value="${d.start||''}">
+      </div>
+      <div class="drow-field">
+        <div class="drow-label">End Date</div>
+        <input type="date" class="dr-end" value="${d.end||''}">
+      </div>
+      <button class="del-btn" onclick="removeRow('${id}')">×</button>`;
+    document.getElementById('dateRangeList').appendChild(div);
+}
+
+/* ══════════════════════════════════════════════════════
+   AGE BANDS
+══════════════════════════════════════════════════════ */
+function addBandRow(d = {}) {
+    const id   = uid();
+    const div  = document.createElement('div');
+    const lbl  = d.label || 'child';
+    div.className = 'drow drow-ageband' + (lbl === 'child' ? ' is-child' : '');
+    div.id = id;
+
+    const disc     = d.discount !== undefined ? String(d.discount) : '100';
+    const discType = d.discount_type || 'pct';   // 'pct' | 'usd'
+    const isCustom = !['0','25','50','75','100'].includes(disc) || discType === 'usd';
+    const selVal   = isCustom ? 'custom' : disc;
+
+    // Child HB/FB supplement mode
+    const hbfbMode  = d.hbfb_mode || 'apply_discount';  // 'apply_discount'|'same_as_adult'|'custom'
+    const childHb   = d.child_hb || '';
+    const childFb   = d.child_fb || '';
+
+    div.innerHTML = `
+      <div class="drow-field">
+        <div class="drow-label">Band Type</div>
+        <select class="ab-type" onchange="onBandTypeChange('${id}', this.value)">
+          <option value="infant" ${lbl==='infant'?'selected':''}>👶 Infant</option>
+          <option value="child"  ${lbl==='child' ?'selected':''}>🧒 Child</option>
+          <option value="adult"  ${lbl==='adult' ?'selected':''}>🧑 Adult</option>
+        </select>
+      </div>
+      <div class="drow-field">
+        <div class="drow-label">Min Age</div>
+        <input type="number" class="ab-min" min="0" max="99" placeholder="0"
+               value="${d.min_age !== undefined ? d.min_age : ''}">
+      </div>
+      <div class="drow-field">
+        <div class="drow-label">Max Age</div>
+        <input type="number" class="ab-max" min="0" max="99" placeholder="12"
+               value="${d.max_age !== undefined ? d.max_age : ''}">
+      </div>
+      <div class="drow-field">
+        <div class="drow-label">Discount</div>
+        <select class="ab-disc" onchange="toggleCustomDisc('${id}', this.value)">
+          <option value="0"      ${selVal==='0'     ?'selected':''}>Free (0%)</option>
+          <option value="25"     ${selVal==='25'    ?'selected':''}>25% of adult</option>
+          <option value="50"     ${selVal==='50'    ?'selected':''}>50% of adult</option>
+          <option value="75"     ${selVal==='75'    ?'selected':''}>75% of adult</option>
+          <option value="100"    ${selVal==='100'   ?'selected':''}>Full adult (100%)</option>
+          <option value="custom" ${selVal==='custom'?'selected':''}>Custom…</option>
+        </select>
+      </div>
+      <div class="drow-field" id="customDiscWrap_${id}" style="display:${isCustom?'flex':'none'}">
+        <div class="drow-label">Value</div>
+        <input type="number" class="ab-disc-custom" min="0" step="0.01" placeholder="e.g. 60"
+               value="${isCustom ? disc : ''}">
+      </div>
+      <div class="drow-field" id="customDiscTypWrap_${id}" style="display:${isCustom?'flex':'none'}">
+        <div class="drow-label">Unit</div>
+        <select class="ab-disc-type">
+          <option value="pct" ${discType==='pct'?'selected':''}>% of adult</option>
+          <option value="usd" ${discType==='usd'?'selected':''}>$ fixed</option>
+        </select>
+      </div>
+      <div class="drow-field child-only">
+        <div class="drow-label">HB/FB Supp</div>
+        <select class="ab-hbfb-mode" onchange="toggleChildHbFb('${id}', this.value)">
+          <option value="apply_discount" ${hbfbMode==='apply_discount'?'selected':''}>Apply discount %</option>
+          <option value="same_as_adult"  ${hbfbMode==='same_as_adult' ?'selected':''}>Same as adult</option>
+          <option value="custom"         ${hbfbMode==='custom'        ?'selected':''}>Custom amount</option>
+        </select>
+      </div>
+      <div class="drow-field child-only" id="childHbWrap_${id}" style="display:${hbfbMode==='custom'?'flex':'none'}">
+        <div class="drow-label">Child HB $</div>
+        <input type="number" class="ab-child-hb" min="0" step="0.01" placeholder="0.00"
+               value="${childHb}">
+      </div>
+      <div class="drow-field child-only" id="childFbWrap_${id}" style="display:${hbfbMode==='custom'?'flex':'none'}">
+        <div class="drow-label">Child FB $</div>
+        <input type="number" class="ab-child-fb" min="0" step="0.01" placeholder="0.00"
+               value="${childFb}">
+      </div>
+      <div class="drow-field">
+        <div class="drow-label">Notes (optional)</div>
+        <input type="text" class="ab-notes" placeholder="e.g. sharing room" value="${d.notes||''}">
+      </div>
+      <button class="del-btn" onclick="removeRow('${id}')">×</button>`;
+    document.getElementById('ageBandList').appendChild(div);
+    refreshSuppBandSelects();
+}
+
+function onBandTypeChange(rowId, val) {
+    const row = document.getElementById(rowId);
+    if (!row) return;
+    if (val === 'child') row.classList.add('is-child');
+    else                 row.classList.remove('is-child');
+}
+
+function toggleCustomDisc(rowId, val) {
+    const show = val === 'custom';
+    const w1 = document.getElementById('customDiscWrap_'    + rowId);
+    const w2 = document.getElementById('customDiscTypWrap_' + rowId);
+    if (w1) w1.style.display = show ? 'flex' : 'none';
+    if (w2) w2.style.display = show ? 'flex' : 'none';
+}
+
+function toggleChildHbFb(rowId, val) {
+    const show = val === 'custom';
+    const wHb = document.getElementById('childHbWrap_' + rowId);
+    const wFb = document.getElementById('childFbWrap_' + rowId);
+    if (wHb) wHb.style.display = show ? 'flex' : 'none';
+    if (wFb) wFb.style.display = show ? 'flex' : 'none';
+}
+
+/* ── Extra Supplements ───────────────────────────────── */
+function addSuppRow(d = {}) {
+    const id  = uid();
+    const div = document.createElement('div');
+    div.className = 'supp-row';
+    div.id = id;
+
+    const roomOpts     = getRoomColumns().map(c =>
+        `<option value="${c.name}" ${d.room===c.name?'selected':''}>${c.name||'(unnamed)'}</option>`
+    ).join('');
+    const overrideType = d.override_type || 'none';
+    const bandVal      = d.band || '';
+    const seasonAmtRows = buildSeasonAmountRows(d.season_amounts || []);
+
+    div.innerHTML = `
+      <div class="supp-row-top">
+        <div class="supp-field supp-name-col">
+          <div class="supp-label">Supplement Name</div>
+          <input type="text" class="supp-input sp-name"
+                 placeholder="e.g. Gala Dinner" value="${d.name||''}">
+        </div>
+        <div class="supp-field">
+          <div class="supp-label">Overrides</div>
+          <select class="supp-input sp-override-type" onchange="toggleSuppOverride('${id}',this.value)">
+            <option value="none"        ${overrideType==='none'       ?'selected':''}>Add-on (no override)</option>
+            <option value="cost"        ${overrideType==='cost'       ?'selected':''}>Cost (room rate)</option>
+            <option value="single_supp" ${overrideType==='single_supp'?'selected':''}>Single Supplement</option>
+            <option value="hb_supp"     ${overrideType==='hb_supp'    ?'selected':''}>HB Supplement</option>
+            <option value="fb_supp"     ${overrideType==='fb_supp'    ?'selected':''}>FB Supplement</option>
+          </select>
+        </div>
+        <div class="supp-field" id="suppRoomWrap_${id}"
+             style="display:${overrideType!=='none'?'flex':'none'};flex-direction:column;gap:5px;">
+          <div class="supp-label">Room (all if blank)</div>
+          <select class="supp-input sp-room">
+            <option value="">All rooms</option>
+            ${roomOpts}
+          </select>
+        </div>
+        <div class="supp-field" id="suppRoomPlaceholder_${id}"
+             style="display:${overrideType==='none'?'block':'none'};"></div>
+        <div class="supp-field">
+          <div class="supp-label">Age Band</div>
+          <select class="supp-input sp-band">
+            ${buildBandOpts(bandVal)}
+          </select>
+        </div>
+        <button class="del-btn" onclick="removeRow('${id}')" title="Remove" style="align-self:end;">×</button>
+      </div>
+      <div class="supp-row-seasons">
+        <div class="sa-header">
+          <span class="sa-title">Amount per Season</span>
+          <span class="sa-hint">Leave blank to skip · applies to selected room &amp; age band</span>
+        </div>
+        <div class="sa-grid">${seasonAmtRows}</div>
+      </div>`;
+    document.getElementById('extraSuppList').appendChild(div);
+}
+
+function toggleSuppOverride(rowId, val) {
+    const room = document.getElementById('suppRoomWrap_' + rowId);
+    const ph   = document.getElementById('suppRoomPlaceholder_' + rowId);
+    const show = val !== 'none';
+    if (room) room.style.display = show ? 'flex' : 'none';
+    if (ph)   ph.style.display   = show ? 'none' : 'block';
+}
+
+function buildSuppSeasonOpts(selected = []) {
+    const seasons = getSeasonRows();
+    if (!seasons.length) return '<option value="" disabled>— add seasons first —</option>';
+    return seasons.map(s =>
+        `<option value="${s.name}" ${selected.includes(s.name)?'selected':''}>${s.name}</option>`
+    ).join('');
+}
+
+function refreshSuppSeasonSelects() {
+    // Rebuild per-season amount grids when seasons change
+    refreshSuppSeasonAmounts();
+}
+
+/* Build age band options from actual band rows */
+function getBandRows() {
+    const out = [];
+    document.querySelectorAll('#ageBandList .drow').forEach(row => {
+        const type   = row.querySelector('.ab-type').value;
+        const minAge = row.querySelector('.ab-min').value || '0';
+        const maxAge = row.querySelector('.ab-max').value || '99';
+        const label  = type.charAt(0).toUpperCase() + type.slice(1) + ' (' + minAge + '-' + maxAge + ')';
+        out.push({ value: type + '_' + minAge + '_' + maxAge, label, type });
+    });
+    return out;
+}
+
+function buildBandOpts(selectedVal = '') {
+    const bands = getBandRows();
+    if (!bands.length) return '<option value="">— add age bands first —</option>';
+    return '<option value="">All bands</option>' +
+        bands.map(b => `<option value="${b.value}" ${b.value===selectedVal?'selected':''}>${b.label}</option>`).join('');
+}
+
+function refreshSuppBandSelects() {
+    document.querySelectorAll('#extraSuppList .sp-band').forEach(sel => {
+        const cur = sel.value;
+        sel.innerHTML = buildBandOpts(cur);
+    });
+}
+
+/* Per-season amount grid — rebuild when seasons change */
+function buildSeasonAmountRows(existing = []) {
+    // existing = [{season, amount, amount_type}, ...]
+    const seasons = getSeasonRows();
+    if (!seasons.length) return '<div class="sa-empty">Add seasons to the rate table first</div>';
+    return seasons.map(s => {
+        const ex   = existing.find(e => e.season === s.name) || {};
+        const amt  = ex.amount  !== undefined ? ex.amount  : '';
+        const unit = ex.amount_type || 'usd';
+        return `<div class="sa-row">
+          <div class="sa-season-name">${s.name}</div>
+          <div class="supp-amt-wrap">
+            <input type="number" class="supp-input sp-season-amt" min="0" step="0.01"
+                   placeholder="0.00" data-season="${s.name}" value="${amt}">
+            <select class="unit-sel sp-season-unit" data-season="${s.name}">
+              <option value="usd" ${unit==='usd'?'selected':''}>$</option>
+              <option value="pct" ${unit==='pct'?'selected':''}>%</option>
+            </select>
+          </div>
+        </div>`;
+    }).join('');
+}
+
+function refreshSuppSeasonAmounts() {
+    document.querySelectorAll('#extraSuppList .sa-grid').forEach(grid => {
+        // Preserve current values before rebuild
+        const existing = [];
+        grid.querySelectorAll('.sa-row').forEach(r => {
+            const inp  = r.querySelector('.sp-season-amt');
+            const unit = r.querySelector('.sp-season-unit');
+            if (inp && inp.dataset.season) {
+                existing.push({ season: inp.dataset.season,
+                    amount: parseFloat(inp.value)||0,
+                    amount_type: unit?.value||'usd' });
             }
-            
-            if (file.size > 16 * 1024 * 1024) {
-                showError('File size must be less than 16MB');
-                return;
-            }
-            
-            selectedFile = file;
-            processBtn.disabled = false;
-            
-            // Update UI
-            uploadArea.innerHTML = `
-                <div class="upload-icon">✅</div>
-                <div class="upload-text">${file.name}</div>
-                <div class="upload-hint">Click to change file</div>
-            `;
-        }
-        
-        // Process button handler
-        processBtn.addEventListener('click', async () => {
-            if (!selectedFile) return;
-            
-            const formData = new FormData();
-            formData.append('file', selectedFile);
-            formData.append('semi_auto', document.getElementById('semiAutoCheck').checked);
-            formData.append('year', document.getElementById('yearInput').value);
-            
-            // Show progress
-            processBtn.disabled = true;
-            progressSection.style.display = 'block';
-            resultsSection.style.display = 'none';
-            updateProgress(0, 'Starting PDF processing...');
-            
-            try {
-                const response = await fetch('/upload', {
-                    method: 'POST',
-                    body: formData
-                });
-                
-                const result = await response.json();
-                
-                if (result.success) {
-                    currentResult = result;
-                    updateProgress(100, 'Processing complete!');
-                    showResults(result);
-                } else {
-                    showError(result.error);
-                }
-            } catch (error) {
-                showError('Network error: ' + error.message);
-            } finally {
-                processBtn.disabled = false;
-            }
         });
-        
-        function updateProgress(percent, message) {
-            progressFill.style.width = percent + '%';
-            statusMessage.innerHTML = `
-                <span class="loading-spinner"></span>
-                ${message}
-            `;
-            statusMessage.className = 'status-message info';
+        grid.innerHTML = buildSeasonAmountRows(existing);
+    });
+}
+
+/* ── UK date helpers ─────────────────────────────────── */
+// Convert YYYY-MM-DD (from date picker) → DD/MM/YYYY for CSV export
+function isoToDMY(s) {
+    if (!s) return '';
+    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s);
+    return m ? `${m[3]}/${m[2]}/${m[1]}` : s;
+}
+
+
+document.getElementById('addSeasonRowBtn').addEventListener('click', () => addSeasonTableRow());
+document.getElementById('addRoomColBtn')  .addEventListener('click', () => addRoomColumn());
+document.getElementById('addDateRangeBtn').addEventListener('click', () => addDateRange());
+document.getElementById('addBandBtn')     .addEventListener('click', () => addBandRow());
+document.getElementById('addSuppBtn')     .addEventListener('click', () => addSuppRow());
+
+// Refresh band selects when any age band label/age changes
+document.getElementById('ageBandList').addEventListener('change', e => {
+    if (e.target.matches('.ab-type,.ab-min,.ab-max')) refreshSuppBandSelects();
+});
+document.getElementById('ageBandList').addEventListener('input', e => {
+    if (e.target.matches('.ab-min,.ab-max')) refreshSuppBandSelects();
+});
+
+/* ══════════════════════════════════════════════════════
+   MANUAL TAB — PDF PARSE & FORM UNLOCK
+══════════════════════════════════════════════════════ */
+const manualUploadArea = document.getElementById('manualUploadArea');
+const manualFileInput  = document.getElementById('manualFileInput');
+const parsePdfBtn      = document.getElementById('parsePdfBtn');
+let manualPdfFile = null;
+
+manualUploadArea.addEventListener('click', () => manualFileInput.click());
+manualUploadArea.addEventListener('dragover', e => { e.preventDefault(); manualUploadArea.classList.add('dragover'); });
+manualUploadArea.addEventListener('dragleave', () => manualUploadArea.classList.remove('dragover'));
+manualUploadArea.addEventListener('drop', e => {
+    e.preventDefault(); manualUploadArea.classList.remove('dragover');
+    handleManualFile(e.dataTransfer.files[0]);
+});
+manualFileInput.addEventListener('change', e => handleManualFile(e.target.files[0]));
+
+function handleManualFile(f) {
+    if (!f) return;
+    if (f.type !== 'application/pdf') { alert('Please select a PDF file'); return; }
+    if (f.size > 16 * 1024 * 1024)   { alert('File must be under 16 MB'); return; }
+    manualPdfFile = f;
+    parsePdfBtn.disabled = false;
+    manualUploadArea.innerHTML = `<div class="upload-icon">✅</div>
+        <div class="upload-text">${f.name}</div>
+        <div class="upload-hint">Click to change file</div>`;
+}
+
+parsePdfBtn.addEventListener('click', async () => {
+    if (!manualPdfFile) return;
+
+    const fd = new FormData();
+    fd.append('file', manualPdfFile);
+    fd.append('year', document.getElementById('m_pdfyear').value.trim());
+
+    parsePdfBtn.disabled = true;
+    parsePdfBtn.textContent = 'Parsing…';
+    document.getElementById('parseStatus').classList.remove('show');
+    const stopParseProgress = runProgress('parseBar', 'parseLabel', 'parseProgress');
+
+    try {
+        const res  = await fetch('/parse_for_manual', { method: 'POST', body: fd });
+        const data = await res.json();
+        stopParseProgress();
+
+        if (!data.success) {
+            setStatus('parseStatus', 'err', '❌ ' + (data.error || 'Parse failed'));
+            parsePdfBtn.disabled    = false;
+            parsePdfBtn.textContent = 'Parse PDF & Fill Form';
+            return;
         }
-        
-        function showError(message) {
-            statusMessage.innerHTML = `❌ ${message}`;
-            statusMessage.className = 'status-message error';
-            progressSection.style.display = 'block';
+
+        // ── Populate form with extracted data ─────────────────
+        if (data.hotel_name)    document.getElementById('m_name').value = data.hotel_name;
+        if (data.contract_year) document.getElementById('m_year').value = data.contract_year;
+        if (data.base_plan) {
+            const sel = document.getElementById('m_plan');
+            for (let o of sel.options) if (o.value === data.base_plan) { o.selected = true; break; }
         }
-        
-        function showResults(result) {
-            statusMessage.innerHTML = `✅ ${result.message}`;
-            statusMessage.className = 'status-message success';
-            
-            // Setup download button
-            const downloadBtn = document.getElementById('downloadBtn');
-            downloadBtn.href = `/download/${result.output_dir}/${result.csv_file}`;
-            downloadBtn.download = result.csv_file;
-            
-            // Setup logs button
-            const logsBtn = document.getElementById('logsBtn');
-            logsBtn.onclick = () => showLogs(result.output_dir);
-            
-            resultsSection.style.display = 'block';
-        }
-        
-        function showLogs(outputDir) {
-            fetch(`/logs/${outputDir}`)
-                .then(response => response.json())
-                .then(logs => {
-                    let logContent = '';
-                    if (logs.text) {
-                        logContent = logs.text;
-                    } else if (logs.json) {
-                        logContent = JSON.stringify(logs.json, null, 2);
-                    } else {
-                        logContent = 'No logs available';
+
+        // Supplements
+        if (data.single_supplement) document.getElementById('s_single').value = data.single_supplement;
+        if (data.hb_supplement)     document.getElementById('s_hb').value     = data.hb_supplement;
+        if (data.fb_supplement)     document.getElementById('s_fb').value     = data.fb_supplement;
+
+        // ── Rate table: build from PDF-extracted data ──────
+        document.getElementById('rateTableBody').innerHTML = '';
+        document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => th.remove());
+        document.getElementById('roomList').innerHTML = '';
+        _col = 0; _row = 0;
+
+        const rawSeasons = data.seasons || [];
+        const rawRooms   = data.rooms   || [];
+
+        // Add room columns (unique room names from PDF)
+        const seenRooms = [];
+        rawRooms.forEach(r => {
+            if (r.name && !seenRooms.includes(r.name)) {
+                seenRooms.push(r.name);
+                addRoomColumn(r.name);
+                const colId = 'col_' + _col;
+                const cap   = r.max_cap || 2;
+                const basis = r.cost_basis || 'per_room';
+                setTimeout(() => {
+                    const capRow = document.querySelector(
+                        `#roomList .room-cap-row[data-col="${colId}"]`);
+                    if (capRow) {
+                        capRow.querySelector('.rm-cap').value = cap;
+                        const sel = capRow.querySelector('.rm-basis');
+                        for (let o of sel.options) if (o.value === basis) { o.selected = true; break; }
                     }
-                    
-                    // Create a modal or new window to show logs
-                    const logWindow = window.open('', '_blank', 'width=800,height=600');
-                    logWindow.document.write(`
-                        <html>
-                            <head><title>Processing Logs</title></head>
-                            <body style="font-family: monospace; padding: 20px; white-space: pre-wrap;">
-                                <h2>Processing Logs</h2>
-                                <pre>${logContent}</pre>
-                            </body>
-                        </html>
-                    `);
-                })
-                .catch(error => {
-                    alert('Error loading logs: ' + error.message);
+                }, 50);
+            }
+        });
+        if (!seenRooms.length) addRoomColumn();
+
+        // Add season rows with costs
+        const seenSeasons = [];
+        rawSeasons.forEach(s => {
+            if (!s.name) return;
+            if (!seenSeasons.includes(s.name)) {
+                seenSeasons.push(s.name);
+                const costs = {};
+                document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => {
+                    const rname = th.querySelector('.rt-room-name-input').value;
+                    const found = rawRooms.find(r => r.name === rname && r.season === s.name);
+                    if (found) costs[th.dataset.col] = found.cost || 0;
                 });
+                addSeasonTableRow(s.name, costs);
+            }
+        });
+        if (!seenSeasons.length) addSeasonTableRow();
+
+        // Date ranges
+        document.getElementById('dateRangeList').innerHTML = '';
+        rawSeasons.forEach(s => {
+            const tr = Array.from(document.querySelectorAll('#rateTableBody tr[data-row]'))
+                            .find(r => r.querySelector('.rt-season-input').value === s.name);
+            if (tr) addDateRange({ sid: tr.dataset.row, start: s.start, end: s.end });
+        });
+        if (!rawSeasons.length) addDateRange();
+
+        // ── Age bands ─────────────────────────────────────────
+        document.getElementById('ageBandList').innerHTML = '';
+        if ((data.age_bands || []).length) {
+            data.age_bands.forEach(b => addBandRow(b));
+        } else {
+            addBandRow({ label: 'infant', min_age: 0,  max_age: 2,  discount: 0   });
+            addBandRow({ label: 'child',  min_age: 3,  max_age: 12, discount: 50  });
+            addBandRow({ label: 'adult',  min_age: 13, max_age: 99, discount: 100 });
         }
-    </script>
+
+        // ── Collapse the PDF helper card after successful parse ─
+        const pdfHelperBody = document.getElementById('pdfHelperBody');
+        if (pdfHelperBody && pdfHelperBody.style.display !== 'none') togglePdfHelper();
+
+        // Update button state
+        const pdfCard = document.getElementById('manualPdfCard');
+        pdfCard.style.borderColor   = 'var(--accent2)';
+        parsePdfBtn.textContent     = '✅ PDF Parsed — Re-upload to change';
+        parsePdfBtn.disabled        = false;
+
+        const count = rawRooms.length;
+        setStatus('parseStatus', 'ok',
+            `✅ Extracted ${count} room record(s) for "${data.hotel_name || 'hotel'}" — review the form below and click Generate CSV when ready`);
+
+        // Scroll to form
+        setTimeout(() => wrap.scrollIntoView({ behavior: 'smooth', block: 'start' }), 300);
+        recompose();
+
+    } catch(e) {
+        stopParseProgress();
+        setStatus('parseStatus', 'err', '❌ Network error: ' + e.message);
+        parsePdfBtn.disabled    = false;
+        parsePdfBtn.textContent = 'Parse PDF & Fill Form';
+    }
+});
+
+/* ══════════════════════════════════════════════════════
+   HB / FB AUTO-COMPOSE
+══════════════════════════════════════════════════════ */
+function recompose() {
+    const b = parseFloat(document.getElementById('s_bfast').value)  || 0;
+    const l = parseFloat(document.getElementById('s_lunch').value)  || 0;
+    const d = parseFloat(document.getElementById('s_dinner').value) || 0;
+    const plan = document.getElementById('m_plan').value;
+
+    const hint = document.getElementById('hintBox');
+    const hbEl = document.getElementById('s_hb');
+    const fbEl = document.getElementById('s_fb');
+
+    if (!b && !l && !d) { hint.classList.remove('show'); return; }
+
+    let hb = 0, fb = 0, label = '';
+    if (plan === 'BB') { hb = d;     fb = l + d;     label = `BB base → HB = Dinner (${d.toFixed(2)}), FB = Lunch + Dinner (${(l+d).toFixed(2)})`; }
+    if (plan === 'RO') { hb = b + d; fb = b + l + d; label = `RO base → HB = Breakfast + Dinner (${(b+d).toFixed(2)}), FB = All meals (${(b+l+d).toFixed(2)})`; }
+    if (plan === 'HB') { hb = 0;     fb = l;         label = `HB base → HB supplement = 0, FB = Lunch only (${l.toFixed(2)})`; }
+
+    hint.textContent = '💡 ' + label + ' — you can override below.';
+    hint.classList.add('show');
+
+    if (!hbEl.value) hbEl.placeholder = `Auto: ${hb.toFixed(2)}`;
+    if (!fbEl.value) fbEl.placeholder = `Auto: ${fb.toFixed(2)}`;
+}
+
+['s_bfast','s_lunch','s_dinner'].forEach(id =>
+    document.getElementById(id).addEventListener('input', recompose));
+document.getElementById('m_plan').addEventListener('change', recompose);
+
+/* ══════════════════════════════════════════════════════
+   COLLECT & VALIDATE FORM
+══════════════════════════════════════════════════════ */
+function collectForm() {
+    const plan = document.getElementById('m_plan').value;
+    const b = parseFloat(document.getElementById('s_bfast').value)  || 0;
+    const l = parseFloat(document.getElementById('s_lunch').value)  || 0;
+    const d = parseFloat(document.getElementById('s_dinner').value) || 0;
+
+    let hb = parseFloat(document.getElementById('s_hb').value) || 0;
+    let fb = parseFloat(document.getElementById('s_fb').value) || 0;
+    if (!hb) { if (plan==='BB') hb=d; else if (plan==='RO') hb=b+d; }
+    if (!fb) { if (plan==='BB') fb=l+d; else if (plan==='RO') fb=b+l+d; else if (plan==='HB') fb=l; }
+
+    // Season rows
+    const season_rows = [];
+    document.querySelectorAll('#rateTableBody tr[data-row]').forEach(tr => {
+        const name = tr.querySelector('.rt-season-input').value.trim();
+        if (name) season_rows.push({ sid: tr.dataset.row, name });
+    });
+
+    // Room columns
+    const room_cols = [];
+    document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => {
+        const name = th.querySelector('.rt-room-name-input').value.trim();
+        if (name) {
+            const capRow = document.querySelector(`#roomList .room-cap-row[data-col="${th.dataset.col}"]`);
+            room_cols.push({
+                colId:        th.dataset.col,
+                name,
+                max_cap:      capRow ? (parseInt(capRow.querySelector('.rm-cap').value) || 1) : 1,
+                cost_basis:   capRow ? (capRow.querySelector('.rm-basis').value || 'per_room') : 'per_room',
+                sgl_override:      capRow ? (parseFloat(capRow.querySelector('.rm-sgl-override').value) || 0) : 0,
+                sgl_override_type: capRow ? (capRow.querySelector('.rm-sgl-unit').value || 'usd') : 'usd',
+            });
+        }
+    });
+
+    // Cost matrix: {sid: {colId: cost}}
+    const cost_matrix = {};
+    season_rows.forEach(s => {
+        cost_matrix[s.sid] = {};
+        room_cols.forEach(r => {
+            cost_matrix[s.sid][r.colId] = getTableCost(s.sid, r.colId);
+        });
+    });
+
+    // Date ranges
+    const date_ranges = [];
+    document.querySelectorAll('#dateRangeList .drow-daterange').forEach(row => {
+        const sid   = row.querySelector('.dr-season-sel').value;
+        const start = row.querySelector('.dr-start').value;  // YYYY-MM-DD from picker
+        const end   = row.querySelector('.dr-end').value;
+        if (sid && start && end) date_ranges.push({ sid, start: isoToDMY(start), end: isoToDMY(end) });
+    });
+
+    // Age bands
+    const age_bands = [];
+    document.querySelectorAll('#ageBandList .drow').forEach(row => {
+        const selVal   = row.querySelector('.ab-disc').value;
+        const custEl   = row.querySelector('.ab-disc-custom');
+        const discType = (row.querySelector('.ab-disc-type')?.value) || 'pct';
+        const rawVal   = parseFloat(custEl?.value) || 0;
+
+        let discount, discount_type;
+        if (selVal === 'custom') {
+            discount      = rawVal;
+            discount_type = discType;   // 'pct' or 'usd'
+        } else {
+            discount      = parseInt(selVal);
+            discount_type = 'pct';
+        }
+
+        const hbfbMode = row.querySelector('.ab-hbfb-mode')?.value || 'apply_discount';
+        const childHb  = parseFloat(row.querySelector('.ab-child-hb')?.value) || 0;
+        const childFb  = parseFloat(row.querySelector('.ab-child-fb')?.value) || 0;
+
+        age_bands.push({
+            label:         row.querySelector('.ab-type').value,
+            min_age:       parseInt(row.querySelector('.ab-min').value) || 0,
+            max_age:       parseInt(row.querySelector('.ab-max').value) || 99,
+            discount,
+            discount_type,
+            hbfb_mode:     hbfbMode,
+            child_hb:      childHb,
+            child_fb:      childFb,
+            notes:         row.querySelector('.ab-notes').value.trim(),
+        });
+    });
+
+    // Extra supplements
+    const extra = [];
+    document.querySelectorAll('#extraSuppList .supp-row').forEach(row => {
+        // Collect per-season amounts (skip blank ones)
+        const season_amounts = [];
+        row.querySelectorAll('.sa-row').forEach(sr => {
+            const inp  = sr.querySelector('.sp-season-amt');
+            const unit = sr.querySelector('.sp-season-unit');
+            const amt  = parseFloat(inp?.value);
+            if (!isNaN(amt) && amt > 0) {
+                season_amounts.push({
+                    season:      inp.dataset.season,
+                    amount:      amt,
+                    amount_type: unit?.value || 'usd',
+                });
+            }
+        });
+        extra.push({
+            name:          row.querySelector('.sp-name').value.trim(),
+            override_type: row.querySelector('.sp-override-type').value,
+            room:          row.querySelector('.sp-room').value.trim(),
+            band:          row.querySelector('.sp-band').value,
+            season_amounts,
+        });
+    });
+
+    return {
+        hotel_name:        document.getElementById('m_name').value.trim(),
+        contract_year:     document.getElementById('m_year').value.trim(),
+        base_plan:         plan,
+        hotel_desc:        document.getElementById('m_desc').value.trim(),
+        notes:             document.getElementById('m_notes').value.trim(),
+        season_rows, room_cols, cost_matrix, date_ranges, age_bands,
+        hb_supplement:     parseFloat(hb.toFixed(2)),
+        fb_supplement:     parseFloat(fb.toFixed(2)),
+        meal_costs:        { breakfast: b, lunch: l, dinner: d },
+        extra_supplements: extra,
+    };
+}
+
+function validateForm(data) {
+    if (!data.hotel_name)         return 'Hotel name is required.';
+    if (!data.season_rows.length) return 'Add at least one season row in the table.';
+    if (!data.room_cols.length)   return 'Add at least one room column in the table.';
+    if (!data.date_ranges.length) return 'Add at least one date range.';
+    for (const dr of data.date_ranges) {
+        // Dates arrive as DD/MM/YYYY after collectForm conversion — re-parse for comparison
+        const [ds, dm, dy] = dr.start.split('/');
+        const [es, em, ey] = dr.end.split('/');
+        const s = new Date(+dy, +dm-1, +ds);
+        const e = new Date(+ey, +em-1, +es);
+        if (!dr.start || !dr.end) return 'Each date range needs both a start and end date.';
+        if (s >= e) return 'Start date must be before end date in each date range.';
+    }
+    return null;
+}
+
+/* ══════════════════════════════════════════════════════
+   GENERATE CSV
+══════════════════════════════════════════════════════ */
+document.getElementById('generateBtn').addEventListener('click', async () => {
+    const data = collectForm();
+    const err  = validateForm(data);
+    if (err) { setStatus('manualStatus', 'err', '❌ ' + err); return; }
+
+    document.getElementById('generateBtn').disabled = true;
+    document.getElementById('manualResult').classList.remove('show');
+    setStatus('manualStatus', 'info', '⏳ Building CSV rows from your input…');
+
+    try {
+        const res  = await fetch('/manual', {
+            method:  'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body:    JSON.stringify(data),
+        });
+        const result = await res.json();
+        if (result.success) {
+            const dl = document.getElementById('manualDownloadBtn');
+            dl.href     = `/download/${result.output_dir}/${result.csv_file}`;
+            dl.download = result.csv_file;
+            document.getElementById('manualResultMsg').textContent =
+                `${result.row_count || '?'} rows generated for ${result.hotel_name}.`;
+            document.getElementById('manualResult').classList.add('show');
+            document.getElementById('manualStatus').classList.remove('show');
+        } else {
+            setStatus('manualStatus', 'err', '❌ ' + result.error);
+        }
+    } catch(e) {
+        setStatus('manualStatus', 'err', '❌ Network error: ' + e.message);
+    } finally {
+        document.getElementById('generateBtn').disabled = false;
+    }
+});
+
+/* ── Clear / Reset form ──────────────────────────────── */
+document.getElementById('clearBtn').addEventListener('click', () => {
+    if (!confirm('Clear all form data?')) return;
+
+    // Reset PDF upload zone
+    manualPdfFile = null;
+    parsePdfBtn.disabled    = true;
+    parsePdfBtn.textContent = 'Parse PDF & Fill Form';
+    document.getElementById('manualPdfCard').style.borderColor = '';
+    manualUploadArea.innerHTML = `
+        <div class="upload-icon">📋</div>
+        <div class="upload-text">Drop your contract PDF here or click to browse</div>
+        <div class="upload-hint">Maximum file size: 16 MB · PDF only</div>
+        <input type="file" id="manualFileInput" accept=".pdf">`;
+    manualUploadArea.querySelector('input[type=file]')
+        .addEventListener('change', e => handleManualFile(e.target.files[0]));
+
+    // Reset rate table
+    document.getElementById('rateTableBody').innerHTML = '';
+    document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => th.remove());
+    document.getElementById('roomList').innerHTML = '';
+    document.getElementById('dateRangeList').innerHTML = '';
+    document.getElementById('ageBandList').innerHTML = '';
+    document.getElementById('extraSuppList').innerHTML = '';
+    _col = 0; _row = 0;
+
+    ['m_name','m_year','m_desc','m_notes',
+     's_bfast','s_lunch','s_dinner','s_single','s_hb','s_fb']
+        .forEach(id => { document.getElementById(id).value = ''; });
+
+    document.getElementById('hintBox').classList.remove('show');
+    document.getElementById('manualResult').classList.remove('show');
+    document.getElementById('manualStatus').classList.remove('show');
+    document.getElementById('parseStatus').classList.remove('show');
+    document.getElementById('parseProgress').style.display = 'none';
+});
+</script>
 </body>
 </html>

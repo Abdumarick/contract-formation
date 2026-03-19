@@ -1,0 +1,73 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,4,11,1,1,444.0,0.0,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,12,15,1,1,740.0,0.0,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,16,99,1,1,1480.0,735.0,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,4,11,1,1,361.5,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,12,15,1,1,602.5,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,16,99,1,1,1205.0,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,4,11,1,1,361.5,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,12,15,1,1,602.5,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,16,99,1,1,1205.0,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,4,11,1,1,444.0,0.0,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,12,15,1,1,740.0,0.0,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,16,99,1,1,1480.0,735.0,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,4,11,1,1,361.5,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,12,15,1,1,602.5,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,16,99,1,1,1205.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,4,11,1,1,444.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,12,15,1,1,740.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Single),,1,16,99,1,1,1480.0,805.0,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,4,11,1,2,444.0,1480.0,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,12,15,1,2,740.0,1480.0,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,16,99,1,2,1480.0,1480.0,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,4,11,1,2,361.5,1205.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,12,15,1,2,602.5,1205.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,16,99,1,2,1205.0,1205.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,4,11,1,2,361.5,1205.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,12,15,1,2,602.5,1205.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,16,99,1,2,1205.0,1205.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,4,11,1,2,444.0,1480.0,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,12,15,1,2,740.0,1480.0,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,16,99,1,2,1480.0,1480.0,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,4,11,1,2,361.5,1205.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,12,15,1,2,602.5,1205.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,16,99,1,2,1205.0,1205.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,4,11,1,2,444.0,1480.0,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,12,15,1,2,740.0,1480.0,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Luxury tented suite (Double),,2,16,99,1,2,1480.0,1480.0,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,4,11,1,4,387.38,1291.25,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,12,15,1,4,645.62,1291.25,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,16,99,1,4,1291.25,1291.25,0.0,0.0,2026-01-06,2026-02-28
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,4,11,1,4,333.0,1110.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,12,15,1,4,555.0,1110.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,16,99,1,4,1110.0,1110.0,0.0,0.0,2026-03-01,2026-03-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,4,11,1,4,333.0,1110.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,12,15,1,4,555.0,1110.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,16,99,1,4,1110.0,1110.0,0.0,0.0,2026-05-15,2026-05-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,4,11,1,4,387.38,1291.25,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,12,15,1,4,645.62,1291.25,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,16,99,1,4,1291.25,1291.25,0.0,0.0,2026-06-01,2026-10-31
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,4,11,1,4,333.0,1110.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,12,15,1,4,555.0,1110.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,16,99,1,4,1110.0,1110.0,0.0,0.0,2026-11-01,2026-12-19
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,0,3,1,4,0.0,0.0,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,4,11,1,4,424.12,1413.75,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,12,15,1,4,706.88,1413.75,0.0,0.0,2026-12-20,2027-01-05
+,Chem Chem Safari,,,,0,,USD,Family unit,,4,16,99,1,4,1413.75,1413.75,0.0,0.0,2026-12-20,2027-01-05

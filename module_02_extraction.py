@@ -67,7 +67,18 @@ def _extract_scanned(file_path: str) -> str:
     try:
         images = convert_from_path(file_path, dpi=300)
     except Exception as e:
-        raise RuntimeError(f"Failed to convert PDF to images: {e}")
+        if "poppler" in str(e).lower() or "Unable to get page count" in str(e):
+            raise RuntimeError(
+                "Poppler is not installed or not in PATH. This is required for processing scanned PDFs.\n\n"
+                "To fix this issue:\n"
+                "1. Download Poppler from: http://blog.alivate.com.au/poppler-windows/\n"
+                "2. Extract to: C:\\Program Files\\poppler\n"
+                "3. Add C:\\Program Files\\poppler\\bin to your system PATH\n"
+                "4. Restart your command prompt/terminal\n\n"
+                f"Technical details: {e}"
+            )
+        else:
+            raise RuntimeError(f"Failed to convert PDF to images: {e}")
 
     for i, img in enumerate(images, start=1):
         # Enhance image for better OCR

@@ -1,0 +1,135 @@
+{
+  "hotel_name": "Arusha Explorers Lodge",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "High"
+    },
+    {
+      "sid": "row_2",
+      "name": "Low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Family Room",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 171,
+      "col_2": 270,
+      "col_3": 270,
+      "col_4": 385,
+      "col_5": 495
+    },
+    "row_2": {
+      "col_1": 154,
+      "col_2": 242,
+      "col_3": 242,
+      "col_4": 347,
+      "col_5": 451
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "2026-01-01",
+      "end": "2026-03-15"
+    },
+    {
+      "sid": "row_2",
+      "start": "2026-03-16",
+      "end": "2026-06-30"
+    },
+    {
+      "sid": "row_1",
+      "start": "2026-07-01",
+      "end": "2027-01-15"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 3,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 4,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 15,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

@@ -1,0 +1,38 @@
+AUDIT TRAIL — 20260310 114944 Brubru Lodge Sto Rates
+Generated : 2026-03-10 11:50:53.356323
+==========================================================================================
+
+[2026-03-10T11:50:10] INFO       | module_01                 |                        | PDF type=text, pages=5
+[2026-03-10T11:50:10] GUESSED    | module_01                 | hotel_name             | Inferred/assumed
+[2026-03-10T11:50:10] GUESSED    | module_01                 | contract_year          | Inferred/assumed
+[2026-03-10T11:50:32] EXTRACTED  | module_02                 | raw_text               | Extracted from source
+[2026-03-10T11:50:32] INFO       | module_03                 |                        | Text: 11917 → 11356 chars
+[2026-03-10T11:50:32] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-10T11:50:32] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-10T11:50:32] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-10T11:50:32] EXTRACTED  | module_04                 | section                | Extracted from source
+[2026-03-10T11:50:32] EXTRACTED  | module_05                 | season                 | Extracted from source
+[2026-03-10T11:50:32] EXTRACTED  | module_05                 | season                 | Extracted from source
+[2026-03-10T11:50:53] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-10T11:50:53] EXTRACTED  | module_06                 | room_rate              | Extracted from source
+[2026-03-10T11:50:53] EXTRACTED  | module_07                 | age_rule               | Extracted from source
+[2026-03-10T11:50:53] EXTRACTED  | module_07                 | age_rule               | Extracted from source
+[2026-03-10T11:50:53] EXTRACTED  | module_07                 | age_rule               | Extracted from source
+[2026-03-10T11:50:53] EXTRACTED  | module_08                 | base_meal_plan         | Extracted from source
+[2026-03-10T11:50:53] EXTRACTED  | module_08                 | single_supplement      | Extracted from source
+[2026-03-10T11:50:53] EXTRACTED  | module_08                 | hb_supplement          | Extracted from source
+[2026-03-10T11:50:53] EXTRACTED  | module_08                 | fb_supplement          | Extracted from source
+[2026-03-10T11:50:53] INFO       | module_09                 |                        | Generated 8 CSV rows
+[2026-03-10T11:50:53] WARNING    | module_10                 |                        | [WARNING] Row 1 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-10T11:50:53] WARNING    | module_10                 |                        | [WARNING] Row 2 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-10T11:50:53] WARNING    | module_10                 |                        | [WARNING] Row 5 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-10T11:50:53] WARNING    | module_10                 |                        | [WARNING] Row 6 | cost: Cost is zero for a non-infant row (value: '0')
+[2026-03-10T11:50:53] EXTRACTED  | module_11                 | output_csv             | Extracted from source
+
+==========================================================================================
+
+── Audit Summary ──────────────────────
+  EXTRACTED     : 17
+  GUESSED       : 2
+  INFO          : 3
+  WARNING       : 4

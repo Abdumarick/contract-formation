@@ -1,0 +1,538 @@
+{
+  "hotel_name": "Manual 20260309 121647 Kiwoito Africa Safaris Sto   2",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "",
+  "notes": "",
+  "seasons": [
+    {
+      "sid": "sid_1",
+      "name": "High",
+      "start": "2026-01-01",
+      "end": "2026-01-06",
+      "cost": 205
+    },
+    {
+      "sid": "sid_2",
+      "name": "low",
+      "start": "2026-01-07",
+      "end": "2026-01-31",
+      "cost": 180
+    },
+    {
+      "sid": "sid_3",
+      "name": "Normal",
+      "start": "2026-02-01",
+      "end": "2026-02-28",
+      "cost": 185
+    },
+    {
+      "sid": "sid_4",
+      "name": "Low",
+      "start": "2026-03-01",
+      "end": "2026-05-31",
+      "cost": 180
+    },
+    {
+      "sid": "sid_5",
+      "name": "Normal",
+      "start": "2026-06-01",
+      "end": "2026-06-15",
+      "cost": 185
+    },
+    {
+      "sid": "sid_6",
+      "name": "High",
+      "start": "2026-06-16",
+      "end": "2026-09-15",
+      "cost": 205
+    },
+    {
+      "sid": "sid_7",
+      "name": "Normal",
+      "start": "2026-09-16",
+      "end": "2026-10-31",
+      "cost": 185
+    },
+    {
+      "sid": "sid_8",
+      "name": "Low",
+      "start": "2026-11-01",
+      "end": "2026-12-20",
+      "cost": 180
+    },
+    {
+      "sid": "sid_9",
+      "name": "high",
+      "start": "2026-12-21",
+      "end": "2027-01-06",
+      "cost": 205
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 0,
+      "notes": "Children up to five (05) years of age staying at their parent’s room stay free of charge with a maximum of two (02) chil"
+    },
+    {
+      "label": "child",
+      "min_age": 6,
+      "max_age": 12,
+      "discount": 50,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "notes": ""
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Double/Twin",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Triple (Executive Room)",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Executive Room - Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Family Room (4 pax)",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Junior Suite",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Early Check -In",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Early Check -In",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Early Check -In",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Late Check - out",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Late Check - out",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Late Check - out",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Day Use Room (SGL or DBL)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Day Use Room (SGL or DBL)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Day Use Room (SGL or DBL)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Extra Bed /Crib",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    },
+    {
+      "name": "Extra Bed /Crib",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "single_supplement": 0,
+      "hb_supplement": 35,
+      "fb_supplement": 63
+    }
+  ],
+  "single_supplement": 0,
+  "hb_supplement": 35,
+  "fb_supplement": 63,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 28,
+    "dinner": 35
+  },
+  "extra_supplements": []
+}

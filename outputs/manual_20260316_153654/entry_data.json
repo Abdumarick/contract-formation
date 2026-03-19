@@ -1,0 +1,112 @@
+{
+  "hotel_name": "Karatu Simba Lodge",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_2",
+      "name": "Low"
+    },
+    {
+      "sid": "row_3",
+      "name": "High"
+    },
+    {
+      "sid": "row_4",
+      "name": "Sholder"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_3",
+      "name": "Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_2": {
+      "col_3": 275
+    },
+    "row_3": {
+      "col_3": 482
+    },
+    "row_4": {
+      "col_3": 429
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_4",
+      "start": "01/01/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/04/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/06/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/11/2026",
+      "end": "15/12/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "16/12/2026",
+      "end": "03/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "child",
+      "min_age": 0,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 13,
+      "max_age": 16,
+      "discount": 75,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}
