@@ -5,32 +5,45 @@ import csv
 import json
 import re
 import logging
+import shutil
 logging.basicConfig(level=logging.DEBUG)
 from werkzeug.utils import secure_filename
 from datetime import datetime
 
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from main import parse_pdf
 
 def normalise_date(s):
     """Accept DD/MM/YYYY or YYYY-MM-DD, return DD/MM/YYYY for CSV output."""
     s = (s or '').strip()
-    # Already DD/MM/YYYY
     m = re.match(r'^(\d{1,2})/(\d{1,2})/(\d{4})$', s)
     if m:
         return f"{int(m.group(1)):02d}/{int(m.group(2)):02d}/{m.group(3)}"
-    # ISO YYYY-MM-DD (from PDF pipeline or legacy)
     m = re.match(r'^(\d{4})-(\d{2})-(\d{2})$', s)
     if m:
         return f"{m.group(3)}/{m.group(2)}/{m.group(1)}"
-    return s  # return as-is if unrecognised
+    return s
 
 
-app = Flask(__name__)
+def safe_file_stem(value, fallback='contract'):
+    """Return a Windows-safe filename stem without path separators."""
+    stem = re.sub(r'[<>:"/\\|?*\x00-\x1f]+', '_', (value or '').strip())
+    stem = re.sub(r'\s+', '_', stem)
+    stem = re.sub(r'_+', '_', stem).strip(' ._')
+    return (stem or fallback)[:40]
+
+
+# Base directory = folder containing web_interface.py (always absolute)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# HTML templates live in the templates/ subfolder.
+app = Flask(__name__,
+            template_folder=os.path.join(BASE_DIR, 'templates'),
+            static_folder=BASE_DIR)
 app.secret_key = 'hotel-contract-parser-secret-key'
 
-UPLOAD_FOLDER = 'uploads'
-OUTPUT_FOLDER = 'outputs'
+UPLOAD_FOLDER  = os.path.join(BASE_DIR, 'uploads')
+OUTPUT_FOLDER  = os.path.join(BASE_DIR, 'outputs')
 ALLOWED_EXTENSIONS = {'pdf'}
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -85,21 +98,39 @@ def upload_file():
 
         # Reformat dates in the generated CSV to DD/MM/YYYY
         csv_path = result['csv']
+        rows_data = []
         if os.path.exists(csv_path):
             with open(csv_path, newline='', encoding='utf-8') as f:
-                rows = list(csv.DictReader(f))
-            for row in rows:
+                rows_data = list(csv.DictReader(f))
+            for row in rows_data:
                 if row.get('start_date'): row['start_date'] = normalise_date(row['start_date'])
                 if row.get('end_date'):   row['end_date']   = normalise_date(row['end_date'])
             with open(csv_path, 'w', newline='', encoding='utf-8') as f:
                 writer = csv.DictWriter(f, fieldnames=CSV_COLUMNS)
                 writer.writeheader()
-                writer.writerows(rows)
+                writer.writerows(rows_data)
+
+        # Save metadata for contracts library
+        first = rows_data[0] if rows_data else {}
+        meta = {
+            'source':       'pdf',
+            'original_pdf': filename,
+            'hotel_name':   first.get('hotel_name', ''),
+            'hotel_group':  first.get('hotel_group', '') or 'Single',
+            'location':     first.get('location_name', '') or '',
+            'csv_file':     os.path.basename(csv_path),
+            'xlsx_file':    os.path.basename(result['xlsx']) if result.get('xlsx') else None,
+            'row_count':    len(rows_data),
+            'created_at':   datetime.now().isoformat(),
+            'output_dir':   f'output_{timestamp}',
+        }
+        with open(os.path.join(output_dir, 'meta.json'), 'w', encoding='utf-8') as f:
+            json.dump(meta, f, indent=2)
 
         return jsonify({
             'success':    True,
             'message':    'PDF processed successfully!',
-            'csv_file':   os.path.basename(result['csv']),
+            'csv_file':   os.path.basename(csv_path),
             'output_dir': f'output_{timestamp}',
             'excel_file': os.path.basename(result['xlsx']) if result.get('xlsx') else None,
         })
@@ -137,7 +168,11 @@ def manual_entry():
             return jsonify({'error': 'No JSON data received'}), 400
 
         hotel_name  = data.get('hotel_name', '').strip()
+        location_name = data.get('location_name', '').strip()
         hotel_desc  = data.get('hotel_desc', '')
+        room_desc   = data.get('room_desc', '')
+        inside_restricted_area = data.get('inside_restricted_area', 'FALSE') or 'FALSE'
+        ignore_proposal_margin = data.get('ignore_proposal_margin', 'FALSE') or 'FALSE'
         season_rows = data.get('season_rows', [])   # [{sid, name}]
         room_cols   = data.get('room_cols',   [])   # [{colId, name, max_cap, cost_basis}]
         cost_matrix = data.get('cost_matrix', {})   # {sid: {colId: cost}}
@@ -199,28 +234,35 @@ def manual_entry():
                 def get_extra_override(otype, band_label, season_name='', band_min=None, band_max=None):
                     for xs in data.get('extra_supplements', []):
                         if xs.get('override_type') != otype: continue
-                        xs_room = xs.get('room', '')
-                        xs_band = xs.get('band', '')
-                        if xs_room and xs_room != room_name: continue
-                        # Band matching: xs_band is "child_13_16" or "" (all bands)
-                        if xs_band:
-                            parts = xs_band.split('_')
-                            band_type = parts[0]
-                            # Must match label type
-                            if band_type != band_label: continue
-                            # If ages are encoded in the value, match exactly
-                            if len(parts) >= 3 and band_min is not None and band_max is not None:
-                                try:
-                                    if int(parts[1]) != band_min or int(parts[2]) != band_max:
-                                        continue
-                                except (ValueError, IndexError):
-                                    pass  # malformed value — fall through to type-only match
+                        xs_rooms = xs.get('rooms') or ([xs.get('room')] if xs.get('room') else [])
+                        xs_bands = xs.get('bands') or ([xs.get('band')] if xs.get('band') else [])
+                        xs_rooms = [r for r in xs_rooms if r]
+                        xs_bands = [b for b in xs_bands if b]
+                        if xs_rooms and room_name not in xs_rooms: continue
+                        # Band matching: values look like "child_13_16"; empty list means all bands.
+                        if xs_bands:
+                            band_matches = False
+                            for xs_band in xs_bands:
+                                parts = xs_band.split('_')
+                                band_type = parts[0]
+                                if band_type != band_label:
+                                    continue
+                                if len(parts) >= 3 and band_min is not None and band_max is not None:
+                                    try:
+                                        if int(parts[1]) != band_min or int(parts[2]) != band_max:
+                                            continue
+                                    except (ValueError, IndexError):
+                                        pass
+                                band_matches = True
+                                break
+                            if not band_matches:
+                                continue
                         season_amounts = xs.get('season_amounts', [])
                         if season_amounts:
                             match = next((sa for sa in season_amounts
                                           if sa.get('season','') == season_name), None)
                             app.logger.debug(
-                                f"[override] type={otype} band={xs_band} "
+                                f"[override] type={otype} bands={xs_bands} "
                                 f"band_label={band_label} min={band_min} max={band_max} "
                                 f"season='{season_name}' match={match}"
                             )
@@ -245,12 +287,10 @@ def manual_entry():
                     child_hb_amt  = float(band.get('child_hb', 0) or 0)
                     child_fb_amt  = float(band.get('child_fb', 0) or 0)
 
-                    # Zero-cost band: only when discount is explicitly 0
+                    # Zero-cost bands still may carry HB/FB meal supplements.
                     if discount == 0:
                         row_cost = 0.0
                         row_sgl  = 0.0
-                        row_hb   = 0.0
-                        row_fb   = 0.0
                     else:
                         if discount_type == 'usd':
                             row_cost = round(float(discount), 2)
@@ -265,34 +305,34 @@ def manual_entry():
                         sgl_xs  = get_extra_override('single_supp', label, season_name_map.get(sid,''), min_age, max_age)
                         row_sgl = sgl_xs if sgl_xs is not None else sgl_supp
 
-                        if label == 'child':
-                            if hbfb_mode == 'same_as_adult':
-                                base_hb, base_fb = hb_global, fb_global
-                            elif hbfb_mode == 'custom':
-                                base_hb, base_fb = child_hb_amt, child_fb_amt
-                            else:
-                                f = (discount / 100.0) if discount_type == 'pct' else 1.0
-                                base_hb = round(hb_global * f, 2)
-                                base_fb = round(fb_global * f, 2)
-                        else:
+                    if label in ('child', 'infant'):
+                        if hbfb_mode == 'same_as_adult':
                             base_hb, base_fb = hb_global, fb_global
+                        elif hbfb_mode == 'custom':
+                            base_hb, base_fb = child_hb_amt, child_fb_amt
+                        else:
+                            f = (discount / 100.0) if discount_type == 'pct' else 1.0
+                            base_hb = round(hb_global * f, 2)
+                            base_fb = round(fb_global * f, 2)
+                    else:
+                        base_hb, base_fb = hb_global, fb_global
 
-                        hb_xs  = get_extra_override('hb_supp', label, season_name_map.get(sid,''), min_age, max_age)
-                        fb_xs  = get_extra_override('fb_supp', label, season_name_map.get(sid,''), min_age, max_age)
-                        row_hb = hb_xs if hb_xs is not None else base_hb
-                        row_fb = fb_xs if fb_xs is not None else base_fb
+                    hb_xs  = get_extra_override('hb_supp', label, season_name_map.get(sid,''), min_age, max_age)
+                    fb_xs  = get_extra_override('fb_supp', label, season_name_map.get(sid,''), min_age, max_age)
+                    row_hb = hb_xs if hb_xs is not None else base_hb
+                    row_fb = fb_xs if fb_xs is not None else base_fb
 
                     rows.append({
-                        'location_name':          '',
+                        'location_name':          location_name,
                         'hotel_name':             hotel_name,
                         'hotel_group':            '',
                         'hotel_desc':             hotel_desc,
-                        'inside_restricted_area': '',
+                        'inside_restricted_area': inside_restricted_area,
                         'margin':                 0,
-                        'ignore_proposal_margin': '',
+                        'ignore_proposal_margin': ignore_proposal_margin,
                         'currency':               'USD',
                         'room_name':              room_name,
-                        'room_desc':              '',
+                        'room_desc':              room_desc,
                         'max_cap':                max_cap,
                         'min_age':                min_age,
                         'max_age':                max_age,
@@ -308,10 +348,23 @@ def manual_entry():
 
         # Write CSV
         timestamp  = datetime.now().strftime('%Y%m%d_%H%M%S')
-        output_dir = os.path.join(app.config['OUTPUT_FOLDER'], f'manual_{timestamp}')
+        save_to_output_dir = (data.get('save_to_output_dir') or '').strip()
+        if save_to_output_dir:
+            if '/' in save_to_output_dir or '\\' in save_to_output_dir or '..' in save_to_output_dir:
+                return jsonify({'error': 'Invalid saved contract folder'}), 400
+            output_dir_name = save_to_output_dir
+            output_dir = os.path.join(app.config['OUTPUT_FOLDER'], output_dir_name)
+            if not os.path.isdir(output_dir):
+                return jsonify({'error': 'Saved contract folder was not found'}), 404
+            for old_file in os.listdir(output_dir):
+                if old_file.lower().endswith('.csv'):
+                    os.remove(os.path.join(output_dir, old_file))
+        else:
+            output_dir_name = f'manual_{timestamp}'
+            output_dir = os.path.join(app.config['OUTPUT_FOLDER'], output_dir_name)
         os.makedirs(output_dir, exist_ok=True)
 
-        safe_name = hotel_name.replace(' ', '_')[:40]
+        safe_name = safe_file_stem(hotel_name)
         csv_file  = f'{safe_name}_{timestamp}.csv'
         csv_path  = os.path.join(output_dir, csv_file)
 
@@ -320,17 +373,36 @@ def manual_entry():
             writer.writeheader()
             writer.writerows(rows)
 
-        # Save a metadata JSON alongside
+        # Save metadata for contracts library
+        meta = {
+            'source':      'manual',
+            'hotel_name':  hotel_name,
+            'hotel_group': data.get('hotel_group', '') or 'Single',
+            'location':    data.get('location_name', '') or '',
+            'csv_file':    csv_file,
+            'xlsx_file':   None,
+            'row_count':   len(rows),
+            'created_at':  datetime.now().isoformat(),
+            'output_dir':  output_dir_name,
+            'contract_year': data.get('contract_year', ''),
+            'base_plan':   data.get('base_plan', ''),
+        }
+        with open(os.path.join(output_dir, 'meta.json'), 'w', encoding='utf-8') as f:
+            json.dump(meta, f, indent=2)
+
+        # Save full form data for re-edit
         meta_path = os.path.join(output_dir, 'entry_data.json')
+        saved_form_data = dict(data)
+        saved_form_data.pop('save_to_output_dir', None)
         with open(meta_path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+            json.dump(saved_form_data, f, indent=2, ensure_ascii=False)
 
         return jsonify({
             'success':    True,
             'hotel_name': hotel_name,
             'row_count':  len(rows),
             'csv_file':   csv_file,
-            'output_dir': f'manual_{timestamp}',
+            'output_dir': output_dir_name,
         })
 
     except Exception as e:
@@ -413,7 +485,106 @@ def view_logs(output_dir):
         return jsonify({'error': f'Error reading logs: {str(e)}'}), 500
 
 
+
+# ── Contracts Library ─────────────────────────────────────────────────────────
+@app.route('/library')
+def library():
+    return render_template('library.html')
+
+
+@app.route('/api/contracts')
+def list_contracts():
+    """Scan all output folders, read meta.json (or fall back to CSV first row)."""
+    out_dir = app.config['OUTPUT_FOLDER']
+    contracts = []
+    try:
+        dirs = sorted([
+            d for d in os.listdir(out_dir)
+            if os.path.isdir(os.path.join(out_dir, d))
+        ], reverse=True)
+    except FileNotFoundError:
+        return jsonify([])
+
+    for d in dirs:
+        folder = os.path.join(out_dir, d)
+        meta_file = os.path.join(folder, 'meta.json')
+
+        if os.path.exists(meta_file):
+            with open(meta_file, encoding='utf-8') as f:
+                meta = json.load(f)
+        else:
+            # Legacy: read first row of any CSV in the folder
+            csvs = [f for f in os.listdir(folder) if f.endswith('.csv')]
+            if not csvs:
+                continue
+            csv_file = csvs[0]
+            try:
+                with open(os.path.join(folder, csv_file), newline='', encoding='utf-8') as f:
+                    reader = csv.DictReader(f)
+                    first  = next(reader, {})
+                meta = {
+                    'source':      'legacy',
+                    'hotel_name':  first.get('hotel_name', d),
+                    'hotel_group': first.get('hotel_group', '') or 'Single',
+                    'location':    first.get('location_name', '') or '',
+                    'csv_file':    csv_file,
+                    'xlsx_file':   None,
+                    'row_count':   None,
+                    'created_at':  None,
+                    'output_dir':  d,
+                    'contract_year': '',
+                    'base_plan':   '',
+                }
+            except Exception:
+                continue
+
+        # Find actual files on disk (in case they were renamed / added)
+        files = os.listdir(folder)
+        meta['output_dir'] = d
+        meta['csv_file']   = next((f for f in files if f.endswith('.csv')), meta.get('csv_file'))
+        meta['xlsx_file']  = next((f for f in files if f.endswith(('.xlsx','.xls'))), meta.get('xlsx_file'))
+        meta['has_entry_data'] = os.path.exists(os.path.join(folder, 'entry_data.json'))
+
+        # Derive timestamp label from folder name
+        parts = d.replace('manual_','').replace('output_','')
+        try:
+            meta['created_at'] = meta.get('created_at') or \
+                datetime.strptime(parts[:15], '%Y%m%d_%H%M%S').isoformat()
+        except Exception:
+            pass
+
+        contracts.append(meta)
+
+    return jsonify(contracts)
+
+
+@app.route('/api/contracts/<output_dir>', methods=['DELETE'])
+def delete_contract(output_dir):
+    """Delete an entire output folder."""
+    if '/' in output_dir or '\\' in output_dir or '..' in output_dir:
+        return jsonify({'error': 'Invalid folder name'}), 400
+    folder = os.path.join(app.config['OUTPUT_FOLDER'], output_dir)
+    if not os.path.isdir(folder):
+        return jsonify({'error': 'Folder not found'}), 404
+    shutil.rmtree(folder)
+    return jsonify({'success': True})
+
+
+@app.route('/api/contracts/<output_dir>/entry_data')
+def get_entry_data(output_dir):
+    """Return the saved form JSON for re-loading into the manual entry form."""
+    if '/' in output_dir or '..' in output_dir:
+        return jsonify({'error': 'Invalid folder'}), 400
+    path = os.path.join(app.config['OUTPUT_FOLDER'], output_dir, 'entry_data.json')
+    if not os.path.exists(path):
+        return jsonify({'error': 'No entry data saved for this contract'}), 404
+    with open(path, encoding='utf-8') as f:
+        data = json.load(f)
+    data['_output_dir'] = output_dir
+    return jsonify(data)
+
+
 if __name__ == '__main__':
     print('Starting Hotel Contract Parser...')
-    print('Open: http://localhost:5000')
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    print('Open: http://localhost:8081')
+    app.run(debug=True, host='0.0.0.0', port=8081)

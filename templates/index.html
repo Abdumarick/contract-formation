@@ -46,6 +46,7 @@
             content: '';
             position: absolute; inset: 0;
             background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            pointer-events: none;
         }
         .header h1 {
             font-family: 'Playfair Display', serif;
@@ -212,7 +213,7 @@
         .drow-season   { grid-template-columns: 1.6fr 1fr 1fr 1fr auto; }
         .drow-ageband  { grid-template-columns: 1.1fr .55fr .55fr 1fr .6fr .6fr 1fr 1fr auto; }
         .drow-ageband .child-only { display:none; }
-        .drow-ageband.is-child .child-only { display:flex; }
+        .drow-ageband.is-meal-child .child-only { display:flex; }
         .drow-room     { grid-template-columns: 2fr 1fr 1.2fr auto auto; }
         .drow-supp     { grid-template-columns: 1.8fr 1fr 1fr auto; }
 
@@ -471,19 +472,30 @@
             outline:none; min-width:80px;
         }
         .rt-room-name-input::placeholder { color:var(--muted); font-weight:400; }
-        .rt-del-col {
+        .rt-dup-col, .rt-dup-row, .rt-del-col {
             width:20px; height:20px; background:rgba(248,81,73,.12);
             border:1px solid rgba(248,81,73,.2); border-radius:5px;
             color:var(--rose); font-size:12px; cursor:pointer;
             display:flex; align-items:center; justify-content:center; flex-shrink:0;
             transition:background .15s; padding:0;
         }
+        .rt-dup-col, .rt-dup-row {
+            background:rgba(57,211,187,.12);
+            border-color:rgba(57,211,187,.25);
+            color:var(--teal);
+            font-weight:700;
+        }
+        .rt-dup-col:hover, .rt-dup-row:hover { background:rgba(57,211,187,.25); }
         .rt-del-col:hover { background:rgba(248,81,73,.28); }
-        .rt-season-cell { background:var(--surface); min-width:120px; }
+        .rt-season-cell { background:var(--surface); min-width:170px; }
+        .rt-season-inner {
+            display:flex; align-items:center; gap:6px;
+            padding:0 8px;
+        }
         .rt-season-input {
             width:100%; background:transparent; border:none; color:var(--text);
             font-family:Outfit,sans-serif; font-size:.88em; font-weight:600;
-            padding:10px 14px; outline:none;
+            padding:10px 6px; outline:none; min-width:95px;
         }
         .rt-season-input::placeholder { color:var(--muted); font-weight:400; }
         .rt-cost-cell { background:var(--bg); }
@@ -512,10 +524,31 @@
         .rt-add-btn:hover { color:var(--accent); border-color:var(--accent); }
         /* Room capacity rows */
         .room-cap-row {
-            display:grid; grid-template-columns:2fr 1fr 1.4fr 1.8fr;
-            gap:12px; padding:14px 16px;
+            display:flex; flex-direction:column; gap:12px;
+            padding:14px 16px;
             background:var(--surface2); border:1px solid var(--border);
-            border-radius:9px; align-items:end;
+            border-radius:9px;
+        }
+        .rcr-row1 {
+            display:grid; grid-template-columns:2fr 1fr 1.4fr 1.8fr;
+            gap:12px; align-items:end;
+        }
+        .rcr-row2 {
+            display:flex; gap:12px; align-items:end; flex-wrap:wrap;
+            padding-top:10px; border-top:1px solid var(--border);
+        }
+        .rcr-row2 .rcr-field { flex:1; min-width:170px; }
+        .rcr-pct-field { flex:0 0 110px; min-width:90px; }
+        .rcr-source-badge {
+            font-size:.72em; color:var(--accent);
+            background:rgba(88,166,255,.08);
+            border:1px solid rgba(88,166,255,.18);
+            border-radius:6px; padding:6px 10px;
+            white-space:nowrap; align-self:end;
+            display:flex; align-items:center; gap:4px;
+        }
+        @media(max-width:640px) {
+            .rcr-row1 { grid-template-columns: 1fr 1fr; }
         }
         .input-with-unit {
             display:flex; gap:6px; align-items:stretch;
@@ -564,7 +597,7 @@
         /* Top row: Name | Overrides | Room | Band | ✕ */
         .supp-row-top {
             display: grid;
-            grid-template-columns: 2fr 180px 160px 200px 28px;
+            grid-template-columns: 2fr 180px minmax(160px, 1fr) minmax(200px, 1.1fr) 28px;
             gap: 10px;
             align-items: end;
         }
@@ -598,49 +631,92 @@
         }
         .supp-input:focus { border-color: var(--accent); }
         .supp-input::placeholder { color: var(--muted); }
+        select.supp-input[multiple] {
+            min-height: 82px;
+            padding: 6px 8px;
+        }
+        .supp-mini-hint {
+            color: var(--muted);
+            font-size: .68em;
+            line-height: 1.25;
+        }
 
         /* Per-season amounts section */
         .supp-row-seasons {
             border-top: 1px solid var(--border);
-            padding-top: 10px;
+            padding-top: 12px;
         }
         .sa-header {
             display: flex;
-            align-items: baseline;
-            gap: 10px;
-            margin-bottom: 8px;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 10px;
         }
         .sa-title {
             font-size: .72em;
             font-weight: 700;
             letter-spacing: .06em;
             text-transform: uppercase;
-            color: var(--muted);
+            color: var(--teal);
+            white-space: nowrap;
         }
         .sa-hint {
             font-size: .7em;
-            color: #4a5568;
+            color: var(--muted);
+            text-align: right;
         }
         .sa-grid {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             gap: 8px;
+            overflow-x: auto;
+            padding: 2px 2px 8px;
+            scroll-snap-type: x proximity;
+        }
+        .sa-grid::-webkit-scrollbar {
+            height: 7px;
+        }
+        .sa-grid::-webkit-scrollbar-track {
+            background: rgba(13,17,23,.65);
+            border-radius: 999px;
+        }
+        .sa-grid::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 999px;
+        }
+        .sa-grid::-webkit-scrollbar-thumb:hover {
+            background: #475569;
         }
         .sa-row {
-            display: flex;
+            display: grid;
+            grid-template-columns: minmax(56px, 1fr) 104px;
             align-items: center;
             gap: 6px;
-            background: var(--bg);
+            background: linear-gradient(180deg, rgba(13,17,23,.98), rgba(13,17,23,.82));
             border: 1px solid var(--border);
             border-radius: 7px;
-            padding: 6px 10px 6px 12px;
+            padding: 6px 8px 6px 10px;
+            flex: 0 0 210px;
+            scroll-snap-align: start;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.03);
+            transition: border-color .18s, transform .18s, background .18s;
+        }
+        .sa-row:hover {
+            border-color: rgba(57,211,187,.4);
+            background: linear-gradient(180deg, rgba(17,24,39,.98), rgba(13,17,23,.88));
+        }
+        .sa-row.has-value {
+            border-color: rgba(63,185,80,.45);
+            box-shadow: inset 3px 0 0 var(--accent2), inset 0 1px 0 rgba(255,255,255,.04);
         }
         .sa-season-name {
             font-size: .82em;
-            font-weight: 600;
+            font-weight: 700;
             color: var(--text);
             white-space: nowrap;
-            min-width: 60px;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         .sa-empty {
             font-size: .8em;
@@ -649,13 +725,20 @@
         }
         .supp-amt-wrap {
             display: flex;
-            gap: 5px;
+            gap: 6px;
             align-items: stretch;
+            justify-content: flex-end;
         }
         .supp-amt-wrap .supp-input {
-            width: 80px;
+            width: 70px;
             min-width: 0;
             text-align: right;
+            font-weight: 600;
+        }
+        .supp-amt-wrap .unit-sel {
+            width: 32px;
+            padding-left: 6px;
+            padding-right: 6px;
         }
 
         @media(max-width:860px) {
@@ -672,6 +755,19 @@
             text-align: left;
         }
         .rt-cost-input { text-align: right; }
+        .rt-cost-input.rt-cost-auto {
+            background: rgba(88,166,255,.07);
+            color: var(--accent);
+            font-style: italic;
+            cursor: not-allowed;
+        }
+        .rt-room-th.rt-room-derived .rt-room-th-inner::after {
+            content: '%';
+            font-size: .7em;
+            color: var(--accent);
+            margin-left: 4px;
+            opacity: .8;
+        }
         .drow-label, .rcr-label, .supp-label {
             font-size: .69em;
             letter-spacing: .06em;
@@ -695,13 +791,189 @@
             background: var(--border);
         }
 
-        </style>
+
+        /* ── Bulk price adjust popover ──────────────────────── */
+        .rt-adjust-btn, .rt-row-adjust-btn {
+            width:28px; height:20px;
+            background:rgba(210,153,34,.15);
+            border:1px solid rgba(210,153,34,.3);
+            border-radius:5px;
+            color:var(--amber);
+            font-size:11px;
+            cursor:pointer;
+            display:flex; align-items:center; justify-content:center;
+            flex-shrink:0; transition:background .15s; padding:0;
+        }
+        .rt-adjust-btn:hover, .rt-row-adjust-btn:hover { background:rgba(210,153,34,.3); }
+
+        .price-adjust-popover {
+            position:fixed; top:0; left:0;
+            transform:translateX(-50%);
+            background:var(--surface);
+            border:1px solid var(--border);
+            border-radius:10px;
+            padding:14px 16px;
+            z-index:200;
+            min-width:260px;
+            max-width:360px;
+            box-shadow:0 8px 32px rgba(0,0,0,.5);
+        }
+        .price-adjust-popover::before {
+            content:'';
+            position:absolute; bottom:-6px; left:50%; transform:translateX(-50%);
+            border:6px solid transparent;
+            border-top-color:var(--border);
+            border-bottom:none;
+        }
+        .pap-title {
+            font-size:.72em; font-weight:700; letter-spacing:.06em;
+            text-transform:uppercase; color:var(--amber);
+            margin-bottom:10px;
+        }
+        .pap-row {
+            display:flex; gap:6px; align-items:center; margin-bottom:8px;
+        }
+        .pap-field {
+            display:flex;
+            flex-direction:column;
+            gap:5px;
+            margin:10px 0 8px;
+        }
+        .pap-field-label {
+            color:var(--muted);
+            font-size:.68em;
+            font-weight:700;
+            letter-spacing:.06em;
+            text-transform:uppercase;
+        }
+        .pap-sign {
+            display:flex; border-radius:6px; overflow:hidden;
+            border:1px solid var(--border); flex-shrink:0;
+        }
+        .pap-sign button {
+            width:28px; height:32px; background:var(--surface2);
+            border:none; color:var(--text); font-size:1em;
+            cursor:pointer; transition:background .15s;
+        }
+        .pap-sign button.active { background:var(--accent); color:#fff; }
+        .pap-inp {
+            flex:1; background:var(--surface2);
+            border:1.5px solid var(--border); border-radius:6px;
+            color:var(--text); font-family:Outfit,sans-serif;
+            font-size:.9em; padding:6px 10px; outline:none;
+            text-align:right;
+        }
+        .pap-inp:focus { border-color:var(--accent); }
+        .pap-unit {
+            background:var(--surface2); border:1.5px solid var(--border);
+            border-radius:6px; color:var(--text);
+            font-family:Outfit,sans-serif; font-size:.85em;
+            padding:6px 8px; outline:none; cursor:pointer; flex-shrink:0;
+        }
+        .pap-room-select {
+            width:100%;
+            min-height:86px;
+            max-height:128px;
+            background:var(--surface2);
+            border:1.5px solid var(--border);
+            border-radius:7px;
+            color:var(--text);
+            font-family:Outfit,sans-serif;
+            font-size:.82em;
+            padding:6px 8px;
+            outline:none;
+        }
+        .pap-room-select:focus { border-color:var(--accent); }
+        .pap-hint {
+            color:var(--muted);
+            font-size:.7em;
+            line-height:1.3;
+            margin:0;
+        }
+        .pap-actions { display:flex; gap:6px; margin-top:10px; }
+        .pap-apply {
+            flex:1; padding:7px; border-radius:7px; border:none;
+            background:var(--amber); color:#000; font-family:Outfit,sans-serif;
+            font-size:.82em; font-weight:700; cursor:pointer; transition:opacity .15s;
+        }
+        .pap-apply:hover { opacity:.85; }
+        .pap-cancel {
+            padding:7px 12px; border-radius:7px;
+            background:var(--surface2); border:1px solid var(--border);
+            color:var(--muted); font-family:Outfit,sans-serif;
+            font-size:.82em; cursor:pointer;
+        }
+        .pap-undo {
+            padding:7px 10px; border-radius:7px;
+            background:rgba(88,166,255,.1); border:1px solid rgba(88,166,255,.2);
+            color:var(--accent); font-family:Outfit,sans-serif;
+            font-size:.82em; cursor:pointer; display:none;
+        }
+        .pap-preview {
+            font-size:.72em; color:var(--muted); margin-top:6px;
+            min-height:16px; text-align:left;
+            line-height:1.4;
+            max-height:70px;
+            overflow:auto;
+            padding:6px 8px;
+            background:rgba(13,17,23,.55);
+            border:1px solid rgba(48,54,61,.65);
+            border-radius:7px;
+        }
+        /* ── Year shift button ──────────────────────────────── */
+        .date-shift-btn {
+            padding:5px 10px; border-radius:7px;
+            background:rgba(57,211,187,.1);
+            border:1px solid rgba(57,211,187,.25);
+            color:var(--teal); font-family:Outfit,sans-serif;
+            font-size:.77em; font-weight:600; cursor:pointer;
+            display:flex; align-items:center; gap:5px;
+            transition:background .15s; white-space:nowrap;
+        }
+        .date-shift-btn:hover { background:rgba(57,211,187,.22); }
+        .year-shift-popover {
+            position:absolute; top:calc(100% + 4px); right:0;
+            background:var(--surface);
+            border:1px solid var(--border);
+            border-radius:10px; padding:14px 16px;
+            z-index:200; min-width:220px;
+            box-shadow:0 8px 32px rgba(0,0,0,.5);
+        }
+        .ysp-title {
+            font-size:.72em; font-weight:700; letter-spacing:.06em;
+            text-transform:uppercase; color:var(--teal); margin-bottom:10px;
+        }
+        .ysp-btns { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px; }
+        .ysp-btn {
+            padding:6px 12px; border-radius:7px; border:1px solid var(--border);
+            background:var(--surface2); color:var(--text);
+            font-family:Outfit,sans-serif; font-size:.82em; font-weight:600;
+            cursor:pointer; transition:all .15s;
+        }
+        .ysp-btn:hover { border-color:var(--teal); color:var(--teal); }
+        .ysp-preview {
+            font-size:.72em; color:var(--muted);
+            margin-top:4px; min-height:14px;
+        }
+                </style>
 </head>
 <body>
 
-<div class="header">
-    <h1>🏨 Hotel Contract Parser</h1>
-    <p>Convert hotel contract PDFs to structured CSV data</p>
+<div class="header" style="display:flex;align-items:center;justify-content:space-between;gap:16px;">
+    <div>
+        <h1>🏨 Hotel Contract Parser</h1>
+        <p>Convert hotel contract PDFs to structured CSV data</p>
+    </div>
+    <a href="{{ url_for('library') }}" style="
+        padding:9px 18px; border-radius:8px; background:rgba(88,166,255,.12);
+        border:1px solid rgba(88,166,255,.25); color:var(--accent);
+        font-family:'Outfit',sans-serif; font-size:.87em; font-weight:600;
+        text-decoration:none; display:flex; align-items:center; gap:7px;
+        transition:all .2s; white-space:nowrap; position:relative; z-index:1;"
+        onmouseover="this.style.background='rgba(88,166,255,.22)'"
+        onmouseout="this.style.background='rgba(88,166,255,.12)'">
+        📚 Contracts Library
+    </a>
 </div>
 
 <div class="page">
@@ -828,6 +1100,10 @@
                         <input type="text" id="m_name" placeholder="e.g. Blue Lagoon Resort">
                     </div>
                     <div class="field">
+                        <label>Location Name</label>
+                        <input type="text" id="m_location" placeholder="e.g. Zanzibar">
+                    </div>
+                    <div class="field">
                         <label>Contract Year</label>
                         <input type="text" id="m_year" placeholder="e.g. 2025">
                     </div>
@@ -841,6 +1117,26 @@
                             <option value="AI">AI – All Inclusive</option>
                         </select>
                     </div>
+                </div>
+                <div class="grid-3">
+                    <div class="field">
+                        <label>Inside Restricted Area</label>
+                        <select id="m_restricted">
+                            <option value="FALSE" selected>FALSE</option>
+                            <option value="TRUE">TRUE</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label>Ignore Proposal Margin</label>
+                        <select id="m_ignore_margin">
+                            <option value="FALSE" selected>FALSE</option>
+                            <option value="TRUE">TRUE</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="field" style="margin-top:4px;">
+                    <label>Room Description (all rooms)</label>
+                    <textarea id="m_room_desc" placeholder="Description applied to every room row..."></textarea>
                 </div>
                 <div class="field" style="margin-top:4px;">
                     <label>Description (optional)</label>
@@ -868,6 +1164,10 @@
                                     <button class="rt-add-btn" id="addRoomColBtn">＋ Room</button>
                                 </th>
                             </tr>
+                            <tr id="rateTablePriceSourceRow">
+                                <th class="rt-corner rt-ps-label">🔗 Price Source</th>
+                                <th class="rt-add-col"></th>
+                            </tr>
                         </thead>
                         <tbody id="rateTableBody"></tbody>
                     </table>
@@ -878,11 +1178,17 @@
 
         <!-- ── Date Ranges ─────────────────────────────────── -->
         <div class="card">
-            <div class="card-header">
+            <div class="card-header" style="position:relative;">
                 <div class="card-icon ci-amber">📅</div>
                 <div class="card-header-text">
                     <h3>Date Ranges</h3>
                     <p>Map each date period to a season — costs pull through automatically from the table above</p>
+                </div>
+                <div style="margin-left:auto;position:relative;">
+                    <button class="date-shift-btn" onclick="toggleYearShiftPopover(event)" title="Shift all dates by N years">
+                        ⟳ Shift Years
+                    </button>
+                    <div class="year-shift-popover" id="yearShiftPopover" style="display:none;"></div>
                 </div>
             </div>
             <div class="card-body">
@@ -987,6 +1293,9 @@
         <div class="actions">
             <button class="btn btn-green" id="generateBtn">
                 <span>Generate CSV</span>
+            </button>
+            <button class="btn btn-primary" id="saveChangesBtn">
+                <span>Save Changes</span>
             </button>
             <button class="btn btn-ghost" id="clearBtn">🗑 Clear Form</button>
         </div>
@@ -1145,7 +1454,7 @@ let _col = 0, _row = 0;
 /* ══════════════════════════════════════════════════════
    RATE TABLE — add / remove columns (rooms)
 ══════════════════════════════════════════════════════ */
-function addRoomColumn(name = '') {
+function addRoomColumn(name = '', options = {}) {
     const ci    = ++_col;
     const colId = 'col_' + ci;
     const headRow = document.getElementById('rateTableHead');
@@ -1158,9 +1467,28 @@ function addRoomColumn(name = '') {
       <input class="rt-room-name-input" type="text" placeholder="Room name"
              value="${name}" data-col="${colId}"
              oninput="onRoomNameChange('${colId}',this.value)">
+      <button class="rt-dup-col" onclick="duplicateRoomColumn('${colId}')" title="Duplicate room column">＋</button>
+      <button class="rt-adjust-btn" onclick="toggleAdjustPopover(event,'${colId}')" title="Adjust all season prices">±</button>
       <button class="rt-del-col" onclick="removeRoomColumn('${colId}')" title="Remove column">×</button>
+      <div class="price-adjust-popover" id="pap_${colId}" style="display:none;"></div>
     </div>`;
     headRow.insertBefore(th, addTh);
+
+    // Add the matching cell to the Price Source row
+    const psRow = document.getElementById('rateTablePriceSourceRow');
+    const psAddTh = psRow.querySelector('.rt-add-col');
+    const psTh = document.createElement('th');
+    psTh.className   = 'rt-ps-cell';
+    psTh.dataset.col = colId;
+    psTh.innerHTML = `
+      <select class="rt-price-source" data-col="${colId}" onchange="onPriceSourceChange('${colId}')">
+        <option value="">Direct entry</option>
+      </select>
+      <input class="rt-price-pct" type="number" min="0" max="200" step="0.1"
+             placeholder="%" data-col="${colId}" style="display:none;"
+             oninput="recomputeDerivedPrices()">`;
+    psRow.insertBefore(psTh, psAddTh);
+    refreshPriceSourceSelects();
 
     // Add cost cell to every existing season row
     document.querySelectorAll('#rateTableBody tr[data-row]').forEach(tr => {
@@ -1174,6 +1502,44 @@ function addRoomColumn(name = '') {
         tr.insertBefore(td, delTd);
     });
     syncRoomCapPanel();
+    if (options.copyFromColId) copyRoomConfig(options.copyFromColId, colId);
+    if (options.sourceColId) {
+        const sel = psTh.querySelector('.rt-price-source');
+        const pct = psTh.querySelector('.rt-price-pct');
+        sel.value = options.sourceColId;
+        pct.value = options.percent || 100;
+        onPriceSourceChange(colId);
+    }
+    return colId;
+}
+
+function duplicateRoomColumn(sourceColId) {
+    const sourceTh = document.querySelector(`#rateTableHead .rt-room-th[data-col="${sourceColId}"]`);
+    if (!sourceTh) return;
+
+    const sourceName = sourceTh.querySelector('.rt-room-name-input')?.value.trim() || 'Room';
+    const newColId = addRoomColumn(`${sourceName} copy`, {
+        copyFromColId: sourceColId,
+        sourceColId,
+        percent: 100,
+    });
+
+    document.querySelector(`#rateTableHead .rt-room-th[data-col="${newColId}"] .rt-room-name-input`)?.focus();
+    refreshPriceSourceSelects();
+    refreshSuppRoomSelects();
+    recomputeDerivedPrices();
+}
+
+function copyRoomConfig(fromColId, toColId) {
+    const from = document.querySelector(`#roomList .room-cap-row[data-col="${fromColId}"]`);
+    const to   = document.querySelector(`#roomList .room-cap-row[data-col="${toColId}"]`);
+    if (!from || !to) return;
+
+    ['.rm-cap', '.rm-basis', '.rm-sgl-override', '.rm-sgl-unit'].forEach(selector => {
+        const src = from.querySelector(selector);
+        const dst = to.querySelector(selector);
+        if (src && dst) dst.value = src.value;
+    });
 }
 
 function removeRoomColumn(colId) {
@@ -1181,11 +1547,19 @@ function removeRoomColumn(colId) {
         const cell = el.closest('th,td');
         if (cell) cell.remove();
     });
+    // Any room whose price was derived from this one falls back to direct entry
+    document.querySelectorAll('.rt-price-source').forEach(sel => {
+        if (sel.value === colId) {
+            sel.value = '';
+            onPriceSourceChange(sel.dataset.col);
+        }
+    });
     syncRoomCapPanel();
 }
 
 function onRoomNameChange(colId, val) {
     syncRoomCapPanel();
+    refreshPriceSourceSelects();
 }
 
 /* ══════════════════════════════════════════════════════
@@ -1199,8 +1573,13 @@ function addSeasonTableRow(name = '', costs = {}) {
     tr.dataset.row = sid;
 
     let html = `<td class="rt-season-cell">
-      <input class="rt-season-input" type="text" placeholder="e.g. High"
-             value="${name}" oninput="refreshDateRangeDropdowns()">
+      <div class="rt-season-inner">
+        <input class="rt-season-input" type="text" placeholder="e.g. High"
+               value="${name}" oninput="refreshDateRangeDropdowns()">
+        <button class="rt-dup-row" onclick="duplicateSeasonTableRow('${sid}')" title="Duplicate season row">＋</button>
+        <button class="rt-row-adjust-btn" onclick="toggleSeasonAdjustPopover(event,'${sid}')" title="Adjust all room prices in this season">±</button>
+        <div class="price-adjust-popover" id="pap_row_${sid}" style="display:none;"></div>
+      </div>
     </td>`;
 
     document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => {
@@ -1219,6 +1598,37 @@ function addSeasonTableRow(name = '', costs = {}) {
     tr.innerHTML = html;
     tbody.appendChild(tr);
     refreshDateRangeDropdowns();
+    recomputeDerivedPrices();
+    return sid;
+}
+
+function duplicateSeasonTableRow(sourceSid) {
+    const sourceTr = document.querySelector(`#rateTableBody tr[data-row="${sourceSid}"]`);
+    if (!sourceTr) return;
+
+    const sourceName = sourceTr.querySelector('.rt-season-input')?.value.trim() || 'Season';
+    const costs = {};
+    sourceTr.querySelectorAll('.rt-cost-input').forEach(inp => {
+        costs[inp.dataset.col] = inp.value;
+    });
+
+    const newSid = addSeasonTableRow(`${sourceName} copy`, costs);
+    const linkedRanges = Array.from(document.querySelectorAll('#dateRangeList .drow-daterange'))
+        .filter(row => row.querySelector('.dr-season-sel')?.value === sourceSid);
+
+    if (linkedRanges.length) {
+        linkedRanges.forEach(row => {
+            addDateRange({
+                sid: newSid,
+                start: row.querySelector('.dr-start')?.value || '',
+                end: row.querySelector('.dr-end')?.value || '',
+            });
+        });
+    } else {
+        addDateRange({ sid: newSid });
+    }
+
+    document.querySelector(`#rateTableBody tr[data-row="${newSid}"] .rt-season-input`)?.focus();
 }
 
 function removeSeasonTableRow(sid) {
@@ -1241,6 +1651,16 @@ function getSeasonRows() {
     return out;
 }
 
+function getUniqueSeasonRows() {
+    const seen = new Set();
+    return getSeasonRows().filter(s => {
+        const key = s.name.trim().toLowerCase();
+        if (!key || seen.has(key)) return false;
+        seen.add(key);
+        return true;
+    });
+}
+
 function getRoomColumns() {
     const out = [];
     document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => {
@@ -1258,7 +1678,27 @@ function getTableCost(sid, colId) {
 /* ══════════════════════════════════════════════════════
    ROOM CAPACITIES PANEL  (auto-synced from table)
 ══════════════════════════════════════════════════════ */
-function syncRoomCapPanel() {
+function buildPriceSourceOpts(cols, selfColId, selectedVal) {
+    let opts = `<option value="" ${!selectedVal?'selected':''}>Direct entry (type price in table)</option>`;
+    cols.forEach(c => {
+        if (c.colId === selfColId) return;
+        opts += `<option value="${c.colId}" ${c.colId===selectedVal?'selected':''}>% of ${c.name || '(unnamed)'}</option>`;
+    });
+    return opts;
+}
+
+function refreshPriceSourceSelects() {
+    const cols = getRoomColumns();
+    document.querySelectorAll('#rateTablePriceSourceRow .rt-price-source').forEach(sel => {
+        const colId = sel.dataset.col;
+        const cur = sel.value;
+        sel.innerHTML = buildPriceSourceOpts(cols, colId, cur);
+        sel.value = cols.some(c => c.colId === cur) ? cur : '';
+        onPriceSourceChange(colId);
+    });
+}
+
+function legacySyncRoomCapPanel() {
     const cols  = getRoomColumns();
     const panel = document.getElementById('roomList');
 
@@ -1272,45 +1712,272 @@ function syncRoomCapPanel() {
         let ex = panel.querySelector(`.room-cap-row[data-col="${colId}"]`);
         if (ex) {
             ex.querySelector('.rcr-name').textContent = name || '(unnamed)';
+            // Refresh price-source options (room names may have changed), preserving selection
+            const srcSel = ex.querySelector('.rm-price-source');
+            const cur    = srcSel.value;
+            srcSel.innerHTML = buildPriceSourceOpts(cols, colId, cur);
         } else {
             const div = document.createElement('div');
             div.className   = 'room-cap-row';
             div.dataset.col  = colId;
             div.innerHTML = `
-              <div class="rcr-field">
-                <div class="rcr-label">Room Name</div>
-                <div class="rcr-name">${name || '(unnamed)'}</div>
-              </div>
-              <div class="rcr-field">
-                <div class="rcr-label">Max Capacity</div>
-                <input class="rcr-input rm-cap" type="number" min="1" max="20" placeholder="2">
-              </div>
-              <div class="rcr-field">
-                <div class="rcr-label">Cost Basis</div>
-                <select class="rcr-input rm-basis">
-                  <option value="per_room">Per Room ÷ cap</option>
-                  <option value="per_person">Per Person</option>
-                </select>
-              </div>
-              <div class="rcr-field">
-                <div class="rcr-label">Single Supp Override</div>
-                <div class="input-with-unit">
-                  <input class="rcr-input rm-sgl-override" type="number" min="0" step="0.01"
-                         placeholder="Auto">
-                  <select class="unit-sel rm-sgl-unit">
-                    <option value="usd">$</option>
-                    <option value="pct">%</option>
+              <div class="rcr-row1">
+                <div class="rcr-field">
+                  <div class="rcr-label">Room Name</div>
+                  <div class="rcr-name">${name || '(unnamed)'}</div>
+                </div>
+                <div class="rcr-field">
+                  <div class="rcr-label">Max Capacity</div>
+                  <input class="rcr-input rm-cap" type="number" min="1" max="20" placeholder="2">
+                </div>
+                <div class="rcr-field">
+                  <div class="rcr-label">Cost Basis</div>
+                  <select class="rcr-input rm-basis">
+                    <option value="per_room">Per Room ÷ cap</option>
+                    <option value="per_person">Per Person</option>
                   </select>
+                </div>
+                <div class="rcr-field">
+                  <div class="rcr-label">Single Supp Override</div>
+                  <div class="input-with-unit">
+                    <input class="rcr-input rm-sgl-override" type="number" min="0" step="0.01"
+                           placeholder="Auto">
+                    <select class="unit-sel rm-sgl-unit">
+                      <option value="usd">$</option>
+                      <option value="pct">%</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="rcr-row2">
+                <div class="rcr-field">
+                  <div class="rcr-label">Price Source</div>
+                  <select class="rcr-input rm-price-source" onchange="onPriceSourceChange('${colId}')">
+                    ${buildPriceSourceOpts(cols, colId, '')}
+                  </select>
+                </div>
+                <div class="rcr-field rcr-pct-field rm-pct-wrap" style="display:none;">
+                  <div class="rcr-label">% of source (pp)</div>
+                  <input class="rcr-input rm-price-pct" type="number" min="0" max="200" step="0.1"
+                         placeholder="e.g. 85" oninput="recomputeDerivedPrices()">
+                </div>
+                <div class="rcr-source-badge rm-source-badge" style="display:none;">
+                  🔄 Auto-computed from source room
                 </div>
               </div>`;
             panel.appendChild(div);
         }
+    });
+
+    refreshSuppRoomSelects();
+    recomputeDerivedPrices();
+}
+
+/* ── Derived pricing (% of another room, per-person) ──────────── */
+function legacyOnPriceSourceChange(colId) {
+    const row     = document.querySelector(`.room-cap-row[data-col="${colId}"]`);
+    const src     = row.querySelector('.rm-price-source').value;
+    const pctWrap = row.querySelector('.rm-pct-wrap');
+    const badge   = row.querySelector('.rm-source-badge');
+
+    if (src) {
+        pctWrap.style.display = 'flex';
+        badge.style.display   = 'flex';
+        if (!row.querySelector('.rm-price-pct').value)
+            row.querySelector('.rm-price-pct').value = 100;
+    } else {
+        pctWrap.style.display = 'none';
+        badge.style.display   = 'none';
+        // Re-enable the cells for this room so user can type directly again
+        document.querySelectorAll(`#rateTableBody .rt-cost-cell[data-col="${colId}"] .rt-cost-input`)
+            .forEach(inp => { inp.disabled = false; inp.classList.remove('rt-cost-auto'); });
+        document.querySelector(`#rateTableHead .rt-room-th[data-col="${colId}"]`)
+            ?.classList.remove('rt-room-derived');
+    }
+    recomputeDerivedPrices();
+}
+
+function legacyRecomputeDerivedPrices() {
+    const cols = getRoomColumns();
+    document.querySelectorAll('.room-cap-row').forEach(row => {
+        const colId  = row.dataset.col;
+        const srcSel = row.querySelector('.rm-price-source');
+        if (!srcSel) return;
+        const srcColId = srcSel.value;
+        const thisTh   = document.querySelector(`#rateTableHead .rt-room-th[data-col="${colId}"]`);
+
+        if (!srcColId) {
+            thisTh?.classList.remove('rt-room-derived');
+            return;
+        }
+
+        thisTh?.classList.add('rt-room-derived');
+
+        const pct        = parseFloat(row.querySelector('.rm-price-pct').value) || 0;
+        const thisCap    = parseInt(row.querySelector('.rm-cap').value) || 1;
+        const thisBasis  = row.querySelector('.rm-basis').value || 'per_room';
+
+        const srcRow   = document.querySelector(`.room-cap-row[data-col="${srcColId}"]`);
+        const srcCap   = srcRow ? (parseInt(srcRow.querySelector('.rm-cap').value) || 1) : 1;
+        const srcBasis = srcRow ? (srcRow.querySelector('.rm-basis').value || 'per_room') : 'per_room';
+
+        document.querySelectorAll(`#rateTableBody tr[data-row]`).forEach(tr => {
+            const sid    = tr.dataset.row;
+            const srcInp = tr.querySelector(`td[data-col="${srcColId}"] .rt-cost-input`);
+            const dstInp = tr.querySelector(`td[data-col="${colId}"] .rt-cost-input`);
+            if (!srcInp || !dstInp) return;
+
+            const srcRaw   = parseFloat(srcInp.value) || 0;
+            const srcCostPP = srcBasis === 'per_room' ? srcRaw / srcCap : srcRaw;
+            const dstCostPP = srcCostPP * (pct / 100);
+            const dstRaw    = thisBasis === 'per_room' ? dstCostPP * thisCap : dstCostPP;
+
+            dstInp.value    = dstRaw ? dstRaw.toFixed(2) : '';
+            dstInp.disabled = true;
+            dstInp.classList.add('rt-cost-auto');
+            dstInp.title    = `Auto: ${pct}% of ${srcRow?.querySelector('.rcr-name')?.textContent || 'source'} (per person)`;
+        });
     });
 }
 
 /* ══════════════════════════════════════════════════════
    DATE RANGES
 ══════════════════════════════════════════════════════ */
+// Clean implementation: the rate-table Price Source row is the single source of truth.
+function syncRoomCapPanel() {
+    const cols  = getRoomColumns();
+    const panel = document.getElementById('roomList');
+
+    panel.querySelectorAll('.room-cap-row').forEach(row => {
+        if (!cols.find(c => c.colId === row.dataset.col)) row.remove();
+    });
+
+    cols.forEach(({ colId, name }) => {
+        let ex = panel.querySelector(`.room-cap-row[data-col="${colId}"]`);
+        if (ex) {
+            ex.querySelector('.rcr-name').textContent = name || '(unnamed)';
+            return;
+        }
+
+        const div = document.createElement('div');
+        div.className  = 'room-cap-row';
+        div.dataset.col = colId;
+        div.innerHTML = `
+          <div class="rcr-row1">
+            <div class="rcr-field">
+              <div class="rcr-label">Room Name</div>
+              <div class="rcr-name">${name || '(unnamed)'}</div>
+            </div>
+            <div class="rcr-field">
+              <div class="rcr-label">Max Capacity</div>
+              <input class="rcr-input rm-cap" type="number" min="1" max="20" placeholder="2">
+            </div>
+            <div class="rcr-field">
+              <div class="rcr-label">Cost Basis</div>
+              <select class="rcr-input rm-basis">
+                <option value="per_room">Per Room / cap</option>
+                <option value="per_person">Per Person</option>
+              </select>
+            </div>
+            <div class="rcr-field">
+              <div class="rcr-label">Single Supp Override</div>
+              <div class="input-with-unit">
+                <input class="rcr-input rm-sgl-override" type="number" min="0" step="0.01" placeholder="Auto">
+                <select class="unit-sel rm-sgl-unit">
+                  <option value="usd">$</option>
+                  <option value="pct">%</option>
+                </select>
+              </div>
+            </div>
+          </div>`;
+        panel.appendChild(div);
+    });
+
+    refreshSuppRoomSelects();
+    recomputeDerivedPrices();
+}
+
+function onPriceSourceChange(colId) {
+    const cell = document.querySelector(`#rateTablePriceSourceRow .rt-ps-cell[data-col="${colId}"]`);
+    if (!cell) return;
+
+    const src = cell.querySelector('.rt-price-source')?.value || '';
+    const pct = cell.querySelector('.rt-price-pct');
+
+    if (src) {
+        pct.style.display = 'block';
+        if (!pct.value) pct.value = 100;
+    } else {
+        pct.style.display = 'none';
+        document.querySelectorAll(`#rateTableBody .rt-cost-cell[data-col="${colId}"] .rt-cost-input`)
+            .forEach(inp => { inp.disabled = false; inp.classList.remove('rt-cost-auto'); inp.title = ''; });
+        document.querySelector(`#rateTableHead .rt-room-th[data-col="${colId}"]`)
+            ?.classList.remove('rt-room-derived');
+    }
+
+    recomputeDerivedPrices();
+}
+
+function recomputeDerivedPrices() {
+    const getConfig = colId => {
+        const row = document.querySelector(`.room-cap-row[data-col="${colId}"]`);
+        return {
+            cap: row ? (parseInt(row.querySelector('.rm-cap').value) || 1) : 1,
+            basis: row ? (row.querySelector('.rm-basis').value || 'per_room') : 'per_room',
+            name: row?.querySelector('.rcr-name')?.textContent || 'source',
+        };
+    };
+
+    const getRule = colId => {
+        const cell = document.querySelector(`#rateTablePriceSourceRow .rt-ps-cell[data-col="${colId}"]`);
+        return {
+            source: cell?.querySelector('.rt-price-source')?.value || '',
+            pct: parseFloat(cell?.querySelector('.rt-price-pct')?.value) || 0,
+        };
+    };
+
+    const getRawCost = (sid, colId, seen = new Set()) => {
+        if (seen.has(colId)) return null;
+        seen.add(colId);
+
+        const rule = getRule(colId);
+        if (!rule.source) return getTableCost(sid, colId);
+
+        const srcRaw = getRawCost(sid, rule.source, seen);
+        if (srcRaw == null) return null;
+
+        const srcCfg = getConfig(rule.source);
+        const dstCfg = getConfig(colId);
+        const srcPP = srcCfg.basis === 'per_room' ? srcRaw / srcCfg.cap : srcRaw;
+        const dstPP = srcPP * (rule.pct / 100);
+        return dstCfg.basis === 'per_room' ? dstPP * dstCfg.cap : dstPP;
+    };
+
+    document.querySelectorAll('#rateTablePriceSourceRow .rt-ps-cell').forEach(cell => {
+        const colId = cell.dataset.col;
+        const rule = getRule(colId);
+        const th = document.querySelector(`#rateTableHead .rt-room-th[data-col="${colId}"]`);
+
+        if (!rule.source) {
+            th?.classList.remove('rt-room-derived');
+            return;
+        }
+
+        th?.classList.add('rt-room-derived');
+        document.querySelectorAll('#rateTableBody tr[data-row]').forEach(tr => {
+            const sid = tr.dataset.row;
+            const dstInp = tr.querySelector(`td[data-col="${colId}"] .rt-cost-input`);
+            if (!dstInp) return;
+
+            const raw = getRawCost(sid, colId);
+            dstInp.value = raw ? raw.toFixed(2) : '';
+            dstInp.disabled = true;
+            dstInp.classList.add('rt-cost-auto');
+            dstInp.title = `Auto: ${rule.pct}% of ${getConfig(rule.source).name} (per person)`;
+        });
+    });
+}
+
 function refreshDateRangeDropdowns() {
     const seasons = getSeasonRows();
     document.querySelectorAll('#dateRangeList .dr-season-sel').forEach(sel => {
@@ -1357,7 +2024,7 @@ function addBandRow(d = {}) {
     const id   = uid();
     const div  = document.createElement('div');
     const lbl  = d.label || 'child';
-    div.className = 'drow drow-ageband' + (lbl === 'child' ? ' is-child' : '');
+    div.className = 'drow drow-ageband' + (['child', 'infant'].includes(lbl) ? ' is-meal-child' : '');
     div.id = id;
 
     const disc     = d.discount !== undefined ? String(d.discount) : '100';
@@ -1421,12 +2088,12 @@ function addBandRow(d = {}) {
         </select>
       </div>
       <div class="drow-field child-only" id="childHbWrap_${id}" style="display:${hbfbMode==='custom'?'flex':'none'}">
-        <div class="drow-label">Child HB $</div>
+        <div class="drow-label">Band HB $</div>
         <input type="number" class="ab-child-hb" min="0" step="0.01" placeholder="0.00"
                value="${childHb}">
       </div>
       <div class="drow-field child-only" id="childFbWrap_${id}" style="display:${hbfbMode==='custom'?'flex':'none'}">
-        <div class="drow-label">Child FB $</div>
+        <div class="drow-label">Band FB $</div>
         <input type="number" class="ab-child-fb" min="0" step="0.01" placeholder="0.00"
                value="${childFb}">
       </div>
@@ -1442,8 +2109,8 @@ function addBandRow(d = {}) {
 function onBandTypeChange(rowId, val) {
     const row = document.getElementById(rowId);
     if (!row) return;
-    if (val === 'child') row.classList.add('is-child');
-    else                 row.classList.remove('is-child');
+    if (['child', 'infant'].includes(val)) row.classList.add('is-meal-child');
+    else                                   row.classList.remove('is-meal-child');
 }
 
 function toggleCustomDisc(rowId, val) {
@@ -1469,11 +2136,12 @@ function addSuppRow(d = {}) {
     div.className = 'supp-row';
     div.id = id;
 
+    const selectedRooms = Array.isArray(d.rooms) ? d.rooms : (d.room ? [d.room] : []);
+    const selectedBands = Array.isArray(d.bands) ? d.bands : (d.band ? [d.band] : []);
     const roomOpts     = getRoomColumns().map(c =>
-        `<option value="${c.name}" ${d.room===c.name?'selected':''}>${c.name||'(unnamed)'}</option>`
+        `<option value="${c.name}" ${selectedRooms.includes(c.name)?'selected':''}>${c.name||'(unnamed)'}</option>`
     ).join('');
     const overrideType = d.override_type || 'none';
-    const bandVal      = d.band || '';
     const seasonAmtRows = buildSeasonAmountRows(d.season_amounts || []);
 
     div.innerHTML = `
@@ -1495,19 +2163,20 @@ function addSuppRow(d = {}) {
         </div>
         <div class="supp-field" id="suppRoomWrap_${id}"
              style="display:${overrideType!=='none'?'flex':'none'};flex-direction:column;gap:5px;">
-          <div class="supp-label">Room (all if blank)</div>
-          <select class="supp-input sp-room">
-            <option value="">All rooms</option>
+          <div class="supp-label">Rooms</div>
+          <select class="supp-input sp-room" multiple>
             ${roomOpts}
           </select>
+          <div class="supp-mini-hint">Leave empty for all rooms</div>
         </div>
         <div class="supp-field" id="suppRoomPlaceholder_${id}"
              style="display:${overrideType==='none'?'block':'none'};"></div>
         <div class="supp-field">
-          <div class="supp-label">Age Band</div>
-          <select class="supp-input sp-band">
-            ${buildBandOpts(bandVal)}
+          <div class="supp-label">Age Bands</div>
+          <select class="supp-input sp-band" multiple>
+            ${buildBandOpts(selectedBands)}
           </select>
+          <div class="supp-mini-hint">Leave empty for all bands</div>
         </div>
         <button class="del-btn" onclick="removeRow('${id}')" title="Remove" style="align-self:end;">×</button>
       </div>
@@ -1542,6 +2211,20 @@ function refreshSuppSeasonSelects() {
     refreshSuppSeasonAmounts();
 }
 
+function selectedOptions(sel) {
+    return Array.from(sel?.selectedOptions || []).map(o => o.value).filter(Boolean);
+}
+
+function refreshSuppRoomSelects() {
+    const cols = getRoomColumns();
+    document.querySelectorAll('#extraSuppList .sp-room').forEach(sel => {
+        const cur = selectedOptions(sel);
+        sel.innerHTML = cols.map(c =>
+            `<option value="${c.name}" ${cur.includes(c.name)?'selected':''}>${c.name||'(unnamed)'}</option>`
+        ).join('');
+    });
+}
+
 /* Build age band options from actual band rows */
 function getBandRows() {
     const out = [];
@@ -1559,12 +2242,12 @@ function buildBandOpts(selectedVal = '') {
     const bands = getBandRows();
     if (!bands.length) return '<option value="">— add age bands first —</option>';
     return '<option value="">All bands</option>' +
-        bands.map(b => `<option value="${b.value}" ${b.value===selectedVal?'selected':''}>${b.label}</option>`).join('');
+        bands.map(b => `<option value="${b.value}" ${(Array.isArray(selectedVal) ? selectedVal.includes(b.value) : b.value===selectedVal)?'selected':''}>${b.label}</option>`).join('');
 }
 
 function refreshSuppBandSelects() {
     document.querySelectorAll('#extraSuppList .sp-band').forEach(sel => {
-        const cur = sel.value;
+        const cur = selectedOptions(sel);
         sel.innerHTML = buildBandOpts(cur);
     });
 }
@@ -1572,17 +2255,18 @@ function refreshSuppBandSelects() {
 /* Per-season amount grid — rebuild when seasons change */
 function buildSeasonAmountRows(existing = []) {
     // existing = [{season, amount, amount_type}, ...]
-    const seasons = getSeasonRows();
+    const seasons = getUniqueSeasonRows();
     if (!seasons.length) return '<div class="sa-empty">Add seasons to the rate table first</div>';
     return seasons.map(s => {
         const ex   = existing.find(e => e.season === s.name) || {};
         const amt  = ex.amount  !== undefined ? ex.amount  : '';
         const unit = ex.amount_type || 'usd';
-        return `<div class="sa-row">
+        return `<div class="sa-row ${amt ? 'has-value' : ''}">
           <div class="sa-season-name">${s.name}</div>
           <div class="supp-amt-wrap">
             <input type="number" class="supp-input sp-season-amt" min="0" step="0.01"
-                   placeholder="0.00" data-season="${s.name}" value="${amt}">
+                   placeholder="0.00" data-season="${s.name}" value="${amt}"
+                   oninput="this.closest('.sa-row').classList.toggle('has-value', parseFloat(this.value) > 0)">
             <select class="unit-sel sp-season-unit" data-season="${s.name}">
               <option value="usd" ${unit==='usd'?'selected':''}>$</option>
               <option value="pct" ${unit==='pct'?'selected':''}>%</option>
@@ -1630,6 +2314,17 @@ document.getElementById('ageBandList').addEventListener('change', e => {
 });
 document.getElementById('ageBandList').addEventListener('input', e => {
     if (e.target.matches('.ab-min,.ab-max')) refreshSuppBandSelects();
+});
+
+// Recompute derived (% of another room) prices when any source value changes
+document.getElementById('rateTableBody').addEventListener('input', e => {
+    if (e.target.matches('.rt-cost-input') && !e.target.disabled) recomputeDerivedPrices();
+});
+document.getElementById('roomList').addEventListener('input', e => {
+    if (e.target.matches('.rm-cap, .rm-price-pct')) recomputeDerivedPrices();
+});
+document.getElementById('roomList').addEventListener('change', e => {
+    if (e.target.matches('.rm-basis, .rm-price-source')) recomputeDerivedPrices();
 });
 
 /* ══════════════════════════════════════════════════════
@@ -1686,6 +2381,10 @@ parsePdfBtn.addEventListener('click', async () => {
 
         // ── Populate form with extracted data ─────────────────
         if (data.hotel_name)    document.getElementById('m_name').value = data.hotel_name;
+        if (data.location_name) document.getElementById('m_location').value = data.location_name;
+        if (data.room_desc)     document.getElementById('m_room_desc').value = data.room_desc;
+        document.getElementById('m_restricted').value = data.inside_restricted_area || 'FALSE';
+        document.getElementById('m_ignore_margin').value = data.ignore_proposal_margin || 'FALSE';
         if (data.contract_year) document.getElementById('m_year').value = data.contract_year;
         if (data.base_plan) {
             const sel = document.getElementById('m_plan');
@@ -1700,6 +2399,7 @@ parsePdfBtn.addEventListener('click', async () => {
         // ── Rate table: build from PDF-extracted data ──────
         document.getElementById('rateTableBody').innerHTML = '';
         document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => th.remove());
+        document.querySelectorAll('#rateTablePriceSourceRow .rt-ps-cell').forEach(th => th.remove());
         document.getElementById('roomList').innerHTML = '';
         _col = 0; _row = 0;
 
@@ -1848,6 +2548,7 @@ function collectForm() {
         const name = th.querySelector('.rt-room-name-input').value.trim();
         if (name) {
             const capRow = document.querySelector(`#roomList .room-cap-row[data-col="${th.dataset.col}"]`);
+            const psCell = document.querySelector(`#rateTablePriceSourceRow .rt-ps-cell[data-col="${th.dataset.col}"]`);
             room_cols.push({
                 colId:        th.dataset.col,
                 name,
@@ -1855,6 +2556,8 @@ function collectForm() {
                 cost_basis:   capRow ? (capRow.querySelector('.rm-basis').value || 'per_room') : 'per_room',
                 sgl_override:      capRow ? (parseFloat(capRow.querySelector('.rm-sgl-override').value) || 0) : 0,
                 sgl_override_type: capRow ? (capRow.querySelector('.rm-sgl-unit').value || 'usd') : 'usd',
+                price_source:      psCell ? (psCell.querySelector('.rt-price-source').value || '') : '',
+                price_source_pct:  psCell ? (parseFloat(psCell.querySelector('.rt-price-pct').value) || 0) : 0,
             });
         }
     });
@@ -1928,20 +2631,28 @@ function collectForm() {
                 });
             }
         });
+        const rooms = selectedOptions(row.querySelector('.sp-room'));
+        const bands = selectedOptions(row.querySelector('.sp-band'));
         extra.push({
             name:          row.querySelector('.sp-name').value.trim(),
             override_type: row.querySelector('.sp-override-type').value,
-            room:          row.querySelector('.sp-room').value.trim(),
-            band:          row.querySelector('.sp-band').value,
+            room:          rooms[0] || '',
+            rooms,
+            band:          bands[0] || '',
+            bands,
             season_amounts,
         });
     });
 
     return {
         hotel_name:        document.getElementById('m_name').value.trim(),
+        location_name:     document.getElementById('m_location').value.trim(),
         contract_year:     document.getElementById('m_year').value.trim(),
         base_plan:         plan,
         hotel_desc:        document.getElementById('m_desc').value.trim(),
+        room_desc:         document.getElementById('m_room_desc').value.trim(),
+        inside_restricted_area: document.getElementById('m_restricted').value || 'FALSE',
+        ignore_proposal_margin: document.getElementById('m_ignore_margin').value || 'FALSE',
         notes:             document.getElementById('m_notes').value.trim(),
         season_rows, room_cols, cost_matrix, date_ranges, age_bands,
         hb_supplement:     parseFloat(hb.toFixed(2)),
@@ -1971,16 +2682,23 @@ function validateForm(data) {
 /* ══════════════════════════════════════════════════════
    GENERATE CSV
 ══════════════════════════════════════════════════════ */
-document.getElementById('generateBtn').addEventListener('click', async () => {
+let currentEditOutputDir = '';
+
+async function submitManualForm({ showDownload }) {
     const data = collectForm();
     const err  = validateForm(data);
     if (err) { setStatus('manualStatus', 'err', '❌ ' + err); return; }
 
+    if (!showDownload && currentEditOutputDir) data.save_to_output_dir = currentEditOutputDir;
+
     document.getElementById('generateBtn').disabled = true;
+    document.getElementById('saveChangesBtn').disabled = true;
     document.getElementById('manualResult').classList.remove('show');
+    if (!showDownload) setStatus('manualStatus', 'info', 'Saving changes...');
     setStatus('manualStatus', 'info', '⏳ Building CSV rows from your input…');
 
     try {
+        if (!showDownload) setStatus('manualStatus', 'info', 'Saving changes...');
         const res  = await fetch('/manual', {
             method:  'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -1988,13 +2706,19 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
         });
         const result = await res.json();
         if (result.success) {
-            const dl = document.getElementById('manualDownloadBtn');
-            dl.href     = `/download/${result.output_dir}/${result.csv_file}`;
-            dl.download = result.csv_file;
-            document.getElementById('manualResultMsg').textContent =
-                `${result.row_count || '?'} rows generated for ${result.hotel_name}.`;
-            document.getElementById('manualResult').classList.add('show');
-            document.getElementById('manualStatus').classList.remove('show');
+            currentEditOutputDir = result.output_dir || currentEditOutputDir;
+            if (showDownload) {
+                const dl = document.getElementById('manualDownloadBtn');
+                dl.href     = `/download/${result.output_dir}/${result.csv_file}`;
+                dl.download = result.csv_file;
+                document.getElementById('manualResultMsg').textContent =
+                    `${result.row_count || '?'} rows generated for ${result.hotel_name}.`;
+                document.getElementById('manualResult').classList.add('show');
+                document.getElementById('manualStatus').classList.remove('show');
+            } else {
+                setStatus('manualStatus', 'ok',
+                    `Changes saved for ${result.hotel_name} (${result.row_count || '?'} rows).`);
+            }
         } else {
             setStatus('manualStatus', 'err', '❌ ' + result.error);
         }
@@ -2002,8 +2726,14 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
         setStatus('manualStatus', 'err', '❌ Network error: ' + e.message);
     } finally {
         document.getElementById('generateBtn').disabled = false;
+        document.getElementById('saveChangesBtn').disabled = false;
     }
-});
+}
+
+document.getElementById('generateBtn').addEventListener('click', () =>
+    submitManualForm({ showDownload: true }));
+document.getElementById('saveChangesBtn').addEventListener('click', () =>
+    submitManualForm({ showDownload: false }));
 
 /* ── Clear / Reset form ──────────────────────────────── */
 document.getElementById('clearBtn').addEventListener('click', () => {
@@ -2025,22 +2755,734 @@ document.getElementById('clearBtn').addEventListener('click', () => {
     // Reset rate table
     document.getElementById('rateTableBody').innerHTML = '';
     document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => th.remove());
+    document.querySelectorAll('#rateTablePriceSourceRow .rt-ps-cell').forEach(th => th.remove());
     document.getElementById('roomList').innerHTML = '';
     document.getElementById('dateRangeList').innerHTML = '';
     document.getElementById('ageBandList').innerHTML = '';
     document.getElementById('extraSuppList').innerHTML = '';
     _col = 0; _row = 0;
 
-    ['m_name','m_year','m_desc','m_notes',
+    ['m_name','m_location','m_year','m_desc','m_room_desc','m_notes',
      's_bfast','s_lunch','s_dinner','s_single','s_hb','s_fb']
         .forEach(id => { document.getElementById(id).value = ''; });
+    document.getElementById('m_restricted').value = 'FALSE';
+    document.getElementById('m_ignore_margin').value = 'FALSE';
 
     document.getElementById('hintBox').classList.remove('show');
     document.getElementById('manualResult').classList.remove('show');
     document.getElementById('manualStatus').classList.remove('show');
     document.getElementById('parseStatus').classList.remove('show');
     document.getElementById('parseProgress').style.display = 'none';
+    currentEditOutputDir = '';
 });
+
+/* ══════════════════════════════════════════════════════
+   CONTRACT RELOAD (from Library "Edit" button)
+══════════════════════════════════════════════════════ */
+function dmyToISO(s) {
+    // DD/MM/YYYY → YYYY-MM-DD for date picker value
+    if (!s) return '';
+    const m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(s.trim());
+    return m ? `${m[3]}-${m[2].padStart(2,'0')}-${m[1].padStart(2,'0')}` : s;
+}
+
+function reloadContractData(data) {
+    console.info('[reloadContractData] loaded keys:', Object.keys(data || {}));
+    currentEditOutputDir = data._output_dir || data.output_dir || '';
+    // Switch to manual tab
+    document.querySelectorAll('.mode-tab').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.mode-panel').forEach(p => p.classList.remove('active'));
+    document.querySelector('[data-target="panel-manual"]').classList.add('active');
+    document.getElementById('panel-manual').classList.add('active');
+
+    // ── Hotel info ───────────────────────────────────────
+    if (data.hotel_name)    document.getElementById('m_name').value = data.hotel_name;
+    if (data.location_name) document.getElementById('m_location').value = data.location_name;
+    if (data.room_desc)     document.getElementById('m_room_desc').value = data.room_desc;
+    document.getElementById('m_restricted').value = data.inside_restricted_area || 'FALSE';
+    document.getElementById('m_ignore_margin').value = data.ignore_proposal_margin || 'FALSE';
+    if (data.contract_year) document.getElementById('m_year').value = data.contract_year;
+    if (data.hotel_desc)    document.getElementById('m_desc').value = data.hotel_desc;
+    if (data.notes)         document.getElementById('m_notes').value = data.notes;
+    if (data.base_plan) {
+        const sel = document.getElementById('m_plan');
+        for (let o of sel.options) if (o.value === data.base_plan) { o.selected = true; break; }
+    }
+
+    // ── Supplements ──────────────────────────────────────
+    const mc = data.meal_costs || {};
+    if (mc.breakfast) document.getElementById('s_bfast').value  = mc.breakfast;
+    if (mc.lunch)     document.getElementById('s_lunch').value  = mc.lunch;
+    if (mc.dinner)    document.getElementById('s_dinner').value = mc.dinner;
+    if (data.hb_supplement != null) document.getElementById('s_hb').value     = data.hb_supplement;
+    if (data.fb_supplement != null) document.getElementById('s_fb').value     = data.fb_supplement;
+    // Global single supplement (if stored)
+    const singleEl = document.getElementById('s_single');
+    if (singleEl && data.single_supplement != null) singleEl.value = data.single_supplement;
+
+    // ── Rate table ───────────────────────────────────────
+    document.getElementById('rateTableBody').innerHTML = '';
+    document.querySelectorAll('#rateTableHead .rt-room-th').forEach(th => th.remove());
+    document.querySelectorAll('#rateTablePriceSourceRow .rt-ps-cell').forEach(th => th.remove());
+    document.getElementById('roomList').innerHTML = '';
+    _col = 0; _row = 0;
+
+    let rawRooms   = data.room_cols   || [];
+    let rawSeasons = data.season_rows || [];
+    let dateRanges = data.date_ranges || [];
+    let costMatrix = data.cost_matrix || {};
+    const ageBands = data.age_bands || data.ageBands || [];
+    const extraSupplements = data.extra_supplements || data.extraSupplements || data.supplements || [];
+
+    // Older saved contracts used {seasons, rooms} instead of
+    // {season_rows, room_cols, cost_matrix, date_ranges}.
+    if (!rawRooms.length && Array.isArray(data.rooms) && data.rooms.length) {
+        const legacySeasons = data.seasons || [];
+        rawSeasons = legacySeasons.map((s, i) => ({
+            sid: s.sid || `legacy_season_${i + 1}`,
+            name: s.name || `Season ${i + 1}`,
+        }));
+        dateRanges = legacySeasons
+            .filter(s => s.start && s.end)
+            .map((s, i) => ({
+                sid: s.sid || `legacy_season_${i + 1}`,
+                start: s.start,
+                end: s.end,
+            }));
+
+        const seenRooms = [];
+        data.rooms.forEach(room => {
+            const name = room.name || 'Room';
+            if (seenRooms.some(r => r.name === name)) return;
+            seenRooms.push({
+                colId: `legacy_room_${seenRooms.length + 1}`,
+                name,
+                max_cap: room.max_cap || 1,
+                cost_basis: room.cost_basis || 'per_room',
+                sgl_override: room.sgl_override || 0,
+                sgl_override_type: room.sgl_override_type || 'usd',
+            });
+        });
+        rawRooms = seenRooms;
+
+        costMatrix = {};
+        rawSeasons.forEach(season => {
+            costMatrix[season.sid] = {};
+            rawRooms.forEach(room => {
+                const found = data.rooms.find(r =>
+                    (r.name || 'Room') === room.name &&
+                    (
+                        (r.season_sid && r.season_sid === season.sid) ||
+                        (r.sid && r.sid === season.sid) ||
+                        (r.season_id && r.season_id === season.sid) ||
+                        (r.season && r.season === season.name) ||
+                        (r.season_name && r.season_name === season.name)
+                    )
+                );
+                costMatrix[season.sid][room.colId] = found ? (found.cost || 0) : 0;
+            });
+        });
+    }
+    console.info('[reloadContractData] normalized:', {
+        rooms: rawRooms.length,
+        seasons: rawSeasons.length,
+        dateRanges: dateRanges.length,
+        ageBands: ageBands.length,
+        extraSupplements: extraSupplements.length,
+    });
+
+    // Build a map: saved colId → new colId (assigned sequentially by addRoomColumn)
+    const colIdMap = {};
+    rawRooms.forEach(r => {
+        const savedColId = r.colId;
+        addRoomColumn(r.name || '');
+        const newColId = 'col_' + _col;
+        colIdMap[savedColId] = newColId;
+
+        // Capture newColId in closure for the setTimeout
+        const colIdSnap = newColId;
+        setTimeout(() => {
+            const capRow = document.querySelector(
+                `#roomList .room-cap-row[data-col="${colIdSnap}"]`);
+            if (!capRow) return;
+            capRow.querySelector('.rm-cap').value = r.max_cap || 2;
+            const basis = capRow.querySelector('.rm-basis');
+            for (let o of basis.options) if (o.value === (r.cost_basis||'per_room')) { o.selected=true; break; }
+            const sglIn = capRow.querySelector('.rm-sgl-override');
+            if (sglIn && r.sgl_override) sglIn.value = r.sgl_override;
+            const sglUnit = capRow.querySelector('.rm-sgl-unit');
+            if (sglUnit && r.sgl_override_type) {
+                for (let o of sglUnit.options) if (o.value===r.sgl_override_type) { o.selected=true; break; }
+            }
+            // Restore "% of another room" price source (translate saved colId → new colId)
+            if (r.price_source) {
+                const psCell    = document.querySelector(`#rateTablePriceSourceRow .rt-ps-cell[data-col="${colIdSnap}"]`);
+                const srcSel    = psCell?.querySelector('.rt-price-source');
+                const mappedSrc = colIdMap[r.price_source] || '';
+                if (srcSel && mappedSrc) {
+                    for (let o of srcSel.options) if (o.value === mappedSrc) { o.selected = true; break; }
+                    if (r.price_source_pct) psCell.querySelector('.rt-price-pct').value = r.price_source_pct;
+                    onPriceSourceChange(colIdSnap);
+                }
+            }
+        }, 80);
+    });
+
+    // Build season rows — map costs using colIdMap so old colIds → new colIds
+    const sidMap = {}; // saved sid → new sid (assigned by addSeasonTableRow)
+    rawSeasons.forEach(s => {
+        const costs = {};
+        rawRooms.forEach(r => {
+            const newColId = colIdMap[r.colId];
+            if (newColId && costMatrix[s.sid] && costMatrix[s.sid][r.colId] !== undefined)
+                costs[newColId] = costMatrix[s.sid][r.colId];
+        });
+        addSeasonTableRow(s.name || '', costs);
+        // Find the newly created row and record its sid
+        const newRows = document.querySelectorAll('#rateTableBody tr[data-row]');
+        sidMap[s.sid] = newRows[newRows.length - 1]?.dataset.row || '';
+    });
+
+    // ── Date ranges ──────────────────────────────────────
+    document.getElementById('dateRangeList').innerHTML = '';
+    dateRanges.forEach(dr => {
+        const newSid = sidMap[dr.sid] || '';
+        if (newSid) {
+            addDateRange({
+                sid:   newSid,
+                // Convert DD/MM/YYYY back to YYYY-MM-DD for the date picker
+                start: dmyToISO(dr.start),
+                end:   dmyToISO(dr.end),
+            });
+        }
+    });
+    if (!dateRanges.length) addDateRange();
+
+    // ── Age bands ────────────────────────────────────────
+    document.getElementById('ageBandList').innerHTML = '';
+    ageBands.forEach(b => addBandRow(b));
+    if (!ageBands.length) addBandRow();
+
+    // ── Extra supplements ────────────────────────────────
+    document.getElementById('extraSuppList').innerHTML = '';
+    extraSupplements.forEach(xs => addSuppRow(xs));
+
+    recompose();
+    setTimeout(recomputeDerivedPrices, 150);  // ensure all price-source rooms get recalculated
+    console.info('[reloadContractData] rendered:', {
+        roomHeaders: document.querySelectorAll('#rateTableHead .rt-room-th').length,
+        seasonRows: document.querySelectorAll('#rateTableBody tr[data-row]').length,
+        dateRows: document.querySelectorAll('#dateRangeList .drow-daterange').length,
+        roomCapacityRows: document.querySelectorAll('#roomList .room-cap-row').length,
+        ageRows: document.querySelectorAll('#ageBandList .drow').length,
+        supplementRows: document.querySelectorAll('#extraSuppList .supp-row').length,
+    });
+    setStatus('manualStatus', 'ok',
+        '✅ Contract loaded — review the details below and click Generate CSV to save a new version');
+    setTimeout(() => document.getElementById('manualFormWrap')
+        .scrollIntoView({behavior:'smooth', block:'start'}), 250);
+}
+
+// Check on page load if we should reload a contract
+(async function() {
+    const params = new URLSearchParams(window.location.search);
+    const reload = params.get('reload');
+    if (!reload) return;
+
+    let payload = null;
+    const saved = sessionStorage.getItem('reloadContract');
+    if (saved) {
+        sessionStorage.removeItem('reloadContract');
+        try { payload = JSON.parse(saved); } catch(e) { payload = null; }
+    }
+
+    if (!payload && reload !== '1') {
+        try {
+            const res = await fetch(`/api/contracts/${encodeURIComponent(reload)}/entry_data`);
+            payload = await res.json();
+            if (payload.error) throw new Error(payload.error);
+        } catch(e) {
+            setStatus('manualStatus', 'err', 'Could not load contract data: ' + e.message);
+            return;
+        }
+    }
+
+    history.replaceState(null, '', '/');
+    if (payload) {
+        setTimeout(() => reloadContractData(payload), 100);
+    }
+})();
+
+/* ══════════════════════════════════════════════════════
+   BULK PRICE ADJUST (per room column)
+══════════════════════════════════════════════════════ */
+let _papSign = {}; // colId → '+' or '-'
+let _papUndo = {}; // colId → previous values {sid: value}
+
+function toggleAdjustPopover(e, colId) {
+    e.stopPropagation();
+    // Close all other popovers first
+    document.querySelectorAll('.price-adjust-popover').forEach(p => {
+        if (p.id !== 'pap_' + colId) p.style.display = 'none';
+    });
+    document.getElementById('yearShiftPopover').style.display = 'none';
+
+    const pap = document.getElementById('pap_' + colId);
+    if (pap.style.display !== 'none') { pap.style.display = 'none'; return; }
+
+    // Check if this is a derived room (price source set)
+    const psCell = document.querySelector(`#rateTablePriceSourceRow .rt-ps-cell[data-col="${colId}"]`);
+    const isDerived = psCell?.querySelector('.rt-price-source')?.value;
+    if (isDerived) {
+        pap.innerHTML = `<div class="pap-title">📈 Adjust Room</div>
+          <div style="font-size:.8em;color:var(--muted);">This room's prices are auto-derived.<br>Change the % in the Price Source row instead.</div>
+          <div class="pap-actions"><button class="pap-cancel" onclick="closeAllPopovers()">Close</button></div>`;
+        pap.onclick = event => event.stopPropagation();
+        pap.style.display = 'block';
+        positionAdjustPopover(colId);
+        return;
+    }
+
+    if (!_papSign[colId]) _papSign[colId] = '+';
+    const roomName = document.querySelector(`#rateTableHead .rt-room-th[data-col="${colId}"] .rt-room-name-input`)?.value || 'Room';
+
+    pap.innerHTML = `
+      <div class="pap-title">📈 Adjust: ${roomName}</div>
+      <div class="pap-row">
+        <div class="pap-sign">
+          <button id="papPlus_${colId}"  onclick="setPapSign('${colId}','+')"
+                  class="${_papSign[colId]==='+' ? 'active':''}">+</button>
+          <button id="papMinus_${colId}" onclick="setPapSign('${colId}','-')"
+                  class="${_papSign[colId]==='-' ? 'active':''}">−</button>
+        </div>
+        <input class="pap-inp" type="number" id="papVal_${colId}"
+               min="0" step="0.01" placeholder="0.00"
+               oninput="updatePapPreview('${colId}')">
+        <select class="pap-unit" id="papUnit_${colId}" onchange="updatePapPreview('${colId}')">
+          <option value="usd">$</option>
+          <option value="pct">%</option>
+        </select>
+      </div>
+      <div class="pap-preview" id="papPreview_${colId}">Enter an amount to preview</div>
+      <div class="pap-actions">
+        <button class="pap-apply" onclick="applyPriceAdjust('${colId}')">Apply to All Seasons</button>
+        <button class="pap-undo"  id="papUndo_${colId}" onclick="undoPriceAdjust('${colId}')">↩ Undo</button>
+        <button class="pap-cancel" onclick="closeAllPopovers()">✕</button>
+      </div>`;
+    pap.onclick = event => event.stopPropagation();
+    pap.style.display = 'block';
+    positionAdjustPopover(colId);
+    document.getElementById('papVal_' + colId)?.focus();
+}
+
+function positionAdjustPopover(colId) {
+    const pap = document.getElementById('pap_' + colId);
+    const header = document.querySelector(`#rateTableHead .rt-room-th[data-col="${colId}"]`);
+    if (!pap || !header) return;
+
+    const rect = header.getBoundingClientRect();
+    const popRect = pap.getBoundingClientRect();
+    const left = rect.left + rect.width / 2;
+    const preferredTop = rect.top - popRect.height - 8;
+    const top = preferredTop >= 8 ? preferredTop : rect.bottom + 8;
+
+    pap.style.left = `${Math.max(130, Math.min(window.innerWidth - 130, left))}px`;
+    pap.style.top = `${top}px`;
+}
+
+function toggleAdjustPopover(e, colId) {
+    e.stopPropagation();
+    document.querySelectorAll('.price-adjust-popover').forEach(p => {
+        if (p.id !== 'pap_' + colId) p.style.display = 'none';
+    });
+    document.getElementById('yearShiftPopover').style.display = 'none';
+
+    const pap = document.getElementById('pap_' + colId);
+    if (!pap) return;
+    if (pap.style.display !== 'none') {
+        pap.style.display = 'none';
+        return;
+    }
+
+    const psCell = document.querySelector(`#rateTablePriceSourceRow .rt-ps-cell[data-col="${colId}"]`);
+    const isDerived = psCell?.querySelector('.rt-price-source')?.value;
+    pap.onclick = event => event.stopPropagation();
+
+    if (isDerived) {
+        pap.innerHTML = `<div class="pap-title">Adjust Room</div>
+          <div style="font-size:.8em;color:var(--muted);">This room is auto-derived. Change the % in the Price Source row instead.</div>
+          <div class="pap-actions"><button class="pap-cancel" onclick="closeAllPopovers()">Close</button></div>`;
+        pap.style.display = 'block';
+        positionAdjustPopover(colId);
+        return;
+    }
+
+    if (!_papSign[colId]) _papSign[colId] = '+';
+    const roomName = document.querySelector(`#rateTableHead .rt-room-th[data-col="${colId}"] .rt-room-name-input`)?.value || 'Room';
+
+    pap.innerHTML = `
+      <div class="pap-title">Adjust: ${roomName}</div>
+      <div class="pap-row">
+        <div class="pap-sign">
+          <button id="papPlus_${colId}" onclick="setPapSign('${colId}','+')" class="${_papSign[colId] === '+' ? 'active' : ''}">+</button>
+          <button id="papMinus_${colId}" onclick="setPapSign('${colId}','-')" class="${_papSign[colId] === '-' ? 'active' : ''}">-</button>
+        </div>
+        <input class="pap-inp" type="number" id="papVal_${colId}" min="0" step="0.01" placeholder="0.00" oninput="updatePapPreview('${colId}')">
+        <select class="pap-unit" id="papUnit_${colId}" onchange="updatePapPreview('${colId}')">
+          <option value="usd">$</option>
+          <option value="pct">%</option>
+        </select>
+      </div>
+      <div class="pap-preview" id="papPreview_${colId}">Enter an amount to preview</div>
+      <div class="pap-actions">
+        <button class="pap-apply" onclick="applyPriceAdjust('${colId}')">Apply</button>
+        <button class="pap-undo" id="papUndo_${colId}" onclick="undoPriceAdjust('${colId}')">Undo</button>
+        <button class="pap-cancel" onclick="closeAllPopovers()">Close</button>
+      </div>`;
+    pap.style.display = 'block';
+    positionAdjustPopover(colId);
+    document.getElementById('papVal_' + colId)?.focus();
+}
+
+function setPapSign(colId, sign) {
+    _papSign[colId] = sign;
+    document.getElementById('papPlus_'  + colId)?.classList.toggle('active', sign === '+');
+    document.getElementById('papMinus_' + colId)?.classList.toggle('active', sign === '-');
+    updatePapPreview(colId);
+}
+
+function updatePapPreview(colId) {
+    const val  = parseFloat(document.getElementById('papVal_' + colId)?.value) || 0;
+    const unit = document.getElementById('papUnit_' + colId)?.value || 'usd';
+    const sign = _papSign[colId] || '+';
+    const el   = document.getElementById('papPreview_' + colId);
+    if (!el || !val) { if(el) el.textContent = 'Enter an amount to preview'; return; }
+
+    const rows = document.querySelectorAll('#rateTableBody tr[data-row]');
+    const previews = [];
+    rows.forEach(tr => {
+        const inp     = tr.querySelector(`td[data-col="${colId}"] .rt-cost-input`);
+        if (!inp || inp.disabled) return;
+        const current = parseFloat(inp.value) || 0;
+        const delta   = unit === 'pct' ? current * val / 100 : val;
+        const newVal  = sign === '+' ? current + delta : Math.max(0, current - delta);
+        const season  = tr.querySelector('.rt-season-input')?.value || '';
+        previews.push(`${season}: ${current.toFixed(2)} → ${newVal.toFixed(2)}`);
+    });
+    el.textContent = previews.length ? previews.join(' · ') : 'No editable cells';
+}
+
+function updatePapPreview(colId) {
+    const val = parseFloat(document.getElementById('papVal_' + colId)?.value) || 0;
+    const unit = document.getElementById('papUnit_' + colId)?.value || 'usd';
+    const sign = _papSign[colId] || '+';
+    const el = document.getElementById('papPreview_' + colId);
+    if (!el || !val) {
+        if (el) el.textContent = 'Enter an amount to preview';
+        return;
+    }
+
+    const previews = [];
+    document.querySelectorAll('#rateTableBody tr[data-row]').forEach(tr => {
+        const inp = tr.querySelector(`td[data-col="${colId}"] .rt-cost-input`);
+        if (!inp || inp.disabled) return;
+        const current = parseFloat(inp.value) || 0;
+        const delta = unit === 'pct' ? current * val / 100 : val;
+        const newVal = sign === '+' ? current + delta : Math.max(0, current - delta);
+        const season = tr.querySelector('.rt-season-input')?.value || 'Season';
+        previews.push(`${season}: ${current.toFixed(2)} -> ${newVal.toFixed(2)}`);
+    });
+    el.textContent = previews.length ? previews.join(' | ') : 'No editable cells';
+}
+
+function applyPriceAdjust(colId) {
+    const val  = parseFloat(document.getElementById('papVal_' + colId)?.value) || 0;
+    const unit = document.getElementById('papUnit_' + colId)?.value || 'usd';
+    const sign = _papSign[colId] || '+';
+    if (!val) return;
+
+    // Save undo snapshot
+    const snap = {};
+    document.querySelectorAll('#rateTableBody tr[data-row]').forEach(tr => {
+        const inp = tr.querySelector(`td[data-col="${colId}"] .rt-cost-input`);
+        if (inp && !inp.disabled) snap[tr.dataset.row] = inp.value;
+    });
+    _papUndo[colId] = snap;
+
+    // Apply
+    document.querySelectorAll('#rateTableBody tr[data-row]').forEach(tr => {
+        const inp = tr.querySelector(`td[data-col="${colId}"] .rt-cost-input`);
+        if (!inp || inp.disabled) return;
+        const current = parseFloat(inp.value) || 0;
+        const delta   = unit === 'pct' ? current * val / 100 : val;
+        const newVal  = sign === '+' ? current + delta : Math.max(0, current - delta);
+        inp.value = newVal.toFixed(2);
+    });
+
+    recomputeDerivedPrices();
+
+    // Show undo button
+    const undoBtn = document.getElementById('papUndo_' + colId);
+    if (undoBtn) undoBtn.style.display = 'inline-block';
+
+    updatePapPreview(colId);
+}
+
+function undoPriceAdjust(colId) {
+    const snap = _papUndo[colId];
+    if (!snap) return;
+    Object.entries(snap).forEach(([sid, val]) => {
+        const inp = document.querySelector(
+            `#rateTableBody tr[data-row="${sid}"] td[data-col="${colId}"] .rt-cost-input`);
+        if (inp) inp.value = val;
+    });
+    delete _papUndo[colId];
+    recomputeDerivedPrices();
+    const undoBtn = document.getElementById('papUndo_' + colId);
+    if (undoBtn) undoBtn.style.display = 'none';
+    updatePapPreview(colId);
+}
+
+/* ══════════════════════════════════════════════════════
+   YEAR SHIFT (date ranges)
+══════════════════════════════════════════════════════ */
+let _rowPapSign = {}; // sid -> '+' or '-'
+let _rowPapUndo = {}; // sid -> previous values {colId: value}
+
+function toggleSeasonAdjustPopover(e, sid) {
+    e.stopPropagation();
+    document.querySelectorAll('.price-adjust-popover').forEach(p => {
+        if (p.id !== 'pap_row_' + sid) p.style.display = 'none';
+    });
+    document.getElementById('yearShiftPopover').style.display = 'none';
+
+    const pap = document.getElementById('pap_row_' + sid);
+    if (!pap) return;
+    if (pap.style.display !== 'none') {
+        pap.style.display = 'none';
+        return;
+    }
+
+    if (!_rowPapSign[sid]) _rowPapSign[sid] = '+';
+    const seasonName = document.querySelector(`#rateTableBody tr[data-row="${sid}"] .rt-season-input`)?.value || 'Season';
+    const roomOptions = getRoomColumns().map(c => {
+        const label = c.name || '(unnamed)';
+        return `<option value="${c.colId}">${label}</option>`;
+    }).join('');
+
+    pap.innerHTML = `
+      <div class="pap-title">Adjust Season: ${seasonName}</div>
+      <div class="pap-row">
+        <div class="pap-sign">
+          <button id="rowPapPlus_${sid}" onclick="setRowPapSign('${sid}','+')" class="${_rowPapSign[sid] === '+' ? 'active' : ''}">+</button>
+          <button id="rowPapMinus_${sid}" onclick="setRowPapSign('${sid}','-')" class="${_rowPapSign[sid] === '-' ? 'active' : ''}">-</button>
+        </div>
+        <input class="pap-inp" type="number" id="rowPapVal_${sid}" min="0" step="0.01" placeholder="0.00" oninput="updateSeasonAdjustPreview('${sid}')">
+        <select class="pap-unit" id="rowPapUnit_${sid}" onchange="updateSeasonAdjustPreview('${sid}')">
+          <option value="usd">$</option>
+          <option value="pct">%</option>
+        </select>
+      </div>
+      <div class="pap-field">
+        <div class="pap-field-label">Rooms to adjust</div>
+        <select class="pap-room-select" id="rowPapRooms_${sid}" multiple onchange="updateSeasonAdjustPreview('${sid}')">
+          ${roomOptions}
+        </select>
+        <div class="pap-hint">Leave empty for all editable rooms.</div>
+      </div>
+      <div class="pap-preview" id="rowPapPreview_${sid}">Enter an amount to preview</div>
+      <div class="pap-actions">
+        <button class="pap-apply" onclick="applySeasonPriceAdjust('${sid}')">Apply</button>
+        <button class="pap-undo" id="rowPapUndo_${sid}" onclick="undoSeasonPriceAdjust('${sid}')">Undo</button>
+        <button class="pap-cancel" onclick="closeAllPopovers()">Close</button>
+      </div>`;
+    pap.onclick = event => event.stopPropagation();
+    pap.style.display = 'block';
+    positionSeasonAdjustPopover(sid);
+    document.getElementById('rowPapVal_' + sid)?.focus();
+}
+
+function getSelectedSeasonAdjustCols(sid) {
+    const selected = selectedOptions(document.getElementById('rowPapRooms_' + sid));
+    return selected.length ? new Set(selected) : null;
+}
+
+function positionSeasonAdjustPopover(sid) {
+    const pap = document.getElementById('pap_row_' + sid);
+    const cell = document.querySelector(`#rateTableBody tr[data-row="${sid}"] .rt-season-cell`);
+    if (!pap || !cell) return;
+
+    const rect = cell.getBoundingClientRect();
+    const popRect = pap.getBoundingClientRect();
+    const left = rect.left + rect.width / 2;
+    const preferredTop = rect.top - popRect.height - 8;
+    const top = preferredTop >= 8 ? preferredTop : rect.bottom + 8;
+
+    pap.style.left = `${Math.max(130, Math.min(window.innerWidth - 130, left))}px`;
+    pap.style.top = `${top}px`;
+}
+
+function setRowPapSign(sid, sign) {
+    _rowPapSign[sid] = sign;
+    document.getElementById('rowPapPlus_' + sid)?.classList.toggle('active', sign === '+');
+    document.getElementById('rowPapMinus_' + sid)?.classList.toggle('active', sign === '-');
+    updateSeasonAdjustPreview(sid);
+}
+
+function updateSeasonAdjustPreview(sid) {
+    const val = parseFloat(document.getElementById('rowPapVal_' + sid)?.value) || 0;
+    const unit = document.getElementById('rowPapUnit_' + sid)?.value || 'usd';
+    const sign = _rowPapSign[sid] || '+';
+    const el = document.getElementById('rowPapPreview_' + sid);
+    if (!el || !val) {
+        if (el) el.textContent = 'Enter an amount to preview';
+        return;
+    }
+
+    const tr = document.querySelector(`#rateTableBody tr[data-row="${sid}"]`);
+    if (!tr) return;
+
+    const previews = [];
+    const selectedCols = getSelectedSeasonAdjustCols(sid);
+    tr.querySelectorAll('.rt-cost-input').forEach(inp => {
+        if (inp.disabled) return;
+        const colId = inp.dataset.col;
+        if (selectedCols && !selectedCols.has(colId)) return;
+        const current = parseFloat(inp.value) || 0;
+        const delta = unit === 'pct' ? current * val / 100 : val;
+        const newVal = sign === '+' ? current + delta : Math.max(0, current - delta);
+        const room = document.querySelector(`#rateTableHead .rt-room-th[data-col="${colId}"] .rt-room-name-input`)?.value || 'Room';
+        previews.push(`${room}: ${current.toFixed(2)} -> ${newVal.toFixed(2)}`);
+    });
+    el.textContent = previews.length ? previews.join(' | ') : 'No editable cells';
+}
+
+function applySeasonPriceAdjust(sid) {
+    const val = parseFloat(document.getElementById('rowPapVal_' + sid)?.value) || 0;
+    const unit = document.getElementById('rowPapUnit_' + sid)?.value || 'usd';
+    const sign = _rowPapSign[sid] || '+';
+    if (!val) return;
+
+    const tr = document.querySelector(`#rateTableBody tr[data-row="${sid}"]`);
+    if (!tr) return;
+
+    const snap = {};
+    const selectedCols = getSelectedSeasonAdjustCols(sid);
+    tr.querySelectorAll('.rt-cost-input').forEach(inp => {
+        if (selectedCols && !selectedCols.has(inp.dataset.col)) return;
+        if (!inp.disabled) snap[inp.dataset.col] = inp.value;
+    });
+    _rowPapUndo[sid] = snap;
+
+    tr.querySelectorAll('.rt-cost-input').forEach(inp => {
+        if (inp.disabled) return;
+        if (selectedCols && !selectedCols.has(inp.dataset.col)) return;
+        const current = parseFloat(inp.value) || 0;
+        const delta = unit === 'pct' ? current * val / 100 : val;
+        const newVal = sign === '+' ? current + delta : Math.max(0, current - delta);
+        inp.value = newVal.toFixed(2);
+    });
+
+    recomputeDerivedPrices();
+
+    const undoBtn = document.getElementById('rowPapUndo_' + sid);
+    if (undoBtn) undoBtn.style.display = 'inline-block';
+    updateSeasonAdjustPreview(sid);
+}
+
+function undoSeasonPriceAdjust(sid) {
+    const snap = _rowPapUndo[sid];
+    if (!snap) return;
+    Object.entries(snap).forEach(([colId, val]) => {
+        const inp = document.querySelector(
+            `#rateTableBody tr[data-row="${sid}"] td[data-col="${colId}"] .rt-cost-input`);
+        if (inp) inp.value = val;
+    });
+    delete _rowPapUndo[sid];
+    recomputeDerivedPrices();
+    const undoBtn = document.getElementById('rowPapUndo_' + sid);
+    if (undoBtn) undoBtn.style.display = 'none';
+    updateSeasonAdjustPreview(sid);
+}
+
+function toggleYearShiftPopover(e) {
+    e.stopPropagation();
+    closeAllPopovers();
+    const pop = document.getElementById('yearShiftPopover');
+    if (pop.style.display !== 'none') { pop.style.display = 'none'; return; }
+
+    // Preview current dates
+    const ranges = [];
+    document.querySelectorAll('#dateRangeList .drow-daterange').forEach(row => {
+        const s = row.querySelector('.dr-start')?.value;
+        const e = row.querySelector('.dr-end')?.value;
+        const n = row.querySelector('.dr-season-sel')?.selectedOptions[0]?.text || '';
+        if (s || e) ranges.push({ name: n, start: s, end: e });
+    });
+
+    const preview = ranges.length
+        ? ranges.map(r => `${r.name}: ${r.start||'?'} → ${r.end||'?'}`).join('<br>')
+        : '<em>No dates set yet</em>';
+
+    pop.innerHTML = `
+      <div class="ysp-title">⟳ Shift All Dates</div>
+      <div class="ysp-btns">
+        <button class="ysp-btn" onclick="shiftYears(-2)">−2 yrs</button>
+        <button class="ysp-btn" onclick="shiftYears(-1)">−1 yr</button>
+        <button class="ysp-btn" onclick="shiftYears(1)">+1 yr</button>
+        <button class="ysp-btn" onclick="shiftYears(2)">+2 yrs</button>
+      </div>
+      <div class="ysp-preview" id="yspPreview">${preview}</div>
+      <div style="margin-top:8px;">
+        <button class="pap-cancel" onclick="closeAllPopovers()">Close</button>
+      </div>`;
+    pop.style.display = 'block';
+}
+
+function shiftYears(n) {
+    document.querySelectorAll('#dateRangeList .drow-daterange').forEach(row => {
+        const sInp = row.querySelector('.dr-start');
+        const eInp = row.querySelector('.dr-end');
+        if (sInp?.value) {
+            const d = new Date(sInp.value);
+            d.setFullYear(d.getFullYear() + n);
+            sInp.value = d.toISOString().slice(0,10);
+        }
+        if (eInp?.value) {
+            const d = new Date(eInp.value);
+            d.setFullYear(d.getFullYear() + n);
+            eInp.value = d.toISOString().slice(0,10);
+        }
+    });
+
+    // Also update contract year field if set
+    const yrEl = document.getElementById('m_year');
+    if (yrEl?.value && /^\d{4}$/.test(yrEl.value.trim())) {
+        yrEl.value = String(parseInt(yrEl.value) + n);
+    }
+
+    // Refresh preview
+    const ranges = [];
+    document.querySelectorAll('#dateRangeList .drow-daterange').forEach(row => {
+        const s = row.querySelector('.dr-start')?.value;
+        const e = row.querySelector('.dr-end')?.value;
+        const n2 = row.querySelector('.dr-season-sel')?.selectedOptions[0]?.text || '';
+        if (s || e) ranges.push({ name: n2, start: s, end: e });
+    });
+    const el = document.getElementById('yspPreview');
+    if (el) el.innerHTML = ranges.length
+        ? ranges.map(r => `${r.name}: ${r.start||'?'} → ${r.end||'?'}`).join('<br>')
+        : '<em>No dates set</em>';
+}
+
+/* ── Close all popovers on outside click ─────────────── */
+function closeAllPopovers() {
+    document.querySelectorAll('.price-adjust-popover, .year-shift-popover').forEach(p => {
+        p.style.display = 'none';
+    });
+}
+document.addEventListener('click', closeAllPopovers);
+
 </script>
 </body>
 </html>
