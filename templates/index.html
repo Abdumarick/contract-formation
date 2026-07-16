@@ -1082,6 +1082,33 @@
         </div>
 
         <!-- ── Form (always unlocked) ────────────────────────── -->
+        <div class="card" id="csvImportCard">
+            <div class="card-header" style="cursor:pointer;" onclick="toggleCsvImportHelper()">
+                <div class="card-icon ci-green">CSV</div>
+                <div class="card-header-text">
+                    <h3>Import Existing CSV <span style="color:var(--accent);font-size:.75em;font-weight:400;">optional</span></h3>
+                    <p>Upload a previously generated CSV to rebuild the editable form for small price or date updates</p>
+                </div>
+                <div id="csvImportChevron" style="margin-left:auto;color:var(--muted);font-size:1.1em;transition:transform .3s;">â–¼</div>
+            </div>
+            <div id="csvImportBody" style="display:none;">
+            <div class="card-body">
+                <div class="upload-area" id="csvImportArea">
+                    <div class="upload-icon">CSV</div>
+                    <div class="upload-text">Drop your generated CSV here or click to browse</div>
+                    <div class="upload-hint">Use CSV files exported by this system</div>
+                    <input type="file" id="csvImportInput" accept=".csv,text/csv">
+                </div>
+                <div class="actions">
+                    <button class="btn btn-green" id="importCsvBtn" disabled>
+                        <span>Import CSV &amp; Fill Form</span>
+                    </button>
+                </div>
+                <div class="status" id="csvImportStatus"></div>
+            </div>
+            </div>
+        </div>
+
         <div id="manualFormWrap">
 
         <!-- ── Hotel Info ───────────────────────────────────── -->
@@ -1328,6 +1355,14 @@ function togglePdfHelper() {
 /* ══════════════════════════════════════════════════════
    TABS
 ══════════════════════════════════════════════════════ */
+function toggleCsvImportHelper() {
+    const body    = document.getElementById('csvImportBody');
+    const chevron = document.getElementById('csvImportChevron');
+    const open    = body.style.display === 'none';
+    body.style.display    = open ? 'block' : 'none';
+    chevron.style.transform = open ? 'rotate(180deg)' : 'rotate(0deg)';
+}
+
 document.querySelectorAll('.mode-tab').forEach(btn => {
     btn.addEventListener('click', () => {
         document.querySelectorAll('.mode-tab').forEach(b => b.classList.remove('active'));
@@ -2493,6 +2528,71 @@ parsePdfBtn.addEventListener('click', async () => {
 /* ══════════════════════════════════════════════════════
    HB / FB AUTO-COMPOSE
 ══════════════════════════════════════════════════════ */
+const csvImportArea  = document.getElementById('csvImportArea');
+const csvImportInput = document.getElementById('csvImportInput');
+const importCsvBtn   = document.getElementById('importCsvBtn');
+let csvImportFile = null;
+
+csvImportArea.addEventListener('click', () => csvImportInput.click());
+csvImportArea.addEventListener('dragover', e => { e.preventDefault(); csvImportArea.classList.add('dragover'); });
+csvImportArea.addEventListener('dragleave', () => csvImportArea.classList.remove('dragover'));
+csvImportArea.addEventListener('drop', e => {
+    e.preventDefault();
+    csvImportArea.classList.remove('dragover');
+    handleCsvImportFile(e.dataTransfer.files[0]);
+});
+csvImportInput.addEventListener('change', e => handleCsvImportFile(e.target.files[0]));
+
+function handleCsvImportFile(f) {
+    if (!f) return;
+    if (!f.name.toLowerCase().endsWith('.csv')) {
+        alert('Please select a CSV file');
+        return;
+    }
+    if (f.size > 16 * 1024 * 1024) {
+        alert('File must be under 16 MB');
+        return;
+    }
+    csvImportFile = f;
+    importCsvBtn.disabled = false;
+    csvImportArea.querySelector('.upload-text').textContent = f.name;
+    csvImportArea.querySelector('.upload-hint').textContent = 'Click to change file';
+}
+
+importCsvBtn.addEventListener('click', async () => {
+    if (!csvImportFile) return;
+
+    const fd = new FormData();
+    fd.append('file', csvImportFile);
+
+    importCsvBtn.disabled = true;
+    importCsvBtn.textContent = 'Importing...';
+    document.getElementById('csvImportStatus').classList.remove('show');
+    document.getElementById('manualResult').classList.remove('show');
+
+    try {
+        const res = await fetch('/import_generated_csv', { method: 'POST', body: fd });
+        const data = await res.json();
+
+        if (!data.success) {
+            setStatus('csvImportStatus', 'err', 'CSV import failed: ' + (data.error || 'Unknown error'));
+            return;
+        }
+
+        reloadContractData(data);
+        currentEditOutputDir = '';
+        const summary = data.import_summary || {};
+        setStatus('csvImportStatus', 'ok',
+            `CSV imported: ${summary.rows || '?'} rows, ${summary.rooms || '?'} rooms, ${summary.date_ranges || '?'} date ranges. Review below, then Generate CSV.`);
+        document.getElementById('csvImportCard').style.borderColor = 'var(--accent2)';
+    } catch (e) {
+        setStatus('csvImportStatus', 'err', 'Network error: ' + e.message);
+    } finally {
+        importCsvBtn.disabled = false;
+        importCsvBtn.textContent = 'Import CSV & Fill Form';
+    }
+});
+
 function recompose() {
     const b = parseFloat(document.getElementById('s_bfast').value)  || 0;
     const l = parseFloat(document.getElementById('s_lunch').value)  || 0;
@@ -2772,6 +2872,13 @@ document.getElementById('clearBtn').addEventListener('click', () => {
     document.getElementById('manualResult').classList.remove('show');
     document.getElementById('manualStatus').classList.remove('show');
     document.getElementById('parseStatus').classList.remove('show');
+    csvImportFile = null;
+    importCsvBtn.disabled = true;
+    importCsvBtn.textContent = 'Import CSV & Fill Form';
+    document.getElementById('csvImportCard').style.borderColor = '';
+    document.getElementById('csvImportStatus').classList.remove('show');
+    csvImportArea.querySelector('.upload-text').textContent = 'Drop your generated CSV here or click to browse';
+    csvImportArea.querySelector('.upload-hint').textContent = 'Use CSV files exported by this system';
     document.getElementById('parseProgress').style.display = 'none';
     currentEditOutputDir = '';
 });

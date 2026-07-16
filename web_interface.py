@@ -12,6 +12,7 @@ from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from main import parse_pdf
+from module_12_csv_import import import_generated_csv
 
 def normalise_date(s):
     """Accept DD/MM/YYYY or YYYY-MM-DD, return DD/MM/YYYY for CSV output."""
@@ -56,6 +57,10 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+
+def allowed_csv_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() == 'csv'
 
 
 # ── CSV column order (matches CRM schema) ────────────────────────────────────
@@ -438,6 +443,29 @@ def parse_for_manual():
 
     except Exception as e:
         return jsonify({'error': f'Could not parse PDF: {str(e)}'}), 500
+
+
+@app.route('/import_generated_csv', methods=['POST'])
+def import_generated_csv_route():
+    """Import an existing generated CRM CSV and return manual-editor JSON."""
+    if 'file' not in request.files:
+        return jsonify({'error': 'No CSV file selected'}), 400
+
+    file = request.files['file']
+    if not file.filename or not allowed_csv_file(file.filename):
+        return jsonify({'error': 'Only CSV files are allowed'}), 400
+
+    try:
+        filename = secure_filename(file.filename)
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        filepath = os.path.join(app.config['UPLOAD_FOLDER'], f'csv_import_{timestamp}_{filename}')
+        file.save(filepath)
+
+        data = import_generated_csv(filepath)
+        return jsonify(data)
+
+    except Exception as e:
+        return jsonify({'error': f'Could not import CSV: {str(e)}'}), 500
 
 
 # ── File download ─────────────────────────────────────────────────────────────
