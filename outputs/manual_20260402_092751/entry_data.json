@@ -1,0 +1,197 @@
+{
+  "hotel_name": "Kisiwa On The Beach",
+  "contract_year": "2026",
+  "base_plan": "HB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high"
+    },
+    {
+      "sid": "row_2",
+      "name": "low"
+    },
+    {
+      "sid": "row_3",
+      "name": "festival"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "BahariBeachFront Pool Villa  With Outdoor Shower",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Bahari BeachFront Pool Villa",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Bahari Grand Pool Villa  With Outdoor Shower",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Bahari Grand Pool Villa",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Raha Luxury Pool Villa",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_6",
+      "name": "Raha Luxury  Villa",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_7",
+      "name": "Starehe Luxury Villa",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 668,
+      "col_2": 636,
+      "col_3": 584,
+      "col_4": 552,
+      "col_5": 500,
+      "col_6": 456,
+      "col_7": 396
+    },
+    "row_2": {
+      "col_1": 534,
+      "col_2": 512,
+      "col_3": 464,
+      "col_4": 444,
+      "col_5": 400,
+      "col_6": 368,
+      "col_7": 316
+    },
+    "row_3": {
+      "col_1": 735,
+      "col_2": 700,
+      "col_3": 643,
+      "col_4": 608,
+      "col_5": 550,
+      "col_6": 502,
+      "col_7": 436
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "06/01/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/04/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/07/2026",
+      "end": "22/12/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "23/12/2026",
+      "end": "05/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 6,
+      "max_age": 15,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 16,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 115,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": [
+    {
+      "name": "",
+      "override_type": "fb_supp",
+      "room": "",
+      "band": "child_6_15",
+      "season_amounts": [
+        {
+          "season": "high",
+          "amount": 50,
+          "amount_type": "pct"
+        },
+        {
+          "season": "low",
+          "amount": 50,
+          "amount_type": "pct"
+        },
+        {
+          "season": "festival",
+          "amount": 50,
+          "amount_type": "pct"
+        }
+      ]
+    }
+  ]
+}

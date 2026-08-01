@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "RiverTrees Country Inn",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "RiverTrees_Country_Inn_20260601_180934.csv",
+  "xlsx_file": null,
+  "row_count": 108,
+  "created_at": "2026-06-01T18:09:34.421420",
+  "output_dir": "manual_20260601_180934",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

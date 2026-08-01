@@ -1,0 +1,170 @@
+{
+  "hotel_name": "Ngorongoro Farm House",
+  "location_name": "Karatu",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "A charming, exclusive colonial-style lodge set on a 500-acre working coffee plantation in the Ngorongoro Highlands, just minutes from the Lolduare gate to Ngorongoro Crater. Featuring spacious cottages and suites with verandas overlooking lush gardens, it offers farm-fresh homemade cuisine, eco-friendly solar power, a pool, spa services, and a relaxing atmosphere.",
+  "room_desc": "The Standard Single Room at Ngorongoro Farm House is a spacious, charming cottage-style accommodation on the lush coffee plantation grounds. It features a comfortable single bed with mosquito netting, en-suite bathroom with hot shower, cozy seating area, fan, safe, tea/coffee facilities, and a private veranda overlooking the vibrant gardens, rolling valleys, or Oldeani Volcano.",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "Imported from an existing generated CSV. Review before exporting.",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high"
+    },
+    {
+      "sid": "row_2",
+      "name": "sholder"
+    },
+    {
+      "sid": "row_3",
+      "name": "low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Standard Room ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Standard Room (Double)",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Standard Room (Triple)",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Suite Room (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Suite Room (Double)",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 259,
+      "col_2": 179,
+      "col_3": 115,
+      "col_4": 341,
+      "col_5": 234
+    },
+    "row_2": {
+      "col_1": 159,
+      "col_2": 113,
+      "col_3": 99,
+      "col_4": 239,
+      "col_5": 166
+    },
+    "row_3": {
+      "col_1": 208,
+      "col_2": 146,
+      "col_3": 127,
+      "col_4": 290,
+      "col_5": 200
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/04/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/11/2026",
+      "end": "15/12/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/12/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 2,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    },
+    {
+      "label": "child",
+      "min_age": 3,
+      "max_age": 16,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

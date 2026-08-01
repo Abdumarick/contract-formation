@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Ziwani Lodge 27",
+  "hotel_group": "Single",
+  "location": "Lake Eyasi",
+  "csv_file": "Ziwani_Lodge_27_20260702_092245.csv",
+  "xlsx_file": null,
+  "row_count": 30,
+  "created_at": "2026-07-02T09:22:45.271509",
+  "output_dir": "manual_20260702_092245",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

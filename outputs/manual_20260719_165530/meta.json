@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Baobab Mara Luxury Camps 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Baobab_Mara_Luxury_Camps_27_20260719_165752.csv",
+  "xlsx_file": null,
+  "row_count": 36,
+  "created_at": "2026-07-19T16:57:52.129056",
+  "output_dir": "manual_20260719_165530",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

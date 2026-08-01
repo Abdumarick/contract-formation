@@ -1,0 +1,9 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Nashera Hotels,,Test,,0,,USD,Deluxe  Room,,1,0,12,1,1,95.0,0.0,25.0,39.99,01/01/2026,31/12/2026
+,Nashera Hotels,,Test,,0,,USD,Deluxe  Room,,1,13,99,1,1,95.0,0.0,25.0,39.99,01/01/2026,31/12/2026
+,Nashera Hotels,,Test,,0,,USD,Super Deluxe,,1,0,12,1,1,105.0,0.0,25.0,39.99,01/01/2026,31/12/2026
+,Nashera Hotels,,Test,,0,,USD,Super Deluxe,,1,13,99,1,1,105.0,0.0,25.0,39.99,01/01/2026,31/12/2026
+,Nashera Hotels,,Test,,0,,USD,Twin Room,,2,0,12,1,2,140.0,140.0,25.0,39.99,01/01/2026,31/12/2026
+,Nashera Hotels,,Test,,0,,USD,Twin Room,,2,13,99,1,2,140.0,140.0,25.0,39.99,01/01/2026,31/12/2026
+,Nashera Hotels,,Test,,0,,USD,Executive Room,,2,0,12,1,2,250.0,250.0,25.0,39.99,01/01/2026,31/12/2026
+,Nashera Hotels,,Test,,0,,USD,Executive Room,,2,13,99,1,2,250.0,250.0,25.0,39.99,01/01/2026,31/12/2026

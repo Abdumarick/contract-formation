@@ -1,0 +1,109 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,4,11,1,2,41.5,83.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,12,99,1,2,83.0,83.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,4,11,1,2,31.88,63.75,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,12,99,1,2,63.75,63.75,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,4,11,1,2,41.5,83.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,12,99,1,2,83.0,83.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,4,11,1,2,46.5,93.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Double Room,Test,2,12,99,1,2,93.0,93.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,4,11,1,1,70.55,0.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,12,99,1,1,141.1,0.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,4,11,1,1,54.19,0.0,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,12,99,1,1,108.38,0.0,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,4,11,1,1,70.55,0.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,12,99,1,1,141.1,0.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,4,11,1,1,79.05,0.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Suite With Seaview Single Room,Test,1,12,99,1,1,158.1,0.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,4,11,1,2,38.25,76.5,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,12,99,1,2,76.5,76.5,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,4,11,1,2,24.5,49.0,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,12,99,1,2,49.0,49.0,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,4,11,1,2,38.25,76.5,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,12,99,1,2,76.5,76.5,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,4,11,1,2,41.5,83.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Double Room,Test,2,12,99,1,2,83.0,83.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,4,11,1,1,65.03,0.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,12,99,1,1,130.05,0.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,4,11,1,1,41.65,0.0,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,12,99,1,1,83.3,0.0,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,4,11,1,1,65.03,0.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,12,99,1,1,130.05,0.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,4,11,1,1,70.55,0.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Single Room,Test,1,12,99,1,1,141.1,0.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,4,11,1,2,34.0,68.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,12,99,1,2,68.0,68.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,4,11,1,2,20.25,40.5,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,12,99,1,2,40.5,40.5,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,4,11,1,2,34.0,68.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,12,99,1,2,68.0,68.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,4,11,1,2,36.12,72.25,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Double Room,Test,2,12,99,1,2,72.25,72.25,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,4,11,1,1,57.8,0.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,12,99,1,1,115.6,0.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,4,11,1,1,34.42,0.0,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,12,99,1,1,68.85,0.0,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,4,11,1,1,57.8,0.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,12,99,1,1,115.6,0.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,4,11,1,1,61.41,0.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Beach Single Room,Test,1,12,99,1,1,122.83,0.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,4,11,1,2,25.5,51.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,12,99,1,2,51.0,51.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,4,11,1,2,14.88,29.75,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,12,99,1,2,29.75,29.75,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,4,11,1,2,25.5,51.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,12,99,1,2,51.0,51.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,4,11,1,2,29.75,59.5,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Double Room,Test,2,12,99,1,2,59.5,59.5,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,4,11,1,1,43.5,0.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,12,99,1,1,87.0,0.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,4,11,1,1,22.25,0.0,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,12,99,1,1,44.5,0.0,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,4,11,1,1,43.5,0.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,12,99,1,1,87.0,0.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,4,11,1,1,52.0,0.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Garden Single Room,Test,1,12,99,1,1,104.0,0.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,4,11,1,2,47.0,94.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,12,99,1,2,94.0,94.0,25.0,45.0,07/01/2026,31/03/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,4,11,1,2,37.38,74.75,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,12,99,1,2,74.75,74.75,25.0,45.0,01/04/2026,31/05/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,4,11,1,2,47.0,94.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,12,99,1,2,94.0,94.0,25.0,45.0,01/06/2026,22/12/2026
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,4,11,1,2,52.0,104.0,25.0,45.0,23/12/2026,06/01/2027
+Zanzibar,The Loop Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Beach Triple Room,Test,2,12,99,1,2,104.0,104.0,25.0,45.0,23/12/2026,06/01/2027

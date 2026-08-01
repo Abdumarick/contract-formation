@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tembo House  Hotel Apartment",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Tembo_House__Hotel_Apartment_20260403_103517.csv",
+  "xlsx_file": null,
+  "row_count": 39,
+  "created_at": "2026-04-03T10:35:17.321241",
+  "output_dir": "manual_20260403_103517",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

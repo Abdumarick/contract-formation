@@ -1,0 +1,261 @@
+{
+  "hotel_name": "Kiwengwa beach resort",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_3",
+      "name": "s3"
+    },
+    {
+      "sid": "row_4",
+      "name": "s4"
+    },
+    {
+      "sid": "row_5",
+      "name": "s5"
+    },
+    {
+      "sid": "row_6",
+      "name": "s6"
+    },
+    {
+      "sid": "row_7",
+      "name": "s7"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Standard  Garden  Double",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 60,
+      "sgl_override_type": "pct"
+    },
+    {
+      "colId": "col_2",
+      "name": "Superior Garden Double",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 60,
+      "sgl_override_type": "pct"
+    },
+    {
+      "colId": "col_3",
+      "name": "Double Standard Sea View",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 60,
+      "sgl_override_type": "pct"
+    },
+    {
+      "colId": "col_4",
+      "name": "Africa Junior Suite Garden Wiew Double",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 60,
+      "sgl_override_type": "pct"
+    },
+    {
+      "colId": "col_5",
+      "name": "Deluxe  with pool and  sea view Double",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 60,
+      "sgl_override_type": "pct"
+    },
+    {
+      "colId": "col_6",
+      "name": "Family Suite with  pool view",
+      "max_cap": 4,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "pct"
+    },
+    {
+      "colId": "col_7",
+      "name": "Superior side sea  view with jacuzzi",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 60,
+      "sgl_override_type": "pct"
+    },
+    {
+      "colId": "col_8",
+      "name": "Suite  sea view with jacuzzi",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "pct"
+    },
+    {
+      "colId": "col_9",
+      "name": "Swim\u0002up sea view Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_10",
+      "name": "Suite  Sea view with private  pool",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_11",
+      "name": "LOFT  Sea front with private  pool",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_3": {
+      "col_1": 210,
+      "col_2": 230,
+      "col_3": 240,
+      "col_4": 270,
+      "col_5": 245,
+      "col_6": 250,
+      "col_7": 245,
+      "col_8": 260,
+      "col_9": 280,
+      "col_10": 300,
+      "col_11": 430
+    },
+    "row_4": {
+      "col_1": 100,
+      "col_2": 120,
+      "col_3": 130,
+      "col_4": 160,
+      "col_5": 135,
+      "col_6": 140,
+      "col_7": 135,
+      "col_8": 150,
+      "col_9": 170,
+      "col_10": 190,
+      "col_11": 320
+    },
+    "row_5": {
+      "col_1": 120,
+      "col_2": 140,
+      "col_3": 150,
+      "col_4": 180,
+      "col_5": 155,
+      "col_6": 160,
+      "col_7": 155,
+      "col_8": 170,
+      "col_9": 190,
+      "col_10": 210,
+      "col_11": 340
+    },
+    "row_6": {
+      "col_1": 170,
+      "col_2": 190,
+      "col_3": 200,
+      "col_4": 230,
+      "col_5": 205,
+      "col_6": 210,
+      "col_7": 205,
+      "col_8": 220,
+      "col_9": 240,
+      "col_10": 260,
+      "col_11": 390
+    },
+    "row_7": {
+      "col_1": 180,
+      "col_2": 200,
+      "col_3": 210,
+      "col_4": 240,
+      "col_5": 215,
+      "col_6": 220,
+      "col_7": 215,
+      "col_8": 230,
+      "col_9": 250,
+      "col_10": 270,
+      "col_11": 400
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_3",
+      "start": "16/01/2026",
+      "end": "15/03/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "16/03/2026",
+      "end": "30/04/2026"
+    },
+    {
+      "sid": "row_5",
+      "start": "01/06/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/07/2026",
+      "end": "31/08/2026"
+    },
+    {
+      "sid": "row_6",
+      "start": "01/09/2026",
+      "end": "30/09/2026"
+    },
+    {
+      "sid": "row_7",
+      "start": "01/10/2026",
+      "end": "31/10/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 1,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 2,
+      "max_age": 10,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 20,
+  "fb_supplement": 50,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "KIMARISHE SERENGETI LODGE  27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "KIMARISHE_SERENGETI_LODGE_27_20260801_151924.csv",
+  "xlsx_file": null,
+  "row_count": 108,
+  "created_at": "2026-08-01T15:19:24.620863",
+  "output_dir": "manual_20260801_151924",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

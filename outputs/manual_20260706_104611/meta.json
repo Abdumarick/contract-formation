@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Melia Zanzibar",
+  "hotel_group": "Single",
+  "location": "Zanzibar",
+  "csv_file": "Melia_Zanzibar_20260706_104611.csv",
+  "xlsx_file": null,
+  "row_count": 378,
+  "created_at": "2026-07-06T10:46:11.923460",
+  "output_dir": "manual_20260706_104611",
+  "contract_year": "2027",
+  "base_plan": "AI"
+}

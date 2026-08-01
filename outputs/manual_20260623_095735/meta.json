@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Conserve Safari Tarangire",
+  "hotel_group": "Single",
+  "location": "Tarangire",
+  "csv_file": "Conserve_Safari_Tarangire_20260623_095735.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-06-23T09:57:35.694812",
+  "output_dir": "manual_20260623_095735",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

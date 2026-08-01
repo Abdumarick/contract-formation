@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Migration Undercanvas Camp",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Migration_Undercanvas_Camp_20260603_021222.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-06-03T02:12:22.570345",
+  "output_dir": "manual_20260603_021222",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

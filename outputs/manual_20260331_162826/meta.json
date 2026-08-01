@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Zuri Zanzibar",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Zuri_Zanzibar_20260331_162826.csv",
+  "xlsx_file": null,
+  "row_count": 105,
+  "created_at": "2026-03-31T16:28:26.628578",
+  "output_dir": "manual_20260331_162826",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

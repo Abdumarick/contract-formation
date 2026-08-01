@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Hotel Verde  Luxury Resort",
+  "hotel_group": "Single",
+  "location": "Zanzibar",
+  "csv_file": "Hotel_Verde_Luxury_Resort_20260707_111005.csv",
+  "xlsx_file": null,
+  "row_count": 80,
+  "created_at": "2026-07-07T11:10:05.866216",
+  "output_dir": "manual_20260707_111005",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

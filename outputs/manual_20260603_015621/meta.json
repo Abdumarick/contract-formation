@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Pamoja Camp Serengeti",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Pamoja_Camp_Serengeti_20260603_015621.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-06-03T01:56:21.181314",
+  "output_dir": "manual_20260603_015621",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

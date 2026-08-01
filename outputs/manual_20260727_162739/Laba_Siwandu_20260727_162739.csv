@@ -1,0 +1,85 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,0,5,1,2,0.0,0.0,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,6,15,1,2,321.18,642.36,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,16,99,1,2,642.36,642.36,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,6,15,1,2,321.18,642.36,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,16,99,1,2,642.36,642.36,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,6,15,1,2,321.18,642.36,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,16,99,1,2,642.36,642.36,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,6,15,1,2,398.0,796.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,16,99,1,2,796.0,796.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,6,15,1,2,361.58,723.16,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,16,99,1,2,723.16,723.16,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,6,15,1,2,321.18,642.36,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,16,99,1,2,642.36,642.36,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,0,5,1,2,0.0,0.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,6,15,1,2,398.0,796.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Double Tent,test,2,16,99,1,2,796.0,796.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,0,5,1,1,0.0,0.0,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,6,15,1,1,0.0,0.0,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,16,99,1,1,0.0,0.0,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,6,15,1,1,0.0,0.0,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,16,99,1,1,0.0,0.0,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,6,15,1,1,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,16,99,1,1,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,6,15,1,1,597.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,16,99,1,1,1194.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,6,15,1,1,542.37,0.0,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,16,99,1,1,1084.74,0.0,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,6,15,1,1,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,16,99,1,1,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,0,5,1,1,0.0,0.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,6,15,1,1,597.0,0.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,SingleTent,test,1,16,99,1,1,1194.0,0.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,0,5,1,3,0.0,0.0,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,6,15,1,3,321.18,642.36,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,16,99,1,3,642.36,642.36,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,6,15,1,3,321.18,642.36,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,16,99,1,3,642.36,642.36,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,6,15,1,3,321.18,642.36,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,16,99,1,3,642.36,642.36,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,6,15,1,3,398.0,796.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,16,99,1,3,796.0,796.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,6,15,1,3,361.58,723.16,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,16,99,1,3,723.16,723.16,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,6,15,1,3,321.18,642.36,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,16,99,1,3,642.36,642.36,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,0,5,1,3,0.0,0.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,6,15,1,3,398.0,796.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Triple Tent,test,3,16,99,1,3,796.0,796.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,5,1,4,0.0,0.0,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,6,15,1,4,321.18,642.36,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,16,99,1,4,642.36,642.36,0.0,0.0,10/01/2026,31/01/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,6,15,1,4,321.18,642.36,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,16,99,1,4,642.36,642.36,0.0,0.0,01/02/2026,15/03/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,6,15,1,4,321.18,642.36,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,16,99,1,4,642.36,642.36,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,6,15,1,4,398.0,796.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,16,99,1,4,796.0,796.0,0.0,0.0,01/07/2026,31/08/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,6,15,1,4,361.58,723.16,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,16,99,1,4,723.16,723.16,0.0,0.0,01/09/2026,31/10/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,6,15,1,4,321.18,642.36,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,16,99,1,4,642.36,642.36,0.0,0.0,01/11/2026,19/12/2026
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,5,1,4,0.0,0.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,6,15,1,4,398.0,796.0,0.0,0.0,20/12/2026,09/01/2027
+Nyerere NP,Laba Siwandu,,test,FALSE,0,FALSE,USD,Family Tent,test,4,16,99,1,4,796.0,796.0,0.0,0.0,20/12/2026,09/01/2027

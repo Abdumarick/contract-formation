@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "High View Hotel 27",
+  "hotel_group": "Single",
+  "location": "Karatu",
+  "csv_file": "High_View_Hotel_27_20260716_111212.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-07-16T11:12:12.582792",
+  "output_dir": "manual_20260716_111212",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

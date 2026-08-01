@@ -1,0 +1,200 @@
+{
+  "hotel_name": "Olea Farm Lodge 27",
+  "location_name": "Karatu",
+  "contract_year": "2027",
+  "base_plan": "HB",
+  "hotel_desc": "Test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high"
+    },
+    {
+      "sid": "row_2",
+      "name": "low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 104,
+      "col_2": 174,
+      "col_3": 224
+    },
+    "row_2": {
+      "col_1": 96,
+      "col_2": 133,
+      "col_3": 160
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/06/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/11/2026",
+      "end": "30/11/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/12/2026",
+      "end": "31/03/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/04/2027",
+      "end": "31/05/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2027",
+      "end": "31/10/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/11/2027",
+      "end": "30/11/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/12/2027",
+      "end": "31/12/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 6,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "custom",
+      "child_hb": 0,
+      "child_fb": 5,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 18,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": [
+    {
+      "name": "",
+      "override_type": "fb_supp",
+      "room": "Double Room",
+      "band": "",
+      "season_amounts": [
+        {
+          "season": "high",
+          "amount": 9,
+          "amount_type": "usd"
+        },
+        {
+          "season": "low",
+          "amount": 11,
+          "amount_type": "usd"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "override_type": "fb_supp",
+      "room": "Triple Room",
+      "band": "",
+      "season_amounts": [
+        {
+          "season": "high",
+          "amount": 9,
+          "amount_type": "usd"
+        },
+        {
+          "season": "low",
+          "amount": 11,
+          "amount_type": "usd"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "override_type": "fb_supp",
+      "room": "Single Room",
+      "band": "",
+      "season_amounts": [
+        {
+          "season": "high",
+          "amount": 18,
+          "amount_type": "usd"
+        },
+        {
+          "season": "low",
+          "amount": 8,
+          "amount_type": "usd"
+        }
+      ]
+    }
+  ]
+}

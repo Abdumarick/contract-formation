@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Siafu Serenity Lodge",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Siafu_Serenity_Lodge_20260618_160910.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-06-18T16:09:10.138760",
+  "output_dir": "manual_20260618_160910",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

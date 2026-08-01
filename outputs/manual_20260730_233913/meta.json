@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Sayari 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Sayari_27_20260730_233913.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-07-30T23:39:13.813690",
+  "output_dir": "manual_20260730_233913",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Onomo Hotel Dar es Salaam",
+  "hotel_group": "Single",
+  "location": "Dar es Salaam",
+  "csv_file": "Onomo_Hotel_Dar_es_Salaam_20260727_111425.csv",
+  "xlsx_file": null,
+  "row_count": 24,
+  "created_at": "2026-07-27T11:14:25.901412",
+  "output_dir": "manual_20260725_183821",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

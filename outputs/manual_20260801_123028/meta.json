@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tarangire Safari Lodge",
+  "hotel_group": "Single",
+  "location": "Tarangire",
+  "csv_file": "Tarangire_Safari_Lodge_20260801_123510.csv",
+  "xlsx_file": null,
+  "row_count": 36,
+  "created_at": "2026-08-01T12:35:10.217029",
+  "output_dir": "manual_20260801_123028",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

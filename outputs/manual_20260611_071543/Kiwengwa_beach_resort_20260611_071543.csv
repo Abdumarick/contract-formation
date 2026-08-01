@@ -1,0 +1,199 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,2,10,1,2,105.0,126.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,13,99,1,2,210.0,126.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,2,10,1,2,50.0,60.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,13,99,1,2,100.0,60.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,2,10,1,2,60.0,72.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,13,99,1,2,120.0,72.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,2,10,1,2,105.0,126.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,13,99,1,2,210.0,126.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,2,10,1,2,85.0,102.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,13,99,1,2,170.0,102.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,2,10,1,2,90.0,108.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Standard  Garden  Double,,2,13,99,1,2,180.0,108.0,20.0,50.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,2,10,1,2,115.0,138.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,13,99,1,2,230.0,138.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,2,10,1,2,60.0,72.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,13,99,1,2,120.0,72.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,2,10,1,2,70.0,84.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,13,99,1,2,140.0,84.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,2,10,1,2,115.0,138.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,13,99,1,2,230.0,138.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,2,10,1,2,95.0,114.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,13,99,1,2,190.0,114.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,2,10,1,2,100.0,120.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior Garden Double,,2,13,99,1,2,200.0,120.0,20.0,50.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,2,10,1,2,120.0,144.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,13,99,1,2,240.0,144.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,2,10,1,2,65.0,78.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,13,99,1,2,130.0,78.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,2,10,1,2,75.0,90.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,13,99,1,2,150.0,90.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,2,10,1,2,120.0,144.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,13,99,1,2,240.0,144.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,2,10,1,2,100.0,120.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,13,99,1,2,200.0,120.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,2,10,1,2,105.0,126.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Double Standard Sea View,,2,13,99,1,2,210.0,126.0,20.0,50.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,2,10,1,2,135.0,162.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,13,99,1,2,270.0,162.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,2,10,1,2,80.0,96.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,13,99,1,2,160.0,96.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,2,10,1,2,90.0,108.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,13,99,1,2,180.0,108.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,2,10,1,2,135.0,162.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,13,99,1,2,270.0,162.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,2,10,1,2,115.0,138.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,13,99,1,2,230.0,138.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,2,10,1,2,120.0,144.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Africa Junior Suite Garden Wiew Double,,2,13,99,1,2,240.0,144.0,20.0,50.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,2,10,1,2,122.5,147.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,13,99,1,2,245.0,147.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,2,10,1,2,67.5,81.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,13,99,1,2,135.0,81.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,2,10,1,2,77.5,93.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,13,99,1,2,155.0,93.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,2,10,1,2,122.5,147.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,13,99,1,2,245.0,147.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,2,10,1,2,102.5,123.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,13,99,1,2,205.0,123.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,2,10,1,2,107.5,129.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Deluxe  with pool and  sea view Double,,2,13,99,1,2,215.0,129.0,20.0,50.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,0,1,1,4,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,2,10,1,4,125.0,250.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,13,99,1,4,250.0,250.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,0,1,1,4,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,2,10,1,4,70.0,140.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,13,99,1,4,140.0,140.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,0,1,1,4,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,2,10,1,4,80.0,160.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,13,99,1,4,160.0,160.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,0,1,1,4,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,2,10,1,4,125.0,250.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,13,99,1,4,250.0,250.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,0,1,1,4,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,2,10,1,4,105.0,210.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,13,99,1,4,210.0,210.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,0,1,1,4,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,2,10,1,4,110.0,220.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Family Suite with  pool view,,4,13,99,1,4,220.0,220.0,20.0,50.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,2,10,1,2,122.5,147.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,13,99,1,2,245.0,147.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,2,10,1,2,67.5,81.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,13,99,1,2,135.0,81.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,2,10,1,2,77.5,93.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,13,99,1,2,155.0,93.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,2,10,1,2,122.5,147.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,13,99,1,2,245.0,147.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,2,10,1,2,102.5,123.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,13,99,1,2,205.0,123.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,2,10,1,2,107.5,129.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Superior side sea  view with jacuzzi,,2,13,99,1,2,215.0,129.0,20.0,50.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,0,1,1,3,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,2,10,1,3,130.0,260.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,13,99,1,3,260.0,260.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,0,1,1,3,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,2,10,1,3,75.0,150.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,13,99,1,3,150.0,150.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,2,10,1,3,85.0,170.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,13,99,1,3,170.0,170.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,2,10,1,3,130.0,260.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,13,99,1,3,260.0,260.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,2,10,1,3,110.0,220.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,13,99,1,3,220.0,220.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,2,10,1,3,115.0,230.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  sea view with jacuzzi,,3,13,99,1,3,230.0,230.0,20.0,50.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,2,10,1,3,140.0,280.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,13,99,1,3,280.0,280.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,2,10,1,3,85.0,170.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,13,99,1,3,170.0,170.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,2,10,1,3,95.0,190.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,13,99,1,3,190.0,190.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,2,10,1,3,140.0,280.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,13,99,1,3,280.0,280.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,2,10,1,3,120.0,240.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,13,99,1,3,240.0,240.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,2,10,1,3,125.0,250.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Swimup sea view Room,,3,13,99,1,3,250.0,250.0,20.0,50.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,2,10,1,3,150.0,300.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,13,99,1,3,300.0,300.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,2,10,1,3,95.0,190.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,13,99,1,3,190.0,190.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,2,10,1,3,105.0,210.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,13,99,1,3,210.0,210.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,2,10,1,3,150.0,300.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,13,99,1,3,300.0,300.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,2,10,1,3,130.0,260.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,13,99,1,3,260.0,260.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,2,10,1,3,135.0,270.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,Suite  Sea view with private  pool,,3,13,99,1,3,270.0,270.0,20.0,50.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,2,10,1,3,215.0,430.0,10.0,25.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,13,99,1,3,430.0,430.0,20.0,50.0,16/01/2026,15/03/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,2,10,1,3,160.0,320.0,10.0,25.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,13,99,1,3,320.0,320.0,20.0,50.0,16/03/2026,30/04/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,2,10,1,3,170.0,340.0,10.0,25.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,13,99,1,3,340.0,340.0,20.0,50.0,01/06/2026,30/06/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,2,10,1,3,215.0,430.0,10.0,25.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,13,99,1,3,430.0,430.0,20.0,50.0,01/07/2026,31/08/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,2,10,1,3,195.0,390.0,10.0,25.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,13,99,1,3,390.0,390.0,20.0,50.0,01/09/2026,30/09/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,2,10,1,3,200.0,400.0,10.0,25.0,01/10/2026,31/10/2026
+,Kiwengwa beach resort,,Test,,0,,USD,LOFT  Sea front with private  pool,,3,13,99,1,3,400.0,400.0,20.0,50.0,01/10/2026,31/10/2026

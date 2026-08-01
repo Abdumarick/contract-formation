@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Ikoma Wild Camp",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Ikoma_Wild_Camp_20260716_095101.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-07-16T09:51:01.071053",
+  "output_dir": "manual_20260716_095101",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

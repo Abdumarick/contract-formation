@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serengeti Safari Lodge",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Serengeti_Safari_Lodge_20260716_111612.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-07-16T11:16:12.449894",
+  "output_dir": "manual_20260716_111612",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

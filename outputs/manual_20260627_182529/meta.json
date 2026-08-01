@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Melia Serengeti Lodge 2027",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Melia_Serengeti_Lodge_2027_20260627_182529.csv",
+  "xlsx_file": null,
+  "row_count": 147,
+  "created_at": "2026-06-27T18:25:29.675854",
+  "output_dir": "manual_20260627_182529",
+  "contract_year": "2028",
+  "base_plan": "BB"
+}

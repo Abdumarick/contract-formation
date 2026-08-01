@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Selous River Camp",
+  "hotel_group": "Single",
+  "location": "Nyerere National Park",
+  "csv_file": "Selous_River_Camp_20260727_122341.csv",
+  "xlsx_file": null,
+  "row_count": 315,
+  "created_at": "2026-07-27T12:23:41.381134",
+  "output_dir": "manual_20260727_122341",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

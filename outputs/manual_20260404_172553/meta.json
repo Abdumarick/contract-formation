@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Vuma Hills Tented Camp by Stanley Kopjes",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Vuma_Hills_Tented_Camp_by_Stanley_Kopjes_20260404_172553.csv",
+  "xlsx_file": null,
+  "row_count": 120,
+  "created_at": "2026-04-04T17:25:53.165929",
+  "output_dir": "manual_20260404_172553",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

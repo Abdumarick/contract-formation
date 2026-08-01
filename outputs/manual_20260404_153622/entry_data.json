@@ -1,0 +1,78 @@
+{
+  "hotel_name": "Mikumi Safari Lodge",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "full"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Standard Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 30,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 65
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 1,
+      "max_age": 4,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 4,
+      "max_age": 11,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 12,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "All lemosho Route",
+  "hotel_group": "Single",
+  "location": "Kilimanjaro",
+  "csv_file": "All_lemosho_Route_20260713_233803.csv",
+  "xlsx_file": null,
+  "row_count": 9,
+  "created_at": "2026-07-13T23:38:03.775453",
+  "output_dir": "manual_20260713_233803",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Omega View Hotel & Resort",
+  "hotel_group": "Single",
+  "location": "Karatu",
+  "csv_file": "Omega_View_Hotel_&_Resort_20260711_121020.csv",
+  "xlsx_file": null,
+  "row_count": 9,
+  "created_at": "2026-07-11T12:10:20.177959",
+  "output_dir": "manual_20260711_121020",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

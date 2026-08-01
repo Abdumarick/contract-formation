@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Gnus Lairs  Kogatende",
+  "hotel_group": "Single",
+  "location": "Serengeti Serengeti National",
+  "csv_file": "Gnus_Lairs__Kogatende_20260624_111215.csv",
+  "xlsx_file": null,
+  "row_count": 9,
+  "created_at": "2026-06-24T11:12:15.247270",
+  "output_dir": "manual_20260624_111215",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

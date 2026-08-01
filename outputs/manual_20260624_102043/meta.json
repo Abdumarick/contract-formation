@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Glimpse Immigration Camp Kodatend",
+  "hotel_group": "Single",
+  "location": "Serengeti National Park",
+  "csv_file": "Glimpse_Immigration_Camp_Kodatend_20260624_102043.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-06-24T10:20:43.589693",
+  "output_dir": "manual_20260624_102043",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

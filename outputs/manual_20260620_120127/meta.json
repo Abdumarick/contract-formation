@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "The Manor Ngorongoro",
+  "hotel_group": "Single",
+  "location": "Karatu",
+  "csv_file": "The_Manor_Ngorongoro_20260620_120127.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-06-20T12:01:27.835172",
+  "output_dir": "manual_20260620_120127",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

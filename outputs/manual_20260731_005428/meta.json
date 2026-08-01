@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tarangire Treetops 27",
+  "hotel_group": "Single",
+  "location": "Tarangire",
+  "csv_file": "Tarangire_Treetops_27_20260731_005428.csv",
+  "xlsx_file": null,
+  "row_count": 54,
+  "created_at": "2026-07-31T00:54:28.606558",
+  "output_dir": "manual_20260731_005428",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

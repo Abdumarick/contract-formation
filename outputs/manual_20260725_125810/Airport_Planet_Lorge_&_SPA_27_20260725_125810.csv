@@ -1,0 +1,109 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,3,11,1,1,153.75,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,12,99,1,1,205.0,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,3,11,1,1,138.0,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,12,99,1,1,184.0,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,3,11,1,1,130.5,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,12,99,1,1,174.0,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,3,11,1,1,153.75,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,12,99,1,1,205.0,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,3,11,1,1,138.0,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,12,99,1,1,184.0,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,0,2,1,1,0.0,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,3,11,1,1,153.75,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Single),test,1,12,99,1,1,205.0,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,0,2,1,2,0.0,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,3,11,1,2,84.75,113.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,12,99,1,2,113.0,113.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,0,2,1,2,0.0,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,3,11,1,2,76.88,102.5,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,12,99,1,2,102.5,102.5,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,0,2,1,2,0.0,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,3,11,1,2,72.75,97.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,12,99,1,2,97.0,97.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,0,2,1,2,0.0,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,3,11,1,2,84.75,113.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,12,99,1,2,113.0,113.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,0,2,1,2,0.0,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,3,11,1,2,76.88,102.5,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,12,99,1,2,102.5,102.5,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,0,2,1,2,0.0,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,3,11,1,2,84.75,113.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Double),test,2,12,99,1,2,113.0,113.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,0,2,1,2,0.0,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,3,11,1,2,84.75,113.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,12,99,1,2,113.0,113.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,0,2,1,2,0.0,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,3,11,1,2,76.88,102.5,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,12,99,1,2,102.5,102.5,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,0,2,1,2,0.0,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,3,11,1,2,72.75,97.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,12,99,1,2,97.0,97.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,0,2,1,2,0.0,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,3,11,1,2,84.75,113.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,12,99,1,2,113.0,113.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,0,2,1,2,0.0,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,3,11,1,2,76.88,102.5,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,12,99,1,2,102.5,102.5,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,0,2,1,2,0.0,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,3,11,1,2,84.75,113.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Twin),test,2,12,99,1,2,113.0,113.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,0,2,1,3,0.0,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,3,11,1,3,74.5,99.33,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,12,99,1,3,99.33,99.33,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,0,2,1,3,0.0,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,3,11,1,3,69.5,92.67,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,12,99,1,3,92.67,92.67,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,0,2,1,3,0.0,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,3,11,1,3,64.25,85.67,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,12,99,1,3,85.67,85.67,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,0,2,1,3,0.0,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,3,11,1,3,74.5,99.33,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,12,99,1,3,99.33,99.33,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,0,2,1,3,0.0,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,3,11,1,3,69.5,92.67,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,12,99,1,3,92.67,92.67,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,0,2,1,3,0.0,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,3,11,1,3,74.5,99.33,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Standard Rooms (Triple),test,3,12,99,1,3,99.33,99.33,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,3,11,1,1,199.5,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,12,99,1,1,266.0,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,3,11,1,1,183.75,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,12,99,1,1,245.0,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,3,11,1,1,175.5,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,12,99,1,1,234.0,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,3,11,1,1,199.5,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,12,99,1,1,266.0,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,3,11,1,1,183.75,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,12,99,1,1,245.0,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,3,11,1,1,199.5,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Deluxe Suite,test,1,12,99,1,1,266.0,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,3,11,1,1,286.5,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,12,99,1,1,382.0,0.0,28.0,56.0,01/01/2027,28/02/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,3,11,1,1,278.25,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,12,99,1,1,371.0,0.0,28.0,56.0,01/03/2027,31/03/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,3,11,1,1,253.5,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,12,99,1,1,338.0,0.0,28.0,56.0,01/04/2027,31/05/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,3,11,1,1,286.5,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,12,99,1,1,382.0,0.0,28.0,56.0,01/06/2027,31/10/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,3,11,1,1,278.25,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,12,99,1,1,371.0,0.0,28.0,56.0,01/11/2027,15/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,0,2,1,1,0.0,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,3,11,1,1,286.5,0.0,28.0,56.0,16/12/2027,31/12/2027
+Kilimanjaro,Airport Planet Lorge & SPA 27,,test,FALSE,0,FALSE,USD,Executive Suite,test,1,12,99,1,1,382.0,0.0,28.0,56.0,16/12/2027,31/12/2027

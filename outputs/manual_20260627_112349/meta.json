@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Kirawira Serena Safari Rodge 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Kirawira_Serena_Safari_Rodge_27_20260627_112349.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-06-27T11:23:49.962550",
+  "output_dir": "manual_20260627_112349",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

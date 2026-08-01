@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serval Wildlife 27",
+  "hotel_group": "Single",
+  "location": "Moshi",
+  "csv_file": "Serval_Wildlife_27_20260720_123947.csv",
+  "xlsx_file": null,
+  "row_count": 8,
+  "created_at": "2026-07-20T12:39:47.610807",
+  "output_dir": "manual_20260720_123947",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

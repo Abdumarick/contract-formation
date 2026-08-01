@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "NGORONGORO RIM LODGE 27",
+  "hotel_group": "Single",
+  "location": "Ngorongoro",
+  "csv_file": "NGORONGORO_RIM_LODGE_27_20260801_151458.csv",
+  "xlsx_file": null,
+  "row_count": 108,
+  "created_at": "2026-08-01T15:14:58.948105",
+  "output_dir": "manual_20260801_151458",
+  "contract_year": "",
+  "base_plan": "BB"
+}

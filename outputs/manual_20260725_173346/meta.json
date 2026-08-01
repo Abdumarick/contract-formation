@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Hotel  Slipway",
+  "hotel_group": "Single",
+  "location": "Dar er Salaam",
+  "csv_file": "Hotel_Slipway_20260725_173346.csv",
+  "xlsx_file": null,
+  "row_count": 20,
+  "created_at": "2026-07-25T17:33:46.990006",
+  "output_dir": "manual_20260725_173346",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

@@ -1,0 +1,304 @@
+{
+  "hotel_name": "Marafiki Bungalows Zanzibar",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "S1"
+    },
+    {
+      "sid": "row_2",
+      "name": "S2"
+    },
+    {
+      "sid": "row_3",
+      "name": "S3"
+    },
+    {
+      "sid": "row_4",
+      "name": "S4"
+    },
+    {
+      "sid": "row_5",
+      "name": "S5"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Honeymoon Suite - private villa with pool 2 pax $",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Honeymoon Suite - private villa with pool 3 pax",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Double room OCV",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Triple room OCV",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Family room OCV 2 pax",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_6",
+      "name": "Family room OCV 3 pax",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_7",
+      "name": "Family room OCV 4 pax",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_8",
+      "name": "Family room OCV 5 pax",
+      "max_cap": 5,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_9",
+      "name": "Double room with garden view",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_10",
+      "name": "Triple room with garden view",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_11",
+      "name": "Family room garden view 2 pax",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_12",
+      "name": "Family room garden view 3 pax",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_13",
+      "name": "Family room garden view 4 pax",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_14",
+      "name": "Family room garden view 5 pax",
+      "max_cap": 5,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 221,
+      "col_2": 242,
+      "col_3": 153,
+      "col_4": 174,
+      "col_5": 162,
+      "col_6": 183,
+      "col_7": 204,
+      "col_8": 225,
+      "col_9": 132,
+      "col_10": 153,
+      "col_11": 145,
+      "col_12": 166,
+      "col_13": 187,
+      "col_14": 204
+    },
+    "row_2": {
+      "col_1": 162,
+      "col_2": 183,
+      "col_3": 111,
+      "col_4": 132,
+      "col_5": 119,
+      "col_6": 140,
+      "col_7": 162,
+      "col_8": 183,
+      "col_9": 94,
+      "col_10": 115,
+      "col_11": 102,
+      "col_12": 123,
+      "col_13": 145,
+      "col_14": 166
+    },
+    "row_3": {
+      "col_1": 145,
+      "col_2": 166,
+      "col_3": 94,
+      "col_4": 115,
+      "col_5": 102,
+      "col_6": 123,
+      "col_7": 145,
+      "col_8": 166,
+      "col_9": 77,
+      "col_10": 98,
+      "col_11": 85,
+      "col_12": 106,
+      "col_13": 128,
+      "col_14": 149
+    },
+    "row_4": {
+      "col_1": 204,
+      "col_2": 225,
+      "col_3": 136,
+      "col_4": 157,
+      "col_5": 145,
+      "col_6": 166,
+      "col_7": 187,
+      "col_8": 208,
+      "col_9": 199,
+      "col_10": 140,
+      "col_11": 128,
+      "col_12": 149,
+      "col_13": 170,
+      "col_14": 191
+    },
+    "row_5": {
+      "col_1": 272,
+      "col_2": 298,
+      "col_3": 174,
+      "col_4": 200,
+      "col_5": 200,
+      "col_6": 225,
+      "col_7": 251,
+      "col_8": 276,
+      "col_9": 145,
+      "col_10": 170,
+      "col_11": 170,
+      "col_12": 196,
+      "col_13": 221,
+      "col_14": 247
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "09/01/2026",
+      "end": "28/02/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/03/2026",
+      "end": "04/04/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "05/04/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/06/2026",
+      "end": "10/07/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "11/07/2026",
+      "end": "31/08/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/09/2026",
+      "end": "30/09/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/10/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/11/2026",
+      "end": "19/12/2026"
+    },
+    {
+      "sid": "row_5",
+      "start": "20/12/2026",
+      "end": "08/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "child",
+      "min_age": 0,
+      "max_age": 12,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "custom",
+      "child_hb": 20,
+      "child_fb": 30,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 12,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 25,
+  "fb_supplement": 39,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

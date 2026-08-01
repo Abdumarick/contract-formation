@@ -1,0 +1,94 @@
+{
+  "hotel_name": "Nashera Hotels",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "full"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Deluxe  Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Super Deluxe",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Executive Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 95,
+      "col_2": 105,
+      "col_3": 140,
+      "col_4": 250
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "child",
+      "min_age": 0,
+      "max_age": 12,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 25,
+  "fb_supplement": 39.99,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

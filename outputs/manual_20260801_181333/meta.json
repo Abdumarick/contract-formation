@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Africa Safari Nyerere 27",
+  "hotel_group": "Single",
+  "location": "Nyerere Np",
+  "csv_file": "Africa_Safari_Nyerere_27_20260801_181333.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-08-01T18:13:33.865820",
+  "output_dir": "manual_20260801_181333",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

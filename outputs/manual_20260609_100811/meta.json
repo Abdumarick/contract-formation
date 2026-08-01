@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Baobab Migration Camps",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Baobab_Migration_Camps_20260609_100811.csv",
+  "xlsx_file": null,
+  "row_count": 36,
+  "created_at": "2026-06-09T10:08:11.534779",
+  "output_dir": "manual_20260609_100811",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

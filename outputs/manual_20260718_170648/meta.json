@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Simba Public Campsite",
+  "hotel_group": "Single",
+  "location": "Tarangire",
+  "csv_file": "Simba_Public_Campsite_20260718_170648.csv",
+  "xlsx_file": null,
+  "row_count": 8,
+  "created_at": "2026-07-18T17:06:48.499222",
+  "output_dir": "manual_20260718_170648",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

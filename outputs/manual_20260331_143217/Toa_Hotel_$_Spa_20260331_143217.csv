@@ -1,0 +1,121 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,4,11,1,2,87.75,122.85,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,12,99,1,2,175.5,122.85,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,4,11,1,2,84.75,118.65,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,12,99,1,2,169.5,118.65,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,4,11,1,2,78.75,110.25,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,12,99,1,2,157.5,110.25,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,4,11,1,2,87.75,122.85,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,12,99,1,2,175.5,122.85,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,4,11,1,2,93.5,130.9,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,12,99,1,2,187.0,130.9,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,4,11,1,2,93.5,130.9,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,12,99,1,2,187.0,130.9,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,4,11,1,2,87.75,122.85,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,12,99,1,2,175.5,122.85,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,4,11,1,2,120.25,168.35,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Garden View,,2,12,99,1,2,240.5,168.35,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,4,11,1,2,95.5,133.7,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,12,99,1,2,191.0,133.7,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,4,11,1,2,92.75,129.85,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,12,99,1,2,185.5,129.85,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,4,11,1,2,86.75,121.45,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,12,99,1,2,173.5,121.45,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,4,11,1,2,95.5,133.7,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,12,99,1,2,191.0,133.7,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,4,11,1,2,111.25,155.75,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,12,99,1,2,222.5,155.75,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,4,11,1,2,121.75,170.45,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,12,99,1,2,243.5,170.45,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,4,11,1,2,111.25,155.75,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,12,99,1,2,222.5,155.75,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,4,11,1,2,156.5,219.1,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Superior Sea View,,2,12,99,1,2,313.0,219.1,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,4,11,1,2,103.5,144.9,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,12,99,1,2,207.0,144.9,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,4,11,1,2,100.5,140.7,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,12,99,1,2,201.0,140.7,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,4,11,1,2,94.5,132.3,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,12,99,1,2,189.0,132.3,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,4,11,1,2,103.5,144.9,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,12,99,1,2,207.0,144.9,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,4,11,1,2,119.25,166.95,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,12,99,1,2,238.5,166.95,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,4,11,1,2,129.75,181.65,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,12,99,1,2,259.5,181.65,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,4,11,1,2,119.25,166.95,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,12,99,1,2,238.5,166.95,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,4,11,1,2,163.75,229.25,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Deluxe,,2,12,99,1,2,327.5,229.25,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,4,11,1,2,132.75,185.85,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,12,99,1,2,265.5,185.85,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,4,11,1,2,130.0,182.0,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,12,99,1,2,260.0,182.0,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,4,11,1,2,124.25,173.95,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,12,99,1,2,248.5,173.95,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,4,11,1,2,132.75,185.85,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,12,99,1,2,265.5,185.85,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,4,11,1,2,148.5,207.9,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,12,99,1,2,297.0,207.9,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,4,11,1,2,159.0,222.6,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,12,99,1,2,318.0,222.6,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,4,11,1,2,148.5,207.9,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,12,99,1,2,297.0,207.9,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,4,11,1,2,193.25,270.55,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Suite Infinity Pool,,2,12,99,1,2,386.5,270.55,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,4,11,1,2,149.25,208.95,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,12,99,1,2,298.5,208.95,0.0,0.0,07/01/2026,28/02/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,4,11,1,2,141.75,198.45,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,12,99,1,2,283.5,198.45,0.0,0.0,01/03/2026,31/03/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,4,11,1,2,136.0,190.4,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,12,99,1,2,272.0,190.4,0.0,0.0,01/04/2026,31/05/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,4,11,1,2,144.75,202.65,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,12,99,1,2,289.5,202.65,0.0,0.0,01/06/2026,30/06/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,4,11,1,2,160.5,224.7,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,12,99,1,2,321.0,224.7,0.0,0.0,01/07/2026,31/07/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,4,11,1,2,171.0,239.4,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,12,99,1,2,342.0,239.4,0.0,0.0,01/08/2026,31/08/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,4,11,1,2,160.5,224.7,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,12,99,1,2,321.0,224.7,0.0,0.0,01/03/2026,20/12/2026
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,4,11,1,2,205.0,287.0,0.0,0.0,21/12/2026,06/01/2027
+,Toa Hotel $ Spa,,Test,,0,,USD,Royal  Suite  With Jacuzzi,,2,12,99,1,2,410.0,287.0,0.0,0.0,21/12/2026,06/01/2027

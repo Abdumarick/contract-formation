@@ -1,0 +1,85 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,0,5,1,2,0.0,0.0,0.0,0.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,6,15,1,2,334.0,334.0,0.0,167.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,16,99,1,2,334.0,334.0,0.0,115.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,6,15,1,2,267.0,267.0,0.0,133.5,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,16,99,1,2,267.0,267.0,0.0,115.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,6,15,1,2,334.0,334.0,0.0,167.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,16,99,1,2,334.0,334.0,0.0,115.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,0,5,1,2,0.0,0.0,0.0,0.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,6,15,1,2,367.5,367.5,0.0,183.75,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,BahariBeachFront Pool Villa  With Outdoor Shower,,2,16,99,1,2,367.5,367.5,0.0,115.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,6,15,1,2,318.0,318.0,0.0,159.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,16,99,1,2,318.0,318.0,0.0,115.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,6,15,1,2,256.0,256.0,0.0,128.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,16,99,1,2,256.0,256.0,0.0,115.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,6,15,1,2,318.0,318.0,0.0,159.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,16,99,1,2,318.0,318.0,0.0,115.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,6,15,1,2,350.0,350.0,0.0,175.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari BeachFront Pool Villa,,2,16,99,1,2,350.0,350.0,0.0,115.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,0,5,1,2,0.0,0.0,0.0,0.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,6,15,1,2,292.0,292.0,0.0,146.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,16,99,1,2,292.0,292.0,0.0,115.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,6,15,1,2,232.0,232.0,0.0,116.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,16,99,1,2,232.0,232.0,0.0,115.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,6,15,1,2,292.0,292.0,0.0,146.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,16,99,1,2,292.0,292.0,0.0,115.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,0,5,1,2,0.0,0.0,0.0,0.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,6,15,1,2,321.5,321.5,0.0,160.75,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa  With Outdoor Shower,,2,16,99,1,2,321.5,321.5,0.0,115.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,6,15,1,2,276.0,276.0,0.0,138.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,16,99,1,2,276.0,276.0,0.0,115.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,6,15,1,2,222.0,222.0,0.0,111.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,16,99,1,2,222.0,222.0,0.0,115.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,6,15,1,2,276.0,276.0,0.0,138.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,16,99,1,2,276.0,276.0,0.0,115.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,6,15,1,2,304.0,304.0,0.0,152.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Bahari Grand Pool Villa,,2,16,99,1,2,304.0,304.0,0.0,115.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,6,15,1,2,250.0,250.0,0.0,125.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,16,99,1,2,250.0,250.0,0.0,115.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,6,15,1,2,200.0,200.0,0.0,100.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,16,99,1,2,200.0,200.0,0.0,115.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,6,15,1,2,250.0,250.0,0.0,125.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,16,99,1,2,250.0,250.0,0.0,115.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,6,15,1,2,275.0,275.0,0.0,137.5,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury Pool Villa,,2,16,99,1,2,275.0,275.0,0.0,115.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,6,15,1,2,228.0,228.0,0.0,114.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,16,99,1,2,228.0,228.0,0.0,115.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,6,15,1,2,184.0,184.0,0.0,92.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,16,99,1,2,184.0,184.0,0.0,115.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,6,15,1,2,228.0,228.0,0.0,114.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,16,99,1,2,228.0,228.0,0.0,115.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,6,15,1,2,251.0,251.0,0.0,125.5,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Raha Luxury  Villa,,2,16,99,1,2,251.0,251.0,0.0,115.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,6,15,1,2,198.0,198.0,0.0,99.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,16,99,1,2,198.0,198.0,0.0,115.0,06/01/2026,31/03/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,6,15,1,2,158.0,158.0,0.0,79.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,16,99,1,2,158.0,158.0,0.0,115.0,01/04/2026,30/06/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,6,15,1,2,198.0,198.0,0.0,99.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,16,99,1,2,198.0,198.0,0.0,115.0,01/07/2026,22/12/2026
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,0,5,1,2,0.0,0.0,0.0,0.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,6,15,1,2,218.0,218.0,0.0,109.0,23/12/2026,05/01/2027
+,Kisiwa On The Beach,,Test,,0,,USD,Starehe Luxury Villa,,2,16,99,1,2,218.0,218.0,0.0,115.0,23/12/2026,05/01/2027

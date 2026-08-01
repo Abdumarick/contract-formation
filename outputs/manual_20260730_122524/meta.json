@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Sametu Camp",
+  "hotel_group": "Single",
+  "location": "Serengeti National park",
+  "csv_file": "Sametu_Camp_20260730_122524.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-30T12:25:24.197015",
+  "output_dir": "manual_20260730_122524",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

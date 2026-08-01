@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Villa Maua 27",
+  "hotel_group": "Single",
+  "location": "Arusha",
+  "csv_file": "Villa_Maua_27_20260716_133615.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-16T13:36:15.052595",
+  "output_dir": "manual_20260716_133615",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

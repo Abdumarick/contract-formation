@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Four Seasons Safari lodge,",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Four_Seasons_Safari_lodge,_20260709_131153.csv",
+  "xlsx_file": null,
+  "row_count": 456,
+  "created_at": "2026-07-09T13:11:53.445533",
+  "output_dir": "manual_20260624_145512",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

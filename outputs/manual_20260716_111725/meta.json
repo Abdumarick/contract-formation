@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serengeti Wild Camp 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Serengeti_Wild_Camp_27_20260716_111725.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-07-16T11:17:25.888349",
+  "output_dir": "manual_20260716_111725",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Manyara Safari Rodge",
+  "hotel_group": "Single",
+  "location": "Manyara",
+  "csv_file": "Manyara_Safari_Rodge_20260725_161811.csv",
+  "xlsx_file": null,
+  "row_count": 180,
+  "created_at": "2026-07-25T16:18:11.030367",
+  "output_dir": "manual_20260725_161811",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

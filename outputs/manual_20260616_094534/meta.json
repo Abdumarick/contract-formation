@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Burunge Tented Lodge - Adventure",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Burunge_Tented_Lodge_-_Adventure_20260616_094534.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-06-16T09:45:34.308994",
+  "output_dir": "manual_20260616_094534",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

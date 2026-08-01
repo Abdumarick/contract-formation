@@ -1,0 +1,144 @@
+{
+  "hotel_name": "Lake Burunge Baobab Tented Lodge - Premium",
+  "location_name": "Tarangire",
+  "contract_year": "2025",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "High"
+    },
+    {
+      "sid": "row_2",
+      "name": "Sholder"
+    },
+    {
+      "sid": "row_3",
+      "name": "Low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Bungalow Room (Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Superior Suite (Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Superior Family Suite",
+      "max_cap": 5,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 690,
+      "col_2": 520,
+      "col_3": 1300
+    },
+    "row_2": {
+      "col_1": 630,
+      "col_2": 470,
+      "col_3": 1200
+    },
+    "row_3": {
+      "col_1": 570,
+      "col_2": 420,
+      "col_3": 1100
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/04/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/11/2026",
+      "end": "15/12/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/12/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 2,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 3,
+      "max_age": 16,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

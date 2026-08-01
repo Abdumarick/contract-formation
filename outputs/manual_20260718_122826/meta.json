@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Pamoja Migration Camp Ndutu",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Pamoja_Migration_Camp_Ndutu_20260718_122826.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-07-18T12:28:26.117456",
+  "output_dir": "manual_20260718_122826",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

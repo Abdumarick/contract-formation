@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tindiga Tented Camp 27",
+  "hotel_group": "Single",
+  "location": "Lake Natron",
+  "csv_file": "Tindiga_Tented_Camp_27_20260629_140733.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-06-29T14:07:33.440123",
+  "output_dir": "manual_20260629_140733",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

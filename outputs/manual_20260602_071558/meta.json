@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Amani  Eserian Ngorongoro Lodge",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Amani__Eserian_Ngorongoro_Lodge_20260602_071558.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-06-02T07:15:58.741300",
+  "output_dir": "manual_20260602_071558",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

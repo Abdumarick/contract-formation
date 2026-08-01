@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Elephant  Lair Camp 2027",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Elephant__Lair_Camp_2027_20260616_000337.csv",
+  "xlsx_file": null,
+  "row_count": 108,
+  "created_at": "2026-06-16T00:03:37.495099",
+  "output_dir": "manual_20260616_000337",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

@@ -1,0 +1,181 @@
+{
+  "hotel_name": "Lake Natron  Eco Camp",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high"
+    },
+    {
+      "sid": "row_2",
+      "name": "Low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Tent",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Double  Tent",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Triple Tent",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 40,
+      "col_2": 71,
+      "col_4": 120
+    },
+    "row_2": {
+      "col_1": 40,
+      "col_2": 71,
+      "col_4": 120
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_2",
+      "start": "01/01/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/07/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/11/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 2,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 3,
+      "max_age": 8,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 9,
+      "max_age": 12,
+      "discount": 80,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 19,
+  "fb_supplement": 36,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": [
+    {
+      "name": "",
+      "override_type": "hb_supp",
+      "room": "Double  Tent",
+      "band": "",
+      "season_amounts": [
+        {
+          "season": "high",
+          "amount": 14,
+          "amount_type": "usd"
+        },
+        {
+          "season": "Low",
+          "amount": 14,
+          "amount_type": "usd"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "override_type": "hb_supp",
+      "room": "Triple Tent",
+      "band": "",
+      "season_amounts": [
+        {
+          "season": "high",
+          "amount": 15,
+          "amount_type": "usd"
+        },
+        {
+          "season": "Low",
+          "amount": 15,
+          "amount_type": "usd"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "override_type": "fb_supp",
+      "room": "Triple Tent",
+      "band": "",
+      "season_amounts": [
+        {
+          "season": "high",
+          "amount": 27,
+          "amount_type": "usd"
+        },
+        {
+          "season": "Low",
+          "amount": 27,
+          "amount_type": "usd"
+        }
+      ]
+    }
+  ]
+}

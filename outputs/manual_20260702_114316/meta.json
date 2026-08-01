@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Sunset Kendwa Beach Hotel",
+  "hotel_group": "Single",
+  "location": "Zanziba",
+  "csv_file": "Sunset_Kendwa_Beach_Hotel_20260702_114316.csv",
+  "xlsx_file": null,
+  "row_count": 162,
+  "created_at": "2026-07-02T11:43:16.148161",
+  "output_dir": "manual_20260702_114316",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

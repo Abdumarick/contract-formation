@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Sangaiwe Mbuyu Tended Lodge 27",
+  "hotel_group": "Single",
+  "location": "Karatu",
+  "csv_file": "Sangaiwe_Mbuyu_Tended_Lodge_27_20260625_154108.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-06-25T15:41:08.919854",
+  "output_dir": "manual_20260625_154108",
+  "contract_year": "2027",
+  "base_plan": "HB"
+}

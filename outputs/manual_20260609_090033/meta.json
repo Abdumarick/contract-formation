@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Glimpse of Africa",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Glimpse_of_Africa_20260609_090033.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-06-09T09:00:33.941013",
+  "output_dir": "manual_20260609_090033",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

@@ -1,0 +1,248 @@
+{
+  "hotel_name": "Zuri Zanzibar 27",
+  "location_name": "Zanzibar",
+  "contract_year": "2027",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high"
+    },
+    {
+      "sid": "row_2",
+      "name": "mid"
+    },
+    {
+      "sid": "row_3",
+      "name": "festive"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Bungalow",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Jacuzzi Bungalaw",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Jaccuzi Suite",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Ocean Front Suite",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Garden Two Bedroom Villa",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "Ocean-Front Two BedroomVilla",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_7",
+      "name": "Ocean-Front Three Bedroom luxury Villa",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_8",
+      "name": "Bungalow (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 90
+    },
+    {
+      "colId": "col_9",
+      "name": "Jacuzzi Bungalaw  (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 90
+    },
+    {
+      "colId": "col_10",
+      "name": "Jaccuzi Suite  (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 90
+    },
+    {
+      "colId": "col_11",
+      "name": "Ocean Front Suite  (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 90
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 1037,
+      "col_2": 1258,
+      "col_3": 1777,
+      "col_4": 2380,
+      "col_5": 2975,
+      "col_6": 4165,
+      "col_7": 6545,
+      "col_8": 933.3,
+      "col_9": 1132.2,
+      "col_10": 1599.3,
+      "col_11": 2142
+    },
+    "row_2": {
+      "col_1": 706,
+      "col_2": 876,
+      "col_3": 1241,
+      "col_4": 1726,
+      "col_5": 2210,
+      "col_6": 2975,
+      "col_7": 5015,
+      "col_8": 635.4,
+      "col_9": 788.4,
+      "col_10": 1116.9,
+      "col_11": 1553.4
+    },
+    "row_3": {
+      "col_1": 1199,
+      "col_2": 1471,
+      "col_3": 2091,
+      "col_4": 2856,
+      "col_5": 3485,
+      "col_6": 4760,
+      "col_7": 7649.99,
+      "col_8": 1079.1,
+      "col_9": 1323.9,
+      "col_10": 1881.9,
+      "col_11": 2570.4
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "10/01/2027",
+      "end": "31/03/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/04/2027",
+      "end": "31/05/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2027",
+      "end": "30/11/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/12/2027",
+      "end": "22/12/2027"
+    },
+    {
+      "sid": "row_3",
+      "start": "23/12/2027",
+      "end": "09/01/2028"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 2,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 3,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 13,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

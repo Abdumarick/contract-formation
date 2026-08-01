@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tembo Palace  Hotel",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Tembo_Palace__Hotel_20260403_112148.csv",
+  "xlsx_file": null,
+  "row_count": 21,
+  "created_at": "2026-04-03T11:21:48.703700",
+  "output_dir": "manual_20260403_112148",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

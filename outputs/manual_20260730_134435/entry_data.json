@@ -1,0 +1,183 @@
+{
+  "hotel_name": "RAHA WILDLIFE RESORT 27",
+  "location_name": "Arusha",
+  "contract_year": "2027",
+  "base_plan": "BB",
+  "hotel_desc": "test",
+  "room_desc": "test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "low"
+    },
+    {
+      "sid": "row_2",
+      "name": "peak"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Double  Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Twin  Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Family Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "ExecutiveSuite",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Private Hot Spring Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "Private Hot Spring Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_7",
+      "name": "Private Hot Spring Family Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 240,
+      "col_2": 240,
+      "col_3": 325,
+      "col_4": 260,
+      "col_5": 280,
+      "col_6": 280,
+      "col_7": 365
+    },
+    "row_2": {
+      "col_1": 260,
+      "col_2": 260,
+      "col_3": 345,
+      "col_4": 280,
+      "col_5": 300,
+      "col_6": 300,
+      "col_7": 385
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_2",
+      "start": "01/01/2027",
+      "end": "31/03/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/04/2027",
+      "end": "31/05/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/06/2027",
+      "end": "31/10/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/11/2027",
+      "end": "23/12/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "24/12/2027",
+      "end": "31/12/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "child",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 12,
+      "discount": 30,
+      "discount_type": "usd",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

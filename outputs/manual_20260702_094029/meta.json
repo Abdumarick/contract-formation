@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Kisima Ngeda Camp 27",
+  "hotel_group": "Single",
+  "location": "Lake Eyasi",
+  "csv_file": "Kisima_Ngeda_Camp_27_20260702_094029.csv",
+  "xlsx_file": null,
+  "row_count": 24,
+  "created_at": "2026-07-02T09:40:29.584729",
+  "output_dir": "manual_20260702_094029",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

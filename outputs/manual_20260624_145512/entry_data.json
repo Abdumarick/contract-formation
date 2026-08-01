@@ -1,0 +1,392 @@
+{
+  "hotel_name": "Four Seasons Safari lodge,",
+  "location_name": "Serengeti",
+  "contract_year": "2027",
+  "base_plan": "BB",
+  "hotel_desc": "Test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "Green"
+    },
+    {
+      "sid": "row_2",
+      "name": "Sholder"
+    },
+    {
+      "sid": "row_3",
+      "name": "high"
+    },
+    {
+      "sid": "row_4",
+      "name": "Peak"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Savannah Room ( Single )",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Savannah Room ( Double )",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Horizon Room ( Single )",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Horizon Room ( Double )",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Savannah Waterhole view ( Single )",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "Savannah Waterhole view ( Double )",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_7",
+      "name": "Horizon waterhole view ( Single )",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_8",
+      "name": "Horizon waterhole view ( Double )",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_9",
+      "name": "Terrace Suites ( Single )",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_10",
+      "name": "Terrace Suites  ( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_11",
+      "name": "Terrace suite waterhole view ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_12",
+      "name": "Terrace suite waterhole view ( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_13",
+      "name": "One Bedroom Villa",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_14",
+      "name": "Two Bedroom Villa",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_15",
+      "name": "Presidential Villa",
+      "max_cap": 6,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_16",
+      "name": "Savannah Room ( Triple )",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_17",
+      "name": "One Bedroom Villa ( Triple)",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_18",
+      "name": "Horizon Room ( Triple )",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_19",
+      "name": "Terrace Suites  ( Triple)",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 825,
+      "col_2": 885,
+      "col_3": 910,
+      "col_4": 970,
+      "col_5": 995,
+      "col_6": 1055,
+      "col_7": 1065,
+      "col_8": 1125,
+      "col_9": 1905,
+      "col_10": 1965,
+      "col_11": 2070,
+      "col_12": 2130,
+      "col_13": 3645,
+      "col_14": 6130,
+      "col_15": 10025,
+      "col_16": 1385,
+      "col_17": 4145,
+      "col_18": 1470,
+      "col_19": 2465
+    },
+    "row_2": {
+      "col_1": 1150,
+      "col_2": 1205,
+      "col_3": 1230,
+      "col_4": 1355,
+      "col_5": 1315,
+      "col_6": 1440,
+      "col_7": 1400,
+      "col_8": 1525,
+      "col_9": 2275,
+      "col_10": 2440,
+      "col_11": 2445,
+      "col_12": 2610,
+      "col_13": 4180,
+      "col_14": 6640,
+      "col_15": 10630,
+      "col_16": 1705,
+      "col_17": 4680,
+      "col_18": 1855,
+      "col_19": 2940
+    },
+    "row_3": {
+      "col_1": 1475,
+      "col_2": 1595,
+      "col_3": 1560,
+      "col_4": 1680,
+      "col_5": 1645,
+      "col_6": 1765,
+      "col_7": 1720,
+      "col_8": 1840,
+      "col_9": 2610,
+      "col_10": 2730,
+      "col_11": 2780,
+      "col_12": 2900,
+      "col_13": 4410,
+      "col_14": 6950,
+      "col_15": 10630,
+      "col_16": 2095,
+      "col_17": 4910,
+      "col_18": 2180,
+      "col_19": 3230
+    },
+    "row_4": {
+      "col_1": 1560,
+      "col_2": 1680,
+      "col_3": 1645,
+      "col_4": 1765,
+      "col_5": 1720,
+      "col_6": 1840,
+      "col_7": 1805,
+      "col_8": 1925,
+      "col_9": 2695,
+      "col_10": 2815,
+      "col_11": 2865,
+      "col_12": 2980,
+      "col_13": 4495,
+      "col_14": 7035,
+      "col_15": 11005,
+      "col_16": 2180,
+      "col_17": 4995,
+      "col_18": 2265,
+      "col_19": 3315
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_3",
+      "start": "01/01/2027",
+      "end": "28/02/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/03/2027",
+      "end": "31/03/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/04/2027",
+      "end": "31/05/2027"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/06/2027",
+      "end": "30/06/2027"
+    },
+    {
+      "sid": "row_4",
+      "start": "24/07/2027",
+      "end": "30/09/2027"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/10/2027",
+      "end": "31/10/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/11/2027",
+      "end": "21/12/2027"
+    },
+    {
+      "sid": "row_3",
+      "start": "22/12/2027",
+      "end": "07/01/2028"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 9,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 10,
+      "max_age": 17,
+      "discount": 300,
+      "discount_type": "usd",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 18,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

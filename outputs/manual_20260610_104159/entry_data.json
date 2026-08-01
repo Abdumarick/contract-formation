@@ -1,0 +1,269 @@
+{
+  "hotel_name": "Turaco Nungwe Resort",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "s1"
+    },
+    {
+      "sid": "row_2",
+      "name": "s2"
+    },
+    {
+      "sid": "row_3",
+      "name": "s3"
+    },
+    {
+      "sid": "row_4",
+      "name": "s4"
+    },
+    {
+      "sid": "row_5",
+      "name": "s5"
+    },
+    {
+      "sid": "row_6",
+      "name": "s6"
+    },
+    {
+      "sid": "row_7",
+      "name": "s7"
+    },
+    {
+      "sid": "row_8",
+      "name": "s8"
+    },
+    {
+      "sid": "row_9",
+      "name": "s9"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Garden View  Double Occupancy",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Garden View  Single Occupancy",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Garden View  Triple Occupancy",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Pool View Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Partial Ocean Front Double room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_6",
+      "name": "Ocean View Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 230,
+      "col_2": 195.5,
+      "col_3": 80.5,
+      "col_4": 250,
+      "col_5": 260,
+      "col_6": 280
+    },
+    "row_2": {
+      "col_1": 170,
+      "col_2": 144.5,
+      "col_3": 59.5,
+      "col_4": 190,
+      "col_5": 200,
+      "col_6": 220
+    },
+    "row_3": {
+      "col_1": 200,
+      "col_2": 170,
+      "col_3": 70,
+      "col_4": 220,
+      "col_5": 230,
+      "col_6": 250
+    },
+    "row_4": {
+      "col_1": 270,
+      "col_2": 229.5,
+      "col_3": 94.5,
+      "col_4": 290,
+      "col_5": 300,
+      "col_6": 320
+    },
+    "row_5": {
+      "col_1": 320,
+      "col_2": 272.5,
+      "col_3": 112,
+      "col_4": 340,
+      "col_5": 350,
+      "col_6": 370
+    },
+    "row_6": {
+      "col_1": 280,
+      "col_2": 238,
+      "col_3": 98,
+      "col_4": 300,
+      "col_5": 310,
+      "col_6": 330
+    },
+    "row_7": {
+      "col_1": 260,
+      "col_2": 221,
+      "col_3": 91,
+      "col_4": 280,
+      "col_5": 290,
+      "col_6": 310
+    },
+    "row_8": {
+      "col_1": 430,
+      "col_2": 365.5,
+      "col_3": 150.5,
+      "col_4": 450,
+      "col_5": 460,
+      "col_6": 480
+    },
+    "row_9": {
+      "col_1": 240,
+      "col_2": 204,
+      "col_3": 84,
+      "col_4": 260,
+      "col_5": 270,
+      "col_6": 290
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/03/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/04/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/06/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/07/2026",
+      "end": "31/07/2026"
+    },
+    {
+      "sid": "row_5",
+      "start": "01/08/2026",
+      "end": "31/08/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/09/2026",
+      "end": "30/09/2026"
+    },
+    {
+      "sid": "row_6",
+      "start": "01/10/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_7",
+      "start": "01/11/2026",
+      "end": "21/12/2026"
+    },
+    {
+      "sid": "row_8",
+      "start": "22/12/2026",
+      "end": "05/01/2027"
+    },
+    {
+      "sid": "row_5",
+      "start": "06/01/2027",
+      "end": "28/02/2027"
+    },
+    {
+      "sid": "row_9",
+      "start": "01/03/2027",
+      "end": "31/03/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 25,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 6,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "infant",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 25,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

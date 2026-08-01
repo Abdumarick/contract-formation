@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Mount Meru Game Lodge",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Mount_Meru_Game_Lodge_20260603_025126.csv",
+  "xlsx_file": null,
+  "row_count": 80,
+  "created_at": "2026-06-03T02:51:26.690031",
+  "output_dir": "manual_20260603_025126",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

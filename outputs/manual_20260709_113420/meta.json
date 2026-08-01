@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Kisiwa On The Beach 27",
+  "hotel_group": "Single",
+  "location": "Zanzibar",
+  "csv_file": "Kisiwa_On_The_Beach_27_20260709_113420.csv",
+  "xlsx_file": null,
+  "row_count": 84,
+  "created_at": "2026-07-09T11:34:20.934419",
+  "output_dir": "manual_20260709_113420",
+  "contract_year": "2027",
+  "base_plan": "HB"
+}

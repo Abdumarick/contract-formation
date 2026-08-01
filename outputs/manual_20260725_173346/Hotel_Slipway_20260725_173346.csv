@@ -1,0 +1,21 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,7,99,1,1,101.5,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,7,99,1,2,61.5,61.5,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Executive Single Room,test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Executive Single Room,test,1,7,99,1,1,109.5,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Executive Double Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Executive Double Room,test,2,7,99,1,2,65.5,65.5,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Executive Sea View Single Room,test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Executive Sea View Single Room,test,1,7,99,1,1,129.5,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Executive Sea View Double Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Executive Sea View Double Room,test,2,7,99,1,2,75.5,75.5,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,7,99,1,1,161.5,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Suite bouble Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Suite bouble Room,test,2,7,99,1,2,91.5,91.5,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Sea View Suite Single Room,test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Sea View Suite Single Room,test,1,7,99,1,1,185.5,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Sea View Suite Double Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Dar er Salaam,Hotel  Slipway,,test,FALSE,0,FALSE,USD,Sea View Suite Double Room,test,2,7,99,1,2,103.5,103.5,0.0,0.0,01/01/2026,31/12/2026

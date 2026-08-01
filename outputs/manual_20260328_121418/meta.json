@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lake Duluti",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Lake_Duluti_20260328_121418.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-03-28T12:14:18.082642",
+  "output_dir": "manual_20260328_121418",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

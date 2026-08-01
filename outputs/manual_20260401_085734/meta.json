@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Nungwi Beach Restort",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Nungwi_Beach_Restort_20260401_085734.csv",
+  "xlsx_file": null,
+  "row_count": 180,
+  "created_at": "2026-04-01T08:57:34.363837",
+  "output_dir": "manual_20260401_085734",
+  "contract_year": "2026",
+  "base_plan": "HB"
+}

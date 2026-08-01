@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Kenzan Central Tented Camp",
+  "hotel_group": "Single",
+  "location": "Serengeti national park",
+  "csv_file": "Kenzan_Central_Tented_Camp_20260623_090912.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-06-23T09:09:12.240537",
+  "output_dir": "manual_20260623_090912",
+  "contract_year": "2028",
+  "base_plan": "FB"
+}

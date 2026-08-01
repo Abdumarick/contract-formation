@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Airport Planet Lorge & SPA",
+  "hotel_group": "Single",
+  "location": "Arusha",
+  "csv_file": "Airport_Planet_Lorge_&_SPA_20260720_125442.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-07-20T12:54:42.018695",
+  "output_dir": "manual_20260720_125442",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

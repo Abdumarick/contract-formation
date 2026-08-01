@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Miriakamba Hut",
+  "hotel_group": "Single",
+  "location": "Mount Meru",
+  "csv_file": "Miriakamba_Hut_20260718_193429.csv",
+  "xlsx_file": null,
+  "row_count": 9,
+  "created_at": "2026-07-18T19:34:29.831289",
+  "output_dir": "manual_20260718_193429",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

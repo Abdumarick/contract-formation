@@ -1,0 +1,106 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,0,2,1,2,0.0,0.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,3,12,1,2,290.0,522.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,13,13,1,2,580.0,522.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,3,12,1,2,197.5,355.5,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,13,13,1,2,395.0,355.5,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,3,12,1,2,290.0,522.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,13,13,1,2,580.0,522.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,3,12,1,2,290.0,522.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,13,13,1,2,580.0,522.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,0,2,1,2,0.0,0.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,3,12,1,2,335.0,603.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Bungalow,,2,13,13,1,2,670.0,603.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,0,2,1,2,0.0,0.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,3,12,1,2,352.5,634.5,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,13,13,1,2,705.0,634.5,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,3,12,1,2,245.0,441.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,13,13,1,2,490.0,441.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,3,12,1,2,352.5,634.5,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,13,13,1,2,705.0,634.5,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,3,12,1,2,352.5,634.5,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,13,13,1,2,705.0,634.5,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,0,2,1,2,0.0,0.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,3,12,1,2,412.5,742.5,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Jacuzzi Bungalaw,,2,13,13,1,2,825.0,742.5,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,0,2,1,2,0.0,0.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,3,12,1,2,497.5,895.5,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,13,13,1,2,995.0,895.5,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,3,12,1,2,347.5,625.5,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,13,13,1,2,695.0,625.5,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,3,12,1,2,497.5,895.5,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,13,13,1,2,995.0,895.5,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,3,12,1,2,497.5,895.5,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,13,13,1,2,995.0,895.5,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,0,2,1,2,0.0,0.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,3,12,1,2,585.0,1053.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Jaccuzi Suite,,2,13,13,1,2,1170.0,1053.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,0,2,1,2,0.0,0.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,3,12,1,2,667.5,1201.5,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,13,13,1,2,1335.0,1201.5,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,3,12,1,2,482.5,868.5,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,13,13,1,2,965.0,868.5,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,3,12,1,2,667.5,1201.5,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,13,13,1,2,1335.0,1201.5,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,3,12,1,2,667.5,1201.5,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,13,13,1,2,1335.0,1201.5,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,0,2,1,2,0.0,0.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,3,12,1,2,800.0,1440.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Ocean Front Suite,,2,13,13,1,2,1600.0,1440.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,3,12,1,4,412.5,742.5,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,13,13,1,4,825.0,742.5,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,3,12,1,4,312.5,562.5,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,13,13,1,4,625.0,562.5,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,3,12,1,4,412.5,742.5,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,13,13,1,4,825.0,742.5,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,3,12,1,4,412.5,742.5,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,13,13,1,4,825.0,742.5,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,3,12,1,4,487.5,877.5,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Garden Two Bedroom Villa,,4,13,13,1,4,975.0,877.5,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,0,2,1,4,0.0,0.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,3,12,1,4,587.5,1057.5,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,13,13,1,4,1175.0,1057.5,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,3,12,1,4,412.5,742.5,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,13,13,1,4,825.0,742.5,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,3,12,1,4,587.5,1057.5,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,13,13,1,4,1175.0,1057.5,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,3,12,1,4,587.5,1057.5,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,13,13,1,4,1175.0,1057.5,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,0,2,1,4,0.0,0.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,3,12,1,4,662.5,1192.5,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Two BedroomVilla,,4,13,13,1,4,1325.0,1192.5,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,0,2,1,6,0.0,0.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,3,12,1,6,608.34,1095.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,13,13,1,6,1216.67,1095.0,0.0,0.0,10/01/2026,31/03/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,0,2,1,6,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,3,12,1,6,466.67,840.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,13,13,1,6,933.33,840.0,0.0,0.0,01/04/2026,31/05/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,0,2,1,6,0.0,0.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,3,12,1,6,608.34,1095.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,13,13,1,6,1216.67,1095.0,0.0,0.0,01/06/2026,30/11/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,0,2,1,6,0.0,0.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,3,12,1,6,608.34,1095.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,13,13,1,6,1216.67,1095.0,0.0,0.0,01/12/2026,22/12/2026
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,0,2,1,6,0.0,0.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,3,12,1,6,716.66,1290.0,0.0,0.0,23/12/2026,09/01/2027
+,Zuri Zanzibar,,Test,,0,,USD,Ocean-Front Three Bedroom luxury Villa,,6,13,13,1,6,1433.33,1290.0,0.0,0.0,23/12/2026,09/01/2027

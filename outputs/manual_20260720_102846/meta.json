@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Intimate Camp Zebra  kogatende 27",
+  "hotel_group": "Single",
+  "location": "serengeti",
+  "csv_file": "Intimate_Camp_Zebra_kogatende_27_20260720_102846.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-07-20T10:28:46.077606",
+  "output_dir": "manual_20260720_102846",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

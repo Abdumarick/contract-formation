@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Selous Mapimziko Lodge",
+  "hotel_group": "Single",
+  "location": "Nyerere NP",
+  "csv_file": "Selous_Mapimziko_Lodge_20260731_022733.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-07-31T02:27:33.364509",
+  "output_dir": "manual_20260731_022733",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

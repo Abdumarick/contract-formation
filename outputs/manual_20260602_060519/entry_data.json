@@ -1,0 +1,292 @@
+{
+  "hotel_name": "Mount Meru Hotel",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "low"
+    },
+    {
+      "sid": "row_2",
+      "name": "normal"
+    },
+    {
+      "sid": "row_3",
+      "name": "high"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Standand Room ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Standand Room ( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Standand Room ( Twin)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Standand Executive Room ( Triple)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Standand Executive Room ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_6",
+      "name": "Standand Executive Room ( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_7",
+      "name": "Standand Family Room",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_8",
+      "name": "Standard Junior Suite",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_9",
+      "name": "Premium Room (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_10",
+      "name": "Premium Room (Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_11",
+      "name": "Premium Executive Room (Triple)",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_12",
+      "name": "Premium Executive Room (Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_13",
+      "name": "Premium Executive Room (Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_14",
+      "name": "Premium Family Room",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_15",
+      "name": "Premium Junior Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_16",
+      "name": "Premium Executive Room ( Twin)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 180,
+      "col_2": 210,
+      "col_3": 210,
+      "col_4": 315,
+      "col_5": 230,
+      "col_6": 260,
+      "col_7": 380,
+      "col_8": 320,
+      "col_9": 190,
+      "col_10": 220,
+      "col_11": 325,
+      "col_12": 240,
+      "col_13": 270,
+      "col_14": 380,
+      "col_15": 320,
+      "col_16": 270
+    },
+    "row_2": {
+      "col_1": 185,
+      "col_2": 215,
+      "col_3": 215,
+      "col_4": 320,
+      "col_5": 235,
+      "col_6": 265,
+      "col_7": 385,
+      "col_8": 325,
+      "col_9": 195,
+      "col_10": 225,
+      "col_11": 330,
+      "col_12": 245,
+      "col_13": 275,
+      "col_14": 385,
+      "col_15": 325,
+      "col_16": 275
+    },
+    "row_3": {
+      "col_1": 205,
+      "col_2": 235,
+      "col_3": 235,
+      "col_4": 340,
+      "col_5": 255,
+      "col_6": 285,
+      "col_7": 405,
+      "col_8": 335,
+      "col_9": 215,
+      "col_10": 245,
+      "col_11": 350,
+      "col_12": 265,
+      "col_13": 295,
+      "col_14": 405,
+      "col_15": 245,
+      "col_16": 295
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "07/01/2026",
+      "end": "31/01/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/02/2026",
+      "end": "28/02/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/03/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/06/2026",
+      "end": "15/06/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "16/06/2026",
+      "end": "15/09/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "16/09/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/11/2026",
+      "end": "20/12/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "21/12/2026",
+      "end": "06/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Children up to five (05) years of age staying at their parent’s room stay free of charge with a maximum of two (02) chil"
+    },
+    {
+      "label": "child",
+      "min_age": 6,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 35,
+  "fb_supplement": 63,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 28,
+    "dinner": 35
+  },
+  "extra_supplements": []
+}

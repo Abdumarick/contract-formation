@@ -1,0 +1,106 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,0,2,1,1,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,3,15,1,1,150.0,0.0,17.5,32.5,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,16,99,1,1,300.0,0.0,35.0,65.0,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,0,2,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,3,15,1,1,90.0,0.0,17.5,32.5,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,16,99,1,1,180.0,0.0,35.0,65.0,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,0,2,1,1,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,3,15,1,1,150.0,0.0,17.5,32.5,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,16,99,1,1,300.0,0.0,35.0,65.0,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,0,2,1,1,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,3,15,1,1,157.5,0.0,17.5,32.5,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,16,99,1,1,315.0,0.0,35.0,65.0,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,0,2,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,3,15,1,1,150.0,0.0,17.5,32.5,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,16,99,1,1,300.0,0.0,35.0,65.0,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,0,2,1,1,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,3,15,1,1,90.0,0.0,17.5,32.5,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,16,99,1,1,180.0,0.0,35.0,65.0,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,0,2,1,1,0.0,0.0,0.0,0.0,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,3,15,1,1,157.5,0.0,17.5,32.5,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Single Villa,,1,16,99,1,1,315.0,0.0,35.0,65.0,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,3,15,1,2,122.5,245.0,17.5,32.5,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,16,99,1,2,245.0,245.0,35.0,65.0,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,3,15,1,2,70.0,140.0,17.5,32.5,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,16,99,1,2,140.0,140.0,35.0,65.0,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,3,15,1,2,122.5,245.0,17.5,32.5,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,16,99,1,2,245.0,245.0,35.0,65.0,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,3,15,1,2,127.5,255.0,17.5,32.5,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,16,99,1,2,255.0,255.0,35.0,65.0,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,3,15,1,2,122.5,245.0,17.5,32.5,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,16,99,1,2,245.0,245.0,35.0,65.0,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,3,15,1,2,70.0,140.0,17.5,32.5,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,16,99,1,2,140.0,140.0,35.0,65.0,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,3,15,1,2,127.5,255.0,17.5,32.5,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Double Villa,,2,16,99,1,2,255.0,255.0,35.0,65.0,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,3,15,1,2,122.5,245.0,17.5,32.5,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,16,99,1,2,245.0,245.0,35.0,65.0,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,3,15,1,2,70.0,140.0,17.5,32.5,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,16,99,1,2,140.0,140.0,35.0,65.0,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,3,15,1,2,122.5,245.0,17.5,32.5,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,16,99,1,2,245.0,245.0,35.0,65.0,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,3,15,1,2,127.5,255.0,17.5,32.5,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,16,99,1,2,255.0,255.0,35.0,65.0,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,3,15,1,2,122.5,245.0,17.5,32.5,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,16,99,1,2,245.0,245.0,35.0,65.0,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,3,15,1,2,70.0,140.0,17.5,32.5,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,16,99,1,2,140.0,140.0,35.0,65.0,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,0,2,1,2,0.0,0.0,0.0,0.0,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,3,15,1,2,127.5,255.0,17.5,32.5,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Twin Villa,,2,16,99,1,2,255.0,255.0,35.0,65.0,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,0,2,1,3,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,3,15,1,3,108.33,216.67,17.5,32.5,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,16,99,1,3,216.67,216.67,35.0,65.0,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,0,2,1,3,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,3,15,1,3,68.33,136.67,17.5,32.5,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,16,99,1,3,136.67,136.67,35.0,65.0,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,0,2,1,3,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,3,15,1,3,108.33,216.67,17.5,32.5,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,16,99,1,3,216.67,216.67,35.0,65.0,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,0,2,1,3,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,3,15,1,3,118.33,236.67,17.5,32.5,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,16,99,1,3,236.67,236.67,35.0,65.0,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,0,2,1,3,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,3,15,1,3,108.33,216.67,17.5,32.5,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,16,99,1,3,216.67,216.67,35.0,65.0,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,0,2,1,3,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,3,15,1,3,68.33,136.67,17.5,32.5,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,16,99,1,3,136.67,136.67,35.0,65.0,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,0,2,1,3,0.0,0.0,0.0,0.0,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,3,15,1,3,118.33,236.67,17.5,32.5,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,Triple Villa,,3,16,99,1,3,236.67,236.67,35.0,65.0,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,3,15,1,4,112.5,225.0,17.5,32.5,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,16,99,1,4,225.0,225.0,35.0,65.0,01/01/2026,28/02/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,3,15,1,4,71.88,143.75,17.5,32.5,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,16,99,1,4,143.75,143.75,35.0,65.0,01/03/2026,31/05/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,3,15,1,4,112.5,225.0,17.5,32.5,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,16,99,1,4,225.0,225.0,35.0,65.0,01/06/2026,30/06/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,3,15,1,4,127.5,255.0,17.5,32.5,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,16,99,1,4,255.0,255.0,35.0,65.0,01/07/2026,31/08/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,3,15,1,4,112.5,225.0,17.5,32.5,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,16,99,1,4,225.0,225.0,35.0,65.0,01/09/2026,31/10/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,3,15,1,4,71.88,143.75,17.5,32.5,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,16,99,1,4,143.75,143.75,35.0,65.0,01/11/2026,19/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,0,2,1,4,0.0,0.0,0.0,0.0,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,3,15,1,4,127.5,255.0,17.5,32.5,20/12/2026,31/12/2026
+,The Retreat at Ngorongoro,,Test,,0,,USD,2 Bedroom Family Villa,,4,16,99,1,4,255.0,255.0,35.0,65.0,20/12/2026,31/12/2026

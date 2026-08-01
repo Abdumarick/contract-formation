@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Arusha  Serena Hotel 27 cor",
+  "hotel_group": "Single",
+  "location": "Arusha",
+  "csv_file": "Arusha__Serena_Hotel_27_cor_20260627_103410.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-06-27T10:34:10.669812",
+  "output_dir": "manual_20260627_103410",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

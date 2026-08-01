@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serengeti View Camp",
+  "hotel_group": "Single",
+  "location": "Serengeti National park",
+  "csv_file": "Serengeti_View_Camp_20260731_011835.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-31T01:18:35.981152",
+  "output_dir": "manual_20260731_011835",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

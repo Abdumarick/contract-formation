@@ -1,0 +1,135 @@
+{
+  "hotel_name": "Intimate Camp Zebra  kogatende 27",
+  "location_name": "serengeti",
+  "contract_year": "2027",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "High"
+    },
+    {
+      "sid": "row_2",
+      "name": "Mid"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Tented Suites Single",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "pct",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Tented Suites Double",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "pct",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_5",
+      "name": "Tented Suites Triple",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "pct",
+      "price_source": "",
+      "price_source_pct": 100
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 405,
+      "col_4": 270,
+      "col_5": 202.5
+    },
+    "row_2": {
+      "col_1": 285,
+      "col_4": 190,
+      "col_5": 142.5
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2027",
+      "end": "28/02/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/03/2027",
+      "end": "31/03/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/07/2027",
+      "end": "31/10/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/11/2027",
+      "end": "20/12/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "21/12/2027",
+      "end": "31/12/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 15,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 16,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

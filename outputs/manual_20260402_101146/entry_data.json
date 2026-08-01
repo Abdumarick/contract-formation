@@ -1,0 +1,202 @@
+{
+  "hotel_name": "Marafiki Beach Hotel &spa",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "S1"
+    },
+    {
+      "sid": "row_2",
+      "name": "S2"
+    },
+    {
+      "sid": "row_3",
+      "name": "S3"
+    },
+    {
+      "sid": "row_4",
+      "name": "S4"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "King Suite with balcony",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "King room with Balcony first floor",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "King room with Balcony first floor  Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Double room ground floor",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Triple room ground floor",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_6",
+      "name": "Double room ground floor",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_7",
+      "name": "Triple room ground floor Ocean / Pool View",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_8",
+      "name": "Villa 2 bedrooms, living room, private swimming  poo",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 213,
+      "col_2": 179,
+      "col_3": 200,
+      "col_4": 169,
+      "col_5": 190,
+      "col_6": 157,
+      "col_7": 179,
+      "col_8": 408
+    },
+    "row_2": {
+      "col_1": 172,
+      "col_2": 140,
+      "col_3": 160,
+      "col_4": 133,
+      "col_5": 152,
+      "col_6": 121,
+      "col_7": 140,
+      "col_8": 343
+    },
+    "row_3": {
+      "col_1": 156,
+      "col_2": 117,
+      "col_3": 137,
+      "col_4": 117,
+      "col_5": 137,
+      "col_6": 98,
+      "col_7": 117,
+      "col_8": 296
+    },
+    "row_4": {
+      "col_1": 225,
+      "col_2": 196,
+      "col_3": 217,
+      "col_4": 187,
+      "col_5": 208,
+      "col_6": 174,
+      "col_7": 196,
+      "col_8": 442
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "09/01/2026",
+      "end": "28/02/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/03/2026",
+      "end": "04/04/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "05/04/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/07/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/11/2026",
+      "end": "19/12/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "20/12/2026",
+      "end": "08/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 2,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 3,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 27,
+  "fb_supplement": 45,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

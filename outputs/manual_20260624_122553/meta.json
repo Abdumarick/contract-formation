@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Grumeti Serengeti River Lodge 27",
+  "hotel_group": "Single",
+  "location": "Serengeti National Park",
+  "csv_file": "Grumeti_Serengeti_River_Lodge_27_20260624_122553.csv",
+  "xlsx_file": null,
+  "row_count": 112,
+  "created_at": "2026-06-24T12:25:53.836919",
+  "output_dir": "manual_20260624_122553",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

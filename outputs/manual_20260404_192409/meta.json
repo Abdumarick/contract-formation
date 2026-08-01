@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Bastian Mikumi",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Bastian_Mikumi_20260404_192409.csv",
+  "xlsx_file": null,
+  "row_count": 21,
+  "created_at": "2026-04-04T19:24:09.018634",
+  "output_dir": "manual_20260404_192409",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

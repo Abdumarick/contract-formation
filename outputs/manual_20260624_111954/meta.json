@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Jackals Lair  27",
+  "hotel_group": "Single",
+  "location": "Serengeti National Park",
+  "csv_file": "Jackals_Lair__27_20260624_111954.csv",
+  "xlsx_file": null,
+  "row_count": 54,
+  "created_at": "2026-06-24T11:19:54.854341",
+  "output_dir": "manual_20260624_111954",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Nyikani Tarangire Camp 27",
+  "hotel_group": "Single",
+  "location": "Tarangire",
+  "csv_file": "Nyikani_Tarangire_Camp_27_20260730_234914.csv",
+  "xlsx_file": null,
+  "row_count": 48,
+  "created_at": "2026-07-30T23:49:14.314351",
+  "output_dir": "manual_20260730_234914",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

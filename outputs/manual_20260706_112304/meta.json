@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Zanzibar White Sand Luxury Villas & Spa",
+  "hotel_group": "Single",
+  "location": "Zanzibar",
+  "csv_file": "Zanzibar_White_Sand_Luxury_Villas_&_Spa_20260706_112304.csv",
+  "xlsx_file": null,
+  "row_count": 216,
+  "created_at": "2026-07-06T11:23:04.467509",
+  "output_dir": "manual_20260706_112304",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

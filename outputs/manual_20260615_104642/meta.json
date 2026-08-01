@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Gran Melia Arusha 2027",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Gran_Melia_Arusha_2027_20260615_104642.csv",
+  "xlsx_file": null,
+  "row_count": 399,
+  "created_at": "2026-06-15T10:46:42.416630",
+  "output_dir": "manual_20260615_104642",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

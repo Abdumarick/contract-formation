@@ -1,0 +1,141 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,0,2,1,2,0.0,0.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,3,99,1,2,106.5,106.5,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,0,2,1,2,0.0,0.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,3,99,1,2,85.0,85.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,3,99,1,2,93.5,93.5,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,3,99,1,2,106.5,106.5,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,3,99,1,2,95.5,95.5,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,3,99,1,2,90.5,90.5,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,0,2,1,2,0.0,0.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King Suite with balcony,test,2,3,99,1,2,127.5,127.5,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,3,99,1,2,93.5,93.5,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,3,99,1,2,68.0,68.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,3,99,1,2,81.0,81.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,3,99,1,2,93.5,93.5,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,3,99,1,2,84.0,84.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,3,99,1,2,79.5,79.5,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor,test,2,3,99,1,2,106.5,106.5,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,0,2,1,3,0.0,0.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,3,99,1,3,69.33,69.33,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,0,2,1,3,0.0,0.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,3,99,1,3,52.33,52.33,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,3,99,1,3,61.0,61.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,3,99,1,3,69.33,69.33,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,3,99,1,3,62.33,62.33,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,3,99,1,3,59.0,59.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,0,2,1,3,0.0,0.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,King room with Balcony first floor  Room,test,3,3,99,1,3,78.0,78.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,3,99,1,2,91.5,91.5,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,3,99,1,2,66.0,66.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,3,99,1,2,78.5,78.5,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,3,99,1,2,91.5,91.5,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,3,99,1,2,82.0,82.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,3,99,1,2,77.5,77.5,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,0,2,1,2,0.0,0.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor,test,2,3,99,1,2,102.0,102.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,0,2,1,3,0.0,0.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,3,99,1,3,68.0,68.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,0,2,1,3,0.0,0.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,3,99,1,3,51.0,51.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,3,99,1,3,59.67,59.67,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,3,99,1,3,68.0,68.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,3,99,1,3,61.33,61.33,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,3,99,1,3,57.67,57.67,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,0,2,1,3,0.0,0.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor,test,3,3,99,1,3,75.0,75.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,0,2,1,2,0.0,0.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,3,99,1,2,78.5,78.5,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,0,2,1,2,0.0,0.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,3,99,1,2,53.0,53.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,3,99,1,2,66.0,66.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,3,99,1,2,78.5,78.5,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,3,99,1,2,71.0,71.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,0,2,1,2,0.0,0.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,3,99,1,2,67.0,67.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,0,2,1,2,0.0,0.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Double room ground floor ocean/ pool view,test,2,3,99,1,2,89.5,89.5,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,0,2,1,3,0.0,0.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,3,99,1,3,59.67,59.67,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,0,2,1,3,0.0,0.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,3,99,1,3,42.67,42.67,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,3,99,1,3,51.0,51.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,3,99,1,3,59.67,59.67,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,3,99,1,3,47.33,47.33,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,0,2,1,3,0.0,0.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,3,99,1,3,44.67,44.67,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,0,2,1,3,0.0,0.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,Triple room ground floor Ocean / Pool View,test,3,3,99,1,3,59.67,59.67,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,0,2,1,4,0.0,0.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,3,99,1,4,106.25,106.25,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,0,2,1,4,0.0,0.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,3,99,1,4,80.75,80.75,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,0,2,1,4,0.0,0.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,3,99,1,4,97.75,97.75,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,0,2,1,4,0.0,0.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,3,99,1,4,106.25,106.25,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,0,2,1,4,0.0,0.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,3,99,1,4,95.75,95.75,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,0,2,1,4,0.0,0.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,3,99,1,4,90.25,90.25,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,0,2,1,4,0.0,0.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool",test,4,3,99,1,4,114.75,114.75,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,0,2,1,5,0.0,0.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,3,99,1,5,91.8,91.8,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,0,2,1,5,0.0,0.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,3,99,1,5,71.4,71.4,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,0,2,1,5,0.0,0.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,3,99,1,5,85.0,85.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,0,2,1,5,0.0,0.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,3,99,1,5,91.8,91.8,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,0,2,1,5,0.0,0.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,3,99,1,5,83.4,83.4,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,0,2,1,5,0.0,0.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,3,99,1,5,79.0,79.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,0,2,1,5,0.0,0.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool 5 pax",test,5,3,99,1,5,98.6,98.6,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,0,2,1,6,0.0,0.0,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,3,99,1,6,82.17,82.17,27.0,45.0,09/01/2027,09/03/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,0,2,1,6,0.0,0.0,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,3,99,1,6,65.17,65.17,27.0,45.0,10/03/2027,31/05/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,0,2,1,6,0.0,0.0,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,3,99,1,6,76.5,76.5,27.0,45.0,01/06/2027,30/06/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,0,2,1,6,0.0,0.0,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,3,99,1,6,82.17,82.17,27.0,45.0,01/07/2027,31/08/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,0,2,1,6,0.0,0.0,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,3,99,1,6,75.17,75.17,27.0,45.0,01/09/2027,31/10/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,0,2,1,6,0.0,0.0,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,3,99,1,6,71.5,71.5,27.0,45.0,01/11/2027,19/12/2027
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,0,2,1,6,0.0,0.0,27.0,45.0,20/12/2027,08/01/2028
+Zanzibar,Marafiki Beach Hotel &spa 27,,Test,FALSE,0,FALSE,USD,"Villa 2 bedrooms, living room, private swimming  pool  6 pax",test,6,3,99,1,6,87.83,87.83,27.0,45.0,20/12/2027,08/01/2028

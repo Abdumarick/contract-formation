@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "The Royal Zanzibar Beach Resort",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "The_Royal_Zanzibar_Beach_Resort_20260718_164211.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-07-18T16:42:11.776608",
+  "output_dir": "manual_20260718_164211",
+  "contract_year": "2026",
+  "base_plan": "AI"
+}

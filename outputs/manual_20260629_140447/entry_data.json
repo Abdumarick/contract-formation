@@ -1,0 +1,135 @@
+{
+  "hotel_name": "Tindiga Tented Camp",
+  "location_name": "Lake Natron",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "Test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "Low"
+    },
+    {
+      "sid": "row_2",
+      "name": "high"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Double Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 100,
+      "col_2": 120,
+      "col_3": 160
+    },
+    "row_2": {
+      "col_1": 130,
+      "col_2": 170,
+      "col_3": 210
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_2",
+      "start": "01/01/2026",
+      "end": "28/02/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/03/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/06/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/11/2026",
+      "end": "19/12/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "20/12/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 3,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 4,
+      "max_age": 16,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 20,
+  "fb_supplement": 50,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

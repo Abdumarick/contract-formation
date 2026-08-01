@@ -1,0 +1,73 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Double,test,2,0,1,1,2,0.0,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Double,test,2,2,11,1,2,41.3,106.4,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Double,test,2,12,99,1,2,106.4,106.4,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Double,test,2,0,1,1,2,0.0,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Double,test,2,2,11,1,2,28.7,74.2,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Double,test,2,12,99,1,2,74.2,74.2,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Double,test,2,0,1,1,2,0.0,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Double,test,2,2,11,1,2,41.3,106.4,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Double,test,2,12,99,1,2,106.4,106.4,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Single,test,1,0,1,1,1,0.0,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Single,test,1,2,11,1,1,41.3,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Single,test,1,12,99,1,1,144.2,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Single,test,1,0,1,1,1,0.0,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Single,test,1,2,11,1,1,28.7,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Single,test,1,12,99,1,1,100.8,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Single,test,1,0,1,1,1,0.0,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Single,test,1,2,11,1,1,41.3,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Single,test,1,12,99,1,1,144.2,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Triple,test,3,0,1,1,3,0.0,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Triple,test,3,2,11,1,3,41.3,74.9,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Triple,test,3,12,99,1,3,74.9,74.9,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Triple,test,3,0,1,1,3,0.0,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Triple,test,3,2,11,1,3,28.7,52.5,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Triple,test,3,12,99,1,3,52.5,52.5,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Triple,test,3,0,1,1,3,0.0,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Triple,test,3,2,11,1,3,41.3,74.9,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Comfort Triple,test,3,12,99,1,3,74.9,74.9,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Double,test,2,0,1,1,2,0.0,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Double,test,2,2,11,1,2,41.3,133.7,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Double,test,2,12,99,1,2,133.7,133.7,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Double,test,2,0,1,1,2,0.0,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Double,test,2,2,11,1,2,28.7,93.8,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Double,test,2,12,99,1,2,93.8,93.8,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Double,test,2,0,1,1,2,0.0,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Double,test,2,2,11,1,2,41.3,133.7,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Double,test,2,12,99,1,2,133.7,133.7,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Single,test,1,0,1,1,1,0.0,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Single,test,1,2,11,1,1,41.3,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Single,test,1,12,99,1,1,185.5,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Single,test,1,0,1,1,1,0.0,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Single,test,1,2,11,1,1,28.7,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Single,test,1,12,99,1,1,130.2,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Single,test,1,0,1,1,1,0.0,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Single,test,1,2,11,1,1,41.3,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Single,test,1,12,99,1,1,185.5,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Triple,test,3,0,1,1,3,0.0,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Triple,test,3,2,11,1,3,41.3,74.9,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Triple,test,3,12,99,1,3,74.9,74.9,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Triple,test,3,0,1,1,3,0.0,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Triple,test,3,2,11,1,3,28.7,52.5,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Triple,test,3,12,99,1,3,52.5,52.5,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Triple,test,3,0,1,1,3,0.0,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Triple,test,3,2,11,1,3,41.3,74.9,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Luxury Glamping Triple,test,3,12,99,1,3,74.9,74.9,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Double,test,2,0,1,1,2,0.0,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Double,test,2,2,11,1,2,41.3,69.3,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Double,test,2,12,99,1,2,69.3,69.3,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Double,test,2,0,1,1,2,0.0,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Double,test,2,2,11,1,2,28.7,48.3,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Double,test,2,12,99,1,2,48.3,48.3,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Double,test,2,0,1,1,2,0.0,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Double,test,2,2,11,1,2,41.3,69.3,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Double,test,2,12,99,1,2,69.3,69.3,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Single,test,1,0,1,1,1,0.0,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Single,test,1,2,11,1,1,41.3,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Single,test,1,12,99,1,1,88.9,0.0,0.0,0.0,01/01/2027,15/03/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Single,test,1,0,1,1,1,0.0,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Single,test,1,2,11,1,1,28.7,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Single,test,1,12,99,1,1,62.3,0.0,0.0,0.0,16/03/2027,15/05/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Single,test,1,0,1,1,1,0.0,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Single,test,1,2,11,1,1,41.3,0.0,0.0,0.0,16/05/2027,31/12/2027
+Lake Natron,Africa Safari Lake Natron,,test,FALSE,0,FALSE,USD,Safari Tent Single,test,1,12,99,1,1,88.9,0.0,0.0,0.0,16/05/2027,31/12/2027

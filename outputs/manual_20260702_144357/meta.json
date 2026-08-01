@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Casa Beach Hotel 27",
+  "hotel_group": "Single",
+  "location": "Zanzibar",
+  "csv_file": "Casa_Beach_Hotel_27_20260702_144357.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-07-02T14:43:57.472815",
+  "output_dir": "manual_20260702_144357",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

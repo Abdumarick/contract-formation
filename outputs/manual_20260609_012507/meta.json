@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Nyota Rift Valley Lodge",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Nyota_Rift_Valley_Lodge_20260609_012507.csv",
+  "xlsx_file": null,
+  "row_count": 9,
+  "created_at": "2026-06-09T01:25:07.884261",
+  "output_dir": "manual_20260609_012507",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

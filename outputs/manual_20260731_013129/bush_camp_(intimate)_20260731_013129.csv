@@ -1,0 +1,9 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Serengeti,bush camp (intimate),,test,FALSE,0,FALSE,USD,Double Room,test,2,10,16,1,2,199.5,399.0,0.0,0.0,01/01/2026,31/12/2026
+Serengeti,bush camp (intimate),,test,FALSE,0,FALSE,USD,Double Room,test,2,17,99,1,2,399.0,399.0,0.0,0.0,01/01/2026,31/12/2026
+Serengeti,bush camp (intimate),,test,FALSE,0,FALSE,USD,Single Room,test,1,10,16,1,1,214.5,0.0,0.0,0.0,01/01/2026,31/12/2026
+Serengeti,bush camp (intimate),,test,FALSE,0,FALSE,USD,Single Room,test,1,17,99,1,1,429.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+Serengeti,bush camp (intimate),,test,FALSE,0,FALSE,USD,Triple Room,test,3,10,16,1,3,199.5,399.0,0.0,0.0,01/01/2026,31/12/2026
+Serengeti,bush camp (intimate),,test,FALSE,0,FALSE,USD,Triple Room,test,3,17,99,1,3,399.0,399.0,0.0,0.0,01/01/2026,31/12/2026
+Serengeti,bush camp (intimate),,test,FALSE,0,FALSE,USD,Family Room,test,4,10,16,1,4,199.5,399.0,0.0,0.0,01/01/2026,31/12/2026
+Serengeti,bush camp (intimate),,test,FALSE,0,FALSE,USD,Family Room,test,4,17,99,1,4,399.0,399.0,0.0,0.0,01/01/2026,31/12/2026

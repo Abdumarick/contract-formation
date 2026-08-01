@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Vuma Hills Tented Camp",
+  "hotel_group": "Single",
+  "location": "Mikumi NP",
+  "csv_file": "Vuma_Hills_Tented_Camp_20260730_014105.csv",
+  "xlsx_file": null,
+  "row_count": 108,
+  "created_at": "2026-07-30T01:41:05.832810",
+  "output_dir": "manual_20260730_014105",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

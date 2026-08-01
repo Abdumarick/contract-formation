@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "All Machame Route",
+  "hotel_group": "Single",
+  "location": "Kilimanjaro",
+  "csv_file": "All_Machame_Route_20260714_005500.csv",
+  "xlsx_file": null,
+  "row_count": 9,
+  "created_at": "2026-07-14T00:55:00.418097",
+  "output_dir": "manual_20260714_005500",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

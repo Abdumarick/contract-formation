@@ -1,0 +1,379 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,4,11,1,1,270.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,12,99,1,1,540.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,4,11,1,1,186.5,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,12,99,1,1,373.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,4,11,1,1,174.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,12,99,1,1,348.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,4,11,1,1,156.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,12,99,1,1,312.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,4,11,1,1,219.5,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,12,99,1,1,439.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,4,11,1,1,270.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,12,99,1,1,540.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,4,11,1,1,179.5,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Simple,Test,1,12,99,1,1,359.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,4,11,1,2,186.25,372.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,12,99,1,2,372.5,372.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,4,11,1,2,128.75,257.5,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,12,99,1,2,257.5,257.5,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,4,11,1,2,120.0,240.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,12,99,1,2,240.0,240.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,4,11,1,2,107.5,215.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,12,99,1,2,215.0,215.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,4,11,1,2,151.25,302.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,12,99,1,2,302.5,302.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,4,11,1,2,186.25,372.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,12,99,1,2,372.5,372.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,4,11,1,2,123.75,247.5,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Garden Double,Test,2,12,99,1,2,247.5,247.5,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,4,11,1,1,299.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,12,99,1,1,598.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,4,11,1,1,206.5,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,12,99,1,1,413.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,4,11,1,1,192.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,12,99,1,1,384.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,4,11,1,1,174.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,12,99,1,1,348.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,4,11,1,1,243.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,12,99,1,1,486.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,4,11,1,1,299.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,12,99,1,1,598.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,4,11,1,1,199.5,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Single,Test,1,12,99,1,1,399.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,4,11,1,2,206.25,412.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,12,99,1,2,412.5,412.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,4,11,1,2,142.5,285.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,12,99,1,2,285.0,285.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,4,11,1,2,132.5,265.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,12,99,1,2,265.0,265.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,4,11,1,2,120.0,240.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,12,99,1,2,240.0,240.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,4,11,1,2,167.5,335.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,12,99,1,2,335.0,335.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,4,11,1,2,206.25,412.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,12,99,1,2,412.5,412.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,4,11,1,2,137.5,275.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View Double,Test,2,12,99,1,2,275.0,275.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,4,11,1,4,247.5,495.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,12,99,1,4,495.0,495.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,4,11,1,4,170.62,341.25,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,12,99,1,4,341.25,341.25,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,4,11,1,4,159.38,318.75,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,12,99,1,4,318.75,318.75,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,4,11,1,4,143.12,286.25,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,12,99,1,4,286.25,286.25,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,4,11,1,4,201.25,402.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,12,99,1,4,402.5,402.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,4,11,1,4,247.5,495.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,12,99,1,4,495.0,495.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,4,11,1,4,165.62,331.25,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Premium Partial Sea View intercconnected,Test,4,12,99,1,4,331.25,331.25,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,4,11,1,4,123.75,247.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,12,99,1,4,247.5,247.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,4,11,1,4,86.88,173.75,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,12,99,1,4,173.75,173.75,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,4,11,1,4,83.75,167.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,12,99,1,4,167.5,167.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,4,11,1,4,77.5,155.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,12,99,1,4,155.0,155.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,4,11,1,4,104.38,208.75,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,12,99,1,4,208.75,208.75,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,4,11,1,4,123.75,247.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,12,99,1,4,247.5,247.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,4,11,1,4,85.0,170.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Family  Room,Test,4,12,99,1,4,170.0,170.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,4,11,1,2,265.0,530.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,12,99,1,2,530.0,530.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,4,11,1,2,205.0,410.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,12,99,1,2,410.0,410.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,4,11,1,2,198.75,397.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,12,99,1,2,397.5,397.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,4,11,1,2,130.0,260.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,12,99,1,2,260.0,260.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,4,11,1,2,236.25,472.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,12,99,1,2,472.5,472.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,4,11,1,2,265.0,530.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,12,99,1,2,530.0,530.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,4,11,1,2,146.25,292.5,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean View Bongalow,Test,2,12,99,1,2,292.5,292.5,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,4,11,1,2,311.25,622.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,12,99,1,2,622.5,622.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,4,11,1,2,240.0,480.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,12,99,1,2,480.0,480.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,4,11,1,2,232.5,465.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,12,99,1,2,465.0,465.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,4,11,1,2,163.75,327.5,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,12,99,1,2,327.5,327.5,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,4,11,1,2,262.5,525.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,12,99,1,2,525.0,525.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,4,11,1,2,311.25,622.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,12,99,1,2,622.5,622.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,4,11,1,2,180.0,360.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Supreme Ocean Front Room,Test,2,12,99,1,2,360.0,360.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,4,11,1,2,336.25,672.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,12,99,1,2,672.5,672.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,4,11,1,2,253.75,507.5,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,12,99,1,2,507.5,507.5,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,4,11,1,2,246.25,492.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,12,99,1,2,492.5,492.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,4,11,1,2,172.5,345.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,12,99,1,2,345.0,345.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,4,11,1,2,283.75,567.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,12,99,1,2,567.5,567.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,4,11,1,2,336.25,672.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,12,99,1,2,672.5,672.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,4,11,1,2,190.0,380.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level Romance Pavilion,Test,2,12,99,1,2,380.0,380.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,4,11,1,4,308.12,616.25,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,12,99,1,4,616.25,616.25,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,4,11,1,4,228.75,457.5,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,12,99,1,4,457.5,457.5,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,4,11,1,4,226.88,453.75,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,12,99,1,4,453.75,453.75,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,4,11,1,4,215.0,430.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,12,99,1,4,430.0,430.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,4,11,1,4,270.62,541.25,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,12,99,1,4,541.25,541.25,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,4,11,1,4,308.12,616.25,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,12,99,1,4,616.25,616.25,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,4,11,1,4,218.12,436.25,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Pavilion,Test,4,12,99,1,4,436.25,436.25,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,4,11,1,2,503.75,1007.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,12,99,1,2,1007.5,1007.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,4,11,1,2,365.0,730.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,12,99,1,2,730.0,730.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,4,11,1,2,357.5,715.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,12,99,1,2,715.0,715.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,4,11,1,2,291.25,582.5,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,12,99,1,2,582.5,582.5,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,4,11,1,2,427.5,855.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,12,99,1,2,855.0,855.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,4,11,1,2,503.75,1007.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,12,99,1,2,1007.5,1007.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,4,11,1,2,298.75,597.5,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level 1 badroom Garden Villa,Test,2,12,99,1,2,597.5,597.5,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,4,11,1,4,317.5,635.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,12,99,1,4,635.0,635.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,4,11,1,4,229.38,458.75,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,12,99,1,4,458.75,458.75,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,4,11,1,4,224.38,448.75,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,12,99,1,4,448.75,448.75,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,4,11,1,4,181.88,363.75,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,12,99,1,4,363.75,363.75,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,4,11,1,4,269.38,538.75,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,12,99,1,4,538.75,538.75,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,4,11,1,4,317.5,635.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,12,99,1,4,635.0,635.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,4,11,1,4,186.88,373.75,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  1 Bedroom ocean Villa,Test,4,12,99,1,4,373.75,373.75,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,4,11,1,4,364.38,728.75,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,12,99,1,4,728.75,728.75,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,4,11,1,4,293.12,586.25,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,12,99,1,4,586.25,586.25,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,4,11,1,4,288.75,577.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,12,99,1,4,577.5,577.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,4,11,1,4,254.38,508.75,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,12,99,1,4,508.75,508.75,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,4,11,1,4,346.25,692.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,12,99,1,4,692.5,692.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,4,11,1,4,364.38,728.75,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,12,99,1,4,728.75,728.75,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,4,11,1,4,256.88,513.75,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  2 Bedroom Ocean Villa,Test,4,12,99,1,4,513.75,513.75,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,4,11,1,4,491.25,982.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,12,99,1,4,982.5,982.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,4,11,1,4,395.62,791.25,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,12,99,1,4,791.25,791.25,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,4,11,1,4,390.0,780.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,12,99,1,4,780.0,780.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,4,11,1,4,254.38,508.75,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,12,99,1,4,508.75,508.75,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,4,11,1,4,450.62,901.25,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,12,99,1,4,901.25,901.25,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,4,11,1,4,491.25,982.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,12,99,1,4,982.5,982.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,4,11,1,4,333.75,667.5,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 2 Bedroom Ocean VIlla,Test,4,12,99,1,4,667.5,667.5,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,4,11,1,6,344.58,689.17,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,12,99,1,6,689.17,689.17,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,4,11,1,6,272.08,544.17,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,12,99,1,6,544.17,544.17,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,4,11,1,6,268.75,537.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,12,99,1,6,537.5,537.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,4,11,1,6,226.66,453.33,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,12,99,1,6,453.33,453.33,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,4,11,1,6,312.08,624.17,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,12,99,1,6,624.17,624.17,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,4,11,1,6,344.58,689.17,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,12,99,1,6,689.17,689.17,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,4,11,1,6,223.75,447.5,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  3 Bedroom Ocean Villa,Test,6,12,99,1,6,447.5,447.5,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,4,11,1,6,361.25,722.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,12,99,1,6,722.5,722.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,4,11,1,6,280.0,560.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,12,99,1,6,560.0,560.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,4,11,1,6,277.5,555.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,12,99,1,6,555.0,555.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,4,11,1,6,224.59,449.17,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,12,99,1,6,449.17,449.17,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,4,11,1,6,323.75,647.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,12,99,1,6,647.5,647.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,4,11,1,6,361.25,722.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,12,99,1,6,722.5,722.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,4,11,1,6,225.0,450.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Red Level  Grand 3 Bedroom Ocean VIlla,Test,6,12,99,1,6,450.0,450.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,4,11,1,6,542.09,1084.17,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,12,99,1,6,1084.17,1084.17,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,4,11,1,6,420.0,840.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,12,99,1,6,840.0,840.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,4,11,1,6,416.25,832.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,12,99,1,6,832.5,832.5,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,4,11,1,6,337.08,674.17,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,12,99,1,6,674.17,674.17,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,4,11,1,6,485.83,971.67,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,12,99,1,6,971.67,971.67,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,4,11,1,6,542.09,1084.17,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,12,99,1,6,1084.17,1084.17,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,0,3,1,6,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,4,11,1,6,337.5,675.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,red Level Royal  3 Bedroom Ocean Villa,Test,6,12,99,1,6,675.0,675.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,4,11,1,2,296.25,592.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,12,99,1,2,592.5,592.5,0.0,0.0,22/12/2026,06/01/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,4,11,1,2,222.5,445.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,12,99,1,2,445.0,445.0,0.0,0.0,07/01/2027,28/02/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,4,11,1,2,215.0,430.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,12,99,1,2,430.0,430.0,0.0,0.0,01/03/2027,31/03/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,4,11,1,2,141.25,282.5,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,12,99,1,2,282.5,282.5,0.0,0.0,01/04/2027,30/06/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,4,11,1,2,250.0,500.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,12,99,1,2,500.0,500.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,4,11,1,2,296.25,592.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,12,99,1,2,592.5,592.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,4,11,1,2,157.5,315.0,0.0,0.0,01/11/2027,21/12/2027
+Zanzibar,Melia Zanzibar,,Test,FALSE,0,FALSE,USD,Ocean Front Romance Pavilion Room,Test,2,12,99,1,2,315.0,315.0,0.0,0.0,01/11/2027,21/12/2027

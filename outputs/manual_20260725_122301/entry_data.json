@@ -1,0 +1,139 @@
+{
+  "hotel_name": "Four Points By Sheraton - The Arusha Hotel 27",
+  "location_name": "Arusha",
+  "contract_year": "2027",
+  "base_plan": "BB",
+  "hotel_desc": "A historic mid-range city hotel in Arusha with spacious air-conditioned rooms, free Wi-Fi, outdoor pool, gym, restaurant and bar. Perfect for relaxing before or after a safari, it blends classic East African charm with modern comforts and garden views just minutes from town amenities.",
+  "room_desc": "A well-appointed double/ Twin room with a spacious bed setup, en-suite bathroom, and modern amenities, designed for comfort and relaxation, providing a warm ambiance and excellent value for couples or friends.",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "Imported from an existing generated CSV. Review before exporting.",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "Season 1"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Traditional Queen- Twin",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Deluxe Premium King",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Club King- Twin",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Club Premium King",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Siute Club King",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "Siute Premium Queen",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 200,
+      "col_2": 240,
+      "col_3": 290,
+      "col_4": 310,
+      "col_5": 380,
+      "col_6": 430
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2027",
+      "end": "31/12/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 6,
+      "max_age": 11,
+      "discount": 75,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 12,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 28,
+  "fb_supplement": 53,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

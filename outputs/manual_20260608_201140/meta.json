@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Ang'ata Tarangire Camp",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Ang'ata_Tarangire_Camp_20260608_201140.csv",
+  "xlsx_file": null,
+  "row_count": 15,
+  "created_at": "2026-06-08T20:11:40.076825",
+  "output_dir": "manual_20260608_201140",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

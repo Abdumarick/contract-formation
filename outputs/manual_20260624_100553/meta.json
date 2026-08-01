@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Glimpse Immigration Camp Ndutu Ncaa 27",
+  "hotel_group": "Single",
+  "location": "Serengeti National Park",
+  "csv_file": "Glimpse_Immigration_Camp_Ndutu_Ncaa_27_20260624_100553.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-06-24T10:05:53.037931",
+  "output_dir": "manual_20260624_100553",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

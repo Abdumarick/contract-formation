@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Mahali Zanzibar",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Mahali_Zanzibar_20260402_130506.csv",
+  "xlsx_file": null,
+  "row_count": 28,
+  "created_at": "2026-04-02T13:05:06.470826",
+  "output_dir": "manual_20260402_130506",
+  "contract_year": "",
+  "base_plan": "FB"
+}

@@ -1,0 +1,204 @@
+{
+  "hotel_name": "Serena Mivumo Rodge 27",
+  "location_name": "Nyerere NP",
+  "contract_year": "2027",
+  "base_plan": "BB",
+  "hotel_desc": "Test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "jan"
+    },
+    {
+      "sid": "row_2",
+      "name": "feb"
+    },
+    {
+      "sid": "row_3",
+      "name": "mar"
+    },
+    {
+      "sid": "row_4",
+      "name": "easta"
+    },
+    {
+      "sid": "row_5",
+      "name": "apr"
+    },
+    {
+      "sid": "row_6",
+      "name": "jun to oct"
+    },
+    {
+      "sid": "row_7",
+      "name": "nov to dec 22"
+    },
+    {
+      "sid": "row_8",
+      "name": "dec"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Triple  Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 588,
+      "col_2": 441,
+      "col_3": 294
+    },
+    "row_2": {
+      "col_1": 588,
+      "col_2": 441,
+      "col_3": 294
+    },
+    "row_3": {
+      "col_1": 588,
+      "col_2": 441,
+      "col_3": 294
+    },
+    "row_4": {
+      "col_1": 0,
+      "col_2": 0,
+      "col_3": 0
+    },
+    "row_5": {
+      "col_1": 0,
+      "col_2": 0,
+      "col_3": 0
+    },
+    "row_6": {
+      "col_1": 588,
+      "col_2": 441,
+      "col_3": 294
+    },
+    "row_7": {
+      "col_1": 588,
+      "col_2": 441,
+      "col_3": 294
+    },
+    "row_8": {
+      "col_1": 588,
+      "col_2": 441,
+      "col_3": 294
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2027",
+      "end": "31/01/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/02/2027",
+      "end": "28/02/2027"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/03/2027",
+      "end": "31/03/2027"
+    },
+    {
+      "sid": "row_4",
+      "start": "26/03/2027",
+      "end": "29/03/2027"
+    },
+    {
+      "sid": "row_5",
+      "start": "01/04/2027",
+      "end": "31/05/2027"
+    },
+    {
+      "sid": "row_6",
+      "start": "01/06/2027",
+      "end": "31/10/2027"
+    },
+    {
+      "sid": "row_7",
+      "start": "01/11/2027",
+      "end": "22/12/2027"
+    },
+    {
+      "sid": "row_8",
+      "start": "23/12/2027",
+      "end": "01/01/2028"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "child",
+      "min_age": 8,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 13,
+      "max_age": 17,
+      "discount": 75,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 18,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

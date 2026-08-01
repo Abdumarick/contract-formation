@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Neptune Ngorongoro Lodge",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Neptune_Ngorongoro_Lodge_20260609_025433.csv",
+  "xlsx_file": null,
+  "row_count": 30,
+  "created_at": "2026-06-09T02:54:33.944872",
+  "output_dir": "manual_20260609_025433",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

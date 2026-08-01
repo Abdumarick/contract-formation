@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Pamoja Verdant Farm Villa",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Pamoja_Verdant_Farm_Villa_20260603_022940.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-06-03T02:29:40.284928",
+  "output_dir": "manual_20260603_022940",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "untamed Migration Camp ( Kogatende) 26",
+  "hotel_group": "Single",
+  "location": "Serengeti National Pack",
+  "csv_file": "untamed_Migration_Camp_(_Kogatende)_26_20260623_132451.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-06-23T13:24:51.431782",
+  "output_dir": "manual_20260623_132451",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

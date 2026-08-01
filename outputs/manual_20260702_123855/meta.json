@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Sky And Sand Zanzibar 27",
+  "hotel_group": "Single",
+  "location": "Zanzibar",
+  "csv_file": "Sky_And_Sand_Zanzibar_27_20260720_113219.csv",
+  "xlsx_file": null,
+  "row_count": 54,
+  "created_at": "2026-07-20T11:32:19.080968",
+  "output_dir": "manual_20260702_123855",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Ngaresero Nountain Lodge",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Ngaresero_Nountain_Lodge_20260615_144739.csv",
+  "xlsx_file": null,
+  "row_count": 120,
+  "created_at": "2026-06-15T14:47:39.840018",
+  "output_dir": "manual_20260615_144739",
+  "contract_year": "2026 - 2027",
+  "base_plan": "BB"
+}

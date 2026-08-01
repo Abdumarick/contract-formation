@@ -1,0 +1,157 @@
+{
+  "hotel_name": "Kahawa House",
+  "location_name": "Arusha",
+  "contract_year": "2027",
+  "base_plan": "BB",
+  "hotel_desc": "Kahawa House is a charming, homely boutique lodge on a former coffee plantation in lush tropical gardens, just 6-7 km southwest of Arusha city center, Tanzania. Offering serene tranquility with Mount Kilimanjaro views on clear days, it features comfortable rooms, a swimming pool, free breakfast,",
+  "room_desc": "Kahawa House is a charming, homely boutique lodge on a former coffee plantation in lush tropical gardens, just 6-7 km southwest of Arusha city center, Tanzania. Offering serene tranquility with Mount Kilimanjaro views on clear days, it features comfortable rooms, a swimming pool, free breakfast,",
+  "inside_restricted_area": "TRUE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "Imported from an existing generated CSV. Review before exporting.",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "High"
+    },
+    {
+      "sid": "row_4",
+      "name": "Sholder"
+    },
+    {
+      "sid": "row_6",
+      "name": "Low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Tent",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Tent",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Triple Tent",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_5",
+      "name": "Family Tent",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 182,
+      "col_2": 135,
+      "col_3": 135,
+      "col_5": 135
+    },
+    "row_4": {
+      "col_1": 170,
+      "col_2": 127,
+      "col_3": 127,
+      "col_5": 127
+    },
+    "row_6": {
+      "col_1": 159,
+      "col_2": 119,
+      "col_3": 119,
+      "col_5": 119
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2027",
+      "end": "31/03/2027"
+    },
+    {
+      "sid": "row_6",
+      "start": "01/04/2027",
+      "end": "31/05/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2027",
+      "end": "31/10/2027"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/11/2027",
+      "end": "15/12/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/12/2027",
+      "end": "31/12/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 2,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 3,
+      "max_age": 16,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 20,
+  "fb_supplement": 40,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

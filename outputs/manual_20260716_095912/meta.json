@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "NgorongoroSafari Lodge",
+  "hotel_group": "Single",
+  "location": "Ngorongoro",
+  "csv_file": "NgorongoroSafari_Lodge_20260716_095912.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-07-16T09:59:12.476989",
+  "output_dir": "manual_20260716_095912",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

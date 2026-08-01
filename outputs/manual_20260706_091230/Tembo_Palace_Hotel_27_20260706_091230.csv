@@ -1,0 +1,22 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Single Room,Test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Single Room,Test,1,6,10,1,1,30.0,0.0,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Single Room,Test,1,11,99,1,1,80.0,0.0,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Double Room,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Double Room,Test,2,6,10,1,2,30.0,45.0,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Double Room,Test,2,11,99,1,2,45.0,45.0,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Twin Room,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Twin Room,Test,2,6,10,1,2,30.0,45.0,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Twin Room,Test,2,11,99,1,2,45.0,45.0,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Triple Room,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Triple Room,Test,3,6,10,1,3,30.0,36.67,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Triple Room,Test,3,11,99,1,3,36.67,36.67,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Triple Room 4pax,Test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Triple Room 4pax,Test,4,6,10,1,4,30.0,35.0,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Superior Triple Room 4pax,Test,4,11,99,1,4,35.0,35.0,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Family Suite,Test,5,0,5,1,5,0.0,0.0,0.0,0.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Family Suite,Test,5,6,10,1,5,30.0,32.0,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Family Suite,Test,5,11,99,1,5,32.0,32.0,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Family Suite 6pax,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Family Suite 6pax,Test,6,6,10,1,6,30.0,31.67,25.0,45.0,01/01/2027,01/12/2027
+Zanzibar,Tembo Palace  Hotel 27,,Test,FALSE,0,FALSE,USD,Family Suite 6pax,Test,6,11,99,1,6,31.67,31.67,25.0,45.0,01/01/2027,01/12/2027

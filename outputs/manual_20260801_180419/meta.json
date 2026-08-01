@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Beho Beho 27",
+  "hotel_group": "Single",
+  "location": "Nyerere NP",
+  "csv_file": "Beho_Beho_27_20260801_180419.csv",
+  "xlsx_file": null,
+  "row_count": 4,
+  "created_at": "2026-08-01T18:04:19.158529",
+  "output_dir": "manual_20260801_180419",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

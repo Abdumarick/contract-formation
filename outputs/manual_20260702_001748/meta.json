@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Manyara Best View Lodge 27",
+  "hotel_group": "Single",
+  "location": "Manyara",
+  "csv_file": "Manyara_Best_View_Lodge_27_20260702_001748.csv",
+  "xlsx_file": null,
+  "row_count": 288,
+  "created_at": "2026-07-02T00:17:48.439764",
+  "output_dir": "manual_20260702_001748",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

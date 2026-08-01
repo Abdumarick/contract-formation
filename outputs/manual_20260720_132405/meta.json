@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Manyara Baobab Lodge",
+  "hotel_group": "Single",
+  "location": "Lake Manyara",
+  "csv_file": "Manyara_Baobab_Lodge_20260720_132405.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-07-20T13:24:05.475580",
+  "output_dir": "manual_20260720_132405",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

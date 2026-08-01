@@ -1,0 +1,310 @@
+{
+  "hotel_name": "Selous River Camp",
+  "location_name": "Nyerere National Park",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "test",
+  "room_desc": "test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "peak season"
+    },
+    {
+      "sid": "row_2",
+      "name": "paek Premium"
+    },
+    {
+      "sid": "row_3",
+      "name": "sholder"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Mud Hut Cottage Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Mud Hut Cottage Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Mud Hut Cottage Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Family Banda Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Family Banda Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "Family Banda Quad Room",
+      "max_cap": 4,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_7",
+      "name": "Forest Bande Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_8",
+      "name": "Forest Bande Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_9",
+      "name": "Forest Bande Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_10",
+      "name": "Riverfront Tent Single",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_11",
+      "name": "Riverfront Tent Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_12",
+      "name": "Riverfront Tent 6 pax",
+      "max_cap": 6,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_13",
+      "name": "Riverview Tent Single",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_14",
+      "name": "Riverview Tent Double",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_15",
+      "name": "Riverview Tent 6 pax",
+      "max_cap": 6,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 200,
+      "col_2": 144,
+      "col_3": 144,
+      "col_4": 132,
+      "col_5": 132,
+      "col_6": 132,
+      "col_7": 180,
+      "col_8": 128,
+      "col_9": 128,
+      "col_10": 168,
+      "col_11": 120,
+      "col_12": 120,
+      "col_13": 152,
+      "col_14": 108,
+      "col_15": 108
+    },
+    "row_2": {
+      "col_1": 232,
+      "col_2": 164,
+      "col_3": 164,
+      "col_4": 152,
+      "col_5": 152,
+      "col_6": 152,
+      "col_7": 208,
+      "col_8": 148,
+      "col_9": 148,
+      "col_10": 192,
+      "col_11": 140,
+      "col_12": 140,
+      "col_13": 176,
+      "col_14": 124,
+      "col_15": 124
+    },
+    "row_3": {
+      "col_1": 172,
+      "col_2": 124,
+      "col_3": 124,
+      "col_4": 112,
+      "col_5": 112,
+      "col_6": 112,
+      "col_7": 152,
+      "col_8": 108,
+      "col_9": 108,
+      "col_10": 144,
+      "col_11": 100,
+      "col_12": 100,
+      "col_13": 128,
+      "col_14": 92,
+      "col_15": 92
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "03/01/2026",
+      "end": "31/01/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/02/2026",
+      "end": "15/03/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "20/05/2026",
+      "end": "15/06/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/06/2026",
+      "end": "31/08/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/09/2026",
+      "end": "30/11/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/12/2026",
+      "end": "23/12/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "24/12/2026",
+      "end": "02/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 15,
+      "discount": 35,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 16,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

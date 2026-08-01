@@ -1,0 +1,172 @@
+{
+  "hotel_name": "Africa Safari Nyerere 27",
+  "location_name": "Nyerere Np",
+  "contract_year": "2027",
+  "base_plan": "BB",
+  "hotel_desc": "test",
+  "room_desc": "test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high"
+    },
+    {
+      "sid": "row_2",
+      "name": "low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Luxury Bungalow Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Luxury Bungalow Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Luxury Bungalow Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Premium Bungalow Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Premium Bungalow Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 289.1,
+      "col_2": 192.5,
+      "col_3": 297.5,
+      "col_4": 227.5,
+      "col_5": 332.5
+    },
+    "row_2": {
+      "col_1": 202.3,
+      "col_2": 135.1,
+      "col_3": 208.6,
+      "col_4": 159.6,
+      "col_5": 233.1
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2027",
+      "end": "14/03/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "16/03/2027",
+      "end": "15/05/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/05/2027",
+      "end": "31/12/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 1,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 2,
+      "max_age": 11,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 12,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": [
+    {
+      "name": "",
+      "override_type": "cost",
+      "room": "",
+      "rooms": [],
+      "band": "child_2_11",
+      "bands": [
+        "child_2_11"
+      ],
+      "season_amounts": [
+        {
+          "season": "high",
+          "amount": 70,
+          "amount_type": "usd"
+        },
+        {
+          "season": "low",
+          "amount": 49,
+          "amount_type": "usd"
+        }
+      ]
+    }
+  ]
+}

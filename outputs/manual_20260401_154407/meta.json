@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Merumeru Zanzibar",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Merumeru_Zanzibar_20260401_154407.csv",
+  "xlsx_file": null,
+  "row_count": 75,
+  "created_at": "2026-04-01T15:44:07.689750",
+  "output_dir": "manual_20260401_154407",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

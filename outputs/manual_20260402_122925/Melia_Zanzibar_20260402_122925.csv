@@ -1,0 +1,484 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,4,11,1,1,232.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,12,99,1,1,464.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,4,11,1,1,161.5,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,12,99,1,1,323.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,4,11,1,1,148.5,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,12,99,1,1,297.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,4,11,1,1,136.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,12,99,1,1,272.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,4,11,1,1,188.5,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,12,99,1,1,377.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,4,11,1,1,232.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,12,99,1,1,464.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,4,11,1,1,157.5,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Single,,1,12,99,1,1,315.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,4,11,1,2,160.0,320.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,12,99,1,2,320.0,320.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,4,11,1,2,111.25,222.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,12,99,1,2,222.5,222.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,4,11,1,2,102.5,205.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,12,99,1,2,205.0,205.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,4,11,1,2,93.75,187.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,12,99,1,2,187.5,187.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,4,11,1,2,130.0,260.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,12,99,1,2,260.0,260.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,4,11,1,2,160.0,320.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,12,99,1,2,320.0,320.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,4,11,1,2,108.75,217.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Garden Double,,2,12,99,1,2,217.5,217.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,4,11,1,1,254.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,12,99,1,1,508.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,4,11,1,1,179.5,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,12,99,1,1,359.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,4,11,1,1,168.5,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,12,99,1,1,337.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,4,11,1,1,156.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,12,99,1,1,312.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,4,11,1,1,210.5,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,12,99,1,1,421.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,4,11,1,1,254.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,12,99,1,1,508.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,4,11,1,1,176.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Single,,1,12,99,1,1,352.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,0,3,1,1,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,4,11,1,1,350.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,12,99,1,1,700.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,4,11,1,1,247.5,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,12,99,1,1,495.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,4,11,1,1,232.5,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,12,99,1,1,465.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,4,11,1,1,215.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,12,99,1,1,430.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,4,11,1,1,290.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,12,99,1,1,580.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,4,11,1,1,350.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,12,99,1,1,700.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,4,11,1,1,242.5,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace Double,,1,12,99,1,1,485.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,4,11,1,4,209.38,418.75,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,12,99,1,4,418.75,418.75,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,4,11,1,4,148.75,297.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,12,99,1,4,297.5,297.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,4,11,1,4,139.38,278.75,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,12,99,1,4,278.75,278.75,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,4,11,1,4,128.75,257.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,12,99,1,4,257.5,257.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,4,11,1,4,173.75,347.5,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,12,99,1,4,347.5,347.5,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,4,11,1,4,209.38,418.75,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,12,99,1,4,418.75,418.75,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,4,11,1,4,145.62,291.25,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Melia Terrace interconnected,,4,12,99,1,4,291.25,291.25,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,0,3,1,1,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,4,11,1,1,254.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,12,99,1,1,508.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,4,11,1,1,177.5,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,12,99,1,1,355.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,4,11,1,1,165.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,12,99,1,1,330.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,4,11,1,1,150.5,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,12,99,1,1,301.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,4,11,1,1,206.5,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,12,99,1,1,413.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,4,11,1,1,254.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,12,99,1,1,508.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,4,11,1,1,174.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Simple,,1,12,99,1,1,348.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,4,11,1,2,175.0,350.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,12,99,1,2,350.0,350.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,4,11,1,2,122.5,245.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,12,99,1,2,245.0,245.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,4,11,1,2,113.75,227.5,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,12,99,1,2,227.5,227.5,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,4,11,1,2,103.75,207.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,12,99,1,2,207.5,207.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,4,11,1,2,142.5,285.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,12,99,1,2,285.0,285.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,4,11,1,2,175.0,350.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,12,99,1,2,350.0,350.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,4,11,1,2,133.75,267.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Garden Double,,2,12,99,1,2,267.5,267.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,4,11,1,1,279.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,12,99,1,1,558.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,4,11,1,1,197.5,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,12,99,1,1,395.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,4,11,1,1,186.5,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,12,99,1,1,373.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,4,11,1,1,170.5,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,12,99,1,1,341.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,4,11,1,1,232.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,12,99,1,1,464.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,4,11,1,1,279.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,12,99,1,1,558.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,4,11,1,1,194.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Single,,1,12,99,1,1,388.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,4,11,1,2,192.5,385.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,12,99,1,2,385.0,385.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,4,11,1,2,136.25,272.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,12,99,1,2,272.5,272.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,4,11,1,2,128.75,257.5,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,12,99,1,2,257.5,257.5,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,4,11,1,2,117.5,235.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,12,99,1,2,235.0,235.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,4,11,1,2,160.0,320.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,12,99,1,2,320.0,320.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,4,11,1,2,192.5,385.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,12,99,1,2,385.0,385.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,4,11,1,2,133.75,267.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace Double,,2,12,99,1,2,267.5,267.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,4,11,1,4,230.62,461.25,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,12,99,1,4,461.25,461.25,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,4,11,1,4,163.75,327.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,12,99,1,4,327.5,327.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,4,11,1,4,153.75,307.5,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,12,99,1,4,307.5,307.5,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,4,11,1,4,141.25,282.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,12,99,1,4,282.5,282.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,4,11,1,4,191.25,382.5,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,12,99,1,4,382.5,382.5,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,4,11,1,4,230.62,461.25,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,12,99,1,4,461.25,461.25,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,4,11,1,4,160.62,321.25,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Premium Terrace intercconnected,,4,12,99,1,4,321.25,321.25,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,4,11,1,4,116.88,233.75,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,12,99,1,4,233.75,233.75,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,4,11,1,4,83.12,166.25,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,12,99,1,4,166.25,166.25,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,4,11,1,4,79.38,158.75,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,12,99,1,4,158.75,158.75,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,4,11,1,4,74.38,148.75,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,12,99,1,4,148.75,148.75,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,4,11,1,4,98.75,197.5,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,12,99,1,4,197.5,197.5,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,4,11,1,4,116.88,233.75,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,12,99,1,4,233.75,233.75,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,4,11,1,4,81.88,163.75,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Family  Room,,4,12,99,1,4,163.75,163.75,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,4,11,1,2,500.0,500.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,12,99,1,2,500.0,500.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,4,11,1,2,392.5,392.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,12,99,1,2,392.5,392.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,4,11,1,2,375.0,375.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,12,99,1,2,375.0,375.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,4,11,1,2,357.5,357.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,12,99,1,2,357.5,357.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,4,11,1,2,445.0,445.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,12,99,1,2,445.0,445.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,4,11,1,2,500.0,500.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,12,99,1,2,500.0,500.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,4,11,1,2,380.0,380.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,Ocean View Bongalow,,2,12,99,1,2,380.0,380.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,4,11,1,2,525.0,525.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,12,99,1,2,525.0,525.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,4,11,1,2,407.5,407.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,12,99,1,2,407.5,407.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,4,11,1,2,392.5,392.5,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,12,99,1,2,392.5,392.5,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,4,11,1,2,367.5,367.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,12,99,1,2,367.5,367.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,4,11,1,2,460.0,460.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,12,99,1,2,460.0,460.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,4,11,1,2,525.0,525.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,12,99,1,2,525.0,525.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,4,11,1,2,390.0,390.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Beach Room,,2,12,99,1,2,390.0,390.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,0,3,1,3,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,4,11,1,3,353.33,353.33,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,12,99,1,3,353.33,353.33,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,0,3,1,3,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,4,11,1,3,270.0,270.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,12,99,1,3,270.0,270.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,4,11,1,3,260.0,260.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,12,99,1,3,260.0,260.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,4,11,1,3,245.0,245.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,12,99,1,3,245.0,245.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,4,11,1,3,301.67,301.67,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,12,99,1,3,301.67,301.67,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,4,11,1,3,353.33,353.33,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,12,99,1,3,353.33,353.33,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,4,11,1,3,263.33,263.33,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level Grand Suite,,3,12,99,1,3,263.33,263.33,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,4,11,1,2,592.5,592.5,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,12,99,1,2,592.5,592.5,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,4,11,1,2,425.0,425.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,12,99,1,2,425.0,425.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,4,11,1,2,430.0,430.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,12,99,1,2,430.0,430.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,4,11,1,2,400.0,400.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,12,99,1,2,400.0,400.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,4,11,1,2,500.0,500.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,12,99,1,2,500.0,500.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,4,11,1,2,592.5,592.5,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,12,99,1,2,592.5,592.5,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,4,11,1,2,422.5,422.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  O.F Romance Pavilion,,2,12,99,1,2,422.5,422.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,4,11,1,2,685.0,685.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,12,99,1,2,685.0,685.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,4,11,1,2,530.0,530.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,12,99,1,2,530.0,530.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,4,11,1,2,515.0,515.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,12,99,1,2,515.0,515.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,4,11,1,2,485.0,485.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,12,99,1,2,485.0,485.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,4,11,1,2,580.0,580.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,12,99,1,2,580.0,580.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,4,11,1,2,685.0,685.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,12,99,1,2,685.0,685.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,4,11,1,2,505.0,505.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Beach  Pavilion,,2,12,99,1,2,505.0,505.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,4,11,1,4,290.62,581.25,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,12,99,1,4,581.25,581.25,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,4,11,1,4,219.38,438.75,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,12,99,1,4,438.75,438.75,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,4,11,1,4,215.0,430.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,12,99,1,4,430.0,430.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,4,11,1,4,206.25,412.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,12,99,1,4,412.5,412.5,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,4,11,1,4,255.0,510.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,12,99,1,4,510.0,510.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,4,11,1,4,290.62,581.25,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,12,99,1,4,581.25,581.25,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,4,11,1,4,210.0,420.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 BedRoom Beach Pavilion,,4,12,99,1,4,420.0,420.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,4,11,1,4,258.12,516.25,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,12,99,1,4,516.25,516.25,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,4,11,1,4,187.5,375.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,12,99,1,4,375.0,375.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,4,11,1,4,183.12,366.25,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,12,99,1,4,366.25,366.25,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,4,11,1,4,149.38,298.75,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,12,99,1,4,298.75,298.75,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,4,11,1,4,219.38,438.75,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,12,99,1,4,438.75,438.75,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,4,11,1,4,258.12,516.25,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,12,99,1,4,516.25,516.25,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,4,11,1,4,153.75,307.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Garden Villa,,4,12,99,1,4,307.5,307.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,4,11,1,4,309.38,618.75,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,12,99,1,4,618.75,618.75,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,0,3,1,4,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,4,11,1,4,225.0,450.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,12,99,1,4,450.0,450.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,4,11,1,4,220.0,440.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,12,99,1,4,440.0,440.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,4,11,1,4,179.38,358.75,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,12,99,1,4,358.75,358.75,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,4,11,1,4,263.12,526.25,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,12,99,1,4,526.25,526.25,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,4,11,1,4,309.38,618.75,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,12,99,1,4,618.75,618.75,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,4,11,1,4,184.38,368.75,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  1 Bedroom Ocean VIlla,,4,12,99,1,4,368.75,368.75,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,4,11,1,6,236.66,473.33,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,12,99,1,6,473.33,473.33,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,4,11,1,6,191.66,383.33,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,12,99,1,6,383.33,383.33,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,4,11,1,6,188.75,377.5,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,12,99,1,6,377.5,377.5,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,4,11,1,6,167.09,334.17,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,12,99,1,6,334.17,334.17,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,4,11,1,6,225.41,450.83,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,12,99,1,6,450.83,450.83,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,4,11,1,6,236.66,473.33,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,12,99,1,6,473.33,473.33,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,4,11,1,6,168.75,337.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  2 Bedroom Ocean VIlla,,6,12,99,1,6,337.5,337.5,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,4,11,1,6,319.58,639.17,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,12,99,1,6,639.17,639.17,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,4,11,1,6,258.33,516.67,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,12,99,1,6,516.67,516.67,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,4,11,1,6,255.0,510.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,12,99,1,6,510.0,510.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,4,11,1,6,225.41,450.83,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,12,99,1,6,450.83,450.83,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,4,11,1,6,292.92,585.83,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,12,99,1,6,585.83,585.83,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,4,11,1,6,319.58,639.17,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,12,99,1,6,639.17,639.17,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,0,3,1,6,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,4,11,1,6,219.16,438.33,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 2 Bedroom Ocean VIlla,,6,12,99,1,6,438.33,438.33,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,4,11,1,8,264.38,528.75,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,12,99,1,8,528.75,528.75,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,4,11,1,8,205.94,411.88,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,12,99,1,8,411.88,411.88,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,4,11,1,8,204.06,408.12,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,12,99,1,8,408.12,408.12,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,4,11,1,8,165.94,331.88,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,12,99,1,8,331.88,331.88,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,4,11,1,8,236.88,473.75,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,12,99,1,8,473.75,473.75,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,4,11,1,8,264.38,528.75,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,12,99,1,8,528.75,528.75,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,4,11,1,8,355.31,710.62,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  3 Bedroom Ocean Villa,,8,12,99,1,8,710.62,710.62,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,4,11,1,8,396.56,793.12,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,12,99,1,8,793.12,793.12,0.0,0.0,22/12/2025,06/01/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,4,11,1,8,308.75,617.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,12,99,1,8,617.5,617.5,0.0,0.0,07/01/2026,28/02/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,4,11,1,8,305.94,611.88,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,12,99,1,8,611.88,611.88,0.0,0.0,01/03/2026,31/03/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,4,11,1,8,249.06,498.12,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,12,99,1,8,498.12,498.12,0.0,0.0,01/04/2026,30/06/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,4,11,1,8,166.25,332.5,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,12,99,1,8,332.5,332.5,0.0,0.0,01/07/2026,31/08/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,4,11,1,8,396.56,793.12,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,12,99,1,8,793.12,793.12,0.0,0.0,01/09/2026,31/10/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,0,3,1,8,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,4,11,1,8,249.38,498.75,0.0,0.0,01/11/2026,21/12/2026
+,Melia Zanzibar,,Test,,0,,USD,The Level  Grand 3 Bedroom Ocean Villa,,8,12,99,1,8,498.75,498.75,0.0,0.0,01/11/2026,21/12/2026

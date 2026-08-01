@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Rufiji River Camp 27",
+  "hotel_group": "Single",
+  "location": "Nyerere NP",
+  "csv_file": "Rufiji_River_Camp_27_20260801_183617.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-08-01T18:36:17.479320",
+  "output_dir": "manual_20260801_183617",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

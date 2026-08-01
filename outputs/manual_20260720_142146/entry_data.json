@@ -1,0 +1,317 @@
+{
+  "hotel_name": "Jambiani",
+  "location_name": "Zanzibar",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "Test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "peak"
+    },
+    {
+      "sid": "row_2",
+      "name": "high"
+    },
+    {
+      "sid": "row_3",
+      "name": "low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "2 Bedroom Villa  2 adult",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "2 Bedroom Villa  3  adult",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "2 Bedroom Villa  4 adult",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "2 Bedroom Villa  2 adult 1 child",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Apartment 2 adult",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "Apartment 1 adult + 1child",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_7",
+      "name": "3 Bedroom Villa 2 Adult",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_8",
+      "name": "3 Bedroom Villa 3 Adult",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_9",
+      "name": "3 Bedroom Villa 6 Adult",
+      "max_cap": 6,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_10",
+      "name": "3 Bedroom Villa 2 Adult 4 children",
+      "max_cap": 6,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_11",
+      "name": "3 Bedroom Villa 3 Adult 3 children",
+      "max_cap": 6,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_12",
+      "name": "3 Bedroom Villa 4 Adult 2 children",
+      "max_cap": 6,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_13",
+      "name": "3 Bedroom Villa 4 Adult 3 children",
+      "max_cap": 7,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_14",
+      "name": "3 Bedroom Villa 5 Adult 1 child",
+      "max_cap": 6,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_15",
+      "name": "3 Bedroom Villa 5 Adult 2 children",
+      "max_cap": 7,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_16",
+      "name": "3 Bedroom Villa 6 Adult 1 childred",
+      "max_cap": 7,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 339,
+      "col_2": 405,
+      "col_3": 405,
+      "col_4": 393,
+      "col_5": 256,
+      "col_6": 244,
+      "col_7": 406,
+      "col_8": 473,
+      "col_9": 671,
+      "col_10": 621,
+      "col_11": 634,
+      "col_12": 646,
+      "col_13": 700,
+      "col_14": 659,
+      "col_15": 713,
+      "col_16": 725
+    },
+    "row_2": {
+      "col_1": 275,
+      "col_2": 341,
+      "col_3": 341,
+      "col_4": 329,
+      "col_5": 219,
+      "col_6": 206,
+      "col_7": 324,
+      "col_8": 390,
+      "col_9": 589,
+      "col_10": 539,
+      "col_11": 551,
+      "col_12": 564,
+      "col_13": 618,
+      "col_14": 576,
+      "col_15": 630,
+      "col_16": 643
+    },
+    "row_3": {
+      "col_1": 238,
+      "col_2": 289,
+      "col_3": 370,
+      "col_4": 291,
+      "col_5": 181,
+      "col_6": 169,
+      "col_7": 283,
+      "col_8": 349,
+      "col_9": 548,
+      "col_10": 498,
+      "col_11": 510,
+      "col_12": 523,
+      "col_13": 576,
+      "col_14": 535,
+      "col_15": 589,
+      "col_16": 601
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2026",
+      "end": "28/02/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/03/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/04/2026",
+      "end": "10/06/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "11/06/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/07/2026",
+      "end": "12/09/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "13/09/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/11/2026",
+      "end": "19/12/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "20/12/2026",
+      "end": "05/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 6,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

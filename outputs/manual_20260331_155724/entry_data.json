@@ -1,0 +1,304 @@
+{
+  "hotel_name": "Essque Zalu Zanzibar",
+  "contract_year": "2026",
+  "base_plan": "HB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "Sholder"
+    },
+    {
+      "sid": "row_2",
+      "name": "low"
+    },
+    {
+      "sid": "row_3",
+      "name": "high"
+    },
+    {
+      "sid": "row_4",
+      "name": "festival"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Garden Suite Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Garden Suite Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Superior Suite Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Superior Suite Double  Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Partial Ocean View Suite Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_6",
+      "name": "Partial Ocean View Suite Double",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_7",
+      "name": "SeaFront Suite Single",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_8",
+      "name": "SeaFront Suite Double",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_9",
+      "name": "3 Bedroom Villa Garden",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_10",
+      "name": "3 Bedroom Villa Partial Ocean View",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_11",
+      "name": "3 Bedroom Villa Ocean Front",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_12",
+      "name": "4 Bedroom Villa Garden",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_13",
+      "name": "4 Bedroom Villa Partial Ocean View",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_14",
+      "name": "4 Bedroom Villa Ocean Front",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 257,
+      "col_2": 321,
+      "col_3": 297,
+      "col_4": 372,
+      "col_5": 315,
+      "col_6": 394,
+      "col_7": 372,
+      "col_8": 464,
+      "col_9": 1470,
+      "col_10": 1628,
+      "col_11": 1789,
+      "col_12": 1575,
+      "col_13": 1946,
+      "col_14": 2136
+    },
+    "row_2": {
+      "col_1": 214,
+      "col_2": 269,
+      "col_3": 237,
+      "col_4": 296,
+      "col_5": 259,
+      "col_6": 324,
+      "col_7": 273,
+      "col_8": 341,
+      "col_9": 1194,
+      "col_10": 1320,
+      "col_11": 1448,
+      "col_12": 1299,
+      "col_13": 1577,
+      "col_14": 1730
+    },
+    "row_3": {
+      "col_1": 313,
+      "col_2": 392,
+      "col_3": 344,
+      "col_4": 431,
+      "col_5": 384,
+      "col_6": 481,
+      "col_7": 457,
+      "col_8": 570,
+      "col_9": 1826,
+      "col_10": 2024,
+      "col_11": 2220,
+      "col_12": 1931,
+      "col_13": 2418,
+      "col_14": 2655
+    },
+    "row_4": {
+      "col_1": 362,
+      "col_2": 453,
+      "col_3": 398,
+      "col_4": 498,
+      "col_5": 445,
+      "col_6": 557,
+      "col_7": 526,
+      "col_8": 657,
+      "col_9": 2100,
+      "col_10": 2224,
+      "col_11": 2553,
+      "col_12": 2205,
+      "col_13": 2785,
+      "col_14": 3056
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "04/01/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/04/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/07/2026",
+      "end": "31/08/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/09/2026",
+      "end": "22/12/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "23/12/2026",
+      "end": "03/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 6,
+      "max_age": 12,
+      "discount": 30,
+      "discount_type": "usd",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": [
+    {
+      "name": "fb",
+      "override_type": "fb_supp",
+      "room": "",
+      "band": "",
+      "season_amounts": [
+        {
+          "season": "Sholder",
+          "amount": 40,
+          "amount_type": "usd"
+        },
+        {
+          "season": "low",
+          "amount": 40,
+          "amount_type": "usd"
+        },
+        {
+          "season": "high",
+          "amount": 40,
+          "amount_type": "usd"
+        },
+        {
+          "season": "festival",
+          "amount": 40,
+          "amount_type": "usd"
+        }
+      ]
+    }
+  ]
+}

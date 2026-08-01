@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Moyo Tented camp 26",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Moyo_Tented_camp_26_20260623_123258.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-06-23T12:32:58.607743",
+  "output_dir": "manual_20260623_123258",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

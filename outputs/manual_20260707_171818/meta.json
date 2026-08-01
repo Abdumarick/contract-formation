@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Poripori",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Poripori_20260707_171818.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-07T17:18:18.250507",
+  "output_dir": "manual_20260707_171818",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

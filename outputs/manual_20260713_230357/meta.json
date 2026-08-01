@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Mandare Hut",
+  "hotel_group": "Single",
+  "location": "Kilimanjaro",
+  "csv_file": "Mandare_Hut_20260713_230357.csv",
+  "xlsx_file": null,
+  "row_count": 9,
+  "created_at": "2026-07-13T23:03:57.654578",
+  "output_dir": "manual_20260713_230357",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

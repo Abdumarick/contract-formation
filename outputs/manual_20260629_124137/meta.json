@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Signeture Serengeti  26",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Signeture_Serengeti_26_20260629_124137.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-06-29T12:41:37.423170",
+  "output_dir": "manual_20260629_124137",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

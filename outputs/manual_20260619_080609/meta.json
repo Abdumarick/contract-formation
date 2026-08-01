@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Eileen's Trees Inn",
+  "hotel_group": "Single",
+  "location": "Karatu",
+  "csv_file": "Eileen's_Trees_Inn_20260619_080609.csv",
+  "xlsx_file": null,
+  "row_count": 63,
+  "created_at": "2026-06-19T08:06:09.413116",
+  "output_dir": "manual_20260619_080609",
+  "contract_year": "2027",
+  "base_plan": "HB"
+}

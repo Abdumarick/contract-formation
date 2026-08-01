@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "African View Lodge",
+  "hotel_group": "Single",
+  "location": "Arusha National Park",
+  "csv_file": "African_View_Lodge_20260731_010430.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-07-31T01:04:30.073616",
+  "output_dir": "manual_20260731_010430",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

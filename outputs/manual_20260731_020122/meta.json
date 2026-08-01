@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Mkomazi  retreat",
+  "hotel_group": "Single",
+  "location": "Mkomazi  National park",
+  "csv_file": "Mkomazi_retreat_20260731_020122.csv",
+  "xlsx_file": null,
+  "row_count": 80,
+  "created_at": "2026-07-31T02:01:22.484058",
+  "output_dir": "manual_20260731_020122",
+  "contract_year": "",
+  "base_plan": "BB"
+}

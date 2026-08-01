@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Ngorongoro Serena Safari Rodge 26",
+  "hotel_group": "Single",
+  "location": "Ngorongoro",
+  "csv_file": "Ngorongoro_Serena_Safari_Rodge_26_20260702_143117.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-07-02T14:31:17.925625",
+  "output_dir": "manual_20260702_143117",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

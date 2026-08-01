@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Foot on Africa Campsite 27",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Foot_on_Africa_Campsite_27_20260618_152913.csv",
+  "xlsx_file": null,
+  "row_count": 216,
+  "created_at": "2026-06-18T15:29:13.536907",
+  "output_dir": "manual_20260618_152913",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

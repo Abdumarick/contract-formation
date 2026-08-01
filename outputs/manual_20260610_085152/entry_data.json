@@ -1,0 +1,230 @@
+{
+  "hotel_name": "Mnarani Beach Cottages",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "mid"
+    },
+    {
+      "sid": "row_2",
+      "name": "high"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Standard Room  Garden view  Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Standard Room  Garden view Twin",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Standard Room Sea view  Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Standard Room Sea view  Twin",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Duplex Gallery  Room Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_6",
+      "name": "Duplex Gallery  Room Triple",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_7",
+      "name": "Duplex Gallery  Room Quadruple",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_8",
+      "name": "Budget Room 2/3 Bedroom Apartment",
+      "max_cap": 6,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_9",
+      "name": "Deluxe room with Sea View Double Occupancy",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_10",
+      "name": "Deluxe room with Sea View Triple Occupancy",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_11",
+      "name": "Pent House  with Sea View Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_12",
+      "name": "Luxury  Suite Double Occupancy",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_13",
+      "name": "Superior with sea view Double Occupancy",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_14",
+      "name": "Superior with sea view Twin Occupancy",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_15",
+      "name": "Superior with sea view Triple Occupancy",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 120,
+      "col_2": 120,
+      "col_3": 130,
+      "col_4": 130,
+      "col_5": 180,
+      "col_6": 216,
+      "col_7": 260,
+      "col_8": 105,
+      "col_9": 160,
+      "col_10": 192,
+      "col_11": 175,
+      "col_12": 245,
+      "col_13": 195,
+      "col_14": 195,
+      "col_15": 235
+    },
+    "row_2": {
+      "col_1": 150,
+      "col_2": 150,
+      "col_3": 170,
+      "col_4": 170,
+      "col_5": 220,
+      "col_6": 264,
+      "col_7": 317,
+      "col_8": 120,
+      "col_9": 195,
+      "col_10": 234,
+      "col_11": 215,
+      "col_12": 290,
+      "col_13": 225,
+      "col_14": 225,
+      "col_15": 270
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "11/01/2026",
+      "end": "19/12/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "20/12/2026",
+      "end": "10/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 2,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 3,
+      "max_age": 10,
+      "discount": 35,
+      "discount_type": "usd",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 11,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 30,
+  "fb_supplement": 55,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

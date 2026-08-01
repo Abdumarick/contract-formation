@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Jambiani 27",
+  "hotel_group": "Single",
+  "location": "Zanzibar",
+  "csv_file": "Jambiani_27_20260708_083704.csv",
+  "xlsx_file": null,
+  "row_count": 256,
+  "created_at": "2026-07-08T08:37:04.867637",
+  "output_dir": "manual_20260708_083704",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

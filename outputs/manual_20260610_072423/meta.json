@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lake Natron  Eco Camp",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Lake_Natron__Eco_Camp_20260610_072423.csv",
+  "xlsx_file": null,
+  "row_count": 36,
+  "created_at": "2026-06-10T07:24:23.761343",
+  "output_dir": "manual_20260610_072423",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

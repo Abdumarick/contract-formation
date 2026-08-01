@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "The Retreat at Ngorongoro",
+  "hotel_group": "Single",
+  "location": "karatu",
+  "csv_file": "The_Retreat_at_Ngorongoro_20260718_132137.csv",
+  "xlsx_file": null,
+  "row_count": 105,
+  "created_at": "2026-07-18T13:21:37.568490",
+  "output_dir": "manual_20260718_132137",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

@@ -1,0 +1,109 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,38.25,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,76.5,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,153.0,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,42.5,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,85.0,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,170.0,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,38.25,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,76.5,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,153.0,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,42.5,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,85.0,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,170.0,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,42.5,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,85.0,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,170.0,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,42.5,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,85.0,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,170.0,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,38.25,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,76.5,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,153.0,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,42.5,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,85.0,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,170.0,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,38.25,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,76.5,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,153.0,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,42.5,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,85.0,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,170.0,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,42.5,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,85.0,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,170.0,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,42.5,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,85.0,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,170.0,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,38.25,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,76.5,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,153.0,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,42.5,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,85.0,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,170.0,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,38.25,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,76.5,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,153.0,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,42.5,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,85.0,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,170.0,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,42.5,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,85.0,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,170.0,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,42.5,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,85.0,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,170.0,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,38.25,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,76.5,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,153.0,153.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,42.5,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,85.0,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,170.0,170.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,38.25,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,76.5,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,153.0,153.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,42.5,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,85.0,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,170.0,170.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,42.5,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,85.0,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,170.0,170.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,42.5,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,85.0,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,170.0,170.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,0,4,1,8,36.0,144.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,5,14,1,8,72.0,144.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,15,99,1,8,144.0,144.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,0,4,1,8,40.0,160.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,5,14,1,8,80.0,160.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,15,99,1,8,160.0,160.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,0,4,1,8,36.0,144.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,5,14,1,8,72.0,144.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,15,99,1,8,144.0,144.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,0,4,1,8,40.0,160.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,5,14,1,8,80.0,160.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,15,99,1,8,160.0,160.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,0,4,1,8,40.0,160.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,5,14,1,8,80.0,160.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,15,99,1,8,160.0,160.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,0,4,1,8,40.0,160.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,5,14,1,8,80.0,160.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Family Room 5 to 8 pax,test,8,15,99,1,8,160.0,160.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,53.25,0.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,106.5,0.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,213.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,62.5,0.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,125.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,250.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,53.25,0.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,106.5,0.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,213.0,0.0,0.0,0.0,01/11/2027,23/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,62.5,0.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,125.0,0.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,250.0,0.0,0.0,0.0,24/12/2027,31/12/2027
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,62.5,0.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,125.0,0.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,250.0,0.0,0.0,0.0,01/01/2028,04/01/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,62.5,0.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,125.0,0.0,0.0,0.0,05/01/2028,31/05/2028
+Mikumi NP,Vuma Hills Tented Camp 27,,Test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,250.0,0.0,0.0,0.0,05/01/2028,31/05/2028

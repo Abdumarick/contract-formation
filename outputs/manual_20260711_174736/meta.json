@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "The Africa Kongoni Serengeti Safari Camp 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "The_Africa_Kongoni_Serengeti_Safari_Camp_20260711_174800.csv",
+  "xlsx_file": null,
+  "row_count": 105,
+  "created_at": "2026-07-11T17:48:00.542446",
+  "output_dir": "manual_20260711_174736",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

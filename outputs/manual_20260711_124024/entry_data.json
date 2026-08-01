@@ -1,0 +1,232 @@
+{
+  "hotel_name": "Africa Safari Ngorongoro (Ndutu)",
+  "location_name": "Ngorongoro",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "test",
+  "room_desc": "test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "High"
+    },
+    {
+      "sid": "row_2",
+      "name": "Low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Safari Comfort Double",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Safari Comfort Single",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Safari Comfort Triple",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Safari Luxury Glamping Double",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Safari Luxury Glamping Single",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "Safari Luxury Glamping Triple",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_7",
+      "name": "Safari Tent Double",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_8",
+      "name": "Safari Tent Single",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_10",
+      "name": "Safari Family Comfort Double",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_11",
+      "name": "Safari Family ComfortTriple",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 133.7,
+      "col_2": 185.5,
+      "col_3": 115.5,
+      "col_4": 156.1,
+      "col_5": 219.1,
+      "col_6": 115.5,
+      "col_7": 88.2,
+      "col_8": 116.9,
+      "col_10": 133.7,
+      "col_11": 115.5
+    },
+    "row_2": {
+      "col_1": 93.8,
+      "col_2": 120.4,
+      "col_3": 81.2,
+      "col_4": 93.8,
+      "col_5": 153.3,
+      "col_6": 81.2,
+      "col_7": 61.6,
+      "col_8": 81.9,
+      "col_10": 93.8,
+      "col_11": 81.2
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2026",
+      "end": "15/03/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "16/03/2026",
+      "end": "15/05/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/05/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 1,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 2,
+      "max_age": 11,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 12,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": [
+    {
+      "name": "",
+      "override_type": "cost",
+      "room": "",
+      "rooms": [],
+      "band": "child_2_11",
+      "bands": [
+        "child_2_11"
+      ],
+      "season_amounts": [
+        {
+          "season": "High",
+          "amount": 41.3,
+          "amount_type": "usd"
+        },
+        {
+          "season": "Low",
+          "amount": 28.7,
+          "amount_type": "usd"
+        }
+      ]
+    }
+  ]
+}

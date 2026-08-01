@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tarangire Kati Kati - Adventure",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Tarangire_Kati_Kati_-_Adventure_20260616_092046.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-06-16T09:20:46.270843",
+  "output_dir": "manual_20260616_092046",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

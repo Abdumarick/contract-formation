@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Zanzibar Queen Beach Resort",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Zanzibar_Queen_Beach_Resort_20260402_160545.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-04-02T16:05:45.913952",
+  "output_dir": "manual_20260402_160545",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

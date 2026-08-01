@@ -1,0 +1,289 @@
+{
+  "hotel_name": "Paradase Beach Resort",
+  "contract_year": "2026",
+  "base_plan": "AI",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "mid"
+    },
+    {
+      "sid": "row_2",
+      "name": "high"
+    },
+    {
+      "sid": "row_3",
+      "name": "low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Standard Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Standard Family Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Standard Swim-Up Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Suite Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Luxury Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_6",
+      "name": "Premium Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_7",
+      "name": "Family Room",
+      "max_cap": 4,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_8",
+      "name": "Bungalow Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_9",
+      "name": "Standard Roomm Single",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_10",
+      "name": "Standard Swim-Up Room ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_11",
+      "name": "Suite Room ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_12",
+      "name": "Luxury Room  Single",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_13",
+      "name": "Premium Room ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_14",
+      "name": "Bungalow Room ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 78.4,
+      "col_2": 78.4,
+      "col_3": 96.9,
+      "col_4": 86.1,
+      "col_5": 88.2,
+      "col_6": 95.9,
+      "col_7": 100.1,
+      "col_8": 108.5,
+      "col_9": 107.8,
+      "col_10": 134.4,
+      "col_11": 119.7,
+      "col_12": 122.5,
+      "col_13": 122.5,
+      "col_14": 153.3
+    },
+    "row_2": {
+      "col_1": 86.1,
+      "col_2": 86.1,
+      "col_3": 105.7,
+      "col_4": 94.5,
+      "col_5": 97.3,
+      "col_6": 105.7,
+      "col_7": 109.9,
+      "col_8": 119.7,
+      "col_9": 118.3,
+      "col_10": 147.7,
+      "col_11": 131.6,
+      "col_12": 135.1,
+      "col_13": 147.7,
+      "col_14": 168.7
+    },
+    "row_3": {
+      "col_1": 54.6,
+      "col_2": 54.6,
+      "col_3": 67.2,
+      "col_4": 60.2,
+      "col_5": 61.6,
+      "col_6": 67.2,
+      "col_7": 70,
+      "col_8": 76.3,
+      "col_9": 75.6,
+      "col_10": 93.8,
+      "col_11": 84,
+      "col_12": 86.1,
+      "col_13": 93.8,
+      "col_14": 107.1
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_2",
+      "start": "01/01/2026",
+      "end": "14/03/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "15/03/2026",
+      "end": "15/05/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/05/2026",
+      "end": "15/06/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "16/06/2026",
+      "end": "31/08/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/09/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/11/2026",
+      "end": "23/12/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "24/12/2026",
+      "end": "14/03/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 1,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 2,
+      "max_age": 11,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 12,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": [
+    {
+      "name": "",
+      "override_type": "none",
+      "room": "",
+      "band": "",
+      "season_amounts": [
+        {
+          "season": "mid",
+          "amount": 27.3,
+          "amount_type": "usd"
+        },
+        {
+          "season": "high",
+          "amount": 30.1,
+          "amount_type": "usd"
+        },
+        {
+          "season": "low",
+          "amount": 18.9,
+          "amount_type": "usd"
+        }
+      ]
+    }
+  ]
+}

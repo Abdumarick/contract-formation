@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "bush camp (intimate)",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "bush_camp_(intimate)_20260731_013129.csv",
+  "xlsx_file": null,
+  "row_count": 8,
+  "created_at": "2026-07-31T01:31:29.520730",
+  "output_dir": "manual_20260731_013129",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

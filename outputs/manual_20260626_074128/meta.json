@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serengeti Orange River Luxury Lodge 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Serengeti_Orange_River_Luxury_Lodge_27_20260626_074128.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-06-26T07:41:28.801826",
+  "output_dir": "manual_20260626_074128",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

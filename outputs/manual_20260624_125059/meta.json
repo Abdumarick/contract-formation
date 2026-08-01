@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Sidai Serengeti amp",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Sidai_Serengeti_amp_20260624_125059.csv",
+  "xlsx_file": null,
+  "row_count": 84,
+  "created_at": "2026-06-24T12:50:59.930902",
+  "output_dir": "manual_20260624_125059",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

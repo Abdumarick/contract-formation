@@ -1,0 +1,257 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,6,99,1,2,169.5,169.5,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,6,99,1,2,137.5,137.5,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,6,99,1,2,119.0,119.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,6,99,1,2,137.5,137.5,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,6,99,1,2,169.5,169.5,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,6,99,1,2,137.5,137.5,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,6,99,1,2,119.0,119.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult,Test,2,6,99,1,2,169.5,169.5,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,6,99,1,3,135.0,135.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,6,99,1,3,113.67,113.67,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,6,99,1,3,96.33,96.33,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,6,99,1,3,113.67,113.67,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,6,99,1,3,135.0,135.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,6,99,1,3,113.67,113.67,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,6,99,1,3,96.33,96.33,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  3  adult,Test,3,6,99,1,3,135.0,135.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,6,99,1,4,101.25,101.25,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,6,99,1,4,85.25,85.25,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,6,99,1,4,92.5,92.5,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,0,5,1,4,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,6,99,1,4,85.25,85.25,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,6,99,1,4,101.25,101.25,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,0,5,1,4,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,6,99,1,4,85.25,85.25,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,0,5,1,4,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,6,99,1,4,92.5,92.5,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,0,5,1,4,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  4 adult,Test,4,6,99,1,4,101.25,101.25,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,6,99,1,3,131.0,131.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,6,99,1,3,109.67,109.67,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,6,99,1,3,97.0,97.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,6,99,1,3,109.67,109.67,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,6,99,1,3,131.0,131.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,6,99,1,3,109.67,109.67,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,6,99,1,3,97.0,97.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,2 Bedroom Villa  2 adult 1 child,Test,3,6,99,1,3,131.0,131.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,6,99,1,2,128.0,128.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,6,99,1,2,109.5,109.5,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,6,99,1,2,90.5,90.5,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,6,99,1,2,109.5,109.5,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,6,99,1,2,128.0,128.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,6,99,1,2,109.5,109.5,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,6,99,1,2,90.5,90.5,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 2 adult,Test,2,6,99,1,2,128.0,128.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,6,99,1,2,122.0,122.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,6,99,1,2,103.0,103.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,6,99,1,2,84.5,84.5,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,6,99,1,2,103.0,103.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,6,99,1,2,122.0,122.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,6,99,1,2,103.0,103.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,6,99,1,2,84.5,84.5,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,Apartment 1 adult + 1child,Test,2,6,99,1,2,122.0,122.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,6,99,1,2,203.0,203.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,6,99,1,2,162.0,162.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,6,99,1,2,141.5,141.5,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,6,99,1,2,162.0,162.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,6,99,1,2,203.0,203.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,6,99,1,2,162.0,162.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,6,99,1,2,141.5,141.5,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,0,5,1,2,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult,Test,2,6,99,1,2,203.0,203.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,6,99,1,3,157.67,157.67,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,6,99,1,3,130.0,130.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,6,99,1,3,116.33,116.33,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,6,99,1,3,130.0,130.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,6,99,1,3,157.67,157.67,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,6,99,1,3,130.0,130.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,6,99,1,3,116.33,116.33,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,0,5,1,3,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult,Test,3,6,99,1,3,157.67,157.67,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,6,99,1,6,111.83,111.83,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,6,99,1,6,98.17,98.17,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,6,99,1,6,91.33,91.33,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,6,99,1,6,98.17,98.17,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,6,99,1,6,111.83,111.83,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,6,99,1,6,98.17,98.17,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,6,99,1,6,91.33,91.33,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult,Test,6,6,99,1,6,111.83,111.83,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,6,99,1,6,103.5,103.5,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,6,99,1,6,89.83,89.83,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,6,99,1,6,83.0,83.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,6,99,1,6,89.83,89.83,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,6,99,1,6,103.5,103.5,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,6,99,1,6,89.83,89.83,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,6,99,1,6,83.0,83.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 2 Adult 4 children,Test,6,6,99,1,6,103.5,103.5,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,6,99,1,6,105.67,105.67,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,6,99,1,6,91.83,91.83,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,6,99,1,6,85.0,85.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,6,99,1,6,91.83,91.83,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,6,99,1,6,105.67,105.67,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,6,99,1,6,91.83,91.83,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,6,99,1,6,85.0,85.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 3 Adult 3 children,Test,6,6,99,1,6,105.67,105.67,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,6,99,1,6,107.67,107.67,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,6,99,1,6,94.0,94.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,6,99,1,6,87.17,87.17,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,6,99,1,6,94.0,94.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,6,99,1,6,107.67,107.67,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,6,99,1,6,94.0,94.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,6,99,1,6,87.17,87.17,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 2 children,Test,6,6,99,1,6,107.67,107.67,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,6,99,1,7,100.0,100.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,6,99,1,7,88.29,88.29,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,6,99,1,7,82.29,82.29,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,6,99,1,7,88.29,88.29,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,6,99,1,7,100.0,100.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,6,99,1,7,88.29,88.29,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,6,99,1,7,82.29,82.29,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 4 Adult 3 children,Test,7,6,99,1,7,100.0,100.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,6,99,1,6,109.83,109.83,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,6,99,1,6,96.0,96.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,6,99,1,6,89.17,89.17,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,6,99,1,6,96.0,96.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,6,99,1,6,109.83,109.83,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,6,99,1,6,96.0,96.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,6,99,1,6,89.17,89.17,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,0,5,1,6,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 1 child,Test,6,6,99,1,6,109.83,109.83,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,6,99,1,7,101.86,101.86,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,6,99,1,7,90.0,90.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,6,99,1,7,84.14,84.14,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,6,99,1,7,90.0,90.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,6,99,1,7,101.86,101.86,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,6,99,1,7,90.0,90.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,6,99,1,7,84.14,84.14,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 5 Adult 2 children,Test,7,6,99,1,7,101.86,101.86,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,6,99,1,7,103.57,103.57,0.0,0.0,01/01/2026,28/02/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,6,99,1,7,91.86,91.86,0.0,0.0,01/03/2026,31/03/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,6,99,1,7,85.86,85.86,0.0,0.0,01/04/2026,10/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,6,99,1,7,91.86,91.86,0.0,0.0,11/06/2026,30/06/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,6,99,1,7,103.57,103.57,0.0,0.0,01/07/2026,12/09/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,6,99,1,7,91.86,91.86,0.0,0.0,13/09/2026,31/10/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,6,99,1,7,85.86,85.86,0.0,0.0,01/11/2026,19/12/2026
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,0,5,1,7,0.0,0.0,0.0,0.0,20/12/2026,05/01/2027
+Zanzibar,Jambiani,,Test,FALSE,0,FALSE,USD,3 Bedroom Villa 6 Adult 1 childred,Test,7,6,99,1,7,103.57,103.57,0.0,0.0,20/12/2026,05/01/2027

@@ -1,0 +1,189 @@
+{
+  "hotel_name": "Sevi Zanzibar",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "low"
+    },
+    {
+      "sid": "row_2",
+      "name": "high"
+    },
+    {
+      "sid": "row_3",
+      "name": "fastival"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Tripical Garden Bungalow ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Tripical Garden Bungalow ( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Ocean Breeze Bungalow ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Ocean Breeze Bungalow ( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Sea front Bungalow( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_6",
+      "name": "Sea front Bungalow(  Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_7",
+      "name": "Seafront Villa( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_8",
+      "name": "Seafront Villa( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_9",
+      "name": "Seafront Villa( Triple)",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_10",
+      "name": "Seafront Villa( Quadruple)",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 125,
+      "col_2": 152,
+      "col_3": 149,
+      "col_4": 179,
+      "col_5": 209,
+      "col_6": 260,
+      "col_7": 379,
+      "col_8": 379,
+      "col_9": 439,
+      "col_10": 499
+    },
+    "row_2": {
+      "col_1": 179,
+      "col_2": 299,
+      "col_3": 269,
+      "col_4": 335,
+      "col_5": 319,
+      "col_6": 399,
+      "col_7": 459,
+      "col_8": 459,
+      "col_9": 529,
+      "col_10": 599
+    },
+    "row_3": {
+      "col_1": 279,
+      "col_2": 339,
+      "col_3": 339,
+      "col_4": 425,
+      "col_5": 425,
+      "col_6": 529,
+      "col_7": 629,
+      "col_8": 629,
+      "col_9": 699,
+      "col_10": 769
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_2",
+      "start": "11/01/2026",
+      "end": "15/03/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/03/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/07/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/11/2026",
+      "end": "22/12/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "23/12/2026",
+      "end": "10/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "adult",
+      "min_age": 12,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 40,
+  "fb_supplement": 60,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

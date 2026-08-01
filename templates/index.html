@@ -1555,14 +1555,22 @@ function duplicateRoomColumn(sourceColId) {
     const sourceName = sourceTh.querySelector('.rt-room-name-input')?.value.trim() || 'Room';
     const newColId = addRoomColumn(`${sourceName} copy`, {
         copyFromColId: sourceColId,
-        sourceColId,
-        percent: 100,
+    });
+
+    // A duplicate is a snapshot, not a live "% of another room" rule.
+    // Keeping the copied prices as direct-entry values ensures entry_data.json
+    // can restore this room exactly when the contract is edited later.
+    document.querySelectorAll('#rateTableBody tr[data-row]').forEach(tr => {
+        const sourceInput = tr.querySelector(
+            `.rt-cost-cell[data-col="${sourceColId}"] .rt-cost-input`);
+        const duplicateInput = tr.querySelector(
+            `.rt-cost-cell[data-col="${newColId}"] .rt-cost-input`);
+        if (sourceInput && duplicateInput) duplicateInput.value = sourceInput.value;
     });
 
     document.querySelector(`#rateTableHead .rt-room-th[data-col="${newColId}"] .rt-room-name-input`)?.focus();
     refreshPriceSourceSelects();
     refreshSuppRoomSelects();
-    recomputeDerivedPrices();
 }
 
 function copyRoomConfig(fromColId, toColId) {
@@ -1943,6 +1951,7 @@ function onPriceSourceChange(colId) {
         pct.style.display = 'block';
         if (!pct.value) pct.value = 100;
     } else {
+        pct.value = '';
         pct.style.display = 'none';
         document.querySelectorAll(`#rateTableBody .rt-cost-cell[data-col="${colId}"] .rt-cost-input`)
             .forEach(inp => { inp.disabled = false; inp.classList.remove('rt-cost-auto'); inp.title = ''; });
@@ -1981,11 +1990,7 @@ function recomputeDerivedPrices() {
         const srcRaw = getRawCost(sid, rule.source, seen);
         if (srcRaw == null) return null;
 
-        const srcCfg = getConfig(rule.source);
-        const dstCfg = getConfig(colId);
-        const srcPP = srcCfg.basis === 'per_room' ? srcRaw / srcCfg.cap : srcRaw;
-        const dstPP = srcPP * (rule.pct / 100);
-        return dstCfg.basis === 'per_room' ? dstPP * dstCfg.cap : dstPP;
+        return srcRaw * (rule.pct / 100);
     };
 
     document.querySelectorAll('#rateTablePriceSourceRow .rt-ps-cell').forEach(cell => {
@@ -2008,7 +2013,7 @@ function recomputeDerivedPrices() {
             dstInp.value = raw ? raw.toFixed(2) : '';
             dstInp.disabled = true;
             dstInp.classList.add('rt-cost-auto');
-            dstInp.title = `Auto: ${rule.pct}% of ${getConfig(rule.source).name} (per person)`;
+            dstInp.title = `Auto: ${rule.pct}% of ${getConfig(rule.source).name}`;
         });
     });
 }
@@ -3006,9 +3011,10 @@ function reloadContractData(data) {
         const newColId = 'col_' + _col;
         colIdMap[savedColId] = newColId;
 
-        // Capture newColId in closure for the setTimeout
+        // Restore the room synchronously so the saved values cannot be
+        // overwritten by a delayed callback after the table is rendered.
         const colIdSnap = newColId;
-        setTimeout(() => {
+        {
             const capRow = document.querySelector(
                 `#roomList .room-cap-row[data-col="${colIdSnap}"]`);
             if (!capRow) return;
@@ -3021,18 +3027,17 @@ function reloadContractData(data) {
             if (sglUnit && r.sgl_override_type) {
                 for (let o of sglUnit.options) if (o.value===r.sgl_override_type) { o.selected=true; break; }
             }
-            // Restore "% of another room" price source (translate saved colId → new colId)
-            if (r.price_source) {
-                const psCell    = document.querySelector(`#rateTablePriceSourceRow .rt-ps-cell[data-col="${colIdSnap}"]`);
-                const srcSel    = psCell?.querySelector('.rt-price-source');
-                const mappedSrc = colIdMap[r.price_source] || '';
-                if (srcSel && mappedSrc) {
-                    for (let o of srcSel.options) if (o.value === mappedSrc) { o.selected = true; break; }
-                    if (r.price_source_pct) psCell.querySelector('.rt-price-pct').value = r.price_source_pct;
-                    onPriceSourceChange(colIdSnap);
-                }
+            // Edit mode uses only the room's exact saved matrix value.
+            const psCell = document.querySelector(
+                `#rateTablePriceSourceRow .rt-ps-cell[data-col="${colIdSnap}"]`);
+            if (psCell) {
+                // The saved matrix is the exact value generated for this room.
+                // Loading an old source rule would recalculate and enlarge it.
+                psCell.querySelector('.rt-price-source').value = '';
+                psCell.querySelector('.rt-price-pct').value = '';
+                onPriceSourceChange(colIdSnap);
             }
-        }, 80);
+        }
     });
 
     // Build season rows — map costs using colIdMap so old colIds → new colIds

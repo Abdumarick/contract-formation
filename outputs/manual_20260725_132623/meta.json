@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Safari Haven Central Serengeti Camp",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Safari_Haven_Central_Serengeti_Camp_20260725_132623.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-25T13:26:23.501952",
+  "output_dir": "manual_20260725_132623",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Camp Lilac  Mikumi",
+  "hotel_group": "Single",
+  "location": "Mikumi",
+  "csv_file": "Camp_Lilac_Mikumi_20260730_051048.csv",
+  "xlsx_file": null,
+  "row_count": 6,
+  "created_at": "2026-07-30T05:10:48.853968",
+  "output_dir": "manual_20260730_051048",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

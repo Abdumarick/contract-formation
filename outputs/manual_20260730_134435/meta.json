@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "RAHA WILDLIFE RESORT 27",
+  "hotel_group": "Single",
+  "location": "Arusha",
+  "csv_file": "RAHA_WILDLIFE_RESORT_27_20260730_134435.csv",
+  "xlsx_file": null,
+  "row_count": 105,
+  "created_at": "2026-07-30T13:44:35.973327",
+  "output_dir": "manual_20260730_134435",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

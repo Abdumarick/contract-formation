@@ -1,0 +1,91 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,167.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,334.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,224.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,448.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,167.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,334.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,0.0,0.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,224.0,0.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,448.0,0.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,4,1,1,0.0,0.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,5,14,1,1,167.0,0.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Single Room,test,1,15,99,1,1,334.0,0.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,117.0,234.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,234.0,234.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,149.0,298.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,298.0,298.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,117.0,234.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,234.0,234.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,149.0,298.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,298.0,298.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,5,14,1,2,117.0,234.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,15,99,1,2,234.0,234.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,117.0,234.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,234.0,234.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,149.0,298.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,298.0,298.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,117.0,234.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,234.0,234.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,149.0,298.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,298.0,298.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,5,14,1,2,117.0,234.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Twin Room,test,2,15,99,1,2,234.0,234.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,117.0,234.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,234.0,234.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,149.0,298.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,298.0,298.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,117.0,234.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,234.0,234.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,0.0,0.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,149.0,298.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,298.0,298.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,4,1,3,0.0,0.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,5,14,1,3,117.0,234.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,15,99,1,3,234.0,234.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,117.0,234.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,234.0,234.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,149.0,298.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,298.0,298.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,117.0,234.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,234.0,234.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,0.0,0.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,149.0,298.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,298.0,298.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,0,4,1,4,0.0,0.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,5,14,1,4,117.0,234.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room,test,4,15,99,1,4,234.0,234.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,0,4,1,8,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,5,14,1,8,110.0,220.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,15,99,1,8,220.0,220.0,0.0,0.0,01/06/2026,30/06/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,0,4,1,8,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,5,14,1,8,140.0,280.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,15,99,1,8,280.0,280.0,0.0,0.0,01/07/2026,31/10/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,0,4,1,8,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,5,14,1,8,110.0,220.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,15,99,1,8,220.0,220.0,0.0,0.0,01/11/2026,23/12/2026
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,0,4,1,8,0.0,0.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,5,14,1,8,140.0,280.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,15,99,1,8,280.0,280.0,0.0,0.0,24/12/2026,04/01/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,0,4,1,8,0.0,0.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,5,14,1,8,110.0,220.0,0.0,0.0,05/01/2027,31/05/2027
+Nyerere NP,Rufiji River Camp,,test,FALSE,0,FALSE,USD,Family Room 6 to 8 pax,test,8,15,99,1,8,220.0,220.0,0.0,0.0,05/01/2027,31/05/2027

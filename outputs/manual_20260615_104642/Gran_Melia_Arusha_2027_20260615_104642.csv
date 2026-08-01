@@ -1,0 +1,400 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,4,11,1,1,132.5,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,12,99,1,1,265.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,4,11,1,1,120.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,12,99,1,1,240.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,4,11,1,1,102.5,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,12,99,1,1,205.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,4,11,1,1,165.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,12,99,1,1,330.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,4,11,1,1,132.5,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,12,99,1,1,265.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,4,11,1,1,120.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,12,99,1,1,240.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,4,11,1,1,165.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Single),,1,12,99,1,1,330.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,4,11,1,2,83.75,167.5,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,12,99,1,2,167.5,167.5,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,4,11,1,2,82.5,165.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,12,99,1,2,165.0,165.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,4,11,1,2,63.75,127.5,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,12,99,1,2,127.5,127.5,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,4,11,1,2,102.5,205.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,12,99,1,2,205.0,205.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,4,11,1,2,83.75,167.5,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,12,99,1,2,167.5,167.5,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,4,11,1,2,82.5,165.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,12,99,1,2,165.0,165.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,4,11,1,2,102.5,205.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe City View Room( Double),,2,12,99,1,2,205.0,205.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,0,3,1,4,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,4,11,1,4,91.25,182.5,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,12,99,1,4,182.5,182.5,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,4,11,1,4,82.5,165.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,12,99,1,4,165.0,165.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,4,11,1,4,70.62,141.25,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,12,99,1,4,141.25,141.25,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,4,11,1,4,112.5,225.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,12,99,1,4,225.0,225.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,4,11,1,4,91.25,182.5,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,12,99,1,4,182.5,182.5,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,4,11,1,4,82.5,165.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,12,99,1,4,165.0,165.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,0,3,1,4,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,4,11,1,4,112.5,225.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnecting Deluxe City View,,4,12,99,1,4,225.0,225.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,4,11,1,1,150.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,12,99,1,1,300.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,4,11,1,1,137.5,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,12,99,1,1,275.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,4,11,1,1,117.5,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,12,99,1,1,235.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,4,11,1,1,177.5,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,12,99,1,1,355.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,4,11,1,1,150.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,12,99,1,1,300.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,4,11,1,1,137.5,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,12,99,1,1,275.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,4,11,1,1,177.5,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Single),,1,12,99,1,1,355.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,4,11,1,2,92.5,185.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,12,99,1,2,185.0,185.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,4,11,1,2,85.0,170.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,12,99,1,2,170.0,170.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,4,11,1,2,73.75,147.5,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,12,99,1,2,147.5,147.5,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,4,11,1,2,112.5,225.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,12,99,1,2,225.0,225.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,4,11,1,2,92.5,185.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,12,99,1,2,185.0,185.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,4,11,1,2,85.0,170.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,12,99,1,2,170.0,170.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,4,11,1,2,112.5,225.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Deluxe Mount Meru View Room ( Double),,2,12,99,1,2,225.0,225.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,0,3,1,10,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,4,11,1,10,40.75,81.5,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,12,99,1,10,81.5,81.5,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,0,3,1,10,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,4,11,1,10,37.25,74.5,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,12,99,1,10,74.5,74.5,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,0,3,1,10,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,4,11,1,10,32.5,65.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,12,99,1,10,65.0,65.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,0,3,1,10,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,4,11,1,10,49.25,98.5,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,12,99,1,10,98.5,98.5,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,0,3,1,10,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,4,11,1,10,40.75,81.5,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,12,99,1,10,81.5,81.5,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,0,3,1,10,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,4,11,1,10,37.25,74.5,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,12,99,1,10,74.5,74.5,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,0,3,1,10,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,4,11,1,10,49.25,98.5,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Interconnected Deluxe Mount Meru View Room,,10,12,99,1,10,98.5,98.5,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,4,11,1,1,167.5,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,12,99,1,1,335.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,4,11,1,1,155.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,12,99,1,1,310.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,4,11,1,1,137.5,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,12,99,1,1,275.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,4,11,1,1,200.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,12,99,1,1,400.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,4,11,1,1,167.5,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,12,99,1,1,335.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,4,11,1,1,155.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,12,99,1,1,310.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,4,11,1,1,200.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Single),,1,12,99,1,1,400.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,4,11,1,2,103.75,207.5,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,12,99,1,2,207.5,207.5,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,4,11,1,2,96.25,192.5,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,12,99,1,2,192.5,192.5,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,4,11,1,2,85.0,170.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,12,99,1,2,170.0,170.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,4,11,1,2,125.0,250.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,12,99,1,2,250.0,250.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,4,11,1,2,103.75,207.5,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,12,99,1,2,207.5,207.5,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,4,11,1,2,96.25,192.5,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,12,99,1,2,192.5,192.5,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,4,11,1,2,125.0,250.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Deluxe Mount Meru View ( Double),,2,12,99,1,2,250.0,250.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,4,11,1,1,272.5,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,12,99,1,1,545.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,4,11,1,1,247.5,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,12,99,1,1,495.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,4,11,1,1,220.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,12,99,1,1,440.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,4,11,1,1,317.5,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,12,99,1,1,635.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,4,11,1,1,272.5,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,12,99,1,1,545.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,4,11,1,1,247.5,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,12,99,1,1,495.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,4,11,1,1,317.5,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Single),,1,12,99,1,1,635.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,4,11,1,2,170.0,340.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,12,99,1,2,340.0,340.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,4,11,1,2,156.25,312.5,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,12,99,1,2,312.5,312.5,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,4,11,1,2,138.75,277.5,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,12,99,1,2,277.5,277.5,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,4,11,1,2,198.75,397.5,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,12,99,1,2,397.5,397.5,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,4,11,1,2,170.0,340.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,12,99,1,2,340.0,340.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,4,11,1,2,156.25,312.5,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,12,99,1,2,312.5,312.5,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,4,11,1,2,198.75,397.5,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite ( Double),,2,12,99,1,2,397.5,397.5,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,4,11,1,3,200.84,401.67,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,12,99,1,3,401.67,401.67,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,4,11,1,3,185.0,370.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,12,99,1,3,370.0,370.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,4,11,1,3,164.16,328.33,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,12,99,1,3,328.33,328.33,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,4,11,1,3,237.5,475.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,12,99,1,3,475.0,475.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,4,11,1,3,200.84,401.67,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,12,99,1,3,401.67,401.67,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,4,11,1,3,185.0,370.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,12,99,1,3,370.0,370.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,4,11,1,3,237.5,475.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Junior Suite - 2 Bedroom,,3,12,99,1,3,475.0,475.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,4,11,1,1,435.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,12,99,1,1,870.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,4,11,1,1,400.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,12,99,1,1,800.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,4,11,1,1,330.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,12,99,1,1,660.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,4,11,1,1,510.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,12,99,1,1,1020.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,4,11,1,1,435.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,12,99,1,1,870.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,4,11,1,1,400.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,12,99,1,1,800.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,4,11,1,1,510.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Single),,1,12,99,1,1,1020.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,4,11,1,2,271.25,542.5,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,12,99,1,2,542.5,542.5,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,4,11,1,2,248.75,497.5,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,12,99,1,2,497.5,497.5,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,4,11,1,2,206.25,412.5,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,12,99,1,2,412.5,412.5,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,4,11,1,2,320.0,640.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,12,99,1,2,640.0,640.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,4,11,1,2,271.25,542.5,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,12,99,1,2,542.5,542.5,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,4,11,1,2,248.75,497.5,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,12,99,1,2,497.5,497.5,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,4,11,1,2,320.0,640.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite ( Double),,2,12,99,1,2,640.0,640.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,4,11,1,3,275.0,550.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,12,99,1,3,550.0,550.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,4,11,1,3,254.16,508.33,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,12,99,1,3,508.33,508.33,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,4,11,1,3,213.34,426.67,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,12,99,1,3,426.67,426.67,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,4,11,1,3,325.83,651.67,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,12,99,1,3,651.67,651.67,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,4,11,1,3,275.0,550.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,12,99,1,3,550.0,550.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,4,11,1,3,254.16,508.33,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,12,99,1,3,508.33,508.33,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,4,11,1,3,325.83,651.67,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Grand Suite - 2 Bedroom,,3,12,99,1,3,651.67,651.67,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,4,11,1,1,867.5,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,12,99,1,1,1735.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,4,11,1,1,797.5,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,12,99,1,1,1595.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,4,11,1,1,627.5,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,12,99,1,1,1255.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,4,11,1,1,1020.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,12,99,1,1,2040.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,4,11,1,1,867.5,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,12,99,1,1,1735.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,4,11,1,1,797.5,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,12,99,1,1,1595.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,0,3,1,1,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,4,11,1,1,1020.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (single),,1,12,99,1,1,2040.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,4,11,1,1,1085.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,12,99,1,1,2170.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,4,11,1,1,997.5,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,12,99,1,1,1995.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,4,11,1,1,785.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,12,99,1,1,1570.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,4,11,1,1,1275.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,12,99,1,1,2550.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,4,11,1,1,1085.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,12,99,1,1,2170.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,4,11,1,1,997.5,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,12,99,1,1,1995.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,0,3,1,1,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,4,11,1,1,1275.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room (Double),,1,12,99,1,1,2550.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,4,11,1,3,474.17,948.33,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,12,99,1,3,948.33,948.33,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,4,11,1,3,436.67,873.33,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,12,99,1,3,873.33,873.33,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,4,11,1,3,350.83,701.67,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,12,99,1,3,701.67,701.67,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,4,11,1,3,559.16,1118.33,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,12,99,1,3,1118.33,1118.33,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,4,11,1,3,474.17,948.33,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,12,99,1,3,948.33,948.33,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,4,11,1,3,436.67,873.33,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,12,99,1,3,873.33,873.33,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,0,3,1,3,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,4,11,1,3,559.16,1118.33,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Residential Suite Room - 2 Bedroom,,3,12,99,1,3,1118.33,1118.33,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,4,11,1,1,235.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,12,99,1,1,470.0,0.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,4,11,1,1,217.5,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,12,99,1,1,435.0,0.0,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,4,11,1,1,190.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,12,99,1,1,380.0,0.0,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,4,11,1,1,280.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,12,99,1,1,560.0,0.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,4,11,1,1,235.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,12,99,1,1,470.0,0.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,4,11,1,1,217.5,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,12,99,1,1,435.0,0.0,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,0,3,1,1,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,4,11,1,1,280.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Single),,1,12,99,1,1,560.0,0.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,4,11,1,2,147.5,295.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,12,99,1,2,295.0,295.0,35.0,70.0,04/01/2027,28/02/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,4,11,1,2,136.25,272.5,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,12,99,1,2,272.5,272.5,35.0,70.0,01/03/2027,31/03/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,4,11,1,2,118.75,237.5,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,12,99,1,2,237.5,237.5,35.0,70.0,01/04/2027,31/05/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,4,11,1,2,175.0,350.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,12,99,1,2,350.0,350.0,35.0,70.0,01/06/2027,31/08/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,4,11,1,2,147.5,295.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,12,99,1,2,295.0,295.0,35.0,70.0,01/09/2027,31/10/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,4,11,1,2,136.25,272.5,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,12,99,1,2,272.5,272.5,35.0,70.0,01/11/2027,20/12/2027
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,0,3,1,2,0.0,0.0,0.0,0.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,4,11,1,2,175.0,350.0,35.0,70.0,21/12/2027,03/01/2028
+,Gran Melia Arusha 2027,,Test,,0,,USD,Red Level Family Suite ( Double),,2,12,99,1,2,350.0,350.0,35.0,70.0,21/12/2027,03/01/2028

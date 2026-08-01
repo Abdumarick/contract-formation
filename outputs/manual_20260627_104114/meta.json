@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "lake Manyara  Serena Safari Rodge 27",
+  "hotel_group": "Single",
+  "location": "Lake manyara",
+  "csv_file": "lake_Manyara__Serena_Safari_Rodge_27_20260627_104114.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-06-27T10:41:14.252930",
+  "output_dir": "manual_20260627_104114",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

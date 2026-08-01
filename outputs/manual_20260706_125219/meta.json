@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Ikumbi Lodge 26",
+  "hotel_group": "Single",
+  "location": "Mto  wa mbu",
+  "csv_file": "Ikumbi_Lodge_26_20260706_125219.csv",
+  "xlsx_file": null,
+  "row_count": 135,
+  "created_at": "2026-07-06T12:52:19.393202",
+  "output_dir": "manual_20260706_125219",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

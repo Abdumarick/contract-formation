@@ -27,11 +27,11 @@ REQUIRED_COLUMNS = {
     "end_date",
 }
 
+CSV_ENCODINGS = ("utf-8-sig", "cp1252", "latin-1")
+
 
 def import_generated_csv(csv_path):
-    with open(csv_path, newline="", encoding="utf-8-sig") as f:
-        reader = csv.DictReader(f)
-        rows = [{k: (v or "").strip() for k, v in row.items()} for row in reader]
+    rows, encoding = _read_csv_rows(csv_path)
 
     if not rows:
         raise ValueError("CSV has no data rows")
@@ -58,16 +58,6 @@ def import_generated_csv(csv_path):
         if key not in date_keys:
             date_keys.append(key)
 
-    season_rows = [
-        {"sid": f"csv_season_{idx}", "name": f"Season {idx}"}
-        for idx, _ in enumerate(date_keys, start=1)
-    ]
-    sid_by_dates = {dates: season_rows[idx]["sid"] for idx, dates in enumerate(date_keys)}
-    date_ranges = [
-        {"sid": sid_by_dates[dates], "start": dates[0], "end": dates[1]}
-        for dates in date_keys
-    ]
-
     room_keys = []
     for row in rows:
         key = (row.get("room_name") or "Room", _int(row.get("max_cap"), 1))
@@ -87,8 +77,6 @@ def import_generated_csv(csv_path):
         })
 
     col_by_room = {(room["name"], room["max_cap"]): room["colId"] for room in room_cols}
-    cost_matrix = {season["sid"]: {} for season in season_rows}
-
     age_keys = []
     for row in rows:
         key = (_int(row.get("min_age"), 0), _int(row.get("max_age"), 99))
@@ -106,13 +94,51 @@ def import_generated_csv(csv_path):
         if age_key == adult_key:
             adult_rows.append(row)
 
-    for room_key, dates, _age_key in by_room_date_age:
-        adult = _first_row(by_room_date_age.get((room_key, dates, adult_key), []))
-        if not adult:
-            adult = _first_row(by_room_date_age.get((room_key, dates, _age_key), []))
-        sid = sid_by_dates[dates]
-        col_id = col_by_room[room_key]
-        cost_matrix[sid][col_id] = _number(adult.get("cost"))
+    # A season in the rate table represents a unique set of room prices, not a
+    # unique date range. Multiple non-contiguous date ranges can therefore map
+    # back to the same season (for example: 300, 250, 300 => Season 1, 2, 1).
+    price_signature_by_dates = {}
+    prices_by_dates = {}
+    for dates in date_keys:
+        prices = {}
+        for room_key in room_keys:
+            adult = _first_row(by_room_date_age.get((room_key, dates, adult_key), []))
+            if not adult:
+                adult = next(
+                    (
+                        _first_row(by_room_date_age[(room_key, dates, age_key)])
+                        for age_key in age_keys
+                        if by_room_date_age.get((room_key, dates, age_key))
+                    ),
+                    None,
+                )
+            prices[col_by_room[room_key]] = _number(adult.get("cost")) if adult else 0.0
+
+        prices_by_dates[dates] = prices
+        price_signature_by_dates[dates] = tuple(
+            prices[col_by_room[room_key]]
+            for room_key in room_keys
+        )
+
+    season_rows = []
+    sid_by_signature = {}
+    sid_by_dates = {}
+    cost_matrix = {}
+    for dates in date_keys:
+        signature = price_signature_by_dates[dates]
+        sid = sid_by_signature.get(signature)
+        if sid is None:
+            season_number = len(season_rows) + 1
+            sid = f"csv_season_{season_number}"
+            sid_by_signature[signature] = sid
+            season_rows.append({"sid": sid, "name": f"Season {season_number}"})
+            cost_matrix[sid] = prices_by_dates[dates]
+        sid_by_dates[dates] = sid
+
+    date_ranges = [
+        {"sid": sid_by_dates[dates], "start": dates[0], "end": dates[1]}
+        for dates in date_keys
+    ]
 
     adult_hb = _mode_number(row.get("hb_supplement") for row in adult_rows)
     adult_fb = _mode_number(row.get("fb_supplement") for row in adult_rows)
@@ -179,6 +205,7 @@ def import_generated_csv(csv_path):
         "meal_costs": {"breakfast": 0, "lunch": 0, "dinner": 0},
         "extra_supplements": [],
         "currency": currency,
+        "detected_encoding": encoding,
         "import_summary": {
             "rows": len(rows),
             "rooms": len(room_cols),
@@ -186,6 +213,22 @@ def import_generated_csv(csv_path):
             "age_bands": len(age_bands),
         },
     }
+
+
+def _read_csv_rows(csv_path):
+    last_error = None
+    for encoding in CSV_ENCODINGS:
+        try:
+            with open(csv_path, newline="", encoding=encoding) as f:
+                reader = csv.DictReader(f)
+                rows = [
+                    {k: (v or "").strip() for k, v in row.items()}
+                    for row in reader
+                ]
+            return rows, encoding
+        except UnicodeDecodeError as exc:
+            last_error = exc
+    raise ValueError(f"Could not read CSV encoding: {last_error}")
 
 
 def _first_value(rows, key):

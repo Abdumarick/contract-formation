@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serengeti Heritage Tented (Ndutu)",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Serengeti_Heritage_Tented_(Ndutu)_20260711_163330.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-07-11T16:33:30.128696",
+  "output_dir": "manual_20260711_163330",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

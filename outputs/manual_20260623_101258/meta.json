@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tanzania Bush Camp cantral Serengeti 28",
+  "hotel_group": "Single",
+  "location": "Serengeri National Park",
+  "csv_file": "Tanzania_Bush_Camp_cantral_Serengeti_28_20260623_101258.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-06-23T10:12:58.105489",
+  "output_dir": "manual_20260623_101258",
+  "contract_year": "2028",
+  "base_plan": "BB"
+}

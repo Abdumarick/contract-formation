@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tarangire Greenland Retreat 27",
+  "hotel_group": "Single",
+  "location": "Tarangire National Park",
+  "csv_file": "Tarangire_Greenland_Retreat_27_20260730_223355.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-30T22:33:55.856157",
+  "output_dir": "manual_20260730_223256",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

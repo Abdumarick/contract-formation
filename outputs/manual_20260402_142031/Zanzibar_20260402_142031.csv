@@ -1,0 +1,76 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,90.0,76.5,38.0,65.0,01/07/2026,31/07/2026
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,150.0,127.5,38.0,65.0,01/08/2026,31/08/2026
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,97.5,82.88,38.0,65.0,01/09/2026,30/09/2026
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,92.5,78.62,38.0,65.0,01/10/2026,31/10/2026
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,87.5,74.38,38.0,65.0,01/11/2026,23/12/2026
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,122.5,104.12,38.0,65.0,24/12/2026,26/12/2026
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,205.0,174.25,38.0,65.0,27/12/2026,02/01/2027
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,115.0,97.75,38.0,65.0,03/01/2027,10/01/2027
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,102.5,87.12,38.0,65.0,11/01/2027,20/01/2027
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,107.5,91.38,38.0,65.0,21/01/2027,28/02/2027
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,92.5,78.62,38.0,65.0,01/03/2027,10/03/2027
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,80.0,68.0,38.0,65.0,11/03/2027,31/03/2027
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,75.0,63.75,38.0,65.0,01/04/2027,30/04/2027
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,70.0,59.5,38.0,65.0,01/05/2027,31/05/2027
+,Zanzibar,,Test,,0,,USD,Beach Front,,2,16,99,1,2,87.5,74.38,38.0,65.0,01/06/2027,30/06/2027
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,95.0,80.75,38.0,65.0,01/07/2026,31/07/2026
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,155.0,131.75,38.0,65.0,01/08/2026,31/08/2026
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,102.5,87.12,38.0,65.0,01/09/2026,30/09/2026
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,97.5,82.88,38.0,65.0,01/10/2026,31/10/2026
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,92.5,78.62,38.0,65.0,01/11/2026,23/12/2026
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,127.5,108.38,38.0,65.0,24/12/2026,26/12/2026
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,210.0,178.5,38.0,65.0,27/12/2026,02/01/2027
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,120.0,102.0,38.0,65.0,03/01/2027,10/01/2027
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,107.5,91.38,38.0,65.0,11/01/2027,20/01/2027
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,115.0,97.75,38.0,65.0,21/01/2027,28/02/2027
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,97.5,82.88,38.0,65.0,01/03/2027,10/03/2027
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,87.5,74.38,38.0,65.0,11/03/2027,31/03/2027
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,80.0,68.0,38.0,65.0,01/04/2027,30/04/2027
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,75.0,63.75,38.0,65.0,01/05/2027,31/05/2027
+,Zanzibar,,Test,,0,,USD,Beach Front 2,,2,16,99,1,2,92.5,78.62,38.0,65.0,01/06/2027,30/06/2027
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,120.0,102.0,38.0,65.0,01/07/2026,31/07/2026
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,182.5,155.12,38.0,65.0,01/08/2026,31/08/2026
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,127.5,108.38,38.0,65.0,01/09/2026,30/09/2026
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,122.5,104.12,38.0,65.0,01/10/2026,31/10/2026
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,117.5,99.88,38.0,65.0,01/11/2026,23/12/2026
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,155.0,131.75,38.0,65.0,24/12/2026,26/12/2026
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,235.0,199.75,38.0,65.0,27/12/2026,02/01/2027
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,145.0,123.25,38.0,65.0,03/01/2027,10/01/2027
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,135.0,114.75,38.0,65.0,11/01/2027,20/01/2027
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,140.0,119.0,38.0,65.0,21/01/2027,28/02/2027
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,122.5,104.12,38.0,65.0,01/03/2027,10/03/2027
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,115.0,97.75,38.0,65.0,11/03/2027,31/03/2027
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,107.5,91.38,38.0,65.0,01/04/2027,30/04/2027
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,102.5,87.12,38.0,65.0,01/05/2027,31/05/2027
+,Zanzibar,,Test,,0,,USD,Beach Front Prv Pool,,2,16,99,1,2,120.0,102.0,38.0,65.0,01/06/2027,30/06/2027
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,95.0,80.75,38.0,65.0,01/07/2026,31/07/2026
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,155.0,131.75,38.0,65.0,01/08/2026,31/08/2026
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,102.5,87.12,38.0,65.0,01/09/2026,30/09/2026
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,97.5,82.88,38.0,65.0,01/10/2026,31/10/2026
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,92.5,78.62,38.0,65.0,01/11/2026,23/12/2026
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,127.5,108.38,38.0,65.0,24/12/2026,26/12/2026
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,210.0,178.5,38.0,65.0,27/12/2026,02/01/2027
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,120.0,102.0,38.0,65.0,03/01/2027,10/01/2027
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,107.5,91.38,38.0,65.0,11/01/2027,20/01/2027
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,115.0,97.75,38.0,65.0,21/01/2027,28/02/2027
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,97.5,82.88,38.0,65.0,01/03/2027,10/03/2027
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,87.5,74.38,38.0,65.0,11/03/2027,31/03/2027
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,80.0,68.0,38.0,65.0,01/04/2027,30/04/2027
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,75.0,63.75,38.0,65.0,01/05/2027,31/05/2027
+,Zanzibar,,Test,,0,,USD,Sea View Prv Pool,,2,16,99,1,2,92.5,78.62,38.0,65.0,01/06/2027,30/06/2027
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,207.5,176.38,38.0,65.0,01/07/2026,31/07/2026
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,320.0,272.0,38.0,65.0,01/08/2026,31/08/2026
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,225.0,191.25,38.0,65.0,01/09/2026,30/09/2026
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,215.0,182.75,38.0,65.0,01/10/2026,31/10/2026
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,205.0,174.25,38.0,65.0,01/11/2026,23/12/2026
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,272.5,231.62,38.0,65.0,24/12/2026,26/12/2026
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,410.0,348.5,38.0,65.0,27/12/2026,02/01/2027
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,252.5,214.62,38.0,65.0,03/01/2027,10/01/2027
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,235.0,199.75,38.0,65.0,11/01/2027,20/01/2027
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,240.0,204.0,38.0,65.0,21/01/2027,28/02/2027
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,215.0,182.75,38.0,65.0,01/03/2027,10/03/2027
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,200.0,170.0,38.0,65.0,11/03/2027,31/03/2027
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,187.5,159.38,38.0,65.0,01/04/2027,30/04/2027
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,182.5,155.12,38.0,65.0,01/05/2027,31/05/2027
+,Zanzibar,,Test,,0,,USD,Individual Villa Prv Pool,,2,16,99,1,2,205.0,174.25,38.0,65.0,01/06/2027,30/06/2027

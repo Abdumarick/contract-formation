@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Embalakai Ngorongoro Camp",
+  "hotel_group": "Single",
+  "location": "Ngorongoro",
+  "csv_file": "Embalakai_Ngorongoro_Camp_20260620_163231.csv",
+  "xlsx_file": null,
+  "row_count": 108,
+  "created_at": "2026-06-20T16:32:31.216773",
+  "output_dir": "manual_20260620_163231",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

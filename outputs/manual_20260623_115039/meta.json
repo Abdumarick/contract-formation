@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Intimate Camp Seronera 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Intimate_Camp_Seronera_27_20260623_115039.csv",
+  "xlsx_file": null,
+  "row_count": 63,
+  "created_at": "2026-06-23T11:50:39.298616",
+  "output_dir": "manual_20260623_115039",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

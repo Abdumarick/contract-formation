@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Samora River Lodge 27",
+  "hotel_group": "Single",
+  "location": "Arusha",
+  "csv_file": "Samora_River_Lodge_27_20260725_113809.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-07-25T11:38:09.791989",
+  "output_dir": "manual_20260725_113733",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

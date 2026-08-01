@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Brubru Lodge",
+  "hotel_group": "Single",
+  "location": "Moshi",
+  "csv_file": "Brubru_Lodge_20260711_132043.csv",
+  "xlsx_file": null,
+  "row_count": 50,
+  "created_at": "2026-07-11T13:20:43.503436",
+  "output_dir": "manual_20260711_132043",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

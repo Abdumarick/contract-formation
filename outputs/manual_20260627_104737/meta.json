@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serengeti Serena Safari Rodge 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Serengeti_Serena_Safari_Rodge_27_20260627_104737.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-06-27T10:47:38.006953",
+  "output_dir": "manual_20260627_104737",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

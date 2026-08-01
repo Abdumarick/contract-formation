@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Forest Hill Hotel",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Forest_Hill_Hotel_20260603_043714.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-06-03T04:37:14.991311",
+  "output_dir": "manual_20260603_043714",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

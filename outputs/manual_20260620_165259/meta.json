@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lion's Paw",
+  "hotel_group": "Single",
+  "location": "Ngorongoro",
+  "csv_file": "Lion's_Paw_20260620_165259.csv",
+  "xlsx_file": null,
+  "row_count": 75,
+  "created_at": "2026-06-20T16:52:59.999380",
+  "output_dir": "manual_20260620_165259",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

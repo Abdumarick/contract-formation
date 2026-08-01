@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Conserve Safari Lodge and camps 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Conserve_Safari_Lodge_and_camps_27_20260625_182812.csv",
+  "xlsx_file": null,
+  "row_count": 105,
+  "created_at": "2026-06-25T18:28:12.504825",
+  "output_dir": "manual_20260625_182812",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serengeti Ark",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Serengeti_Ark_20260711_181624.csv",
+  "xlsx_file": null,
+  "row_count": 84,
+  "created_at": "2026-07-11T18:16:24.055762",
+  "output_dir": "manual_20260711_181624",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

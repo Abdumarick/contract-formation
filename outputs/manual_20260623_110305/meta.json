@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Suenos De Serengeti  Luxury Camp",
+  "hotel_group": "Single",
+  "location": "Serengeri",
+  "csv_file": "Suenos_De_Serengeti__Luxury_Camp_20260623_110305.csv",
+  "xlsx_file": null,
+  "row_count": 30,
+  "created_at": "2026-06-23T11:03:05.012490",
+  "output_dir": "manual_20260623_110305",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

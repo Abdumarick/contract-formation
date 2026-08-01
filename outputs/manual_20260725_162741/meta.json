@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Mara Migration Camp ( kogatende) by heritage",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Mara_Migration_Camp_(_kogatende)_by_heri_20260725_162741.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-07-25T16:27:41.892612",
+  "output_dir": "manual_20260725_162741",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

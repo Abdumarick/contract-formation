@@ -1,0 +1,180 @@
+{
+  "hotel_name": "The Africa Kingoni Serengeti Safari Camp",
+  "location_name": "Serengeti",
+  "contract_year": "2027",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high"
+    },
+    {
+      "sid": "row_2",
+      "name": "Peak"
+    },
+    {
+      "sid": "row_3",
+      "name": "low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_4",
+      "name": "Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_5",
+      "name": "Family Room",
+      "max_cap": 6,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 210,
+      "col_2": 150,
+      "col_3": 150,
+      "col_4": 150,
+      "col_5": 150
+    },
+    "row_2": {
+      "col_1": 210,
+      "col_2": 150,
+      "col_3": 150,
+      "col_4": 150,
+      "col_5": 150
+    },
+    "row_3": {
+      "col_1": 210,
+      "col_2": 150,
+      "col_3": 150,
+      "col_4": 150,
+      "col_5": 150
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2026",
+      "end": "28/02/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/03/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/07/2026",
+      "end": "31/08/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/09/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/11/2026",
+      "end": "15/12/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/12/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 5,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "infant",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

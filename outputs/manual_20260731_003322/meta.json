@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Nyikani Migration Camp (Ndutu) 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Nyikani_Migration_Camp_(Ndutu)_27_20260731_003322.csv",
+  "xlsx_file": null,
+  "row_count": 64,
+  "created_at": "2026-07-31T00:33:22.338140",
+  "output_dir": "manual_20260731_003322",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

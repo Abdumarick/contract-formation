@@ -1,0 +1,134 @@
+{
+  "hotel_name": "Sansi Kandwe Beach Resolt",
+  "contract_year": "2026",
+  "base_plan": "FB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "S1"
+    },
+    {
+      "sid": "row_4",
+      "name": "S4"
+    },
+    {
+      "sid": "row_5",
+      "name": "S5"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_2",
+      "name": "Deluxe Standard",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 60,
+      "sgl_override_type": "pct"
+    },
+    {
+      "colId": "col_3",
+      "name": "Deluxe Sea View",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 60,
+      "sgl_override_type": "pct"
+    },
+    {
+      "colId": "col_4",
+      "name": "Deluxe Ocean Front",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 60,
+      "sgl_override_type": "pct"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_2": 111,
+      "col_3": 121,
+      "col_4": 132
+    },
+    "row_4": {
+      "col_2": 100,
+      "col_3": 111,
+      "col_4": 121
+    },
+    "row_5": {
+      "col_2": 124,
+      "col_3": 135,
+      "col_4": 145
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "07/01/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/04/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/07/2026",
+      "end": "31/07/2026"
+    },
+    {
+      "sid": "row_5",
+      "start": "01/08/2026",
+      "end": "31/08/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/09/2026",
+      "end": "31/10/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 1,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 2,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

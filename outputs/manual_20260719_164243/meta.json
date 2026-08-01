@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "New Baobab Central Serengeti Camps",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "New_Baobab_Central_Serengeti_Camps_20260719_164243.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-07-19T16:42:43.816885",
+  "output_dir": "manual_20260719_164243",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

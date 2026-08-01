@@ -1,0 +1,124 @@
+{
+  "hotel_name": "Simba Public Campsite",
+  "location_name": "Tarangire",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "test",
+  "room_desc": "test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "full"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "SIngle Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_4",
+      "name": "Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_5",
+      "name": "Family Room",
+      "max_cap": 4,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 35,
+      "col_2": 35,
+      "col_4": 35,
+      "col_5": 35
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "child",
+      "min_age": 1,
+      "max_age": 15,
+      "discount": 75,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 16,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": [
+    {
+      "name": "",
+      "override_type": "cost",
+      "room": "",
+      "rooms": [],
+      "band": "child_1_15",
+      "bands": [
+        "child_1_15"
+      ],
+      "season_amounts": [
+        {
+          "season": "full",
+          "amount": 30,
+          "amount_type": "usd"
+        }
+      ]
+    }
+  ]
+}

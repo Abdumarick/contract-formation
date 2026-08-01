@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Airport Planet Lorge & SPA 27",
+  "hotel_group": "Single",
+  "location": "Kilimanjaro",
+  "csv_file": "Airport_Planet_Lorge_&_SPA_27_20260725_125810.csv",
+  "xlsx_file": null,
+  "row_count": 108,
+  "created_at": "2026-07-25T12:58:10.688756",
+  "output_dir": "manual_20260725_125810",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

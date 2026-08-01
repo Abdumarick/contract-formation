@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Weruweru River Rodge 28",
+  "hotel_group": "Single",
+  "location": "Arusha",
+  "csv_file": "Weruweru_River_Rodge_28_20260718_134340.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-18T13:43:40.677190",
+  "output_dir": "manual_20260718_134340",
+  "contract_year": "2028",
+  "base_plan": "BB"
+}

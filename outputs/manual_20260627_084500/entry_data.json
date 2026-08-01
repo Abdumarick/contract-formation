@@ -1,0 +1,207 @@
+{
+  "hotel_name": "Neptune Ngorongoro Lodge 27",
+  "location_name": "Kararu",
+  "contract_year": "2027",
+  "base_plan": "FB",
+  "hotel_desc": "test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "s1"
+    },
+    {
+      "sid": "row_2",
+      "name": "s2"
+    },
+    {
+      "sid": "row_3",
+      "name": "s3"
+    },
+    {
+      "sid": "row_4",
+      "name": "s4"
+    },
+    {
+      "sid": "row_5",
+      "name": "s5"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Luxury Suite Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Luxury Suite  Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Premium Suite Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Premium Suite  Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Luxury Suite Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "Premium Suite Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 439,
+      "col_2": 659,
+      "col_3": 539,
+      "col_4": 809,
+      "col_5": 307.3,
+      "col_6": 377.3
+    },
+    "row_2": {
+      "col_1": 288,
+      "col_2": 432,
+      "col_3": 388,
+      "col_4": 582,
+      "col_5": 201.6,
+      "col_6": 271.6
+    },
+    "row_3": {
+      "col_1": 525,
+      "col_2": 788,
+      "col_3": 625,
+      "col_4": 938,
+      "col_5": 367.5,
+      "col_6": 437.5
+    },
+    "row_4": {
+      "col_1": 308,
+      "col_2": 462,
+      "col_3": 408,
+      "col_4": 612,
+      "col_5": 215.6,
+      "col_6": 285.6
+    },
+    "row_5": {
+      "col_1": 587,
+      "col_2": 881,
+      "col_3": 687,
+      "col_4": 1031,
+      "col_5": 410.9,
+      "col_6": 480.9
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "04/01/2027",
+      "end": "28/02/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/03/2027",
+      "end": "31/05/2027"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/06/2027",
+      "end": "31/10/2027"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/11/2027",
+      "end": "22/12/2027"
+    },
+    {
+      "sid": "row_5",
+      "start": "23/12/2027",
+      "end": "06/01/2028"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 1,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 2,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

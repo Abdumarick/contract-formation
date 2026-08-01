@@ -1,0 +1,31 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage,Test,2,8,12,1,2,187.5,375.0,0.0,0.0,01/01/2027,28/02/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage,Test,2,13,99,1,2,375.0,375.0,0.0,0.0,01/01/2027,28/02/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage,Test,2,8,12,1,2,132.5,265.0,0.0,0.0,01/03/2027,31/05/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage,Test,2,13,99,1,2,265.0,265.0,0.0,0.0,01/03/2027,31/05/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage,Test,2,8,12,1,2,187.5,375.0,0.0,0.0,01/06/2027,31/10/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage,Test,2,13,99,1,2,375.0,375.0,0.0,0.0,01/06/2027,31/10/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage,Test,2,8,12,1,2,132.5,265.0,0.0,0.0,01/11/2027,14/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage,Test,2,13,99,1,2,265.0,265.0,0.0,0.0,01/11/2027,14/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage,Test,2,8,12,1,2,187.5,375.0,0.0,0.0,15/12/2027,31/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage,Test,2,13,99,1,2,375.0,375.0,0.0,0.0,15/12/2027,31/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Family Cottage,Test,4,8,12,1,4,164.38,328.75,0.0,0.0,01/01/2027,28/02/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Family Cottage,Test,4,13,99,1,4,328.75,328.75,0.0,0.0,01/01/2027,28/02/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Family Cottage,Test,4,8,12,1,4,114.38,228.75,0.0,0.0,01/03/2027,31/05/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Family Cottage,Test,4,13,99,1,4,228.75,228.75,0.0,0.0,01/03/2027,31/05/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Family Cottage,Test,4,8,12,1,4,164.38,328.75,0.0,0.0,01/06/2027,31/10/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Family Cottage,Test,4,13,99,1,4,328.75,328.75,0.0,0.0,01/06/2027,31/10/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Family Cottage,Test,4,8,12,1,4,114.38,228.75,0.0,0.0,01/11/2027,14/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Family Cottage,Test,4,13,99,1,4,228.75,228.75,0.0,0.0,01/11/2027,14/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Family Cottage,Test,4,8,12,1,4,164.38,328.75,0.0,0.0,15/12/2027,31/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Family Cottage,Test,4,13,99,1,4,328.75,328.75,0.0,0.0,15/12/2027,31/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage ( Single ),Test,1,8,12,1,1,281.25,0.0,0.0,0.0,01/01/2027,28/02/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage ( Single ),Test,1,13,99,1,1,562.5,0.0,0.0,0.0,01/01/2027,28/02/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage ( Single ),Test,1,8,12,1,1,198.75,0.0,0.0,0.0,01/03/2027,31/05/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage ( Single ),Test,1,13,99,1,1,397.5,0.0,0.0,0.0,01/03/2027,31/05/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage ( Single ),Test,1,8,12,1,1,281.25,0.0,0.0,0.0,01/06/2027,31/10/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage ( Single ),Test,1,13,99,1,1,562.5,0.0,0.0,0.0,01/06/2027,31/10/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage ( Single ),Test,1,8,12,1,1,198.75,0.0,0.0,0.0,01/11/2027,14/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage ( Single ),Test,1,13,99,1,1,397.5,0.0,0.0,0.0,01/11/2027,14/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage ( Single ),Test,1,8,12,1,1,281.25,0.0,0.0,0.0,15/12/2027,31/12/2027
+Lake Eyasi,Ziwani Lodge 27,,Test,FALSE,0,FALSE,USD,Double Cottage ( Single ),Test,1,13,99,1,1,562.5,0.0,0.0,0.0,15/12/2027,31/12/2027

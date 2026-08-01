@@ -1,0 +1,17 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Suricata  Boma Rodge,,Test,,0,,USD,Single Room,,1,0,2,1,1,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Single Room,,1,3,9,1,1,55.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Single Room,,1,10,13,1,1,82.5,0.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Single Room,,1,14,99,1,1,110.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Double Room,,2,0,2,1,2,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Double Room,,2,3,9,1,2,55.0,110.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Double Room,,2,10,13,1,2,82.5,110.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Double Room,,2,14,99,1,2,110.0,110.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Triple Room,,3,0,2,1,3,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Triple Room,,3,3,9,1,3,55.0,110.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Triple Room,,3,10,13,1,3,82.5,110.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Triple Room,,3,14,99,1,3,110.0,110.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Family Room,,4,0,2,1,4,0.0,0.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Family Room,,4,3,9,1,4,55.0,110.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Family Room,,4,10,13,1,4,82.5,110.0,0.0,0.0,01/01/2026,31/12/2026
+,Suricata  Boma Rodge,,Test,,0,,USD,Family Room,,4,14,99,1,4,110.0,110.0,0.0,0.0,01/01/2026,31/12/2026

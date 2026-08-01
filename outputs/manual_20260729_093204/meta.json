@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serenity Camp 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Serenity_Camp_27_20260729_093204.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-29T09:32:04.254007",
+  "output_dir": "manual_20260729_093204",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

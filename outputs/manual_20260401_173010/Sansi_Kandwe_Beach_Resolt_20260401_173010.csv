@@ -1,0 +1,46 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,0,1,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/05/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,2,12,1,2,55.5,66.6,0.0,0.0,07/01/2026,31/05/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,13,99,1,2,111.0,66.6,0.0,0.0,07/01/2026,31/05/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,2,12,1,2,50.0,60.0,0.0,0.0,01/04/2026,30/06/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,13,99,1,2,100.0,60.0,0.0,0.0,01/04/2026,30/06/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/07/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,2,12,1,2,55.5,66.6,0.0,0.0,01/07/2026,31/07/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,13,99,1,2,111.0,66.6,0.0,0.0,01/07/2026,31/07/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/08/2026,31/08/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,2,12,1,2,62.0,74.4,0.0,0.0,01/08/2026,31/08/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,13,99,1,2,124.0,74.4,0.0,0.0,01/08/2026,31/08/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,2,12,1,2,55.5,66.6,0.0,0.0,01/09/2026,31/10/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Standard,,2,13,99,1,2,111.0,66.6,0.0,0.0,01/09/2026,31/10/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/05/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,2,12,1,2,60.5,72.6,0.0,0.0,07/01/2026,31/05/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,13,99,1,2,121.0,72.6,0.0,0.0,07/01/2026,31/05/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,2,12,1,2,55.5,66.6,0.0,0.0,01/04/2026,30/06/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,13,99,1,2,111.0,66.6,0.0,0.0,01/04/2026,30/06/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/07/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,2,12,1,2,60.5,72.6,0.0,0.0,01/07/2026,31/07/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,13,99,1,2,121.0,72.6,0.0,0.0,01/07/2026,31/07/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/08/2026,31/08/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,2,12,1,2,67.5,81.0,0.0,0.0,01/08/2026,31/08/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,13,99,1,2,135.0,81.0,0.0,0.0,01/08/2026,31/08/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,2,12,1,2,60.5,72.6,0.0,0.0,01/09/2026,31/10/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Sea View,,2,13,99,1,2,121.0,72.6,0.0,0.0,01/09/2026,31/10/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,0,1,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/05/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,2,12,1,2,66.0,79.2,0.0,0.0,07/01/2026,31/05/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,13,99,1,2,132.0,79.2,0.0,0.0,07/01/2026,31/05/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/04/2026,30/06/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,2,12,1,2,60.5,72.6,0.0,0.0,01/04/2026,30/06/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,13,99,1,2,121.0,72.6,0.0,0.0,01/04/2026,30/06/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/07/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,2,12,1,2,66.0,79.2,0.0,0.0,01/07/2026,31/07/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,13,99,1,2,132.0,79.2,0.0,0.0,01/07/2026,31/07/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/08/2026,31/08/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,2,12,1,2,72.5,87.0,0.0,0.0,01/08/2026,31/08/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,13,99,1,2,145.0,87.0,0.0,0.0,01/08/2026,31/08/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,2,12,1,2,66.0,79.2,0.0,0.0,01/09/2026,31/10/2026
+,Sansi Kandwe Beach Resolt,,Test,,0,,USD,Deluxe Ocean Front,,2,13,99,1,2,132.0,79.2,0.0,0.0,01/09/2026,31/10/2026

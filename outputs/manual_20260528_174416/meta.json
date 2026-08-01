@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Ahadi Lodge",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Ahadi_Lodge_20260528_174416.csv",
+  "xlsx_file": null,
+  "row_count": 165,
+  "created_at": "2026-05-28T17:44:16.049995",
+  "output_dir": "manual_20260528_174416",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

@@ -1,0 +1,144 @@
+{
+  "hotel_name": "Lahia Tented Lodge",
+  "location_name": "Serengeti National Park",
+  "contract_year": "2028",
+  "base_plan": "BB",
+  "hotel_desc": "A luxurious safari camp perched atop a hill in Central Serengeti, offering stunning 360-degree views of the plains and Western Corridor. Strategically located along the Wildebeest Migration path, near Seronera Valley, Maasai Kopjes, it features spacious en-suite tents on raised platforms, infinity pool, modern African-style lounge/dining, excellent big cat sightings.",
+  "room_desc": "The single tent at Lahia Tented Lodge is a spacious, luxurious safari tent with a comfortable single or large twin bed, premium linens, and mosquito netting. It features an en-suite bathroom with hot shower, private veranda with stunning 360-degree Serengeti plains views, solar lighting, charging points, tea/coffee facilities, and modern comforts.",
+  "inside_restricted_area": "TRUE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "Imported from an existing generated CSV. Review before exporting.",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high"
+    },
+    {
+      "sid": "row_2",
+      "name": "sholder"
+    },
+    {
+      "sid": "row_3",
+      "name": "low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Tent",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Tent",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Triple Tent",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 447,
+      "col_2": 312,
+      "col_3": 271
+    },
+    "row_2": {
+      "col_1": 375,
+      "col_2": 264,
+      "col_3": 230
+    },
+    "row_3": {
+      "col_1": 302,
+      "col_2": 215,
+      "col_3": 188
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2028",
+      "end": "31/03/2028"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/04/2028",
+      "end": "31/05/2028"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2028",
+      "end": "31/10/2028"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/11/2028",
+      "end": "15/12/2028"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/12/2028",
+      "end": "31/12/2028"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 2,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    },
+    {
+      "label": "child",
+      "min_age": 3,
+      "max_age": 16,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

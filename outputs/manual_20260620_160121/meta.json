@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Ngorongoro tortilis Camp 27",
+  "hotel_group": "Single",
+  "location": "Ngorongoro",
+  "csv_file": "Ngorongoro_tortilis_Camp_27_20260620_160121.csv",
+  "xlsx_file": null,
+  "row_count": 54,
+  "created_at": "2026-06-20T16:01:21.998176",
+  "output_dir": "manual_20260620_160121",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

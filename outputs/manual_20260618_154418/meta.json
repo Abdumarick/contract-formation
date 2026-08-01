@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Motto Cottages 27",
+  "hotel_group": "Single",
+  "location": "Mto wa mbu",
+  "csv_file": "Motto_Cottages_27_20260718_155922.csv",
+  "xlsx_file": null,
+  "row_count": 15,
+  "created_at": "2026-07-18T15:59:22.705592",
+  "output_dir": "manual_20260618_154418",
+  "contract_year": "2027",
+  "base_plan": "HB"
+}

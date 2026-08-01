@@ -1,0 +1,295 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,2,11,1,2,30.1,86.1,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,12,99,1,2,86.1,86.1,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,2,11,1,2,18.9,54.6,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,12,99,1,2,54.6,54.6,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,2,11,1,2,27.3,78.4,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,12,99,1,2,78.4,78.4,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,2,11,1,2,30.1,86.1,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,12,99,1,2,86.1,86.1,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,2,11,1,2,27.3,78.4,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,12,99,1,2,78.4,78.4,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,2,11,1,2,27.3,78.4,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,12,99,1,2,78.4,78.4,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,2,11,1,2,30.1,86.1,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Room,,2,12,99,1,2,86.1,86.1,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,2,11,1,3,30.1,86.1,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,12,99,1,3,86.1,86.1,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,2,11,1,3,18.9,54.6,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,12,99,1,3,54.6,54.6,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,2,11,1,3,27.3,78.4,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,12,99,1,3,78.4,78.4,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,2,11,1,3,30.1,86.1,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,12,99,1,3,86.1,86.1,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,2,11,1,3,27.3,78.4,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,12,99,1,3,78.4,78.4,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,2,11,1,3,27.3,78.4,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,12,99,1,3,78.4,78.4,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,0,1,1,3,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,2,11,1,3,30.1,86.1,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Family Room,,3,12,99,1,3,86.1,86.1,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,2,11,1,2,30.1,105.7,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,12,99,1,2,105.7,105.7,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,2,11,1,2,18.9,67.2,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,12,99,1,2,67.2,67.2,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,2,11,1,2,27.3,96.9,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,12,99,1,2,96.9,96.9,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,2,11,1,2,30.1,105.7,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,12,99,1,2,105.7,105.7,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,2,11,1,2,27.3,96.9,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,12,99,1,2,96.9,96.9,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,2,11,1,2,27.3,96.9,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,12,99,1,2,96.9,96.9,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,2,11,1,2,30.1,105.7,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room,,2,12,99,1,2,105.7,105.7,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,2,11,1,2,30.1,94.5,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,12,99,1,2,94.5,94.5,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,2,11,1,2,18.9,60.2,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,12,99,1,2,60.2,60.2,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,2,11,1,2,27.3,86.1,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,12,99,1,2,86.1,86.1,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,2,11,1,2,30.1,94.5,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,12,99,1,2,94.5,94.5,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,2,11,1,2,27.3,86.1,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,12,99,1,2,86.1,86.1,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,2,11,1,2,27.3,86.1,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,12,99,1,2,86.1,86.1,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,2,11,1,2,30.1,94.5,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room,,2,12,99,1,2,94.5,94.5,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,2,11,1,2,30.1,97.3,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,12,99,1,2,97.3,97.3,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,2,11,1,2,18.9,61.6,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,12,99,1,2,61.6,61.6,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,2,11,1,2,27.3,88.2,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,12,99,1,2,88.2,88.2,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,2,11,1,2,30.1,97.3,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,12,99,1,2,97.3,97.3,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,2,11,1,2,27.3,88.2,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,12,99,1,2,88.2,88.2,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,2,11,1,2,27.3,88.2,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,12,99,1,2,88.2,88.2,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,2,11,1,2,30.1,97.3,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room,,2,12,99,1,2,97.3,97.3,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,2,11,1,2,30.1,105.7,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,12,99,1,2,105.7,105.7,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,2,11,1,2,18.9,67.2,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,12,99,1,2,67.2,67.2,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,2,11,1,2,27.3,95.9,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,12,99,1,2,95.9,95.9,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,2,11,1,2,30.1,105.7,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,12,99,1,2,105.7,105.7,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,2,11,1,2,27.3,95.9,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,12,99,1,2,95.9,95.9,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,2,11,1,2,27.3,95.9,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,12,99,1,2,95.9,95.9,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,2,11,1,2,30.1,105.7,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room,,2,12,99,1,2,105.7,105.7,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,0,1,1,4,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,2,11,1,4,30.1,109.9,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,12,99,1,4,109.9,109.9,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,0,1,1,4,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,2,11,1,4,18.9,70.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,12,99,1,4,70.0,70.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,0,1,1,4,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,2,11,1,4,27.3,100.1,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,12,99,1,4,100.1,100.1,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,0,1,1,4,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,2,11,1,4,30.1,109.9,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,12,99,1,4,109.9,109.9,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,0,1,1,4,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,2,11,1,4,27.3,100.1,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,12,99,1,4,100.1,100.1,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,0,1,1,4,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,2,11,1,4,27.3,100.1,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,12,99,1,4,100.1,100.1,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,0,1,1,4,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,2,11,1,4,30.1,109.9,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Family Room,,4,12,99,1,4,109.9,109.9,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,2,11,1,2,30.1,119.7,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,12,99,1,2,119.7,119.7,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,2,11,1,2,18.9,76.3,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,12,99,1,2,76.3,76.3,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,2,11,1,2,27.3,108.5,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,12,99,1,2,108.5,108.5,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,2,11,1,2,30.1,119.7,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,12,99,1,2,119.7,119.7,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,2,11,1,2,27.3,108.5,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,12,99,1,2,108.5,108.5,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,2,11,1,2,27.3,108.5,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,12,99,1,2,108.5,108.5,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,0,1,1,2,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,2,11,1,2,30.1,119.7,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room,,2,12,99,1,2,119.7,119.7,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,2,11,1,1,30.1,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,12,99,1,1,118.3,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,2,11,1,1,18.9,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,12,99,1,1,75.6,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,2,11,1,1,27.3,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,12,99,1,1,107.8,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,2,11,1,1,30.1,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,12,99,1,1,118.3,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,2,11,1,1,27.3,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,12,99,1,1,107.8,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,2,11,1,1,27.3,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,12,99,1,1,107.8,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,2,11,1,1,30.1,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Roomm Single,,1,12,99,1,1,118.3,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,12,99,1,1,147.7,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,2,11,1,1,18.9,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,12,99,1,1,93.8,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,12,99,1,1,134.4,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,12,99,1,1,147.7,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,12,99,1,1,134.4,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,12,99,1,1,134.4,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Standard Swim-Up Room ( Single),,1,12,99,1,1,147.7,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,12,99,1,1,131.6,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,2,11,1,1,18.9,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,12,99,1,1,84.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,12,99,1,1,119.7,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,12,99,1,1,131.6,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,12,99,1,1,119.7,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,12,99,1,1,119.7,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Suite Room ( Single),,1,12,99,1,1,131.6,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,2,11,1,1,30.1,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,12,99,1,1,135.1,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,2,11,1,1,18.9,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,12,99,1,1,86.1,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,2,11,1,1,27.3,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,12,99,1,1,122.5,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,2,11,1,1,30.1,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,12,99,1,1,135.1,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,2,11,1,1,27.3,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,12,99,1,1,122.5,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,2,11,1,1,27.3,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,12,99,1,1,122.5,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,0,1,1,1,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,2,11,1,1,30.1,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Luxury Room  Single,,1,12,99,1,1,135.1,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,12,99,1,1,147.7,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,2,11,1,1,18.9,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,12,99,1,1,93.8,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,12,99,1,1,122.5,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,12,99,1,1,147.7,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,12,99,1,1,122.5,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,12,99,1,1,122.5,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Premium Room ( Single),,1,12,99,1,1,147.7,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,12,99,1,1,168.7,0.0,0.0,0.0,01/01/2026,14/03/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,2,11,1,1,18.9,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,12,99,1,1,107.1,0.0,0.0,0.0,15/03/2026,15/05/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,12,99,1,1,153.3,0.0,0.0,0.0,16/05/2026,15/06/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,12,99,1,1,168.7,0.0,0.0,0.0,16/06/2026,31/08/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,12,99,1,1,153.3,0.0,0.0,0.0,01/09/2026,31/10/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,2,11,1,1,27.3,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,12,99,1,1,153.3,0.0,0.0,0.0,01/11/2026,23/12/2026
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,0,1,1,1,0.0,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,2,11,1,1,30.1,0.0,0.0,0.0,24/12/2026,14/03/2027
+,Paradase Beach Resort,,Test,,0,,USD,Bungalow Room ( Single),,1,12,99,1,1,168.7,0.0,0.0,0.0,24/12/2026,14/03/2027

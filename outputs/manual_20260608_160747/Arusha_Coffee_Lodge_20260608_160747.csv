@@ -1,0 +1,109 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,0,11,1,1,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,12,17,1,1,206.5,0.0,25.0,59.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,18,99,1,1,413.0,0.0,40.0,70.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,0,11,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,12,17,1,1,164.5,0.0,25.0,59.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,18,99,1,1,329.0,0.0,40.0,70.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,0,11,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,12,17,1,1,129.5,0.0,25.0,59.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,18,99,1,1,259.0,0.0,40.0,70.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,0,11,1,1,0.0,0.0,0.0,0.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,12,17,1,1,206.5,0.0,25.0,59.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,18,99,1,1,413.0,0.0,40.0,70.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,0,11,1,1,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,12,17,1,1,164.5,0.0,25.0,59.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,18,99,1,1,329.0,0.0,40.0,70.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,0,11,1,1,0.0,0.0,0.0,0.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,12,17,1,1,206.5,0.0,25.0,59.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room (Single),,1,18,99,1,1,413.0,0.0,40.0,70.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,0,11,1,2,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,12,17,1,2,133.5,267.0,25.0,59.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,18,99,1,2,267.0,267.0,40.0,70.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,0,11,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,12,17,1,2,109.5,219.0,25.0,59.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,18,99,1,2,219.0,219.0,40.0,70.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,0,11,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,12,17,1,2,86.5,173.0,25.0,59.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,18,99,1,2,173.0,173.0,40.0,70.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,0,11,1,2,0.0,0.0,0.0,0.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,12,17,1,2,133.5,267.0,25.0,59.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,18,99,1,2,267.0,267.0,40.0,70.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,0,11,1,2,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,12,17,1,2,109.5,219.0,25.0,59.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,18,99,1,2,219.0,219.0,40.0,70.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,0,11,1,2,0.0,0.0,0.0,0.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,12,17,1,2,133.5,267.0,25.0,59.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Double),,2,18,99,1,2,267.0,267.0,40.0,70.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,0,11,1,3,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,12,17,1,3,103.33,206.67,25.0,59.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,18,99,1,3,206.67,206.67,40.0,70.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,0,11,1,3,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,12,17,1,3,82.33,164.67,25.0,59.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,18,99,1,3,164.67,164.67,40.0,70.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,0,11,1,3,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,12,17,1,3,64.83,129.67,25.0,59.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,18,99,1,3,129.67,129.67,40.0,70.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,0,11,1,3,0.0,0.0,0.0,0.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,12,17,1,3,103.33,206.67,25.0,59.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,18,99,1,3,206.67,206.67,40.0,70.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,0,11,1,3,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,12,17,1,3,82.33,164.67,25.0,59.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,18,99,1,3,164.67,164.67,40.0,70.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,0,11,1,3,0.0,0.0,0.0,0.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,12,17,1,3,103.33,206.67,25.0,59.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Room ( Triple),,3,18,99,1,3,206.67,206.67,40.0,70.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,0,11,1,1,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,12,17,1,1,282.5,0.0,25.0,59.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,18,99,1,1,565.0,0.0,40.0,70.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,0,11,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,12,17,1,1,235.0,0.0,25.0,59.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,18,99,1,1,470.0,0.0,40.0,70.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,0,11,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,12,17,1,1,197.5,0.0,25.0,59.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,18,99,1,1,395.0,0.0,40.0,70.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,0,11,1,1,0.0,0.0,0.0,0.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,12,17,1,1,282.5,0.0,25.0,59.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,18,99,1,1,565.0,0.0,40.0,70.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,0,11,1,1,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,12,17,1,1,235.0,0.0,25.0,59.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,18,99,1,1,470.0,0.0,40.0,70.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,0,11,1,1,0.0,0.0,0.0,0.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,12,17,1,1,282.5,0.0,25.0,59.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Single,,1,18,99,1,1,565.0,0.0,40.0,70.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,0,11,1,2,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,12,17,1,2,188.5,377.0,25.0,59.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,18,99,1,2,377.0,377.0,40.0,70.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,0,11,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,12,17,1,2,156.5,313.0,25.0,59.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,18,99,1,2,313.0,313.0,40.0,70.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,0,11,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,12,17,1,2,131.5,263.0,25.0,59.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,18,99,1,2,263.0,263.0,40.0,70.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,0,11,1,2,0.0,0.0,0.0,0.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,12,17,1,2,188.5,377.0,25.0,59.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,18,99,1,2,377.0,377.0,40.0,70.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,0,11,1,2,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,12,17,1,2,156.5,313.0,25.0,59.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,18,99,1,2,313.0,313.0,40.0,70.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,0,11,1,2,0.0,0.0,0.0,0.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,12,17,1,2,188.5,377.0,25.0,59.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Double,,2,18,99,1,2,377.0,377.0,40.0,70.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,0,11,1,3,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,12,17,1,3,141.16,282.33,25.0,59.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,18,99,1,3,282.33,282.33,40.0,70.0,04/01/2026,28/02/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,0,11,1,3,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,12,17,1,3,117.33,234.67,25.0,59.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,18,99,1,3,234.67,234.67,40.0,70.0,01/03/2026,31/03/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,0,11,1,3,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,12,17,1,3,98.67,197.33,25.0,59.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,18,99,1,3,197.33,197.33,40.0,70.0,01/04/2026,31/05/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,0,11,1,3,0.0,0.0,0.0,0.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,12,17,1,3,141.16,282.33,25.0,59.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,18,99,1,3,282.33,282.33,40.0,70.0,01/06/2026,31/10/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,0,11,1,3,0.0,0.0,0.0,0.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,12,17,1,3,117.33,234.67,25.0,59.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,18,99,1,3,234.67,234.67,40.0,70.0,01/11/2026,19/12/2026
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,0,11,1,3,0.0,0.0,0.0,0.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,12,17,1,3,141.16,282.33,25.0,59.0,20/12/2026,03/01/2027
+,Arusha Coffee Lodge,,Test,,0,,USD,Plantation Suite Triple,,3,18,99,1,3,282.33,282.33,40.0,70.0,20/12/2026,03/01/2027

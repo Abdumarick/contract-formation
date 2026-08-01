@@ -1,0 +1,192 @@
+{
+  "hotel_name": "Villa Maua 27",
+  "location_name": "Arusha",
+  "contract_year": "2027",
+  "base_plan": "BB",
+  "hotel_desc": "Test",
+  "room_desc": "test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "High"
+    },
+    {
+      "sid": "row_2",
+      "name": "Low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_5",
+      "name": "Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 195,
+      "col_2": 260,
+      "col_3": 260,
+      "col_5": 345
+    },
+    "row_2": {
+      "col_1": 166,
+      "col_2": 215,
+      "col_3": 215,
+      "col_5": 275
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2027",
+      "end": "31/03/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/04/2027",
+      "end": "31/05/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2027",
+      "end": "31/10/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/11/2027",
+      "end": "15/12/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/12/2027",
+      "end": "31/12/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "usd",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 30,
+  "fb_supplement": 55,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 25,
+    "dinner": 30
+  },
+  "extra_supplements": [
+    {
+      "name": "",
+      "override_type": "hb_supp",
+      "room": "",
+      "rooms": [],
+      "band": "child_5_12",
+      "bands": [
+        "child_5_12"
+      ],
+      "season_amounts": [
+        {
+          "season": "High",
+          "amount": 27.5,
+          "amount_type": "usd"
+        },
+        {
+          "season": "Low",
+          "amount": 27.5,
+          "amount_type": "usd"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "override_type": "fb_supp",
+      "room": "",
+      "rooms": [],
+      "band": "child_5_12",
+      "bands": [
+        "child_5_12"
+      ],
+      "season_amounts": [
+        {
+          "season": "High",
+          "amount": 42.4,
+          "amount_type": "usd"
+        },
+        {
+          "season": "Low",
+          "amount": 42.4,
+          "amount_type": "usd"
+        }
+      ]
+    }
+  ]
+}

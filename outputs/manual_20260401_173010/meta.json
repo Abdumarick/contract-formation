@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Sansi Kandwe Beach Resolt",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Sansi_Kandwe_Beach_Resolt_20260401_173010.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-04-01T17:30:10.924255",
+  "output_dir": "manual_20260401_173010",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

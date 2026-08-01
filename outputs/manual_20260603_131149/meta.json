@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Arusha Emanyata Lodge",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Arusha_Emanyata_Lodge_20260603_131149.csv",
+  "xlsx_file": null,
+  "row_count": 9,
+  "created_at": "2026-06-03T13:11:49.627718",
+  "output_dir": "manual_20260603_131149",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

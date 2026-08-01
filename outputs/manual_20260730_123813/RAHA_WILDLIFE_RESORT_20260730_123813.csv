@@ -1,0 +1,10 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Arusha,RAHA WILDLIFE RESORT,,test,FALSE,0,FALSE,USD,Double  Room,test,2,0,4,1,2,0.0,0.0,20.0,40.0,01/01/2026,31/12/2026
+Arusha,RAHA WILDLIFE RESORT,,test,FALSE,0,FALSE,USD,Double  Room,test,2,5,12,1,2,56.25,112.5,10.0,20.0,01/01/2026,31/12/2026
+Arusha,RAHA WILDLIFE RESORT,,test,FALSE,0,FALSE,USD,Double  Room,test,2,13,99,1,2,112.5,112.5,20.0,40.0,01/01/2026,31/12/2026
+Arusha,RAHA WILDLIFE RESORT,,test,FALSE,0,FALSE,USD,Twin  Room,test,2,0,4,1,2,0.0,0.0,20.0,40.0,01/01/2026,31/12/2026
+Arusha,RAHA WILDLIFE RESORT,,test,FALSE,0,FALSE,USD,Twin  Room,test,2,5,12,1,2,56.25,112.5,10.0,20.0,01/01/2026,31/12/2026
+Arusha,RAHA WILDLIFE RESORT,,test,FALSE,0,FALSE,USD,Twin  Room,test,2,13,99,1,2,112.5,112.5,20.0,40.0,01/01/2026,31/12/2026
+Arusha,RAHA WILDLIFE RESORT,,test,FALSE,0,FALSE,USD,Family Room,test,3,0,4,1,3,0.0,0.0,20.0,40.0,01/01/2026,31/12/2026
+Arusha,RAHA WILDLIFE RESORT,,test,FALSE,0,FALSE,USD,Family Room,test,3,5,12,1,3,44.16,88.33,10.0,20.0,01/01/2026,31/12/2026
+Arusha,RAHA WILDLIFE RESORT,,test,FALSE,0,FALSE,USD,Family Room,test,3,13,99,1,3,88.33,88.33,20.0,40.0,01/01/2026,31/12/2026

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Stanley Kopje",
+  "hotel_group": "Single",
+  "location": "Mikumi NP",
+  "csv_file": "Stanley_Kopje_20260730_015030.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-07-30T01:50:30.413528",
+  "output_dir": "manual_20260730_015030",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

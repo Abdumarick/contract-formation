@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Wildlife Residence 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Wildlife_Residence_27_20260702_091025.csv",
+  "xlsx_file": null,
+  "row_count": 234,
+  "created_at": "2026-07-02T09:10:25.663463",
+  "output_dir": "manual_20260702_090102",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

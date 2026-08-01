@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Paradase Beach Resort",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Paradase_Beach_Resort_20260404_124143.csv",
+  "xlsx_file": null,
+  "row_count": 294,
+  "created_at": "2026-04-04T12:41:43.321631",
+  "output_dir": "manual_20260404_124143",
+  "contract_year": "2026",
+  "base_plan": "AI"
+}

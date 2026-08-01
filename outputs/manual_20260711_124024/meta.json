@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Africa Safari Ngorongoro (Ndutu)",
+  "hotel_group": "Single",
+  "location": "Ngorongoro",
+  "csv_file": "Africa_Safari_Ngorongoro_(Ndutu)_20260711_124024.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-07-11T12:40:24.314475",
+  "output_dir": "manual_20260711_124024",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

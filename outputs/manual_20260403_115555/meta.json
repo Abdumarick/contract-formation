@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tembo Kiwengwa Resort",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Tembo_Kiwengwa_Resort_20260403_115555.csv",
+  "xlsx_file": null,
+  "row_count": 51,
+  "created_at": "2026-04-03T11:55:55.986428",
+  "output_dir": "manual_20260403_115555",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

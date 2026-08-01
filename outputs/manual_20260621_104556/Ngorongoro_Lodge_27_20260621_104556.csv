@@ -1,0 +1,295 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,4,11,1,1,462.5,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,12,99,1,1,925.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,4,11,1,1,347.5,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,12,99,1,1,695.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,4,11,1,1,462.5,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,12,99,1,1,925.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,4,11,1,1,627.5,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,12,99,1,1,1255.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,4,11,1,1,462.5,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,12,99,1,1,925.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,4,11,1,1,347.5,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,12,99,1,1,695.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,4,11,1,1,627.5,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Single Room,Test,1,12,99,1,1,1255.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,4,11,1,2,272.5,545.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,12,99,1,2,545.0,545.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,4,11,1,2,205.0,410.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,12,99,1,2,410.0,410.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,4,11,1,2,272.5,545.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,12,99,1,2,545.0,545.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,4,11,1,2,368.75,737.5,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,12,99,1,2,737.5,737.5,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,4,11,1,2,272.5,545.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,12,99,1,2,545.0,545.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,4,11,1,2,205.0,410.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,12,99,1,2,410.0,410.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,4,11,1,2,368.75,737.5,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,The Rim Double Room,Test,2,12,99,1,2,737.5,737.5,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,4,11,1,4,300.0,600.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,12,99,1,4,600.0,600.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,4,11,1,4,225.0,450.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,12,99,1,4,450.0,450.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,4,11,1,4,300.0,600.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,12,99,1,4,600.0,600.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,4,11,1,4,406.25,812.5,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,12,99,1,4,812.5,812.5,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,4,11,1,4,300.0,600.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,12,99,1,4,600.0,600.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,4,11,1,4,225.0,450.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,12,99,1,4,450.0,450.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,4,11,1,4,406.25,812.5,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Interconnected The Rim room,Test,4,12,99,1,4,812.5,812.5,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,4,11,1,3,273.33,546.67,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,12,99,1,3,546.67,546.67,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,4,11,1,3,205.0,410.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,12,99,1,3,410.0,410.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,4,11,1,3,273.33,546.67,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,12,99,1,3,546.67,546.67,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,4,11,1,3,369.17,738.33,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,12,99,1,3,738.33,738.33,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,4,11,1,3,273.33,546.67,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,12,99,1,3,546.67,546.67,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,4,11,1,3,205.0,410.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,12,99,1,3,410.0,410.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,4,11,1,3,369.17,738.33,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Family room,Test,3,12,99,1,3,738.33,738.33,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,4,11,1,3,372.5,745.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,12,99,1,3,745.0,745.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,4,11,1,3,279.17,558.33,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,12,99,1,3,558.33,558.33,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,4,11,1,3,372.5,745.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,12,99,1,3,745.0,745.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,4,11,1,3,505.0,1010.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,12,99,1,3,1010.0,1010.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,4,11,1,3,372.5,745.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,12,99,1,3,745.0,745.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,4,11,1,3,279.17,558.33,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,12,99,1,3,558.33,558.33,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,4,11,1,3,505.0,1010.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Enkaji Junior Suite,Test,3,12,99,1,3,1010.0,1010.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,4,11,1,3,401.67,803.33,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,12,99,1,3,803.33,803.33,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,4,11,1,3,308.33,616.67,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,12,99,1,3,616.67,616.67,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,4,11,1,3,401.67,803.33,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,12,99,1,3,803.33,803.33,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,4,11,1,3,535.0,1070.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,12,99,1,3,1070.0,1070.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,4,11,1,3,401.67,803.33,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,12,99,1,3,803.33,803.33,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,4,11,1,3,308.33,616.67,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,12,99,1,3,616.67,616.67,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,4,11,1,3,535.0,1070.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Executive Suite,Test,3,12,99,1,3,1070.0,1070.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,4,11,1,3,415.83,831.67,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,12,99,1,3,831.67,831.67,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,4,11,1,3,323.33,646.67,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,12,99,1,3,646.67,646.67,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,4,11,1,3,415.83,831.67,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,12,99,1,3,831.67,831.67,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,4,11,1,3,555.0,1110.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,12,99,1,3,1110.0,1110.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,4,11,1,3,415.83,831.67,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,12,99,1,3,831.67,831.67,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,4,11,1,3,323.33,646.67,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,12,99,1,3,646.67,646.67,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,4,11,1,3,555.0,1110.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Crater Suite with Terrace,Test,3,12,99,1,3,1110.0,1110.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,4,11,1,3,494.17,988.33,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,12,99,1,3,988.33,988.33,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,4,11,1,3,384.17,768.33,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,12,99,1,3,768.33,768.33,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,4,11,1,3,494.17,988.33,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,12,99,1,3,988.33,988.33,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,4,11,1,3,640.84,1281.67,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,12,99,1,3,1281.67,1281.67,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,4,11,1,3,494.17,988.33,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,12,99,1,3,988.33,988.33,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,4,11,1,3,384.17,768.33,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,12,99,1,3,768.33,768.33,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,4,11,1,3,640.84,1281.67,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Presidential Suite with Terrace,Test,3,12,99,1,3,1281.67,1281.67,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,4,11,1,5,405.5,811.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,12,99,1,5,811.0,811.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,4,11,1,5,312.0,624.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,12,99,1,5,624.0,624.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,4,11,1,5,405.5,811.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,12,99,1,5,811.0,811.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,4,11,1,5,532.0,1064.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,12,99,1,5,1064.0,1064.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,4,11,1,5,405.5,811.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,12,99,1,5,811.0,811.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,4,11,1,5,312.0,624.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,12,99,1,5,624.0,624.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,4,11,1,5,532.0,1064.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Presidential Suite with Terrace,Test,5,12,99,1,5,1064.0,1064.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,4,11,1,3,726.66,1453.33,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,12,99,1,3,1453.33,1453.33,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,4,11,1,3,594.16,1188.33,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,12,99,1,3,1188.33,1188.33,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,4,11,1,3,726.66,1453.33,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,12,99,1,3,1453.33,1453.33,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,4,11,1,3,991.66,1983.33,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,12,99,1,3,1983.33,1983.33,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,4,11,1,3,726.66,1453.33,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,12,99,1,3,1453.33,1453.33,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,4,11,1,3,594.16,1188.33,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,12,99,1,3,1188.33,1188.33,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,0,3,1,3,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,4,11,1,3,991.66,1983.33,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Royal Suite,Test,3,12,99,1,3,1983.33,1983.33,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,4,11,1,5,545.0,1090.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,12,99,1,5,1090.0,1090.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,4,11,1,5,438.5,877.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,12,99,1,5,877.0,877.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,4,11,1,5,545.0,1090.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,12,99,1,5,1090.0,1090.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,4,11,1,5,742.5,1485.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,12,99,1,5,1485.0,1485.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,4,11,1,5,545.0,1090.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,12,99,1,5,1090.0,1090.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,4,11,1,5,438.5,877.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,12,99,1,5,877.0,877.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,0,3,1,5,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,4,11,1,5,742.5,1485.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,2 Bedroom Royal Suite,Test,5,12,99,1,5,1485.0,1485.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,4,11,1,7,527.86,1055.71,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,12,99,1,7,1055.71,1055.71,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,4,11,1,7,418.93,837.86,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,12,99,1,7,837.86,837.86,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,4,11,1,7,527.86,1055.71,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,12,99,1,7,1055.71,1055.71,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,4,11,1,7,673.93,1347.86,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,12,99,1,7,1347.86,1347.86,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,4,11,1,7,527.86,1055.71,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,12,99,1,7,1055.71,1055.71,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,4,11,1,7,418.93,837.86,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,12,99,1,7,837.86,837.86,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,4,11,1,7,673.93,1347.86,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro Suite,Test,7,12,99,1,7,1347.86,1347.86,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,0,3,1,9,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,4,11,1,9,533.89,1067.78,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,12,99,1,9,1067.78,1067.78,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,0,3,1,9,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,4,11,1,9,420.28,840.56,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,12,99,1,9,840.56,840.56,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,0,3,1,9,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,4,11,1,9,533.89,1067.78,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,12,99,1,9,1067.78,1067.78,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,0,3,1,9,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,4,11,1,9,684.72,1369.44,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,12,99,1,9,1369.44,1369.44,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,0,3,1,9,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,4,11,1,9,533.89,1067.78,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,12,99,1,9,1067.78,1067.78,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,0,3,1,9,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,4,11,1,9,420.28,840.56,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,12,99,1,9,840.56,840.56,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,0,3,1,9,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,4,11,1,9,684.72,1369.44,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,4 Bedroom Ngorongoro Suite,Test,9,12,99,1,9,1369.44,1369.44,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,4,11,1,7,754.64,1509.29,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,12,99,1,7,1509.29,1509.29,0.0,0.0,04/01/2027,28/02/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,4,11,1,7,598.93,1197.86,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,12,99,1,7,1197.86,1197.86,0.0,0.0,01/03/2027,31/05/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,4,11,1,7,754.64,1509.29,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,12,99,1,7,1509.29,1509.29,0.0,0.0,01/06/2027,30/06/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,4,11,1,7,962.14,1924.29,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,12,99,1,7,1924.29,1924.29,0.0,0.0,01/07/2027,30/09/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,4,11,1,7,754.64,1509.29,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,12,99,1,7,1509.29,1509.29,0.0,0.0,01/10/2027,31/10/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,4,11,1,7,598.93,1197.86,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,12,99,1,7,1197.86,1197.86,0.0,0.0,01/11/2027,21/12/2027
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,0,3,1,7,0.0,0.0,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,4,11,1,7,962.14,1924.29,0.0,0.0,22/12/2027,03/01/2028
+Ngorongoro,Ngorongoro Lodge 27,,Test,FALSE,0,FALSE,USD,Ngorongoro House,Test,7,12,99,1,7,1924.29,1924.29,0.0,0.0,22/12/2027,03/01/2028

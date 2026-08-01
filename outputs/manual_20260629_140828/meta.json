@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lake NatronTented Camp",
+  "hotel_group": "Single",
+  "location": "Lake Natron",
+  "csv_file": "Lake_NatronTented_Camp_20260629_140828.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-06-29T14:08:28.517762",
+  "output_dir": "manual_20260629_140828",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

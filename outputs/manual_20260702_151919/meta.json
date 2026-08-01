@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "FUN Beach Hotel 27",
+  "hotel_group": "Single",
+  "location": "Zanzibar",
+  "csv_file": "FUN_Beach_Hotel_27_20260702_151919.csv",
+  "xlsx_file": null,
+  "row_count": 135,
+  "created_at": "2026-07-02T15:19:19.407722",
+  "output_dir": "manual_20260702_151919",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

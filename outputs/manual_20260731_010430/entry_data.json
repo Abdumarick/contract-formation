@@ -1,0 +1,149 @@
+{
+  "hotel_name": "African View Lodge",
+  "location_name": "Arusha National Park",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "Charming bungalow-style lodge near Arusha National Park, featuring 23 en-suite rooms with stunning Mount Meru views. Set in lush gardens with a large pool—perfect safari base.",
+  "room_desc": "Spacious en-suite bungalow with king or single bed, mosquito nets, private bathroom (shower/toilet), terrace, and unique Tanzanian theme (e.g., Maasai, Serengeti). Light-filled, thatched ceilings, Mount Meru views.",
+  "inside_restricted_area": "TRUE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "Imported from an existing generated CSV. Review before exporting.",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high"
+    },
+    {
+      "sid": "row_2",
+      "name": "low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Quad Room",
+      "max_cap": 4,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 130,
+      "col_2": 75,
+      "col_3": 75,
+      "col_4": 65,
+      "col_5": 60
+    },
+    "row_2": {
+      "col_1": 65,
+      "col_2": 50,
+      "col_3": 50,
+      "col_4": 45,
+      "col_5": 40
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_2",
+      "start": "03/01/2026",
+      "end": "14/03/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "15/03/2026",
+      "end": "15/05/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "16/05/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 15,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    },
+    {
+      "label": "adult",
+      "min_age": 16,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    }
+  ],
+  "hb_supplement": 20,
+  "fb_supplement": 32,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

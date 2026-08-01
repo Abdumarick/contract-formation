@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lolkisalle Camp",
+  "hotel_group": "Single",
+  "location": "Tarangire",
+  "csv_file": "Lolkisalle_Camp_20260711_170419.csv",
+  "xlsx_file": null,
+  "row_count": 54,
+  "created_at": "2026-07-11T17:04:19.884540",
+  "output_dir": "manual_20260711_170419",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

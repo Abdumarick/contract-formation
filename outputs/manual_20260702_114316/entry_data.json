@@ -1,0 +1,227 @@
+{
+  "hotel_name": "Sunset Kendwa Beach Hotel",
+  "location_name": "Zanziba",
+  "contract_year": "2027",
+  "base_plan": "BB",
+  "hotel_desc": "tset",
+  "room_desc": "test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "High"
+    },
+    {
+      "sid": "row_2",
+      "name": "low"
+    },
+    {
+      "sid": "row_3",
+      "name": "peak"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Delixe Beach Bangalows Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Delixe Beach Bangalows Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_3",
+      "name": "Delixe Beach Bangalows Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_4",
+      "name": "Garden Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "Garden Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_6",
+      "name": "Garden Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_7",
+      "name": "Courtyard Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_8",
+      "name": "Courtyard Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_9",
+      "name": "Courtyard Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 120,
+      "col_2": 140,
+      "col_3": 160,
+      "col_4": 100,
+      "col_5": 130,
+      "col_6": 140,
+      "col_7": 100,
+      "col_8": 130,
+      "col_9": 140
+    },
+    "row_2": {
+      "col_1": 100,
+      "col_2": 120,
+      "col_3": 130,
+      "col_4": 90,
+      "col_5": 100,
+      "col_6": 120,
+      "col_7": 90,
+      "col_8": 110,
+      "col_9": 120
+    },
+    "row_3": {
+      "col_1": 170,
+      "col_2": 190,
+      "col_3": 220,
+      "col_4": 160,
+      "col_5": 170,
+      "col_6": 200,
+      "col_7": 160,
+      "col_8": 170,
+      "col_9": 200
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "11/01/2027",
+      "end": "28/02/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/03/2027",
+      "end": "31/05/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2027",
+      "end": "31/07/2027"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/08/2027",
+      "end": "31/08/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/09/2027",
+      "end": "20/12/2027"
+    },
+    {
+      "sid": "row_3",
+      "start": "21/12/2027",
+      "end": "10/01/2028"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 3,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 4,
+      "max_age": 13,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 14,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 25,
+  "fb_supplement": 50,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

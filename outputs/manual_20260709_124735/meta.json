@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Into Wild Africa 28",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Into_Wild_Africa_28_20260709_124735.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-09T12:47:35.459045",
+  "output_dir": "manual_20260709_124735",
+  "contract_year": "2028",
+  "base_plan": "FB"
+}

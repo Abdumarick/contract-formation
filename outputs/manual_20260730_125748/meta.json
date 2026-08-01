@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "The African Tulip Luxury Boutique Hotel 27",
+  "hotel_group": "Single",
+  "location": "Arusha",
+  "csv_file": "The_African_Tulip_Luxury_Boutique_Hotel__20260730_125748.csv",
+  "xlsx_file": null,
+  "row_count": 63,
+  "created_at": "2026-07-30T12:57:48.344505",
+  "output_dir": "manual_20260730_125748",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

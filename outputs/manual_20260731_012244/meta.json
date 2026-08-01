@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tarangire View Tented Lodge",
+  "hotel_group": "Single",
+  "location": "Tarangirei National park",
+  "csv_file": "Tarangire_View_Tented_Lodge_20260731_012244.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-31T01:22:44.345495",
+  "output_dir": "manual_20260731_012244",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

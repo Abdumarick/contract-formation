@@ -1,0 +1,237 @@
+{
+  "hotel_name": "The Loop Beach Hotel 27",
+  "location_name": "Zanzibar",
+  "contract_year": "2027",
+  "base_plan": "BB",
+  "hotel_desc": "Test",
+  "room_desc": "Test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "s1"
+    },
+    {
+      "sid": "row_2",
+      "name": "s2"
+    },
+    {
+      "sid": "row_3",
+      "name": "s3"
+    },
+    {
+      "sid": "row_4",
+      "name": "s4"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Suite With Seaview Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Suite With Seaview Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_3",
+      "name": "Superior Beach Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "Superior Beach Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_5",
+      "name": "Standard Beach Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "Standard Beach Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_7",
+      "name": "Garden Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_8",
+      "name": "Garden Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    },
+    {
+      "colId": "col_9",
+      "name": "Superior Beach Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 100
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 179,
+      "col_2": 152.15,
+      "col_3": 158,
+      "col_4": 134.3,
+      "col_5": 141,
+      "col_6": 119.85,
+      "col_7": 102,
+      "col_8": 86.7,
+      "col_9": 180
+    },
+    "row_2": {
+      "col_1": 125,
+      "col_2": 106.25,
+      "col_3": 95,
+      "col_4": 80.75,
+      "col_5": 80,
+      "col_6": 68,
+      "col_7": 60,
+      "col_8": 51,
+      "col_9": 117
+    },
+    "row_3": {
+      "col_1": 197,
+      "col_2": 167.45,
+      "col_3": 174,
+      "col_4": 147.9,
+      "col_5": 155,
+      "col_6": 131.75,
+      "col_7": 113,
+      "col_8": 96.05,
+      "col_9": 196
+    },
+    "row_4": {
+      "col_1": 192,
+      "col_2": 163.2,
+      "col_3": 170,
+      "col_4": 144.5,
+      "col_5": 153,
+      "col_6": 130.05,
+      "col_7": 119,
+      "col_8": 101.15,
+      "col_9": 192
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "07/01/2027",
+      "end": "31/03/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/04/2027",
+      "end": "31/05/2027"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/06/2027",
+      "end": "22/12/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2027",
+      "end": "22/12/2027"
+    },
+    {
+      "sid": "row_4",
+      "start": "23/12/2027",
+      "end": "06/01/2028"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 3,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 4,
+      "max_age": 11,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 15,
+      "child_fb": 20,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 12,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 27,
+  "fb_supplement": 45,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

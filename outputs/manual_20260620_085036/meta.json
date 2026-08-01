@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Neptune Ngorongoro Lodge 27",
+  "hotel_group": "Single",
+  "location": "Kararu",
+  "csv_file": "Neptune_Ngorongoro_Lodge_27_20260620_085036.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-06-20T08:50:36.138361",
+  "output_dir": "manual_20260620_085036",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

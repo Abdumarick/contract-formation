@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Migration Camp Safari Haven Camp ( Kogatende / Ndutu)",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Migration_Camp_Safari_Haven_Camp_(_Kogat_20260725_134737.csv",
+  "xlsx_file": null,
+  "row_count": 15,
+  "created_at": "2026-07-25T13:47:37.720362",
+  "output_dir": "manual_20260725_134737",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

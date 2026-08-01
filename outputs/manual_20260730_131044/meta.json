@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lake Burunge Baobab Tented Lodge - Premium",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Lake_Burunge_Baobab_Tented_Lodge_-_Premi_20260730_131044.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-07-30T13:10:44.600493",
+  "output_dir": "manual_20260730_131044",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

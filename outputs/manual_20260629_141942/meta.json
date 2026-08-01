@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "untamed Migration Camp (Ndutu) 27",
+  "hotel_group": "Single",
+  "location": "Serengeti National Pack",
+  "csv_file": "untamed_Migration_Camp_(Ndutu)_27_20260629_142117.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-06-29T14:21:17.713897",
+  "output_dir": "manual_20260629_141942",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

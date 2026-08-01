@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Maasai Giraffe Eco Lodge",
+  "hotel_group": "Single",
+  "location": "Lake Natron",
+  "csv_file": "Maasai_Giraffe_Eco_Lodge_20260629_113859.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-06-29T11:38:59.523874",
+  "output_dir": "manual_20260629_113859",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

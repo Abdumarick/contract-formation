@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Arusha Coffee Lodge",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Arusha_Coffee_Lodge_20260608_160747.csv",
+  "xlsx_file": null,
+  "row_count": 108,
+  "created_at": "2026-06-08T16:07:47.136669",
+  "output_dir": "manual_20260608_160747",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

@@ -1,0 +1,232 @@
+{
+  "hotel_name": "Neptune Pwani Beach Resort & SPA",
+  "contract_year": "2026",
+  "base_plan": "AI",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "S1"
+    },
+    {
+      "sid": "row_3",
+      "name": "S3"
+    },
+    {
+      "sid": "row_4",
+      "name": "S4"
+    },
+    {
+      "sid": "row_5",
+      "name": "S5"
+    },
+    {
+      "sid": "row_6",
+      "name": "S6"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Deluxe Garden View ( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Deluxe Garden View ( single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Deluxe Garden Side with parXal Ocean View(Double)",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_4",
+      "name": "Deluxe Garden Side with parXal Ocean View ( single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_5",
+      "name": "Deluxe Beach Side ( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_6",
+      "name": "Deluxe Beach Side( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_7",
+      "name": "Deluxe Beach Front ( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_8",
+      "name": "Deluxe Beach Front ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_9",
+      "name": "Beach Front Suite ( Double)",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_10",
+      "name": "Beach Front Suite ( Single)",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 176,
+      "col_2": 264,
+      "col_3": 182,
+      "col_4": 275,
+      "col_5": 211,
+      "col_6": 317,
+      "col_7": 240,
+      "col_8": 360,
+      "col_9": 413,
+      "col_10": 620
+    },
+    "row_3": {
+      "col_1": 230,
+      "col_2": 345,
+      "col_3": 236,
+      "col_4": 354,
+      "col_5": 265,
+      "col_6": 398,
+      "col_7": 294,
+      "col_8": 441,
+      "col_9": 467,
+      "col_10": 701
+    },
+    "row_4": {
+      "col_1": 182,
+      "col_2": 273,
+      "col_3": 188,
+      "col_4": 282,
+      "col_5": 217,
+      "col_6": 326,
+      "col_7": 246,
+      "col_8": 369,
+      "col_9": 420,
+      "col_10": 630
+    },
+    "row_5": {
+      "col_1": 155,
+      "col_2": 186,
+      "col_3": 161,
+      "col_4": 193,
+      "col_5": 190,
+      "col_6": 228,
+      "col_7": 219,
+      "col_8": 263,
+      "col_9": 392,
+      "col_10": 470
+    },
+    "row_6": {
+      "col_1": 213,
+      "col_2": 320,
+      "col_3": 219,
+      "col_4": 329,
+      "col_5": 248,
+      "col_6": 372,
+      "col_7": 277,
+      "col_8": 416,
+      "col_9": 450,
+      "col_10": 675
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_3",
+      "start": "05/01/2026",
+      "end": "28/02/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/03/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_5",
+      "start": "01/04/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_6",
+      "start": "01/07/2026",
+      "end": "31/08/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/09/2026",
+      "end": "31/10/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "child",
+      "min_age": 0,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

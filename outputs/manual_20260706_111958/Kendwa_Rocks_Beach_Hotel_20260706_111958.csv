@@ -1,0 +1,295 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,7,11,1,1,125.0,0.0,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,12,99,1,1,250.0,0.0,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,7,11,1,1,63.0,0.0,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,12,99,1,1,126.0,0.0,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,7,11,1,1,80.5,0.0,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,12,99,1,1,161.0,0.0,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,7,11,1,1,125.0,0.0,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,12,99,1,1,250.0,0.0,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,7,11,1,1,80.5,0.0,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,12,99,1,1,161.0,0.0,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,7,11,1,1,125.0,0.0,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,12,99,1,1,250.0,0.0,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,7,11,1,1,165.5,0.0,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Single Room,Test,1,12,99,1,1,331.0,0.0,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,7,11,1,2,70.25,140.5,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,12,99,1,2,140.5,140.5,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,7,11,1,2,38.75,77.5,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,12,99,1,2,77.5,77.5,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,7,11,1,2,52.75,105.5,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,12,99,1,2,105.5,105.5,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,7,11,1,2,70.25,140.5,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,12,99,1,2,140.5,140.5,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,7,11,1,2,52.75,105.5,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,12,99,1,2,105.5,105.5,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,7,11,1,2,70.25,140.5,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,12,99,1,2,140.5,140.5,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,7,11,1,2,9050.0,18100.0,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Standard Double Room,Test,2,12,99,1,2,18100.0,18100.0,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,7,11,1,1,149.0,0.0,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,12,99,1,1,298.0,0.0,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,7,11,1,1,85.5,0.0,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,12,99,1,1,171.0,0.0,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,7,11,1,1,144.0,0.0,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,12,99,1,1,288.0,0.0,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,7,11,1,1,149.0,0.0,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,12,99,1,1,298.0,0.0,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,7,11,1,1,144.0,0.0,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,12,99,1,1,288.0,0.0,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,7,11,1,1,149.0,0.0,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,12,99,1,1,298.0,0.0,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,7,11,1,1,189.5,0.0,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Single Room,Test,1,12,99,1,1,379.0,0.0,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,7,11,1,2,84.0,168.0,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,12,99,1,2,168.0,168.0,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,7,11,1,2,52.25,104.5,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,12,99,1,2,104.5,104.5,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,7,11,1,2,66.25,132.5,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,12,99,1,2,132.5,132.5,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,7,11,1,2,84.0,168.0,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,12,99,1,2,168.0,168.0,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,7,11,1,2,66.25,132.5,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,12,99,1,2,132.5,132.5,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,7,11,1,2,84.0,168.0,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,12,99,1,2,168.0,168.0,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,7,11,1,2,104.5,209.0,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Double Room,Test,2,12,99,1,2,209.0,209.0,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,7,11,1,3,84.0,168.0,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,12,99,1,3,168.0,168.0,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,7,11,1,3,52.34,104.67,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,12,99,1,3,104.67,104.67,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,7,11,1,3,66.17,132.33,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,12,99,1,3,132.33,132.33,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,7,11,1,3,84.0,168.0,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,12,99,1,3,168.0,168.0,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,7,11,1,3,66.17,132.33,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,12,99,1,3,132.33,132.33,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,7,11,1,3,84.0,168.0,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,12,99,1,3,168.0,168.0,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,7,11,1,3,104.67,209.33,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Deluxe Standard Triple Room,Test,3,12,99,1,3,209.33,209.33,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,7,11,1,1,177.0,0.0,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,12,99,1,1,354.0,0.0,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,7,11,1,1,113.0,0.0,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,12,99,1,1,226.0,0.0,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,7,11,1,1,141.0,0.0,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,12,99,1,1,282.0,0.0,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,7,11,1,1,177.0,0.0,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,12,99,1,1,354.0,0.0,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,7,11,1,1,141.0,0.0,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,12,99,1,1,282.0,0.0,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,7,11,1,1,177.0,0.0,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,12,99,1,1,354.0,0.0,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,7,11,1,1,218.5,0.0,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Single Room,Test,1,12,99,1,1,437.0,0.0,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,7,11,1,2,100.75,201.5,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,12,99,1,2,201.5,201.5,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,7,11,1,2,68.25,136.5,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,12,99,1,2,136.5,136.5,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,7,11,1,2,82.5,165.0,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,12,99,1,2,165.0,165.0,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,7,11,1,2,100.75,201.5,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,12,99,1,2,201.5,201.5,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,7,11,1,2,82.5,165.0,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,12,99,1,2,165.0,165.0,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,7,11,1,2,100.75,201.5,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,12,99,1,2,201.5,201.5,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,7,11,1,2,121.5,243.0,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Double Room,Test,2,12,99,1,2,243.0,243.0,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,7,11,1,3,90.83,181.67,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,12,99,1,3,181.67,181.67,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,7,11,1,3,68.33,136.67,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,12,99,1,3,136.67,136.67,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,7,11,1,3,78.0,156.0,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,12,99,1,3,156.0,156.0,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,7,11,1,3,90.83,181.67,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,12,99,1,3,181.67,181.67,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,7,11,1,3,78.0,156.0,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,12,99,1,3,156.0,156.0,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,7,11,1,3,90.83,181.67,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,12,99,1,3,181.67,181.67,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,7,11,1,3,104.67,209.33,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Superior Theme Triple Room,Test,3,12,99,1,3,209.33,209.33,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,7,11,1,1,201.0,0.0,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,12,99,1,1,402.0,0.0,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,7,11,1,1,135.5,0.0,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,12,99,1,1,271.0,0.0,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,7,11,1,1,164.5,0.0,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,12,99,1,1,329.0,0.0,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,7,11,1,1,201.0,0.0,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,12,99,1,1,402.0,0.0,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,7,11,1,1,164.5,0.0,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,12,99,1,1,329.0,0.0,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,7,11,1,1,201.0,0.0,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,12,99,1,1,402.0,0.0,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,0,6,1,1,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,7,11,1,1,242.0,0.0,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Single Room,Test,1,12,99,1,1,484.0,0.0,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,7,11,1,2,114.75,229.5,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,12,99,1,2,229.5,229.5,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,7,11,1,2,81.5,163.0,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,12,99,1,2,163.0,163.0,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,7,11,1,2,96.0,192.0,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,12,99,1,2,192.0,192.0,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,7,11,1,2,114.75,229.5,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,12,99,1,2,229.5,229.5,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,7,11,1,2,96.0,192.0,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,12,99,1,2,192.0,192.0,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,7,11,1,2,114.75,229.5,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,12,99,1,2,229.5,229.5,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,7,11,1,2,135.25,270.5,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Double Room,Test,2,12,99,1,2,270.5,270.5,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,7,11,1,3,104.83,209.67,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,12,99,1,3,209.67,209.67,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,7,11,1,3,81.67,163.33,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,12,99,1,3,163.33,163.33,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,7,11,1,3,91.5,183.0,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,12,99,1,3,183.0,183.0,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,7,11,1,3,104.83,209.67,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,12,99,1,3,209.67,209.67,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,7,11,1,3,91.5,183.0,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,12,99,1,3,183.0,183.0,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,7,11,1,3,104.83,209.67,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,12,99,1,3,209.67,209.67,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,7,11,1,3,118.83,237.67,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Pool Bungalow Triple Room,Test,3,12,99,1,3,237.67,237.67,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,7,11,1,2,126.0,252.0,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,12,99,1,2,252.0,252.0,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,7,11,1,2,92.25,184.5,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,12,99,1,2,184.5,184.5,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,7,11,1,2,106.75,213.5,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,12,99,1,2,213.5,213.5,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,7,11,1,2,126.0,252.0,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,12,99,1,2,252.0,252.0,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,7,11,1,2,106.75,213.5,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,12,99,1,2,213.5,213.5,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,7,11,1,2,126.0,252.0,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,12,99,1,2,252.0,252.0,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,0,6,1,2,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,7,11,1,2,146.5,293.0,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Double Room,Test,2,12,99,1,2,293.0,293.0,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,7,11,1,3,115.83,231.67,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,12,99,1,3,231.67,231.67,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,7,11,1,3,92.33,184.67,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,12,99,1,3,184.67,184.67,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,7,11,1,3,102.33,204.67,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,12,99,1,3,204.67,204.67,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,7,11,1,3,115.83,231.67,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,12,99,1,3,231.67,231.67,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,7,11,1,3,102.33,204.67,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,12,99,1,3,204.67,204.67,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,7,11,1,3,115.83,231.67,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,12,99,1,3,231.67,231.67,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,0,6,1,3,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,7,11,1,3,130.0,260.0,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool BangalowTriple Room,Test,3,12,99,1,3,260.0,260.0,40.0,80.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,0,6,1,4,0.0,0.0,0.0,0.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,7,11,1,4,120.5,241.0,20.0,40.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,12,99,1,4,241.0,241.0,40.0,80.0,07/01/2027,31/03/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,7,11,1,4,85.0,170.0,20.0,40.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,12,99,1,4,170.0,170.0,40.0,80.0,01/04/2027,31/05/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,7,11,1,4,99.38,198.75,20.0,40.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,12,99,1,4,198.75,198.75,40.0,80.0,01/06/2027,30/06/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,7,11,1,4,120.5,241.0,20.0,40.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,12,99,1,4,241.0,241.0,40.0,80.0,01/07/2027,31/08/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,7,11,1,4,99.38,198.75,20.0,40.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,12,99,1,4,198.75,198.75,40.0,80.0,01/09/2027,31/10/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,7,11,1,4,120.5,241.0,20.0,40.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,12,99,1,4,241.0,241.0,40.0,80.0,01/11/2027,20/12/2027
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,0,6,1,4,0.0,0.0,0.0,0.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,7,11,1,4,138.88,277.75,20.0,40.0,21/12/2027,06/01/2028
+Zanzibar,Kendwa Rocks Beach Hotel,,Test,FALSE,0,FALSE,USD,Family Pool Bangalow Quadraple Room,Test,4,12,99,1,4,277.75,277.75,40.0,80.0,21/12/2027,06/01/2028

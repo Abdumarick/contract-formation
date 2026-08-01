@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lahia Tented Lodge",
+  "hotel_group": "Single",
+  "location": "Serengeti National Park",
+  "csv_file": "Lahia_Tented_Lodge_20260730_122741.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-07-30T12:27:41.607921",
+  "output_dir": "manual_20260730_122741",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

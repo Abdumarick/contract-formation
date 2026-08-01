@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Original Maasai Lodge",
+  "hotel_group": "Single",
+  "location": "Arusha",
+  "csv_file": "Original_Maasai_Lodge_20260718_140927.csv",
+  "xlsx_file": null,
+  "row_count": 75,
+  "created_at": "2026-07-18T14:09:27.782783",
+  "output_dir": "manual_20260718_140927",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

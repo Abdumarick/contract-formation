@@ -1,0 +1,51 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Sevi Zanzibar,,Test,,0,,USD,Tripical Garden Bungalow ( Single),,1,12,99,1,1,179.0,0.0,40.0,60.0,11/01/2026,15/03/2026
+,Sevi Zanzibar,,Test,,0,,USD,Tripical Garden Bungalow ( Single),,1,12,99,1,1,125.0,0.0,40.0,60.0,16/03/2026,30/06/2026
+,Sevi Zanzibar,,Test,,0,,USD,Tripical Garden Bungalow ( Single),,1,12,99,1,1,179.0,0.0,40.0,60.0,01/07/2026,31/10/2026
+,Sevi Zanzibar,,Test,,0,,USD,Tripical Garden Bungalow ( Single),,1,12,99,1,1,125.0,0.0,40.0,60.0,01/11/2026,22/12/2026
+,Sevi Zanzibar,,Test,,0,,USD,Tripical Garden Bungalow ( Single),,1,12,99,1,1,279.0,0.0,40.0,60.0,23/12/2026,10/01/2027
+,Sevi Zanzibar,,Test,,0,,USD,Tripical Garden Bungalow ( Double),,2,12,99,1,2,149.5,149.5,40.0,60.0,11/01/2026,15/03/2026
+,Sevi Zanzibar,,Test,,0,,USD,Tripical Garden Bungalow ( Double),,2,12,99,1,2,76.0,76.0,40.0,60.0,16/03/2026,30/06/2026
+,Sevi Zanzibar,,Test,,0,,USD,Tripical Garden Bungalow ( Double),,2,12,99,1,2,149.5,149.5,40.0,60.0,01/07/2026,31/10/2026
+,Sevi Zanzibar,,Test,,0,,USD,Tripical Garden Bungalow ( Double),,2,12,99,1,2,76.0,76.0,40.0,60.0,01/11/2026,22/12/2026
+,Sevi Zanzibar,,Test,,0,,USD,Tripical Garden Bungalow ( Double),,2,12,99,1,2,169.5,169.5,40.0,60.0,23/12/2026,10/01/2027
+,Sevi Zanzibar,,Test,,0,,USD,Ocean Breeze Bungalow ( Single),,1,12,99,1,1,269.0,0.0,40.0,60.0,11/01/2026,15/03/2026
+,Sevi Zanzibar,,Test,,0,,USD,Ocean Breeze Bungalow ( Single),,1,12,99,1,1,149.0,0.0,40.0,60.0,16/03/2026,30/06/2026
+,Sevi Zanzibar,,Test,,0,,USD,Ocean Breeze Bungalow ( Single),,1,12,99,1,1,269.0,0.0,40.0,60.0,01/07/2026,31/10/2026
+,Sevi Zanzibar,,Test,,0,,USD,Ocean Breeze Bungalow ( Single),,1,12,99,1,1,149.0,0.0,40.0,60.0,01/11/2026,22/12/2026
+,Sevi Zanzibar,,Test,,0,,USD,Ocean Breeze Bungalow ( Single),,1,12,99,1,1,339.0,0.0,40.0,60.0,23/12/2026,10/01/2027
+,Sevi Zanzibar,,Test,,0,,USD,Ocean Breeze Bungalow ( Double),,2,12,99,1,2,167.5,167.5,40.0,60.0,11/01/2026,15/03/2026
+,Sevi Zanzibar,,Test,,0,,USD,Ocean Breeze Bungalow ( Double),,2,12,99,1,2,89.5,89.5,40.0,60.0,16/03/2026,30/06/2026
+,Sevi Zanzibar,,Test,,0,,USD,Ocean Breeze Bungalow ( Double),,2,12,99,1,2,167.5,167.5,40.0,60.0,01/07/2026,31/10/2026
+,Sevi Zanzibar,,Test,,0,,USD,Ocean Breeze Bungalow ( Double),,2,12,99,1,2,89.5,89.5,40.0,60.0,01/11/2026,22/12/2026
+,Sevi Zanzibar,,Test,,0,,USD,Ocean Breeze Bungalow ( Double),,2,12,99,1,2,212.5,212.5,40.0,60.0,23/12/2026,10/01/2027
+,Sevi Zanzibar,,Test,,0,,USD,Sea front Bungalow( Single),,1,12,99,1,1,319.0,0.0,40.0,60.0,11/01/2026,15/03/2026
+,Sevi Zanzibar,,Test,,0,,USD,Sea front Bungalow( Single),,1,12,99,1,1,209.0,0.0,40.0,60.0,16/03/2026,30/06/2026
+,Sevi Zanzibar,,Test,,0,,USD,Sea front Bungalow( Single),,1,12,99,1,1,319.0,0.0,40.0,60.0,01/07/2026,31/10/2026
+,Sevi Zanzibar,,Test,,0,,USD,Sea front Bungalow( Single),,1,12,99,1,1,209.0,0.0,40.0,60.0,01/11/2026,22/12/2026
+,Sevi Zanzibar,,Test,,0,,USD,Sea front Bungalow( Single),,1,12,99,1,1,425.0,0.0,40.0,60.0,23/12/2026,10/01/2027
+,Sevi Zanzibar,,Test,,0,,USD,Sea front Bungalow(  Double),,2,12,99,1,2,199.5,199.5,40.0,60.0,11/01/2026,15/03/2026
+,Sevi Zanzibar,,Test,,0,,USD,Sea front Bungalow(  Double),,2,12,99,1,2,130.0,130.0,40.0,60.0,16/03/2026,30/06/2026
+,Sevi Zanzibar,,Test,,0,,USD,Sea front Bungalow(  Double),,2,12,99,1,2,199.5,199.5,40.0,60.0,01/07/2026,31/10/2026
+,Sevi Zanzibar,,Test,,0,,USD,Sea front Bungalow(  Double),,2,12,99,1,2,130.0,130.0,40.0,60.0,01/11/2026,22/12/2026
+,Sevi Zanzibar,,Test,,0,,USD,Sea front Bungalow(  Double),,2,12,99,1,2,264.5,264.5,40.0,60.0,23/12/2026,10/01/2027
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Single),,1,12,99,1,1,459.0,0.0,40.0,60.0,11/01/2026,15/03/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Single),,1,12,99,1,1,379.0,0.0,40.0,60.0,16/03/2026,30/06/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Single),,1,12,99,1,1,459.0,0.0,40.0,60.0,01/07/2026,31/10/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Single),,1,12,99,1,1,379.0,0.0,40.0,60.0,01/11/2026,22/12/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Single),,1,12,99,1,1,629.0,0.0,40.0,60.0,23/12/2026,10/01/2027
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Double),,2,12,99,1,2,229.5,229.5,40.0,60.0,11/01/2026,15/03/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Double),,2,12,99,1,2,189.5,189.5,40.0,60.0,16/03/2026,30/06/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Double),,2,12,99,1,2,229.5,229.5,40.0,60.0,01/07/2026,31/10/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Double),,2,12,99,1,2,189.5,189.5,40.0,60.0,01/11/2026,22/12/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Double),,2,12,99,1,2,314.5,314.5,40.0,60.0,23/12/2026,10/01/2027
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Triple),,3,12,99,1,3,176.33,176.33,40.0,60.0,11/01/2026,15/03/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Triple),,3,12,99,1,3,146.33,146.33,40.0,60.0,16/03/2026,30/06/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Triple),,3,12,99,1,3,176.33,176.33,40.0,60.0,01/07/2026,31/10/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Triple),,3,12,99,1,3,146.33,146.33,40.0,60.0,01/11/2026,22/12/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Triple),,3,12,99,1,3,233.0,233.0,40.0,60.0,23/12/2026,10/01/2027
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Quadruple),,4,12,99,1,4,149.75,149.75,40.0,60.0,11/01/2026,15/03/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Quadruple),,4,12,99,1,4,124.75,124.75,40.0,60.0,16/03/2026,30/06/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Quadruple),,4,12,99,1,4,149.75,149.75,40.0,60.0,01/07/2026,31/10/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Quadruple),,4,12,99,1,4,124.75,124.75,40.0,60.0,01/11/2026,22/12/2026
+,Sevi Zanzibar,,Test,,0,,USD,Seafront Villa( Quadruple),,4,12,99,1,4,192.25,192.25,40.0,60.0,23/12/2026,10/01/2027

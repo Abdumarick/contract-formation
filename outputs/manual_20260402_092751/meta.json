@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Kisiwa On The Beach",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Kisiwa_On_The_Beach_20260402_092751.csv",
+  "xlsx_file": null,
+  "row_count": 84,
+  "created_at": "2026-04-02T09:27:51.846764",
+  "output_dir": "manual_20260402_092751",
+  "contract_year": "2026",
+  "base_plan": "HB"
+}

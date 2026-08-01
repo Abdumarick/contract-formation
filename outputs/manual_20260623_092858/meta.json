@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Kenzan mara Tented Camp 27",
+  "hotel_group": "Single",
+  "location": "Serengeti National Park",
+  "csv_file": "Kenzan_mara_Tented_Camp_27_20260623_092858.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-06-23T09:28:58.013360",
+  "output_dir": "manual_20260623_092858",
+  "contract_year": "2028",
+  "base_plan": "FB"
+}

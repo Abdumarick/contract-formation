@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Kerama Silent Lodge 2027",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Kerama_Silent_Lodge_2027_20260615_062031.csv",
+  "xlsx_file": null,
+  "row_count": 42,
+  "created_at": "2026-06-15T06:20:31.140994",
+  "output_dir": "manual_20260615_062031",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

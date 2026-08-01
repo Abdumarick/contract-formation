@@ -1,0 +1,385 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,6,12,1,1,90.0,0.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,13,99,1,1,180.0,0.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,6,12,1,1,92.5,0.0,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,13,99,1,1,185.0,0.0,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,6,12,1,1,90.0,0.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,13,99,1,1,180.0,0.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,6,12,1,1,92.5,0.0,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,13,99,1,1,185.0,0.0,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,6,12,1,1,102.5,0.0,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,13,99,1,1,205.0,0.0,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,6,12,1,1,92.5,0.0,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,13,99,1,1,185.0,0.0,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,6,12,1,1,90.0,0.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,13,99,1,1,180.0,0.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,6,12,1,1,102.5,0.0,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Single),,1,13,99,1,1,205.0,0.0,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,6,12,1,2,52.5,105.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,13,99,1,2,105.0,105.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,6,12,1,2,53.75,107.5,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,13,99,1,2,107.5,107.5,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,6,12,1,2,52.5,105.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,13,99,1,2,105.0,105.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,6,12,1,2,53.75,107.5,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,13,99,1,2,107.5,107.5,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,6,12,1,2,58.75,117.5,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,13,99,1,2,117.5,117.5,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,6,12,1,2,53.75,107.5,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,13,99,1,2,107.5,107.5,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,6,12,1,2,52.5,105.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,13,99,1,2,105.0,105.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,6,12,1,2,58.75,117.5,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Double),,2,13,99,1,2,117.5,117.5,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,6,12,1,2,52.5,105.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,13,99,1,2,105.0,105.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,6,12,1,2,53.75,107.5,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,13,99,1,2,107.5,107.5,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,6,12,1,2,52.5,105.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,13,99,1,2,105.0,105.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,6,12,1,2,53.75,107.5,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,13,99,1,2,107.5,107.5,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,6,12,1,2,58.75,117.5,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,13,99,1,2,117.5,117.5,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,6,12,1,2,53.75,107.5,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,13,99,1,2,107.5,107.5,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,6,12,1,2,52.5,105.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,13,99,1,2,105.0,105.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,6,12,1,2,58.75,117.5,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Room ( Twin),,2,13,99,1,2,117.5,117.5,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,0,5,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,6,12,1,2,78.75,157.5,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,13,99,1,2,157.5,157.5,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,6,12,1,2,80.0,160.0,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,13,99,1,2,160.0,160.0,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,6,12,1,2,78.75,157.5,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,13,99,1,2,157.5,157.5,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,6,12,1,2,80.0,160.0,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,13,99,1,2,160.0,160.0,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,6,12,1,2,85.0,170.0,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,13,99,1,2,170.0,170.0,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,6,12,1,2,80.0,160.0,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,13,99,1,2,160.0,160.0,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,6,12,1,2,78.75,157.5,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,13,99,1,2,157.5,157.5,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,0,5,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,6,12,1,2,85.0,170.0,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Triple),,2,13,99,1,2,170.0,170.0,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,6,12,1,1,115.0,0.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,13,99,1,1,230.0,0.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,6,12,1,1,117.5,0.0,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,13,99,1,1,235.0,0.0,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,6,12,1,1,115.0,0.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,13,99,1,1,230.0,0.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,6,12,1,1,117.5,0.0,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,13,99,1,1,235.0,0.0,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,6,12,1,1,127.5,0.0,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,13,99,1,1,255.0,0.0,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,6,12,1,1,117.5,0.0,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,13,99,1,1,235.0,0.0,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,6,12,1,1,115.0,0.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,13,99,1,1,230.0,0.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,6,12,1,1,127.5,0.0,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Single),,1,13,99,1,1,255.0,0.0,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,6,12,1,2,65.0,130.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,13,99,1,2,130.0,130.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,6,12,1,2,66.25,132.5,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,13,99,1,2,132.5,132.5,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,6,12,1,2,65.0,130.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,13,99,1,2,130.0,130.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,6,12,1,2,66.25,132.5,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,13,99,1,2,132.5,132.5,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,6,12,1,2,71.25,142.5,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,13,99,1,2,142.5,142.5,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,6,12,1,2,66.25,132.5,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,13,99,1,2,132.5,132.5,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,6,12,1,2,65.0,130.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,13,99,1,2,130.0,130.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,6,12,1,2,71.25,142.5,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Executive Room ( Double),,2,13,99,1,2,142.5,142.5,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,6,12,1,4,47.5,95.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,13,99,1,4,95.0,95.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,6,12,1,4,48.12,96.25,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,13,99,1,4,96.25,96.25,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,6,12,1,4,47.5,95.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,13,99,1,4,95.0,95.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,6,12,1,4,48.12,96.25,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,13,99,1,4,96.25,96.25,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,6,12,1,4,50.62,101.25,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,13,99,1,4,101.25,101.25,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,6,12,1,4,48.12,96.25,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,13,99,1,4,96.25,96.25,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,6,12,1,4,47.5,95.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,13,99,1,4,95.0,95.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,6,12,1,4,50.62,101.25,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standand Family Room,,4,13,99,1,4,101.25,101.25,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,0,5,1,1,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,6,12,1,1,160.0,0.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,13,99,1,1,320.0,0.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,0,5,1,1,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,6,12,1,1,162.5,0.0,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,13,99,1,1,325.0,0.0,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,0,5,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,6,12,1,1,160.0,0.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,13,99,1,1,320.0,0.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,6,12,1,1,162.5,0.0,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,13,99,1,1,325.0,0.0,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,0,5,1,1,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,6,12,1,1,167.5,0.0,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,13,99,1,1,335.0,0.0,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,0,5,1,1,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,6,12,1,1,162.5,0.0,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,13,99,1,1,325.0,0.0,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,6,12,1,1,160.0,0.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,13,99,1,1,320.0,0.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,0,5,1,1,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,6,12,1,1,167.5,0.0,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Standard Junior Suite,,1,13,99,1,1,335.0,0.0,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,6,12,1,1,95.0,0.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,13,99,1,1,190.0,0.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,6,12,1,1,97.5,0.0,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,13,99,1,1,195.0,0.0,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,6,12,1,1,95.0,0.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,13,99,1,1,190.0,0.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,6,12,1,1,97.5,0.0,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,13,99,1,1,195.0,0.0,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,6,12,1,1,107.5,0.0,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,13,99,1,1,215.0,0.0,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,6,12,1,1,97.5,0.0,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,13,99,1,1,195.0,0.0,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,6,12,1,1,95.0,0.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,13,99,1,1,190.0,0.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,6,12,1,1,107.5,0.0,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Single),,1,13,99,1,1,215.0,0.0,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,6,12,1,2,55.0,110.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,13,99,1,2,110.0,110.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,6,12,1,2,56.25,112.5,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,13,99,1,2,112.5,112.5,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,6,12,1,2,55.0,110.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,13,99,1,2,110.0,110.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,6,12,1,2,56.25,112.5,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,13,99,1,2,112.5,112.5,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,6,12,1,2,61.25,122.5,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,13,99,1,2,122.5,122.5,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,6,12,1,2,56.25,112.5,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,13,99,1,2,112.5,112.5,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,6,12,1,2,55.0,110.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,13,99,1,2,110.0,110.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,6,12,1,2,61.25,122.5,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Room (Double),,2,13,99,1,2,122.5,122.5,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,0,5,1,3,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,6,12,1,3,54.16,108.33,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,13,99,1,3,108.33,108.33,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,0,5,1,3,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,6,12,1,3,55.0,110.0,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,13,99,1,3,110.0,110.0,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,0,5,1,3,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,6,12,1,3,54.16,108.33,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,13,99,1,3,108.33,108.33,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,0,5,1,3,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,6,12,1,3,55.0,110.0,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,13,99,1,3,110.0,110.0,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,0,5,1,3,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,6,12,1,3,58.34,116.67,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,13,99,1,3,116.67,116.67,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,0,5,1,3,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,6,12,1,3,55.0,110.0,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,13,99,1,3,110.0,110.0,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,0,5,1,3,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,6,12,1,3,54.16,108.33,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,13,99,1,3,108.33,108.33,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,0,5,1,3,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,6,12,1,3,58.34,116.67,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Triple),,3,13,99,1,3,116.67,116.67,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,6,12,1,1,120.0,0.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,13,99,1,1,240.0,0.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,6,12,1,1,122.5,0.0,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,13,99,1,1,245.0,0.0,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,6,12,1,1,120.0,0.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,13,99,1,1,240.0,0.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,6,12,1,1,122.5,0.0,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,13,99,1,1,245.0,0.0,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,6,12,1,1,132.5,0.0,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,13,99,1,1,265.0,0.0,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,6,12,1,1,122.5,0.0,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,13,99,1,1,245.0,0.0,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,6,12,1,1,120.0,0.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,13,99,1,1,240.0,0.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,0,5,1,1,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,6,12,1,1,132.5,0.0,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Single),,1,13,99,1,1,265.0,0.0,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,6,12,1,2,67.5,135.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,13,99,1,2,135.0,135.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,6,12,1,2,68.75,137.5,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,13,99,1,2,137.5,137.5,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,6,12,1,2,67.5,135.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,13,99,1,2,135.0,135.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,6,12,1,2,68.75,137.5,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,13,99,1,2,137.5,137.5,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,6,12,1,2,73.75,147.5,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,13,99,1,2,147.5,147.5,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,6,12,1,2,68.75,137.5,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,13,99,1,2,137.5,137.5,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,6,12,1,2,67.5,135.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,13,99,1,2,135.0,135.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,0,5,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,6,12,1,2,73.75,147.5,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room (Double),,2,13,99,1,2,147.5,147.5,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,6,12,1,4,47.5,95.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,13,99,1,4,95.0,95.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,6,12,1,4,48.12,96.25,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,13,99,1,4,96.25,96.25,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,6,12,1,4,47.5,95.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,13,99,1,4,95.0,95.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,6,12,1,4,48.12,96.25,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,13,99,1,4,96.25,96.25,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,6,12,1,4,50.62,101.25,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,13,99,1,4,101.25,101.25,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,6,12,1,4,48.12,96.25,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,13,99,1,4,96.25,96.25,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,6,12,1,4,47.5,95.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,13,99,1,4,95.0,95.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,0,5,1,4,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,6,12,1,4,50.62,101.25,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Family Room,,4,13,99,1,4,101.25,101.25,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,0,5,1,1,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,6,12,1,1,160.0,0.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,13,99,1,1,320.0,0.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,0,5,1,1,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,6,12,1,1,162.5,0.0,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,13,99,1,1,325.0,0.0,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,0,5,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,6,12,1,1,160.0,0.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,13,99,1,1,320.0,0.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,6,12,1,1,162.5,0.0,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,13,99,1,1,325.0,0.0,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,0,5,1,1,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,6,12,1,1,122.5,0.0,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,13,99,1,1,245.0,0.0,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,0,5,1,1,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,6,12,1,1,162.5,0.0,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,13,99,1,1,325.0,0.0,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,6,12,1,1,160.0,0.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,13,99,1,1,320.0,0.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,0,5,1,1,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,6,12,1,1,122.5,0.0,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Junior Room,,1,13,99,1,1,245.0,0.0,35.0,63.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,6,12,1,2,67.5,135.0,17.5,31.5,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,13,99,1,2,135.0,135.0,35.0,63.0,07/01/2026,31/01/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,6,12,1,2,68.75,137.5,17.5,31.5,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,13,99,1,2,137.5,137.5,35.0,63.0,01/02/2026,28/02/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,6,12,1,2,67.5,135.0,17.5,31.5,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,13,99,1,2,135.0,135.0,35.0,63.0,01/03/2026,31/05/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,6,12,1,2,68.75,137.5,17.5,31.5,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,13,99,1,2,137.5,137.5,35.0,63.0,01/06/2026,15/06/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,6,12,1,2,73.75,147.5,17.5,31.5,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,13,99,1,2,147.5,147.5,35.0,63.0,16/06/2026,15/09/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,6,12,1,2,68.75,137.5,17.5,31.5,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,13,99,1,2,137.5,137.5,35.0,63.0,16/09/2026,31/10/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,6,12,1,2,67.5,135.0,17.5,31.5,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,13,99,1,2,135.0,135.0,35.0,63.0,01/11/2026,20/12/2026
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,0,5,1,2,0.0,0.0,0.0,0.0,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,6,12,1,2,73.75,147.5,17.5,31.5,21/12/2026,06/01/2027
+,Mount Meru Hotel,,test,,0,,USD,Premium Executive Room ( Twin),,2,13,99,1,2,147.5,147.5,35.0,63.0,21/12/2026,06/01/2027

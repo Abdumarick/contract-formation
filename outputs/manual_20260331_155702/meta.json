@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Essque Zalu Zanzibar",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Essque_Zalu_Zanzibar_20260331_155702.csv",
+  "xlsx_file": null,
+  "row_count": 210,
+  "created_at": "2026-03-31T15:57:02.195520",
+  "output_dir": "manual_20260331_155702",
+  "contract_year": "2026",
+  "base_plan": "HB"
+}

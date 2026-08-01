@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lake Manyara Hetel",
+  "hotel_group": "Single",
+  "location": "Lake Manyara",
+  "csv_file": "Lake_Manyara_Hetel_20260716_114734.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-07-16T11:47:34.922645",
+  "output_dir": "manual_20260716_114734",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

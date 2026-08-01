@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Amani Safari Lodge  & Amani Farmhouse",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Amani_Safari_Lodge__&_Amani_Farmhouse_20260602_070844.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-06-02T07:08:44.470436",
+  "output_dir": "manual_20260602_070844",
+  "contract_year": "2026",
+  "base_plan": "HB"
+}

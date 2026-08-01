@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serena Mivumo Rodge 27",
+  "hotel_group": "Single",
+  "location": "Nyerere NP",
+  "csv_file": "Serena_Mivumo_Rodge_27_20260801_174705.csv",
+  "xlsx_file": null,
+  "row_count": 72,
+  "created_at": "2026-08-01T17:47:05.873897",
+  "output_dir": "manual_20260801_174705",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

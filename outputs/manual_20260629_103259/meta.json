@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Mawe Tented Camps ( Ndutu)",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Mawe_Tented_Camps_(_Ndutu)_20260629_103259.csv",
+  "xlsx_file": null,
+  "row_count": 20,
+  "created_at": "2026-06-29T10:32:59.890066",
+  "output_dir": "manual_20260629_103259",
+  "contract_year": "2026",
+  "base_plan": "AI"
+}

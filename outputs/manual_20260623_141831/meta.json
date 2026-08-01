@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Baobab Naabi Luxury Serengeti Camps",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Baobab_Naabi_Luxury_Serengeti_Camps_20260623_141831.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-06-23T14:18:31.884224",
+  "output_dir": "manual_20260623_141831",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

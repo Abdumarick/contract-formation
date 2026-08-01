@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "All Rongai Route",
+  "hotel_group": "Single",
+  "location": "Kilimanjaro",
+  "csv_file": "All_Rongai_Route_20260714_010828.csv",
+  "xlsx_file": null,
+  "row_count": 9,
+  "created_at": "2026-07-14T01:08:28.805091",
+  "output_dir": "manual_20260714_010828",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

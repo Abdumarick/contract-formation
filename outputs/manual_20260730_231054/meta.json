@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lemala Kuria Hills Lodge",
+  "hotel_group": "Single",
+  "location": "Tarangire",
+  "csv_file": "Lemala_Kuria_Hills_Lodge_20260730_231054.csv",
+  "xlsx_file": null,
+  "row_count": 105,
+  "created_at": "2026-07-30T23:10:54.939973",
+  "output_dir": "manual_20260730_231054",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

@@ -1,0 +1,162 @@
+{
+  "hotel_name": "Lake Duluti",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "Test",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high"
+    },
+    {
+      "sid": "row_2",
+      "name": "low"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    },
+    {
+      "colId": "col_3",
+      "name": "Family Unit",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd"
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 248,
+      "col_2": 332,
+      "col_3": 830
+    },
+    "row_2": {
+      "col_1": 215,
+      "col_2": 297,
+      "col_3": 743
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "28/04/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/06/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/11/2026",
+      "end": "15/12/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "16/12/2026",
+      "end": "31/12/2026"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 4,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 5,
+      "max_age": 12,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 13,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": [
+    {
+      "name": "single",
+      "override_type": "single_supp",
+      "room": "Family Unit",
+      "band": "",
+      "season_amounts": [
+        {
+          "season": "high",
+          "amount": 100,
+          "amount_type": "usd"
+        },
+        {
+          "season": "low",
+          "amount": 100,
+          "amount_type": "usd"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "override_type": "cost",
+      "room": "",
+      "band": "child_5_12",
+      "season_amounts": [
+        {
+          "season": "high",
+          "amount": 83,
+          "amount_type": "usd"
+        },
+        {
+          "season": "low",
+          "amount": 75,
+          "amount_type": "usd"
+        }
+      ]
+    }
+  ]
+}

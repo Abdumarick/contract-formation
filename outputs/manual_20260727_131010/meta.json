@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Nyerere Tented Camp",
+  "hotel_group": "Single",
+  "location": "Nyerere Np",
+  "csv_file": "Nyerere_Tented_Camp_20260727_131010.csv",
+  "xlsx_file": null,
+  "row_count": 36,
+  "created_at": "2026-07-27T13:10:10.631026",
+  "output_dir": "manual_20260727_131010",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

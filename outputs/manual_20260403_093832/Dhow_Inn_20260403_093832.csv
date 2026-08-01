@@ -1,0 +1,127 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,4,14,1,2,32.75,65.5,0.0,10.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,15,99,1,2,65.5,65.5,0.0,20.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,4,14,1,2,22.75,45.5,0.0,10.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,15,99,1,2,45.5,45.5,0.0,20.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,4,14,1,2,16.0,32.0,0.0,10.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,15,99,1,2,32.0,32.0,0.0,20.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,4,14,1,2,32.75,65.5,0.0,10.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,15,99,1,2,65.5,65.5,0.0,20.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,4,14,1,2,33.25,66.5,0.0,10.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,15,99,1,2,66.5,66.5,0.0,20.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,4,14,1,2,26.25,52.5,0.0,10.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double,,2,15,99,1,2,52.5,52.5,0.0,20.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,4,14,1,2,38.75,77.5,0.0,10.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,15,99,1,2,77.5,77.5,0.0,20.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,4,14,1,2,25.75,51.5,0.0,10.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,15,99,1,2,51.5,51.5,0.0,20.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,4,14,1,2,21.75,43.5,0.0,10.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,15,99,1,2,43.5,43.5,0.0,20.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,4,14,1,2,38.75,77.5,0.0,10.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,15,99,1,2,77.5,77.5,0.0,20.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,4,14,1,2,39.25,78.5,0.0,10.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,15,99,1,2,78.5,78.5,0.0,20.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,0,3,1,2,0.0,0.0,0.0,0.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,4,14,1,2,32.0,64.0,0.0,10.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double,,2,15,99,1,2,64.0,64.0,0.0,20.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,0,3,1,3,0.0,0.0,0.0,0.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,4,14,1,3,19.84,39.67,0.0,10.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,15,99,1,3,39.67,39.67,0.0,20.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,0,3,1,3,0.0,0.0,0.0,0.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,4,14,1,3,15.34,30.67,0.0,10.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,15,99,1,3,30.67,30.67,0.0,20.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,4,14,1,3,13.16,26.33,0.0,10.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,15,99,1,3,26.33,26.33,0.0,20.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,4,14,1,3,19.84,39.67,0.0,10.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,15,99,1,3,39.67,39.67,0.0,20.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,0,3,1,3,0.0,0.0,0.0,0.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,4,14,1,3,19.34,38.67,0.0,10.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,15,99,1,3,38.67,38.67,0.0,20.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,0,3,1,3,0.0,0.0,0.0,0.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,4,14,1,3,16.84,33.67,0.0,10.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Triple Room,,3,15,99,1,3,33.67,33.67,0.0,20.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,0,3,1,2,0.0,0.0,0.0,0.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,4,14,1,2,45.0,90.0,0.0,10.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,15,99,1,2,90.0,90.0,0.0,20.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,0,3,1,2,0.0,0.0,0.0,0.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,4,14,1,2,32.0,64.0,0.0,10.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,15,99,1,2,64.0,64.0,0.0,20.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,4,14,1,2,28.0,56.0,0.0,10.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,15,99,1,2,56.0,56.0,0.0,20.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,4,14,1,2,45.0,90.0,0.0,10.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,15,99,1,2,90.0,90.0,0.0,20.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,0,3,1,2,0.0,0.0,0.0,0.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,4,14,1,2,45.5,91.0,0.0,10.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,15,99,1,2,91.0,91.0,0.0,20.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,0,3,1,2,0.0,0.0,0.0,0.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,4,14,1,2,38.25,76.5,0.0,10.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace,,2,15,99,1,2,76.5,76.5,0.0,20.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,4,14,1,1,42.5,0.0,0.0,10.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,15,99,1,1,85.0,0.0,0.0,20.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,4,14,1,1,29.5,0.0,0.0,10.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,15,99,1,1,59.0,0.0,0.0,20.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,4,14,1,1,21.0,0.0,0.0,10.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,15,99,1,1,42.0,0.0,0.0,20.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,4,14,1,1,42.5,0.0,0.0,10.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,15,99,1,1,85.0,0.0,0.0,20.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,4,14,1,1,43.0,0.0,0.0,10.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,15,99,1,1,86.0,0.0,0.0,20.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,4,14,1,1,34.0,0.0,0.0,10.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Deluxe Double ( Single Use),,1,15,99,1,1,68.0,0.0,0.0,20.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,4,14,1,1,50.5,0.0,0.0,10.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,15,99,1,1,101.0,0.0,0.0,20.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,4,14,1,1,33.5,0.0,0.0,10.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,15,99,1,1,67.0,0.0,0.0,20.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,4,14,1,1,28.5,0.0,0.0,10.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,15,99,1,1,57.0,0.0,0.0,20.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,4,14,1,1,50.5,0.0,0.0,10.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,15,99,1,1,101.0,0.0,0.0,20.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,4,14,1,1,51.0,0.0,0.0,10.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,15,99,1,1,102.0,0.0,0.0,20.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,4,14,1,1,41.5,0.0,0.0,10.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Premium Double ( Single Use),,1,15,99,1,1,83.0,0.0,0.0,20.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,4,14,1,1,58.5,0.0,0.0,10.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,15,99,1,1,117.0,0.0,0.0,20.0,05/01/2026,13/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,4,14,1,1,41.5,0.0,0.0,10.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,15,99,1,1,83.0,0.0,0.0,20.0,14/03/2026,31/03/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,4,14,1,1,36.5,0.0,0.0,10.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,15,99,1,1,73.0,0.0,0.0,20.0,01/04/2026,31/05/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,4,14,1,1,58.5,0.0,0.0,10.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,15,99,1,1,117.0,0.0,0.0,20.0,01/06/2026,04/07/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,4,14,1,1,59.0,0.0,0.0,10.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,15,99,1,1,118.0,0.0,0.0,20.0,05/07/2026,04/09/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,0,3,1,1,0.0,0.0,0.0,0.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,4,14,1,1,49.5,0.0,0.0,10.0,05/09/2026,31/10/2026
+,Dhow Inn,,Test,,0,,USD,Pool & Terrace ( Single Use),,1,15,99,1,1,99.0,0.0,0.0,20.0,05/09/2026,31/10/2026

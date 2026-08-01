@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Zanzibar Serena Safari Rodge 27",
+  "hotel_group": "Single",
+  "location": "Zanzibar",
+  "csv_file": "Zanzibar_Serena_Safari_Rodge_27_20260627_112816.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-06-27T11:28:16.505506",
+  "output_dir": "manual_20260627_112816",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}
