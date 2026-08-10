@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, send_file
+from flask import Flask, render_template, request, jsonify, send_file, Response
 import os
 import sys
 import csv
@@ -6,7 +6,9 @@ import json
 import re
 import logging
 import shutil
-logging.basicConfig(level=logging.DEBUG)
+import secrets
+from pathlib import Path
+logging.basicConfig(level=os.environ.get('LOG_LEVEL', 'INFO').upper())
 from werkzeug.utils import secure_filename
 from datetime import datetime
 
@@ -40,8 +42,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # HTML templates live in the templates/ subfolder.
 app = Flask(__name__,
             template_folder=os.path.join(BASE_DIR, 'templates'),
-            static_folder=BASE_DIR)
-app.secret_key = 'hotel-contract-parser-secret-key'
+            static_folder=None)
+app.secret_key = os.environ.get('APP_SECRET_KEY') or secrets.token_hex(32)
 
 UPLOAD_FOLDER  = os.path.join(BASE_DIR, 'uploads')
 OUTPUT_FOLDER  = os.path.join(BASE_DIR, 'outputs')
@@ -53,6 +55,58 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER']      = UPLOAD_FOLDER
 app.config['OUTPUT_FOLDER']      = OUTPUT_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
+app.config.update(
+    SESSION_COOKIE_HTTPONLY=True,
+    SESSION_COOKIE_SAMESITE='Lax',
+    SESSION_COOKIE_SECURE=os.environ.get('APP_HTTPS', '').lower() in {'1', 'true', 'yes'},
+)
+
+APP_USERNAME = os.environ.get('APP_USERNAME', '').strip()
+APP_PASSWORD = os.environ.get('APP_PASSWORD', '')
+
+
+@app.before_request
+def authenticate_request():
+    """Protect office data with HTTP Basic authentication when credentials are set."""
+    if not APP_USERNAME or not APP_PASSWORD:
+        return None
+    auth = request.authorization
+    valid = (
+        auth is not None
+        and secrets.compare_digest(auth.username or '', APP_USERNAME)
+        and secrets.compare_digest(auth.password or '', APP_PASSWORD)
+    )
+    if not valid:
+        return Response('Authentication required', 401,
+                        {'WWW-Authenticate': 'Basic realm="Hotel Contract Parser"'})
+
+
+@app.after_request
+def add_security_headers(response):
+    response.headers['X-Content-Type-Options'] = 'nosniff'
+    response.headers['X-Frame-Options'] = 'DENY'
+    response.headers['Referrer-Policy'] = 'same-origin'
+    response.headers['Cache-Control'] = 'no-store'
+    response.headers['Content-Security-Policy'] = (
+        "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; "
+        "script-src 'self' 'unsafe-inline'; font-src 'self' data:; object-src 'none'; "
+        "base-uri 'self'; frame-ancestors 'none'"
+    )
+    return response
+
+
+def safe_child(base, *parts):
+    """Resolve a path and reject traversal outside its configured data directory."""
+    root = Path(base).resolve()
+    candidate = root.joinpath(*parts).resolve()
+    if candidate == root or root not in candidate.parents:
+        raise ValueError('Invalid path')
+    return candidate
+
+
+def error_response(message, exc):
+    app.logger.exception(message)
+    return jsonify({'error': message}), 500
 
 
 def allowed_file(filename):
@@ -140,7 +194,7 @@ def upload_file():
             'excel_file': os.path.basename(result['xlsx']) if result.get('xlsx') else None,
         })
     except Exception as e:
-        return jsonify({'error': f'Error processing PDF: {str(e)}'}), 500
+        return error_response('Error processing PDF', e)
 
 
 @app.route('/manual', methods=['POST'])
@@ -411,7 +465,7 @@ def manual_entry():
         })
 
     except Exception as e:
-        return jsonify({'error': f'Error generating CSV: {str(e)}'}), 500
+        return error_response('Error generating CSV', e)
 
 
 # ── Parse PDF for manual form pre-fill ───────────────────────────────────────
@@ -442,7 +496,7 @@ def parse_for_manual():
         return jsonify({'success': True, **data})
 
     except Exception as e:
-        return jsonify({'error': f'Could not parse PDF: {str(e)}'}), 500
+        return error_response('Could not parse PDF', e)
 
 
 @app.route('/import_generated_csv', methods=['POST'])
@@ -465,17 +519,21 @@ def import_generated_csv_route():
         return jsonify(data)
 
     except Exception as e:
-        return jsonify({'error': f'Could not import CSV: {str(e)}'}), 500
+        return error_response('Could not import CSV', e)
 
 
 # ── File download ─────────────────────────────────────────────────────────────
 @app.route('/download/<output_dir>/<filename>')
 def download_file(output_dir, filename):
     try:
-        file_path = os.path.join(app.config['OUTPUT_FOLDER'], output_dir, filename)
+        file_path = safe_child(app.config['OUTPUT_FOLDER'], output_dir, filename)
+        if not file_path.is_file():
+            return jsonify({'error': 'File not found'}), 404
         return send_file(file_path, as_attachment=True)
+    except ValueError:
+        return jsonify({'error': 'Invalid file path'}), 400
     except Exception as e:
-        return jsonify({'error': f'Error downloading file: {str(e)}'}), 500
+        return error_response('Error downloading file', e)
 
 
 # ── Logs ──────────────────────────────────────────────────────────────────────
@@ -492,7 +550,7 @@ def view_logs(output_dir):
                 return jsonify({'text': 'No logs yet.'})
             output_dir = dirs[0]
 
-        log_dir = os.path.join(app.config['OUTPUT_FOLDER'], output_dir, 'logs')
+        log_dir = safe_child(app.config['OUTPUT_FOLDER'], output_dir, 'logs')
         logs    = {}
 
         json_path = os.path.join(log_dir, 'audit_log.json')
@@ -509,8 +567,10 @@ def view_logs(output_dir):
             logs['text'] = 'No logs available for this run.'
 
         return jsonify(logs)
+    except ValueError:
+        return jsonify({'error': 'Invalid folder'}), 400
     except Exception as e:
-        return jsonify({'error': f'Error reading logs: {str(e)}'}), 500
+        return error_response('Error reading logs', e)
 
 
 
@@ -591,8 +651,11 @@ def delete_contract(output_dir):
     """Delete an entire output folder."""
     if '/' in output_dir or '\\' in output_dir or '..' in output_dir:
         return jsonify({'error': 'Invalid folder name'}), 400
-    folder = os.path.join(app.config['OUTPUT_FOLDER'], output_dir)
-    if not os.path.isdir(folder):
+    try:
+        folder = safe_child(app.config['OUTPUT_FOLDER'], output_dir)
+    except ValueError:
+        return jsonify({'error': 'Invalid folder name'}), 400
+    if not folder.is_dir():
         return jsonify({'error': 'Folder not found'}), 404
     shutil.rmtree(folder)
     return jsonify({'success': True})
@@ -603,8 +666,11 @@ def get_entry_data(output_dir):
     """Return the saved form JSON for re-loading into the manual entry form."""
     if '/' in output_dir or '..' in output_dir:
         return jsonify({'error': 'Invalid folder'}), 400
-    path = os.path.join(app.config['OUTPUT_FOLDER'], output_dir, 'entry_data.json')
-    if not os.path.exists(path):
+    try:
+        path = safe_child(app.config['OUTPUT_FOLDER'], output_dir, 'entry_data.json')
+    except ValueError:
+        return jsonify({'error': 'Invalid folder'}), 400
+    if not path.is_file():
         return jsonify({'error': 'No entry data saved for this contract'}), 404
     with open(path, encoding='utf-8') as f:
         data = json.load(f)
@@ -615,4 +681,7 @@ def get_entry_data(output_dir):
 if __name__ == '__main__':
     print('Starting Hotel Contract Parser...')
     print('Open: http://localhost:8081')
-    app.run(debug=True, host='0.0.0.0', port=8081)
+    if not APP_USERNAME or not APP_PASSWORD:
+        app.logger.warning('APP_USERNAME/APP_PASSWORD are not set; access is not password protected.')
+    app.run(debug=False, host=os.environ.get('APP_HOST', '127.0.0.1'),
+            port=int(os.environ.get('APP_PORT', '8081')))
