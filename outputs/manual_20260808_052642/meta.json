@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Sarova Lion Hill game Lodge  27",
+  "hotel_group": "Single",
+  "location": "Lake Nakuru",
+  "csv_file": "Sarova_Lion_Hill_game_Lodge_27_20260808_052642.csv",
+  "xlsx_file": null,
+  "row_count": 288,
+  "created_at": "2026-08-08T05:26:42.558800",
+  "output_dir": "manual_20260808_052642",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

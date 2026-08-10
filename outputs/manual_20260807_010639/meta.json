@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lake Naivasha Sopa Lodge",
+  "hotel_group": "Single",
+  "location": "Lake Naivasha",
+  "csv_file": "Lake_Naivasha_Sopa_Lodge_20260807_010639.csv",
+  "xlsx_file": null,
+  "row_count": 216,
+  "created_at": "2026-08-07T01:06:39.863987",
+  "output_dir": "manual_20260807_010639",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

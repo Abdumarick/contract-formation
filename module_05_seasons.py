@@ -54,7 +54,11 @@ def extract_seasons(season_text: str, fallback_year: Optional[int] = None) -> Li
             continue
 
         season = _parse_season_line(line, year)
-        if season:
+        # Invalid/reversed ranges are usually unrelated prose that happened to
+        # resemble a season.  Do not let one poison every generated CSV row;
+        # the automated pipeline can safely use its contract-year fallback if
+        # no valid explicit ranges remain.
+        if season and season.end_date >= season.start_date:
             seasons.append(season)
 
     # Deduplicate by name, keeping first occurrence

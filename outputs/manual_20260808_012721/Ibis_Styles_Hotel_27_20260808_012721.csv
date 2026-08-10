@@ -1,0 +1,13 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,55.0,0.0,15.0,30.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,110.0,0.0,30.0,60.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,33.75,67.5,15.0,30.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,67.5,67.5,30.0,60.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,33.75,67.5,15.0,30.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,67.5,67.5,30.0,60.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,26.66,53.33,15.0,30.0,01/01/2027,31/12/2027
+Nairobi,Ibis Styles Hotel 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,53.33,53.33,30.0,60.0,01/01/2027,31/12/2027

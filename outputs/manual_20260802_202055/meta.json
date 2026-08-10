@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Camp Bastian Mikumi",
+  "hotel_group": "Single",
+  "location": "Nyerere",
+  "csv_file": "Camp_Bastian_Mikumi_20260802_202055.csv",
+  "xlsx_file": null,
+  "row_count": 21,
+  "created_at": "2026-08-02T20:20:55.731947",
+  "output_dir": "manual_20260802_202055",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

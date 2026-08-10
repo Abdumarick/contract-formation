@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lemala Nanyukie",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Lemala_Nanyukie_20260805_032224.csv",
+  "xlsx_file": null,
+  "row_count": 75,
+  "created_at": "2026-08-05T03:22:24.980328",
+  "output_dir": "manual_20260805_032224",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

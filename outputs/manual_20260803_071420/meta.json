@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Mikumi Safari Lodge 27",
+  "hotel_group": "Single",
+  "location": "",
+  "csv_file": "Mikumi_Safari_Lodge_27_20260803_071436.csv",
+  "xlsx_file": null,
+  "row_count": 18,
+  "created_at": "2026-08-03T07:14:36.887783",
+  "output_dir": "manual_20260803_071420",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

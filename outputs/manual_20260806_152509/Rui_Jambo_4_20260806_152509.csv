@@ -1,0 +1,265 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,6,12,1,2,43.0,86.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,13,99,1,2,86.0,86.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,6,12,1,2,84.0,168.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,13,99,1,2,168.0,168.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,6,12,1,2,45.25,90.5,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,13,99,1,2,90.5,90.5,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,6,12,1,2,31.25,62.5,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,13,99,1,2,62.5,62.5,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,6,12,1,2,31.25,62.5,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,13,99,1,2,62.5,62.5,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,6,12,1,2,35.5,71.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,13,99,1,2,71.0,71.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,6,12,1,2,47.75,95.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,13,99,1,2,95.5,95.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,6,12,1,2,42.75,85.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Double Room,test,2,13,99,1,2,85.5,85.5,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,6,12,1,2,45.25,90.5,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,13,99,1,2,90.5,90.5,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,6,12,1,2,88.5,177.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,13,99,1,2,177.0,177.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,6,12,1,2,47.75,95.5,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,13,99,1,2,95.5,95.5,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,6,12,1,2,32.75,65.5,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,13,99,1,2,65.5,65.5,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,6,12,1,2,32.75,65.5,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,13,99,1,2,65.5,65.5,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,6,12,1,2,37.25,74.5,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,13,99,1,2,74.5,74.5,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,6,12,1,2,50.25,100.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,13,99,1,2,100.5,100.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,6,12,1,2,45.0,90.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Double Room,test,2,13,99,1,2,90.0,90.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,6,12,1,2,63.25,126.5,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,13,99,1,2,126.5,126.5,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,6,12,1,2,123.75,247.5,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,13,99,1,2,247.5,247.5,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,6,12,1,2,66.75,133.5,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,13,99,1,2,133.5,133.5,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,6,12,1,2,46.0,92.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,13,99,1,2,92.0,92.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,6,12,1,2,46.0,92.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,13,99,1,2,92.0,92.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,6,12,1,2,52.0,104.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,13,99,1,2,104.0,104.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,6,12,1,2,70.25,140.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,13,99,1,2,140.5,140.5,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,0,5,1,2,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,6,12,1,2,63.0,126.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Double Room,test,2,13,99,1,2,126.0,126.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,6,12,1,3,37.66,75.33,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,13,99,1,3,75.33,75.33,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,6,12,1,3,73.67,147.33,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,13,99,1,3,147.33,147.33,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,6,12,1,3,39.66,79.33,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,13,99,1,3,79.33,79.33,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,6,12,1,3,27.34,54.67,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,13,99,1,3,54.67,54.67,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,6,12,1,3,27.34,54.67,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,13,99,1,3,54.67,54.67,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,6,12,1,3,31.0,62.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,13,99,1,3,62.0,62.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,6,12,1,3,41.84,83.67,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,13,99,1,3,83.67,83.67,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,6,12,1,3,37.5,75.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Triple Room,test,3,13,99,1,3,75.0,75.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,6,12,1,3,43.66,87.33,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,13,99,1,3,87.33,87.33,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,6,12,1,3,85.33,170.67,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,13,99,1,3,170.67,170.67,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,6,12,1,3,46.0,92.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,13,99,1,3,92.0,92.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,6,12,1,3,31.66,63.33,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,13,99,1,3,63.33,63.33,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,6,12,1,3,31.66,63.33,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,13,99,1,3,63.33,63.33,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,6,12,1,3,36.0,72.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,13,99,1,3,72.0,72.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,6,12,1,3,48.5,97.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,13,99,1,3,97.0,97.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,0,5,1,3,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,6,12,1,3,43.5,87.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Triple Room,test,3,13,99,1,3,87.0,87.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,0,5,1,5,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,6,12,1,5,26.2,52.4,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,13,99,1,5,52.4,52.4,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,0,5,1,5,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,6,12,1,5,51.2,102.4,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,13,99,1,5,102.4,102.4,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,0,5,1,5,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,6,12,1,5,27.6,55.2,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,13,99,1,5,55.2,55.2,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,0,5,1,5,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,6,12,1,5,19.0,38.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,13,99,1,5,38.0,38.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,0,5,1,5,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,6,12,1,5,19.0,38.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,13,99,1,5,38.0,38.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,0,5,1,5,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,6,12,1,5,21.6,43.2,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,13,99,1,5,43.2,43.2,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,0,5,1,5,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,6,12,1,5,29.1,58.2,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,13,99,1,5,58.2,58.2,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,0,5,1,5,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,6,12,1,5,26.1,52.2,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Family Room,test,5,13,99,1,5,52.2,52.2,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,6,12,1,1,137.6,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,13,99,1,1,275.2,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,6,12,1,1,268.8,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,13,99,1,1,537.6,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,6,12,1,1,144.8,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,13,99,1,1,289.6,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,6,12,1,1,100.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,13,99,1,1,200.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,6,12,1,1,100.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,13,99,1,1,200.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,6,12,1,1,113.6,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,13,99,1,1,227.2,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,6,12,1,1,152.8,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,13,99,1,1,305.6,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,6,12,1,1,136.8,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Standard Single Room,test,1,13,99,1,1,273.6,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,6,12,1,1,144.8,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,13,99,1,1,289.6,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,6,12,1,1,283.2,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,13,99,1,1,566.4,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,6,12,1,1,152.8,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,13,99,1,1,305.6,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,6,12,1,1,104.8,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,13,99,1,1,209.6,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,6,12,1,1,104.8,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,13,99,1,1,209.6,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,6,12,1,1,119.2,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,13,99,1,1,238.4,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,6,12,1,1,160.8,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,13,99,1,1,321.6,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,6,12,1,1,144.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Lateral sea View Single Room,test,1,13,99,1,1,288.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,6,12,1,1,202.4,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,13,99,1,1,404.8,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,6,12,1,1,396.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,13,99,1,1,792.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,6,12,1,1,213.6,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,13,99,1,1,427.2,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,6,12,1,1,147.2,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,13,99,1,1,294.4,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,6,12,1,1,147.2,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,13,99,1,1,294.4,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,6,12,1,1,166.4,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,13,99,1,1,332.8,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,6,12,1,1,224.8,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,13,99,1,1,449.6,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,6,12,1,1,201.6,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Sea View Single Room,test,1,13,99,1,1,403.2,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,6,12,1,1,180.8,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,13,99,1,1,361.6,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,6,12,1,1,353.6,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,13,99,1,1,707.2,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,6,12,1,1,190.4,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,13,99,1,1,380.8,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,6,12,1,1,131.2,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,13,99,1,1,262.4,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,6,12,1,1,131.2,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,13,99,1,1,262.4,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,6,12,1,1,148.8,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,13,99,1,1,297.6,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,6,12,1,1,200.8,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,13,99,1,1,401.6,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,6,12,1,1,180.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Single Room,test,1,13,99,1,1,360.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,6,12,1,1,209.6,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,13,99,1,1,419.2,0.0,0.0,0.0,01/11/2026,26/12/2026
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,6,12,1,1,409.6,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,13,99,1,1,819.2,0.0,0.0,0.0,27/12/2026,05/01/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,6,12,1,1,220.8,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,13,99,1,1,441.6,0.0,0.0,0.0,06/01/2027,28/03/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,6,12,1,1,152.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,13,99,1,1,304.0,0.0,0.0,0.0,29/03/2027,30/04/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,6,12,1,1,152.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,13,99,1,1,304.0,0.0,0.0,0.0,01/05/2027,31/05/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,6,12,1,1,172.8,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,13,99,1,1,345.6,0.0,0.0,0.0,01/06/2027,30/06/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,6,12,1,1,232.8,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,13,99,1,1,465.6,0.0,0.0,0.0,01/07/2027,31/08/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,0,5,1,1,0.0,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,6,12,1,1,208.8,0.0,0.0,0.0,01/09/2027,31/10/2027
+Zanzibar,Rui Jambo 4*,,test,FALSE,0,FALSE,USD,Superior Sea View Single Room,test,1,13,99,1,1,417.6,0.0,0.0,0.0,01/09/2027,31/10/2027

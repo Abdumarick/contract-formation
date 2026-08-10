@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Masai Mara Sopa Lodge 27",
+  "hotel_group": "Single",
+  "location": "Ambosoli",
+  "csv_file": "Masai_Mara_Sopa_Lodge_27_20260807_015908.csv",
+  "xlsx_file": null,
+  "row_count": 162,
+  "created_at": "2026-08-07T01:59:08.388748",
+  "output_dir": "manual_20260807_015908",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

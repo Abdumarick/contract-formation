@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Samburu Sopa Lodge",
+  "hotel_group": "Single",
+  "location": "Samburu",
+  "csv_file": "Samburu_Sopa_Lodge_20260807_013907.csv",
+  "xlsx_file": null,
+  "row_count": 72,
+  "created_at": "2026-08-07T01:39:07.679214",
+  "output_dir": "manual_20260807_013907",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

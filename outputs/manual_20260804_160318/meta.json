@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Serengeti Luxury Retreat",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Serengeti_Luxury_Retreat_20260804_160318.csv",
+  "xlsx_file": null,
+  "row_count": 105,
+  "created_at": "2026-08-04T16:03:18.219022",
+  "output_dir": "manual_20260804_160318",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

@@ -1,0 +1,76 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,4,11,1,2,140.0,290.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,12,99,1,2,290.0,290.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,4,11,1,2,210.0,410.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,12,99,1,2,410.0,410.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,4,11,1,2,240.0,485.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,12,99,1,2,485.0,485.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,4,11,1,2,140.0,290.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,12,99,1,2,290.0,290.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,4,11,1,2,210.0,410.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Double Room,test,2,12,99,1,2,410.0,410.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,4,11,1,2,140.0,290.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,12,99,1,2,290.0,290.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,4,11,1,2,210.0,410.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,12,99,1,2,410.0,410.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,4,11,1,2,240.0,485.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,12,99,1,2,485.0,485.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,4,11,1,2,140.0,290.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,12,99,1,2,290.0,290.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,4,11,1,2,210.0,410.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Twin Room,test,2,12,99,1,2,410.0,410.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,4,11,1,3,140.0,220.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,12,99,1,3,220.0,220.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,4,11,1,3,210.0,310.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,12,99,1,3,310.0,310.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,4,11,1,3,240.0,365.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,12,99,1,3,365.0,365.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,4,11,1,3,140.0,220.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,12,99,1,3,220.0,220.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,4,11,1,3,210.0,310.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Triple Room,test,3,12,99,1,3,310.0,310.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,3,1,4,0.0,0.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,4,11,1,4,140.0,170.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,12,99,1,4,170.0,170.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,4,11,1,4,210.0,225.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,12,99,1,4,225.0,225.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,3,1,4,0.0,0.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,4,11,1,4,240.0,280.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,12,99,1,4,280.0,280.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,4,11,1,4,140.0,170.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,12,99,1,4,170.0,170.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,0,3,1,4,0.0,0.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,4,11,1,4,210.0,225.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,Family Tent,test,4,12,99,1,4,225.0,225.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,4,11,1,1,140.0,0.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,12,99,1,1,420.0,0.0,0.0,0.0,03/01/2027,30/06/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,4,11,1,1,210.0,0.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,12,99,1,1,620.0,0.0,0.0,0.0,01/07/2027,14/07/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,4,11,1,1,240.0,0.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,12,99,1,1,730.0,0.0,0.0,0.0,15/07/2027,15/09/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,4,11,1,1,140.0,0.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,12,99,1,1,420.0,0.0,0.0,0.0,01/10/2027,22/12/2027
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,4,11,1,1,210.0,0.0,0.0,0.0,23/12/2027,02/01/2028
+Masai Mara,Little Zebra RIver Camp 27,,test,FALSE,0,FALSE,USD,River Facing Single Room,test,1,12,99,1,1,620.0,0.0,0.0,0.0,23/12/2027,02/01/2028

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Giraffe Minor",
+  "hotel_group": "Single",
+  "location": "Nairobi",
+  "csv_file": "Giraffe_Minor_20260808_010529.csv",
+  "xlsx_file": null,
+  "row_count": 15,
+  "created_at": "2026-08-08T01:05:29.362500",
+  "output_dir": "manual_20260808_010529",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

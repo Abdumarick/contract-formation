@@ -137,9 +137,28 @@ def _interpret_table(table: List[List], season_names: List[str]) -> List[RoomRat
             fb_col = ci
 
     if not season_col_map:
+        # Many contracted-rate sheets use a generic commercial heading such as
+        # "STO", "NET" or "DMC" instead of repeating the date/season name in
+        # the rate table.  When the contract has one date range, that column is
+        # the rate for that range.  Never treat a public/RACK column as a
+        # second season.
+        contracted_headers = (
+            r"\bsto\b", r"\bnet\b", r"\bdmc\b", r"contract(?:ed)?",
+            r"tour\s*operator", r"special\s*rate",
+        )
+        if len(season_names) == 1:
+            for ci, h in enumerate(headers):
+                if ci == room_col or ci in {sgl_col, hb_col, fb_col}:
+                    continue
+                if any(re.search(pattern, h, re.I) for pattern in contracted_headers):
+                    season_col_map[ci] = season_names[0]
+                    break
+
+    if not season_col_map:
         for ci, h in enumerate(headers):
             if ci not in {room_col, sgl_col, hb_col, fb_col}:
-                if re.search(r"\d|season|rate|price|cost", h, re.I):
+                if (re.search(r"\d|season|rate|price|cost", h, re.I)
+                        and not re.search(r"\brack\b|public|walk[ -]?in", h, re.I)):
                     season_col_map[ci] = h or f"Season_{ci}"
 
     records = []
@@ -190,8 +209,18 @@ def _interpret_table(table: List[List], season_names: List[str]) -> List[RoomRat
 
 def _find_header_row(table, season_names):
     for i, row in enumerate(table[:5]):
-        rt = " ".join(row).lower()
-        if (re.search(r"\broom\b|\btype\b|\bcategory\b|\brate\b|\bprice\b|\bcost\b", rt)
+        cells = [str(cell or "").strip().lower() for cell in row]
+        rt = " ".join(cells)
+        has_room_heading = any(
+            re.search(r"room\s*type|roomtype|room\s*category|accommodation|category|description", cell)
+            for cell in cells
+        )
+        has_rate_heading = any(
+            re.fullmatch(r"sto|rack|net|dmc|rate|rates|price|cost", cell)
+            or re.search(r"contract(?:ed)?|tour\s*operator", cell)
+            for cell in cells
+        )
+        if (has_room_heading or has_rate_heading
                 or any(s.lower() in rt for s in season_names)):
             return i, row
     return None, []
@@ -384,7 +413,10 @@ def _deduplicate(records: List[RoomRate]) -> List[RoomRate]:
     seen = set()
     unique = []
     for r in records:
-        key = (r.room_name, r.season_name, r.cost)
+        # A CRM contract can only have one base price for the same room and
+        # season.  Repeated PDF tables (or a second RACK/public-price column)
+        # must not create conflicting duplicate CSV rows.
+        key = (r.room_name, r.season_name)
         if key not in seen:
             seen.add(key)
             unique.append(r)

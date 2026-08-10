@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Ibis Styles Hotel",
+  "hotel_group": "Single",
+  "location": "Nairobi",
+  "csv_file": "Ibis_Styles_Hotel_20260808_012005.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-08-08T01:20:05.250011",
+  "output_dir": "manual_20260808_012005",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

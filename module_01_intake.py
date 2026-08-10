@@ -68,8 +68,26 @@ def identify_pdf(file_path: str) -> PDFMetadata:
 
 def _guess_hotel_name(file_name: str, sample_text: str) -> Optional[str]:
     """Attempt to extract hotel name from filename or first page text."""
-    # Try filename first (strip extension, underscores, digits)
+    # Prefer a prominent property-name line in the document.  Web uploads add
+    # a timestamp to filenames, and using that filename as the hotel name leaks
+    # the timestamp and generic text such as "STO RATES" into every CSV row.
+    property_words = re.compile(
+        r"\b(hotel|lodge|camp|resort|villa|suites?|inn|retreat|palace|house)\b",
+        re.I,
+    )
+    for line in sample_text.splitlines()[:20]:
+        line = re.sub(r"\s+", " ", line).strip(" -_|:")
+        if (5 < len(line) <= 100 and property_words.search(line)
+                and not re.search(
+                    r"\b(rate|rates|tariff|contract|agreement|wholesaler|trading|located)\b",
+                    line, re.I,
+                )):
+            return line
+
+    # Fall back to a cleaned filename.
     base = os.path.splitext(file_name)[0]
+    base = re.sub(r"^(?:manual_)?\d{8}_\d{6}_", "", base, flags=re.I)
+    base = re.sub(r"^20\d{2}(?=[A-Za-z])", "", base)
     base_clean = re.sub(r"[_\-]+", " ", base).strip()
     # Remove year-like tokens
     base_clean = re.sub(r"\b(20\d{2})\b", "", base_clean).strip()

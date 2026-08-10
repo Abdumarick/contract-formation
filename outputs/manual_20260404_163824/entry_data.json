@@ -1,8 +1,12 @@
 {
   "hotel_name": "Forest Sunrise Hotel",
+  "location_name": "Mikumi NP",
   "contract_year": "2026",
   "base_plan": "BB",
   "hotel_desc": "Test",
+  "room_desc": "test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
   "notes": "",
   "season_rows": [
     {
@@ -17,7 +21,9 @@
       "max_cap": 1,
       "cost_basis": "per_person",
       "sgl_override": 0,
-      "sgl_override_type": "usd"
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
     },
     {
       "colId": "col_2",
@@ -25,7 +31,9 @@
       "max_cap": 1,
       "cost_basis": "per_person",
       "sgl_override": 0,
-      "sgl_override_type": "usd"
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
     }
   ],
   "cost_matrix": {

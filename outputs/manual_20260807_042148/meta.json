@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Royal Zebra River Safari Camp 27",
+  "hotel_group": "Single",
+  "location": "Masai Mara",
+  "csv_file": "Royal_Zebra_River_Safari_Camp_27_20260807_042148.csv",
+  "xlsx_file": null,
+  "row_count": 120,
+  "created_at": "2026-08-07T04:21:48.092367",
+  "output_dir": "manual_20260807_042148",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

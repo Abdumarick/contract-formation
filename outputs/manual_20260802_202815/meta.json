@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Atupele Resort",
+  "hotel_group": "Single",
+  "location": "MOROGORO",
+  "csv_file": "Atupele_Resort_20260802_202815.csv",
+  "xlsx_file": null,
+  "row_count": 84,
+  "created_at": "2026-08-02T20:28:15.308170",
+  "output_dir": "manual_20260802_202815",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

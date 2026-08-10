@@ -11,6 +11,16 @@ cannot be extracted, and the rejection reason is written to the audit log.
 import argparse
 import os
 import sys
+from datetime import date
+from typing import Optional
+
+# Windows services and command prompts commonly use cp1252.  Extraction logs
+# contain arrows and other Unicode markers; replacing an unrepresentable log
+# glyph is preferable to aborting an otherwise valid PDF conversion.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(errors="replace")
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "modules"))
 
@@ -19,6 +29,7 @@ from module_02_extraction import extract_text
 from module_03_cleaning   import clean_text
 from module_04_sections   import detect_sections, get_section_text
 from module_05_seasons    import extract_seasons
+from module_05_seasons    import Season
 from module_06_rooms      import parse_room_rates
 from module_07_children   import extract_children_policy, format_rules_summary
 from module_08_meals      import detect_base_meal_plan, extract_supplements
@@ -80,9 +91,18 @@ def parse_pdf(
     seasons = extract_seasons(season_text, fallback_year=fallback_yr)
 
     if not seasons:
-        reason = "No season date ranges could be extracted from the contract."
-        log.rejected("module_05", reason)
-        raise CriticalValidationError(reason)
+        # Some annual STO sheets state only the contract year.  In a fully
+        # automated run that is enough to create the same required date range
+        # a user would enter in the manual form.
+        if contract_year and str(contract_year).isdigit():
+            annual_year = int(contract_year)
+            seasons = [Season("Annual", date(annual_year, 1, 1), date(annual_year, 12, 31))]
+            log.guessed("module_05", "season", f"Annual {annual_year}",
+                        "No explicit date range; used the full contract year")
+        else:
+            reason = "No season date ranges could be extracted from the contract."
+            log.rejected("module_05", reason)
+            raise CriticalValidationError(reason)
 
     for s in seasons:
         _print(f"  {s}")
@@ -202,17 +222,13 @@ def parse_pdf(
 
 
 def _section(num: str, title: str):
-    print(f"\n{'─'*60}")
-    print(f"  MODULE {num} — {title}")
-    print(f"{'─'*60}")
+    print(f"\n{'-'*60}")
+    print(f"  MODULE {num} - {title}")
+    print(f"{'-'*60}")
 
 
 def _print(msg: str):
     print(f"  {msg}")
-
-
-# ── Type alias ────────────────────────────────────────────────────────────────
-from typing import Optional
 
 
 def main():
@@ -240,7 +256,7 @@ def main():
             export_excel_too=args.excel,
         )
     except CriticalValidationError as exc:
-        print(f"\n❌  FILE REJECTED: {exc}")
+        print(f"\nFILE REJECTED: {exc}")
         sys.exit(2)
 
 
@@ -282,6 +298,10 @@ def extract_for_manual(
     season_text = get_section_text(sections, "season_definitions") or clean
     fallback_yr = int(contract_year) if contract_year and contract_year.isdigit() else None
     seasons = extract_seasons(season_text, fallback_year=fallback_yr)
+
+    if not seasons and contract_year and str(contract_year).isdigit():
+        annual_year = int(contract_year)
+        seasons = [Season("Annual", date(annual_year, 1, 1), date(annual_year, 12, 31))]
 
     seasons_out = [
         {"name": s.name, "start": s.start_date.isoformat(),
@@ -333,7 +353,10 @@ def extract_for_manual(
             "single_supplement": rr.single_supplement,
             "hb_supplement":     rr.hb_supplement,
             "fb_supplement":     rr.fb_supplement,
-            "cost_basis":        rr.cost_basis,
+            # Module 6 has already normalized every extracted price to a
+            # per-person value.  Marking the original PDF basis here would
+            # make the review form divide a per-room source price twice.
+            "cost_basis":        "per_person",
         }
         for rr in room_rates
     ]

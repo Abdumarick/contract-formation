@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Kumbukumbu Luxury Tented Camp",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Kumbukumbu_Luxury_Tented_Camp_20260804_161909.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-08-04T16:19:09.554406",
+  "output_dir": "manual_20260804_161909",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

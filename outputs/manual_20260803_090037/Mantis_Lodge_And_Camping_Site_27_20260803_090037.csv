@@ -1,0 +1,28 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Standard Single Room,test,1,0,4,1,1,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Standard Single Room,test,1,5,10,1,1,15.0,0.0,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Standard Single Room,test,1,11,99,1,1,30.0,0.0,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Standard Double Room,test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Standard Double Room,test,2,5,10,1,2,15.0,22.5,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Standard Double Room,test,2,11,99,1,2,22.5,22.5,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Twin Beds,test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Twin Beds,test,2,5,10,1,2,15.0,30.0,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Twin Beds,test,2,11,99,1,2,30.0,30.0,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Triple Beds,test,3,0,4,1,3,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Triple Beds,test,3,5,10,1,3,15.0,26.67,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Triple Beds,test,3,11,99,1,3,26.67,26.67,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Family With One Child,test,3,0,4,1,3,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Family With One Child,test,3,5,10,1,3,15.0,26.67,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Family With One Child,test,3,11,99,1,3,26.67,26.67,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Family Room with Two Children,test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Family Room with Two Children,test,2,5,10,1,2,15.0,47.5,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Family Room with Two Children,test,2,11,99,1,2,47.5,47.5,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,New Family Cottage Rooms 5 Pax,test,5,0,4,1,5,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,New Family Cottage Rooms 5 Pax,test,5,5,10,1,5,15.0,24.0,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,New Family Cottage Rooms 5 Pax,test,5,11,99,1,5,24.0,24.0,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,New Family Cottage two Rooms  6 Pax,test,6,0,4,1,6,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,New Family Cottage two Rooms  6 Pax,test,6,5,10,1,6,15.0,21.67,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,New Family Cottage two Rooms  6 Pax,test,6,11,99,1,6,21.67,21.67,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Bush Tent,test,1,0,4,1,1,0.0,0.0,0.0,0.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Bush Tent,test,1,5,10,1,1,15.0,0.0,10.0,20.0,01/01/2027,31/12/2027
+Mikumi NP,Mantis Lodge And Camping Site 27,,Test,FALSE,0,FALSE,USD,Bush Tent,test,1,11,99,1,1,20.0,0.0,10.0,20.0,01/01/2027,31/12/2027

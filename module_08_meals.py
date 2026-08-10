@@ -25,7 +25,8 @@ MEAL_PLAN_PRIORITY = ["AI", "FB", "HB", "BB", "RO"]
 MEAL_PLAN_KEYWORDS: Dict[str, list] = {
     "RO":  ["room only", "room-only", "bed only", "no meals"],
     "BB":  ["bed & breakfast", "bed and breakfast", "breakfast included",
-            "breakfast only", "with breakfast", r"\bbb\b", r"\bb&b\b"],
+            "inclusive of breakfast", "includes breakfast", "breakfast only",
+            "with breakfast", r"\bbb\b", r"\bb&b\b"],
     "HB":  ["half board", "half-board", "modified american", r"\bhb\b", r"\bmap\b",
             "demi-pension", "demi pension"],
     "FB":  ["full board", "full-board", "american plan", r"\bfb\b",
@@ -70,7 +71,16 @@ FB_PATTERNS = [
 
 def detect_base_meal_plan(text: str) -> str:
     """Return dominant meal plan code: AI / FB / HB / BB / RO. Default BB."""
-    tl = text.lower()
+    # An upgrade/supplement mention does not describe the included base plan.
+    # Prefer affirmative inclusion lines before using the broad fallback scan.
+    base_lines = []
+    for line in text.lower().splitlines():
+        if re.search(r"supplement|surcharge|upgrade|additional\s+(?:cost|charge)", line):
+            continue
+        if re.search(r"inclusive|included|includes|basis|meal\s*plan|rate.*(?:include|with)", line):
+            base_lines.append(line)
+
+    tl = "\n".join(base_lines) if base_lines else text.lower()
     for code in MEAL_PLAN_PRIORITY:
         for kw in MEAL_PLAN_KEYWORDS[code]:
             if kw.startswith(r"\b"):
@@ -210,13 +220,23 @@ def _find_supplement_value(text: str, include_patterns: list,
         ll = line.lower().strip()
         if not ll:
             continue
-        if not any(re.search(p, ll) for p in include_patterns):
+        matches = [re.search(p, ll) for p in include_patterns]
+        matches = [match for match in matches if match]
+        if not matches:
             continue
-        if any(re.search(p, ll) for p in exclude):
-            continue
-        val = _parse_rate_after_colon(line)
-        if val is not None:
-            return val
+        # Read the amount following this specific label.  A single sentence
+        # often contains both "Half Board ... $22" and "Full Board ... $44";
+        # parsing the first number on the line assigns $22 to both fields.
+        for match in sorted(matches, key=lambda item: item.start()):
+            suffix = line[match.end():]
+            val = _parse_rate_after_colon(suffix)
+            if val is not None:
+                return val
+
+        if not any(re.search(p, ll) for p in exclude):
+            val = _parse_rate_after_colon(line)
+            if val is not None:
+                return val
     return 0.0
 
 

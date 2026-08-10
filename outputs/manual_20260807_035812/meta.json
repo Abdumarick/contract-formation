@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Little Zebra RIver Camp",
+  "hotel_group": "Single",
+  "location": "Masai Mara",
+  "csv_file": "Little_Zebra_RIver_Camp_20260807_035836.csv",
+  "xlsx_file": null,
+  "row_count": 75,
+  "created_at": "2026-08-07T03:58:36.805823",
+  "output_dir": "manual_20260807_035812",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

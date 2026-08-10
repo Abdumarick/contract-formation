@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Ambosoli Sopa Lodge 27",
+  "hotel_group": "Single",
+  "location": "Ambosoli",
+  "csv_file": "Ambosoli_Sopa_Lodge_27_20260807_021455.csv",
+  "xlsx_file": null,
+  "row_count": 216,
+  "created_at": "2026-08-07T02:14:55.032449",
+  "output_dir": "manual_20260807_021455",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

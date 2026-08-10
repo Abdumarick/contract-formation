@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lemala Ewanjan 27",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Lemala_Ewanjan_27_20260805_033957.csv",
+  "xlsx_file": null,
+  "row_count": 105,
+  "created_at": "2026-08-05T03:39:57.471480",
+  "output_dir": "manual_20260805_033957",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

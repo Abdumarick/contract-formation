@@ -1,0 +1,127 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,112.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,224.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,96.5,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,193.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,112.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,224.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,147.5,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,295.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,112.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,224.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,147.5,0.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,295.0,0.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,86.25,172.5,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,172.5,172.5,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,74.5,149.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,149.0,149.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,86.25,172.5,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,172.5,172.5,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,113.5,227.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,227.0,227.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,86.25,172.5,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,172.5,172.5,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,113.5,227.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,227.0,227.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,86.25,172.5,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,172.5,172.5,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,74.5,149.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,149.0,149.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,86.25,172.5,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,172.5,172.5,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,113.5,227.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,227.0,227.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,86.25,172.5,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,172.5,172.5,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,113.5,227.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,227.0,227.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,73.33,146.67,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,146.67,146.67,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,63.34,126.67,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,126.67,126.67,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,73.33,146.67,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,146.67,146.67,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,96.5,193.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,193.0,193.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,73.33,146.67,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,146.67,146.67,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,96.5,193.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,193.0,193.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,136.25,272.5,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,272.5,272.5,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,124.5,249.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,249.0,249.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,136.25,272.5,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,272.5,272.5,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,163.5,327.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,327.0,327.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,136.25,272.5,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,272.5,272.5,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,163.5,327.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,327.0,327.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,90.83,181.67,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,181.67,181.67,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,83.0,166.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,166.0,166.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,90.83,181.67,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,181.67,181.67,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,109.0,218.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,218.0,218.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,90.83,181.67,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,181.67,181.67,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,109.0,218.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,218.0,218.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,212.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,424.0,0.0,0.0,0.0,02/01/2026,31/03/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,196.5,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,393.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,212.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,424.0,0.0,0.0,0.0,01/06/2026,30/06/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,247.5,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,495.0,0.0,0.0,0.0,01/07/2026,31/10/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,212.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,424.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,247.5,0.0,0.0,0.0,23/12/2026,01/01/2027
+Lake Naivasha,Lake Naivasha Sopa Lodge,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,495.0,0.0,0.0,0.0,23/12/2026,01/01/2027

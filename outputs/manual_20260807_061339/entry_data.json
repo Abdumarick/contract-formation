@@ -1,0 +1,265 @@
+{
+  "hotel_name": "Jambo Mara Safari Lodge",
+  "location_name": "Nairobi",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "test",
+  "room_desc": "test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "S1"
+    },
+    {
+      "sid": "row_2",
+      "name": "S2"
+    },
+    {
+      "sid": "row_3",
+      "name": "S3"
+    },
+    {
+      "sid": "row_4",
+      "name": "S4"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Woodan Cottage Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Woodan Cottage Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Woodan Cottage Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "GLass Cottage Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "GLass Cottage Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "GLass Cottage Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_7",
+      "name": "GLass Cottage Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_8",
+      "name": "Superior Deluxe Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_9",
+      "name": "Superior Deluxe Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_10",
+      "name": "Superior Deluxe Twin Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_11",
+      "name": "Superior Deluxe Triple Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 90,
+      "col_2": 130,
+      "col_3": 130,
+      "col_4": 105,
+      "col_5": 150,
+      "col_6": 150,
+      "col_7": 225,
+      "col_8": 210,
+      "col_9": 300,
+      "col_10": 300,
+      "col_11": 450
+    },
+    "row_2": {
+      "col_1": 120,
+      "col_2": 150,
+      "col_3": 150,
+      "col_4": 140,
+      "col_5": 170,
+      "col_6": 170,
+      "col_7": 255,
+      "col_8": 240,
+      "col_9": 300,
+      "col_10": 300,
+      "col_11": 450
+    },
+    "row_3": {
+      "col_1": 200,
+      "col_2": 260,
+      "col_3": 260,
+      "col_4": 300,
+      "col_5": 380,
+      "col_6": 380,
+      "col_7": 570,
+      "col_8": 390,
+      "col_9": 490,
+      "col_10": 490,
+      "col_11": 735
+    },
+    "row_4": {
+      "col_1": 140,
+      "col_2": 180,
+      "col_3": 180,
+      "col_4": 170,
+      "col_5": 220,
+      "col_6": 220,
+      "col_7": 330,
+      "col_8": 260,
+      "col_9": 330,
+      "col_10": 330,
+      "col_11": 495
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "02/01/2026",
+      "end": "30/04/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/05/2026",
+      "end": "30/06/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "01/07/2026",
+      "end": "31/08/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/09/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/11/2026",
+      "end": "01/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 2,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 3,
+      "max_age": 11,
+      "discount": 50,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 12,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

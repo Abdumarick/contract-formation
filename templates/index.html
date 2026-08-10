@@ -981,7 +981,7 @@
     <!-- ── Mode tabs ──────────────────────────────────────────── -->
     <div class="mode-tabs">
         <button class="mode-tab active" data-target="panel-pdf">📄 PDF Upload</button>
-        <button class="mode-tab"        data-target="panel-manual">✏️ Manual Entry</button>
+        <button class="mode-tab"        data-target="panel-manual">✏️ Review &amp; Manual Entry</button>
     </div>
 
     <!-- ════════════════════════════════════════════════════════
@@ -994,7 +994,7 @@
                 <div class="card-icon ci-blue">📄</div>
                 <div class="card-header-text">
                     <h3>Upload Contract PDF</h3>
-                    <p>System extracts all data automatically</p>
+                    <p>System extracts the data, then opens it for correction before generation</p>
                 </div>
             </div>
             <div class="card-body">
@@ -1014,7 +1014,7 @@
 
                 <div class="actions">
                     <button class="btn btn-primary" id="processBtn" disabled>
-                        <span>Process PDF</span>
+                        <span>Extract &amp; Review Settings</span>
                     </button>
                 </div>
 
@@ -1433,36 +1433,23 @@ function setStatus(id, type, msg) {
     el.textContent = msg;
 }
 
-processBtn.addEventListener('click', async () => {
+processBtn.addEventListener('click', () => {
     if (!selectedFile) return;
-    const fd = new FormData();
-    fd.append('file', selectedFile);
-    fd.append('year', document.getElementById('yearInput').value);
 
-    processBtn.disabled = true;
+    // Always show the extracted contract in the proven editor first. Nothing
+    // is generated until the user reviews it and clicks Generate CSV.
     document.getElementById('pdfResult').classList.remove('show');
     document.getElementById('pdfStatus').classList.remove('show');
-    const stopPdfProgress = runProgress('progressFill', 'progressLabel', 'progressSection');
 
-    try {
-        const res  = await fetch('/upload', { method: 'POST', body: fd });
-        const data = await res.json();
-        stopPdfProgress();
-        if (data.success) {
-            const dl = document.getElementById('downloadBtn');
-            dl.href = `/download/${data.output_dir}/${data.csv_file}`;
-            dl.download = data.csv_file;
-            document.getElementById('pdfResultMsg').textContent = data.message || 'Processing complete.';
-            document.getElementById('pdfResult').classList.add('show');
-        } else {
-            setStatus('pdfStatus', 'err', '❌ ' + data.error);
-        }
-    } catch(e) {
-        stopPdfProgress();
-        setStatus('pdfStatus', 'err', '❌ Network error: ' + e.message);
-    } finally {
-        processBtn.disabled = false;
-    }
+    document.querySelectorAll('.mode-tab').forEach(tab => tab.classList.remove('active'));
+    document.querySelectorAll('.mode-panel').forEach(panel => panel.classList.remove('active'));
+    document.querySelector('[data-target="panel-manual"]').classList.add('active');
+    document.getElementById('panel-manual').classList.add('active');
+
+    document.getElementById('m_pdfyear').value =
+        document.getElementById('yearInput').value.trim();
+    handleManualFile(selectedFile);
+    parsePdfBtn.click();
 });
 
 document.getElementById('logsBtn').addEventListener('click', () => openLogs('latest'));

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Rui Palace Swahili 5*",
+  "hotel_group": "Single",
+  "location": "Zanzibar",
+  "csv_file": "Rui_Palace_Swahili_5_20260806_184357.csv",
+  "xlsx_file": null,
+  "row_count": 264,
+  "created_at": "2026-08-06T18:43:57.443611",
+  "output_dir": "manual_20260806_184357",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

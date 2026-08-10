@@ -11,9 +11,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( S
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,18,99,1,1,1475.0,0.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,18,99,1,1,1560.0,0.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,18,99,1,1,1560.0,0.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Single ),Test,1,18,99,1,1,1475.0,0.0,0.0,0.0,01/10/2027,31/10/2027
@@ -35,9 +35,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( D
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,10,17,1,2,300.0,797.5,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,18,99,1,2,797.5,797.5,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,10,17,1,2,300.0,840.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,18,99,1,2,840.0,840.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,10,17,1,2,300.0,840.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,18,99,1,2,840.0,840.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,10,17,1,2,300.0,797.5,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Double ),Test,2,18,99,1,2,797.5,797.5,0.0,0.0,01/10/2027,31/10/2027
@@ -59,9 +59,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Si
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,18,99,1,1,1560.0,0.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,18,99,1,1,1645.0,0.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,18,99,1,1,1645.0,0.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Single ),Test,1,18,99,1,1,1560.0,0.0,0.0,0.0,01/10/2027,31/10/2027
@@ -83,9 +83,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Do
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,10,17,1,2,300.0,840.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,18,99,1,2,840.0,840.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,10,17,1,2,300.0,882.5,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,18,99,1,2,882.5,882.5,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,10,17,1,2,300.0,882.5,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,18,99,1,2,882.5,882.5,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,10,17,1,2,300.0,840.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Double ),Test,2,18,99,1,2,840.0,840.0,0.0,0.0,01/10/2027,31/10/2027
@@ -107,9 +107,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhol
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,18,99,1,1,1645.0,0.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,18,99,1,1,1720.0,0.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,18,99,1,1,1720.0,0.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Single ),Test,1,18,99,1,1,1645.0,0.0,0.0,0.0,01/10/2027,31/10/2027
@@ -131,9 +131,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhol
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,10,17,1,2,300.0,882.5,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,18,99,1,2,882.5,882.5,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,10,17,1,2,300.0,920.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,18,99,1,2,920.0,920.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,10,17,1,2,300.0,920.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,18,99,1,2,920.0,920.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,10,17,1,2,300.0,882.5,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Waterhole view ( Double ),Test,2,18,99,1,2,882.5,882.5,0.0,0.0,01/10/2027,31/10/2027
@@ -155,9 +155,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,18,99,1,1,1720.0,0.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,18,99,1,1,1805.0,0.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,18,99,1,1,1805.0,0.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Single ),Test,1,18,99,1,1,1720.0,0.0,0.0,0.0,01/10/2027,31/10/2027
@@ -179,9 +179,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,10,17,1,2,300.0,920.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,18,99,1,2,920.0,920.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,10,17,1,2,300.0,962.5,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,18,99,1,2,962.5,962.5,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,10,17,1,2,300.0,962.5,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,18,99,1,2,962.5,962.5,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,10,17,1,2,300.0,920.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon waterhole view ( Double ),Test,2,18,99,1,2,920.0,920.0,0.0,0.0,01/10/2027,31/10/2027
@@ -203,9 +203,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( 
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,18,99,1,1,2610.0,0.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,18,99,1,1,2695.0,0.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,18,99,1,1,2695.0,0.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites ( Single ),Test,1,18,99,1,1,2610.0,0.0,0.0,0.0,01/10/2027,31/10/2027
@@ -227,9 +227,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  (
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,10,17,1,2,300.0,1365.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,18,99,1,2,1365.0,1365.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,10,17,1,2,300.0,1407.5,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,18,99,1,2,1407.5,1407.5,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,10,17,1,2,300.0,1407.5,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,18,99,1,2,1407.5,1407.5,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,10,17,1,2,300.0,1365.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Double),Test,2,18,99,1,2,1365.0,1365.0,0.0,0.0,01/10/2027,31/10/2027
@@ -251,9 +251,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite wat
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,18,99,1,1,2780.0,0.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,18,99,1,1,2865.0,0.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,18,99,1,1,2865.0,0.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,0,9,1,1,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,10,17,1,1,300.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Single),Test,1,18,99,1,1,2780.0,0.0,0.0,0.0,01/10/2027,31/10/2027
@@ -275,9 +275,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite wat
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,10,17,1,2,300.0,1450.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,18,99,1,2,1450.0,1450.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,10,17,1,2,300.0,1490.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,18,99,1,2,1490.0,1490.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,10,17,1,2,300.0,1490.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,18,99,1,2,1490.0,1490.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,10,17,1,2,300.0,1450.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace suite waterhole view ( Double),Test,2,18,99,1,2,1450.0,1450.0,0.0,0.0,01/10/2027,31/10/2027
@@ -299,9 +299,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,10,17,1,2,300.0,2205.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,18,99,1,2,2205.0,2205.0,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,0,9,1,2,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,10,17,1,2,300.0,2247.5,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,18,99,1,2,2247.5,2247.5,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,10,17,1,2,300.0,2247.5,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,18,99,1,2,2247.5,2247.5,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,0,9,1,2,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,10,17,1,2,300.0,2205.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa,Test,2,18,99,1,2,2205.0,2205.0,0.0,0.0,01/10/2027,31/10/2027
@@ -323,9 +323,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,0,9,1,4,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,10,17,1,4,300.0,1737.5,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,18,99,1,4,1737.5,1737.5,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,0,9,1,4,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,10,17,1,4,300.0,1758.75,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,18,99,1,4,1758.75,1758.75,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,0,9,1,4,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,10,17,1,4,300.0,1758.75,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,18,99,1,4,1758.75,1758.75,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,0,9,1,4,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,10,17,1,4,300.0,1737.5,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Two Bedroom Villa,Test,4,18,99,1,4,1737.5,1737.5,0.0,0.0,01/10/2027,31/10/2027
@@ -347,9 +347,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Vill
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,0,9,1,6,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,10,17,1,6,300.0,1771.67,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,18,99,1,6,1771.67,1771.67,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,0,9,1,6,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,10,17,1,6,300.0,1834.17,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,18,99,1,6,1834.17,1834.17,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,0,9,1,6,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,10,17,1,6,300.0,1834.17,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,18,99,1,6,1834.17,1834.17,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,0,9,1,6,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,10,17,1,6,300.0,1771.67,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Presidential Villa,Test,6,18,99,1,6,1771.67,1771.67,0.0,0.0,01/10/2027,31/10/2027
@@ -371,9 +371,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( T
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,10,17,1,3,300.0,698.33,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,18,99,1,3,698.33,698.33,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,10,17,1,3,300.0,726.67,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,18,99,1,3,726.67,726.67,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,10,17,1,3,300.0,726.67,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,18,99,1,3,726.67,726.67,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,10,17,1,3,300.0,698.33,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Savannah Room ( Triple ),Test,3,18,99,1,3,698.33,698.33,0.0,0.0,01/10/2027,31/10/2027
@@ -395,9 +395,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,10,17,1,3,300.0,1636.67,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,18,99,1,3,1636.67,1636.67,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,10,17,1,3,300.0,1665.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,18,99,1,3,1665.0,1665.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,10,17,1,3,300.0,1665.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,18,99,1,3,1665.0,1665.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,10,17,1,3,300.0,1636.67,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,One Bedroom Villa ( Triple),Test,3,18,99,1,3,1636.67,1636.67,0.0,0.0,01/10/2027,31/10/2027
@@ -419,9 +419,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Tr
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,10,17,1,3,300.0,726.67,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,18,99,1,3,726.67,726.67,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,10,17,1,3,300.0,755.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,18,99,1,3,755.0,755.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,10,17,1,3,300.0,755.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,18,99,1,3,755.0,755.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,10,17,1,3,300.0,726.67,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Horizon Room ( Triple ),Test,3,18,99,1,3,726.67,726.67,0.0,0.0,01/10/2027,31/10/2027
@@ -443,9 +443,9 @@ Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  (
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,10,17,1,3,300.0,1076.67,0.0,0.0,01/06/2027,30/06/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,18,99,1,3,1076.67,1076.67,0.0,0.0,01/06/2027,30/06/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,10,17,1,3,300.0,1105.0,0.0,0.0,24/07/2027,30/09/2027
-Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,18,99,1,3,1105.0,1105.0,0.0,0.0,24/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,10,17,1,3,300.0,1105.0,0.0,0.0,01/07/2027,30/09/2027
+Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,18,99,1,3,1105.0,1105.0,0.0,0.0,01/07/2027,30/09/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,0,9,1,3,0.0,0.0,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,10,17,1,3,300.0,1076.67,0.0,0.0,01/10/2027,31/10/2027
 Serengeti,"Four Seasons Safari lodge,",,Test,FALSE,0,FALSE,USD,Terrace Suites  ( Triple),Test,3,18,99,1,3,1076.67,1076.67,0.0,0.0,01/10/2027,31/10/2027

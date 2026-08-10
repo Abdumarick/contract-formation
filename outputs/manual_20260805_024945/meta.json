@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Lemala Osonjoi",
+  "hotel_group": "Single",
+  "location": "Serengeti",
+  "csv_file": "Lemala_Osonjoi_20260805_024945.csv",
+  "xlsx_file": null,
+  "row_count": 60,
+  "created_at": "2026-08-05T02:49:45.723939",
+  "output_dir": "manual_20260805_024945",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

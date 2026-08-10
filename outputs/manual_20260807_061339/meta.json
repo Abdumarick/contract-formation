@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Jambo Mara Safari Lodge",
+  "hotel_group": "Single",
+  "location": "Nairobi",
+  "csv_file": "Jambo_Mara_Safari_Lodge_20260807_061339.csv",
+  "xlsx_file": null,
+  "row_count": 165,
+  "created_at": "2026-08-07T06:13:39.159908",
+  "output_dir": "manual_20260807_061339",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

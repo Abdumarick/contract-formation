@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Egret Savanna Camp 27",
+  "hotel_group": "Single",
+  "location": "Lake nakuru",
+  "csv_file": "Egret_Savanna_Camp_27_20260808_033822.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-08-08T03:38:22.341745",
+  "output_dir": "manual_20260808_033822",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}

@@ -1,0 +1,145 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,103.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,206.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,78.5,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,157.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,103.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,206.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,107.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,214.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,103.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,206.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,107.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,214.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,79.25,158.5,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,158.5,158.5,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,60.5,121.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,121.0,121.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,79.25,158.5,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,158.5,158.5,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,82.5,165.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,165.0,165.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,79.25,158.5,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,158.5,158.5,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,82.5,165.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,165.0,165.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,79.25,158.5,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,158.5,158.5,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,60.5,121.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,121.0,121.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,79.25,158.5,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,158.5,158.5,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,82.5,165.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,165.0,165.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,79.25,158.5,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,158.5,158.5,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,82.5,165.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,165.0,165.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,67.33,134.67,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,134.67,134.67,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,51.34,102.67,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,102.67,102.67,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,67.33,134.67,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,134.67,134.67,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,70.0,140.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,140.0,140.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,67.33,134.67,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,134.67,134.67,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,70.0,140.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,140.0,140.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,4,12,1,1,153.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,13,99,1,1,306.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,4,12,1,1,128.5,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,13,99,1,1,257.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,4,12,1,1,153.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,13,99,1,1,306.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,4,12,1,1,157.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,13,99,1,1,314.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,4,12,1,1,153.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,13,99,1,1,306.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,4,12,1,1,157.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Single Room,test,1,13,99,1,1,314.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,104.25,208.5,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,208.5,208.5,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,85.5,171.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,171.0,171.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,104.25,208.5,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,208.5,208.5,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,107.5,215.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,215.0,215.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,104.25,208.5,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,208.5,208.5,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,107.5,215.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,215.0,215.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,104.25,208.5,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,208.5,208.5,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,85.5,171.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,171.0,171.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,104.25,208.5,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,208.5,208.5,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,107.5,215.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,215.0,215.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,104.25,208.5,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,208.5,208.5,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,107.5,215.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,215.0,215.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,84.0,168.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,168.0,168.0,0.0,0.0,02/01/2027,31/03/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,68.0,136.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,136.0,136.0,0.0,0.0,01/04/2027,31/05/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,84.0,168.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,168.0,168.0,0.0,0.0,01/06/2027,30/06/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,86.67,173.33,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,173.33,173.33,0.0,0.0,01/07/2027,31/10/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,84.0,168.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,168.0,168.0,0.0,0.0,01/11/2027,21/12/2027
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,4,12,1,3,86.67,173.33,0.0,0.0,23/12/2027,01/01/2028
+Samburu,Samburu Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Triple Room,test,3,13,99,1,3,173.33,173.33,0.0,0.0,23/12/2027,01/01/2028

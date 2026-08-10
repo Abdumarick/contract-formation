@@ -1,0 +1,243 @@
+{
+  "hotel_name": "Sarova Lion Hill game Lodge",
+  "location_name": "Lake Nakuru",
+  "contract_year": "2026",
+  "base_plan": "BB",
+  "hotel_desc": "test",
+  "room_desc": "test",
+  "inside_restricted_area": "FALSE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "high & easter"
+    },
+    {
+      "sid": "row_2",
+      "name": "low"
+    },
+    {
+      "sid": "row_3",
+      "name": "peak"
+    },
+    {
+      "sid": "row_4",
+      "name": "sholder"
+    },
+    {
+      "sid": "row_5",
+      "name": "Festive"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Standard Single Room",
+      "max_cap": 1,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Standard Double Room",
+      "max_cap": 2,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Standard Triple  Room",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_4",
+      "name": "1br Chui $ Fara Suite",
+      "max_cap": 3,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_5",
+      "name": "2Br Suite",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_6",
+      "name": "2Br Ziwa Suite",
+      "max_cap": 4,
+      "cost_basis": "per_room",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 215,
+      "col_2": 280,
+      "col_3": 364,
+      "col_4": 380,
+      "col_5": 620,
+      "col_6": 905
+    },
+    "row_2": {
+      "col_1": 95,
+      "col_2": 189,
+      "col_3": 246,
+      "col_4": 269,
+      "col_5": 454,
+      "col_6": 484
+    },
+    "row_3": {
+      "col_1": 360,
+      "col_2": 445,
+      "col_3": 578,
+      "col_4": 505,
+      "col_5": 960,
+      "col_6": 1095
+    },
+    "row_4": {
+      "col_1": 151,
+      "col_2": 226,
+      "col_3": 294,
+      "col_4": 321,
+      "col_5": 536,
+      "col_6": 616
+    },
+    "row_5": {
+      "col_1": 402,
+      "col_2": 502,
+      "col_3": 652,
+      "col_4": 522,
+      "col_5": 992,
+      "col_6": 1102
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "04/01/2026",
+      "end": "28/02/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/03/2026",
+      "end": "31/03/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/04/2026",
+      "end": "02/04/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "03/04/2026",
+      "end": "06/04/2026"
+    },
+    {
+      "sid": "row_2",
+      "start": "07/04/2026",
+      "end": "31/05/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/06/2026",
+      "end": "14/06/2026"
+    },
+    {
+      "sid": "row_3",
+      "start": "15/06/2026",
+      "end": "30/09/2026"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/10/2026",
+      "end": "31/10/2026"
+    },
+    {
+      "sid": "row_4",
+      "start": "01/11/2026",
+      "end": "22/12/2026"
+    },
+    {
+      "sid": "row_5",
+      "start": "23/12/2026",
+      "end": "03/01/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 6,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "child",
+      "min_age": 7,
+      "max_age": 12,
+      "discount": 15,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 13,
+      "max_age": 17,
+      "discount": 25,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    },
+    {
+      "label": "adult",
+      "min_age": 18,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": ""
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

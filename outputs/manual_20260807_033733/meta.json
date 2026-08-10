@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Zebra Plains Mara Camp",
+  "hotel_group": "Single",
+  "location": "Ambosoli",
+  "csv_file": "Zebra_Plains_Mara_Camp_20260807_033733.csv",
+  "xlsx_file": null,
+  "row_count": 120,
+  "created_at": "2026-08-07T03:37:33.029223",
+  "output_dir": "manual_20260807_033733",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

@@ -1,0 +1,163 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,113.5,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,227.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,79.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,158.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,113.5,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,227.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,184.5,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,369.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,113.5,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,227.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,4,12,1,1,184.5,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Single Room,test,1,13,99,1,1,369.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,87.25,174.5,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,174.5,174.5,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,61.0,122.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,122.0,122.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,87.25,174.5,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,174.5,174.5,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,141.75,283.5,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,283.5,283.5,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,87.25,174.5,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,174.5,174.5,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,4,12,1,2,141.75,283.5,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Double Room,test,2,13,99,1,2,283.5,283.5,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,87.25,174.5,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,174.5,174.5,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,61.0,122.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,122.0,122.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,87.25,174.5,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,174.5,174.5,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,141.75,283.5,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,283.5,283.5,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,87.25,174.5,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,174.5,174.5,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,4,12,1,2,141.75,283.5,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Twin Room,test,2,13,99,1,2,283.5,283.5,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,74.0,148.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,148.0,148.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,51.84,103.67,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,103.67,103.67,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,74.0,148.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,148.0,148.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,120.5,241.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,241.0,241.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,74.0,148.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,148.0,148.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,4,12,1,3,120.5,241.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Triple Room,test,3,13,99,1,3,241.0,241.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,4,12,1,2,112.25,224.5,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,13,99,1,2,224.5,224.5,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,4,12,1,2,86.0,172.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,13,99,1,2,172.0,172.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,4,12,1,2,112.25,224.5,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,13,99,1,2,224.5,224.5,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,4,12,1,2,166.75,333.5,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,13,99,1,2,333.5,333.5,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,4,12,1,2,112.25,224.5,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,13,99,1,2,224.5,224.5,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,4,12,1,2,166.75,333.5,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Honeymoon Double Room,test,2,13,99,1,2,333.5,333.5,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,148.5,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,297.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,114.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,228.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,148.5,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,297.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,219.5,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,439.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,148.5,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,297.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,0,3,1,1,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,4,12,1,1,219.5,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Single Room,test,1,13,99,1,1,439.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,104.75,209.5,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,209.5,209.5,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,78.5,157.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,157.0,157.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,104.75,209.5,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,209.5,209.5,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,159.25,318.5,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,318.5,318.5,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,104.75,209.5,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,209.5,209.5,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,4,12,1,2,159.25,318.5,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Double Room,test,2,13,99,1,2,318.5,318.5,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,104.75,209.5,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,209.5,209.5,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,78.5,157.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,157.0,157.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,104.75,209.5,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,209.5,209.5,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,159.25,318.5,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,318.5,318.5,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,104.75,209.5,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,209.5,209.5,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,0,3,1,2,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,4,12,1,2,159.25,318.5,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite Twin Room,test,2,13,99,1,2,318.5,318.5,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,4,12,1,3,85.67,171.33,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,13,99,1,3,171.33,171.33,0.0,0.0,02/01/2027,31/03/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,4,12,1,3,63.5,127.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,13,99,1,3,127.0,127.0,0.0,0.0,01/04/2027,31/05/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,4,12,1,3,85.67,171.33,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,13,99,1,3,171.33,171.33,0.0,0.0,01/06/2027,30/06/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,4,12,1,3,132.16,264.33,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,13,99,1,3,264.33,264.33,0.0,0.0,01/07/2027,31/10/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,4,12,1,3,85.67,171.33,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,13,99,1,3,171.33,171.33,0.0,0.0,01/11/2027,21/12/2027
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,0,3,1,3,0.0,0.0,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,4,12,1,3,132.16,264.33,0.0,0.0,23/12/2027,01/01/2028
+Ambosoli,Masai Mara Sopa Lodge 27,,test,FALSE,0,FALSE,USD,Suite  Triple Room,test,3,13,99,1,3,264.33,264.33,0.0,0.0,23/12/2027,01/01/2028
