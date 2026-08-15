@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Diani Sea Lodge",
+  "hotel_group": "Single",
+  "location": "DIani",
+  "csv_file": "Diani_Sea_Lodge_20260814_043154.csv",
+  "xlsx_file": null,
+  "row_count": 189,
+  "created_at": "2026-08-14T04:31:54.209002",
+  "output_dir": "manual_20260814_043154",
+  "contract_year": "",
+  "base_plan": "BB"
+}

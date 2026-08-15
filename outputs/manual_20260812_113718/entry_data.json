@@ -94,7 +94,7 @@
       "price_source_pct": 0
     },
     {
-      "colId": "col_12",
+      "colId": "col_6",
       "name": "Junior Suite SIngle Room",
       "max_cap": 1,
       "cost_basis": "per_person",
@@ -104,7 +104,7 @@
       "price_source_pct": 0
     },
     {
-      "colId": "col_13",
+      "colId": "col_7",
       "name": "Junior Suite sea  Lateral View Single Room",
       "max_cap": 1,
       "cost_basis": "per_person",
@@ -114,7 +114,7 @@
       "price_source_pct": 0
     },
     {
-      "colId": "col_14",
+      "colId": "col_8",
       "name": "Junior Suite Sea View Single Room",
       "max_cap": 1,
       "cost_basis": "per_person",
@@ -124,7 +124,7 @@
       "price_source_pct": 0
     },
     {
-      "colId": "col_15",
+      "colId": "col_9",
       "name": "Junior Suite Sea View Elite Single Room",
       "max_cap": 1,
       "cost_basis": "per_person",
@@ -134,7 +134,7 @@
       "price_source_pct": 0
     },
     {
-      "colId": "col_16",
+      "colId": "col_10",
       "name": "Swim Up Junior Suite Elite Single Room",
       "max_cap": 1,
       "cost_basis": "per_person",
@@ -144,7 +144,7 @@
       "price_source_pct": 0
     },
     {
-      "colId": "col_17",
+      "colId": "col_11",
       "name": "Family room",
       "max_cap": 4,
       "cost_basis": "per_person",
@@ -161,12 +161,12 @@
       "col_3": 311.25,
       "col_4": 373.5,
       "col_5": 473.1,
-      "col_12": 398.4,
-      "col_13": 438.24,
-      "col_14": 498,
-      "col_15": 597.6,
-      "col_16": 756.96,
-      "col_17": 311.25
+      "col_6": 398.4,
+      "col_7": 438.24,
+      "col_8": 498,
+      "col_9": 597.6,
+      "col_10": 756.96,
+      "col_11": 311.25
     },
     "row_2": {
       "col_1": 481,
@@ -174,12 +174,12 @@
       "col_3": 601.25,
       "col_4": 721.5,
       "col_5": 913.9,
-      "col_12": 769.6,
-      "col_13": 846.56,
-      "col_14": 962,
-      "col_15": 1154.4,
-      "col_16": 1462.24,
-      "col_17": 601.25
+      "col_6": 769.6,
+      "col_7": 846.56,
+      "col_8": 962,
+      "col_9": 1154.4,
+      "col_10": 1462.24,
+      "col_11": 601.25
     },
     "row_3": {
       "col_1": 269,
@@ -187,12 +187,12 @@
       "col_3": 336.25,
       "col_4": 403.5,
       "col_5": 511.1,
-      "col_12": 430.4,
-      "col_13": 473.44,
-      "col_14": 538,
-      "col_15": 645.6,
-      "col_16": 817.76,
-      "col_17": 336.25
+      "col_6": 430.4,
+      "col_7": 473.44,
+      "col_8": 538,
+      "col_9": 645.6,
+      "col_10": 817.76,
+      "col_11": 336.25
     },
     "row_4": {
       "col_1": 179,
@@ -200,12 +200,12 @@
       "col_3": 223.75,
       "col_4": 268.5,
       "col_5": 340.1,
-      "col_12": 286.4,
-      "col_13": 315.04,
-      "col_14": 358,
-      "col_15": 429.6,
-      "col_16": 544.16,
-      "col_17": 223.75
+      "col_6": 286.4,
+      "col_7": 315.04,
+      "col_8": 358,
+      "col_9": 429.6,
+      "col_10": 544.16,
+      "col_11": 223.75
     },
     "row_5": {
       "col_1": 179,
@@ -213,12 +213,12 @@
       "col_3": 223.75,
       "col_4": 268.5,
       "col_5": 340.1,
-      "col_12": 286.4,
-      "col_13": 315.04,
-      "col_14": 358,
-      "col_15": 429.6,
-      "col_16": 544.16,
-      "col_17": 223.75
+      "col_6": 286.4,
+      "col_7": 315.04,
+      "col_8": 358,
+      "col_9": 429.6,
+      "col_10": 544.16,
+      "col_11": 223.75
     },
     "row_6": {
       "col_1": 214,
@@ -226,12 +226,12 @@
       "col_3": 267.5,
       "col_4": 321,
       "col_5": 406.6,
-      "col_12": 342.4,
-      "col_13": 376.64,
-      "col_14": 428,
-      "col_15": 513.6,
-      "col_16": 650.56,
-      "col_17": 267.5
+      "col_6": 342.4,
+      "col_7": 376.64,
+      "col_8": 428,
+      "col_9": 513.6,
+      "col_10": 650.56,
+      "col_11": 267.5
     },
     "row_7": {
       "col_1": 279,
@@ -239,12 +239,12 @@
       "col_3": 348.75,
       "col_4": 418.5,
       "col_5": 530.1,
-      "col_12": 446.4,
-      "col_13": 491.04,
-      "col_14": 558,
-      "col_15": 669.6,
-      "col_16": 848.16,
-      "col_17": 348.75
+      "col_6": 446.4,
+      "col_7": 491.04,
+      "col_8": 558,
+      "col_9": 669.6,
+      "col_10": 848.16,
+      "col_11": 348.75
     },
     "row_8": {
       "col_1": 253,
@@ -252,12 +252,12 @@
       "col_3": 316.25,
       "col_4": 379.5,
       "col_5": 480.7,
-      "col_12": 404.8,
-      "col_13": 445.28,
-      "col_14": 506,
-      "col_15": 607.2,
-      "col_16": 769.12,
-      "col_17": 316.25
+      "col_6": 404.8,
+      "col_7": 445.28,
+      "col_8": 506,
+      "col_9": 607.2,
+      "col_10": 769.12,
+      "col_11": 316.25
     }
   },
   "date_ranges": [

@@ -7,6 +7,7 @@ import re
 import logging
 import shutil
 import secrets
+import threading
 from pathlib import Path
 logging.basicConfig(level=os.environ.get('LOG_LEVEL', 'INFO').upper())
 from werkzeug.utils import secure_filename
@@ -64,6 +65,9 @@ app.config.update(
 APP_USERNAME = os.environ.get('APP_USERNAME', '').strip()
 APP_PASSWORD = os.environ.get('APP_PASSWORD', '')
 
+CONTRACTS_INDEX_FILE = 'contracts_index.json'
+_contracts_index_lock = threading.Lock()
+
 
 @app.before_request
 def authenticate_request():
@@ -115,6 +119,47 @@ def allowed_file(filename):
 
 def allowed_csv_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() == 'csv'
+
+
+def _contracts_index_path():
+    return os.path.join(app.config['OUTPUT_FOLDER'], CONTRACTS_INDEX_FILE)
+
+
+def _write_contracts_index(contracts, directories=None):
+    """Atomically replace the library index so readers never see a partial file."""
+    path = _contracts_index_path()
+    temp_path = path + '.tmp'
+    if directories is None:
+        directories = [
+            d for d in os.listdir(app.config['OUTPUT_FOLDER'])
+            if os.path.isdir(os.path.join(app.config['OUTPUT_FOLDER'], d))
+        ]
+    payload = {'version': 1, 'directories': directories, 'contracts': contracts}
+    with open(temp_path, 'w', encoding='utf-8') as f:
+        json.dump(payload, f, ensure_ascii=False, separators=(',', ':'))
+    os.replace(temp_path, path)
+
+
+def _update_contracts_index(meta=None, remove_output_dir=None):
+    """Best-effort index update; contract save/delete must not depend on it."""
+    try:
+        with _contracts_index_lock:
+            path = _contracts_index_path()
+            if not os.path.exists(path):
+                return
+            with open(path, encoding='utf-8') as f:
+                payload = json.load(f)
+            if not isinstance(payload, dict) or not isinstance(payload.get('contracts'), list):
+                return
+            contracts = payload['contracts']
+            target = remove_output_dir or (meta or {}).get('output_dir')
+            contracts = [c for c in contracts if c.get('output_dir') != target]
+            if meta is not None:
+                contracts.append(meta)
+            contracts.sort(key=lambda c: c.get('output_dir', ''), reverse=True)
+            _write_contracts_index(contracts)
+    except Exception:
+        app.logger.exception('Could not update contracts library index; it will be rebuilt on next load')
 
 
 # ── CSV column order (matches CRM schema) ────────────────────────────────────
@@ -185,6 +230,9 @@ def upload_file():
         }
         with open(os.path.join(output_dir, 'meta.json'), 'w', encoding='utf-8') as f:
             json.dump(meta, f, indent=2)
+        indexed_meta = dict(meta)
+        indexed_meta['has_entry_data'] = False
+        _update_contracts_index(meta=indexed_meta)
 
         return jsonify({
             'success':    True,
@@ -455,6 +503,9 @@ def manual_entry():
         saved_form_data.pop('save_to_output_dir', None)
         with open(meta_path, 'w', encoding='utf-8') as f:
             json.dump(saved_form_data, f, indent=2, ensure_ascii=False)
+        indexed_meta = dict(meta)
+        indexed_meta['has_entry_data'] = True
+        _update_contracts_index(meta=indexed_meta)
 
         return jsonify({
             'success':    True,
@@ -582,7 +633,7 @@ def library():
 
 @app.route('/api/contracts')
 def list_contracts():
-    """Scan all output folders, read meta.json (or fall back to CSV first row)."""
+    """Return the cached library index, rebuilding it with the legacy scan if needed."""
     out_dir = app.config['OUTPUT_FOLDER']
     contracts = []
     try:
@@ -592,6 +643,19 @@ def list_contracts():
         ], reverse=True)
     except FileNotFoundError:
         return jsonify([])
+
+    index_path = _contracts_index_path()
+    try:
+        with _contracts_index_lock:
+            if os.path.exists(index_path):
+                with open(index_path, encoding='utf-8') as f:
+                    payload = json.load(f)
+                if (isinstance(payload, dict)
+                        and isinstance(payload.get('contracts'), list)
+                        and set(payload.get('directories', [])) == set(dirs)):
+                    return jsonify(payload['contracts'])
+    except (OSError, ValueError, TypeError, json.JSONDecodeError):
+        app.logger.warning('Contracts library index is invalid; rebuilding it', exc_info=True)
 
     for d in dirs:
         folder = os.path.join(out_dir, d)
@@ -643,6 +707,12 @@ def list_contracts():
 
         contracts.append(meta)
 
+    try:
+        with _contracts_index_lock:
+            _write_contracts_index(contracts, dirs)
+    except OSError:
+        app.logger.exception('Could not write contracts library index; using scan results')
+
     return jsonify(contracts)
 
 
@@ -658,6 +728,7 @@ def delete_contract(output_dir):
     if not folder.is_dir():
         return jsonify({'error': 'Folder not found'}), 404
     shutil.rmtree(folder)
+    _update_contracts_index(remove_output_dir=output_dir)
     return jsonify({'success': True})
 
 

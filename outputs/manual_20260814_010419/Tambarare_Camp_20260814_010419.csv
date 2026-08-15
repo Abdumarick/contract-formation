@@ -1,0 +1,91 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,0,6,1,1,0.0,0.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,7,15,1,1,268.0,0.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,16,99,1,1,731.0,0.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,7,15,1,1,231.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,16,99,1,1,420.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,7,15,1,1,268.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,16,99,1,1,731.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,0,6,1,1,0.0,0.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,7,15,1,1,347.0,0.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,16,99,1,1,945.0,0.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,0,6,1,1,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,7,15,1,1,231.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,16,99,1,1,420.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,0,6,1,1,0.0,0.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,7,15,1,1,347.0,0.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Luxury Single Tent,test,1,16,99,1,1,945.0,0.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,7,15,1,2,268.0,488.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,16,99,1,2,488.0,488.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,7,15,1,2,231.0,420.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,16,99,1,2,420.0,420.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,7,15,1,2,268.0,488.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,16,99,1,2,488.0,488.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,7,15,1,2,347.0,630.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,16,99,1,2,630.0,630.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,7,15,1,2,231.0,420.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,16,99,1,2,420.0,420.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,0,6,1,2,0.0,0.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,7,15,1,2,347.0,630.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Double Room,test,2,16,99,1,2,630.0,630.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,6,1,3,0.0,0.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,7,15,1,3,268.0,390.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,16,99,1,3,390.0,390.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,7,15,1,3,231.0,315.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,16,99,1,3,315.0,315.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,7,15,1,3,268.0,390.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,16,99,1,3,390.0,390.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,6,1,3,0.0,0.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,7,15,1,3,347.0,536.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,16,99,1,3,536.0,536.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,6,1,3,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,7,15,1,3,231.0,315.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,16,99,1,3,315.0,315.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,0,6,1,3,0.0,0.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,7,15,1,3,347.0,536.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Triple Room,test,3,16,99,1,3,536.0,536.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,7,15,1,4,268.0,536.25,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,16,99,1,4,536.25,536.25,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,7,15,1,4,231.0,462.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,16,99,1,4,462.0,462.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,7,15,1,4,268.0,536.25,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,16,99,1,4,536.25,536.25,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,7,15,1,4,347.0,693.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,16,99,1,4,693.0,693.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,7,15,1,4,231.0,462.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,16,99,1,4,462.0,462.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,7,15,1,4,347.0,693.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 4 pax,test,4,16,99,1,4,693.0,693.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,7,15,1,4,268.0,670.25,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,16,99,1,4,670.25,670.25,0.0,0.0,03/01/2026,31/03/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,7,15,1,4,231.0,577.5,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,16,99,1,4,577.5,577.5,0.0,0.0,01/04/2026,31/05/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,7,15,1,4,268.0,670.25,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,16,99,1,4,670.25,670.25,0.0,0.0,01/06/2026,15/06/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,7,15,1,4,347.0,866.25,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,16,99,1,4,866.25,866.25,0.0,0.0,16/06/2026,31/10/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,7,15,1,4,231.0,577.5,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,16,99,1,4,577.5,577.5,0.0,0.0,01/11/2026,20/12/2026
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,0,6,1,4,0.0,0.0,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,7,15,1,4,347.0,866.25,0.0,0.0,21/12/2026,02/01/2027
+kenya,Tambarare Camp,,test,FALSE,0,FALSE,USD,Private Villa 5 pax,test,4,16,99,1,4,866.25,866.25,0.0,0.0,21/12/2026,02/01/2027

@@ -180,6 +180,38 @@
         box-shadow: 0 8px 32px rgba(0,0,0,.35);
     }
 
+    .date-preview {
+        position: fixed;
+        z-index: 1200;
+        width: min(360px, calc(100vw - 24px));
+        max-height: min(430px, calc(100vh - 24px));
+        overflow: auto;
+        padding: 14px 16px;
+        border: 1px solid #40464e;
+        border-radius: 12px;
+        background: rgba(22,27,34,.98);
+        box-shadow: 0 16px 45px rgba(0,0,0,.55);
+        color: var(--text);
+        pointer-events: none;
+        opacity: 0;
+        transform: translateY(5px);
+        transition: opacity .14s, transform .14s;
+    }
+    .date-preview.show { opacity: 1; transform: translateY(0); }
+    .date-preview-title { font-weight: 700; margin-bottom: 3px; }
+    .date-preview-sub { color: var(--muted); font-size: .76em; margin-bottom: 10px; }
+    .date-preview-row {
+        display: grid;
+        grid-template-columns: minmax(70px, .8fr) 1.5fr;
+        gap: 10px;
+        padding: 7px 0;
+        border-top: 1px solid var(--border);
+        font-size: .8em;
+    }
+    .date-preview-season { color: var(--teal); font-weight: 600; }
+    .date-preview-range { text-align: right; white-space: nowrap; }
+    .date-preview-message { color: var(--muted); font-size: .82em; padding: 4px 0; }
+
     /* Card colour accent strip based on source */
     .card-strip {
         height: 3px;
@@ -417,6 +449,7 @@
 
 <!-- Toast -->
 <div class="toast" id="toast"></div>
+<div class="date-preview" id="datePreview" role="tooltip" aria-hidden="true"></div>
 
 <script>
 const PER_PAGE = 12;
@@ -424,6 +457,9 @@ let allContracts = [];
 let filtered     = [];
 let currentPage  = 1;
 let pendingDelete = null;
+const datePreviewCache = new Map();
+let datePreviewTimer = null;
+let datePreviewCard = null;
 
 /* ── Load ─────────────────────────────────────────── */
 async function loadContracts() {
@@ -532,7 +568,7 @@ function buildCard(c) {
         : `<span class="card-btn cb-edit cb-disabled" title="No form data saved (PDF-only contract)">✏️ Edit</span>`;
 
     return `
-    <div class="contract-card" data-dir="${esc(dir)}">
+    <div class="contract-card" data-dir="${esc(dir)}" data-name="${esc(name)}" data-preview="${hasEdit ? '1' : '0'}" tabindex="0">
         <div class="card-strip ${src}"></div>
         <div class="card-body">
             <div class="card-hotel">${esc(name)}${yr ? ' <span style="font-size:.75em;color:var(--muted);font-family:Outfit,sans-serif;font-weight:400;">('+yr+')</span>' : ''}</div>
@@ -559,6 +595,76 @@ function buildCard(c) {
 
 function esc(s) {
     return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+function normalisePreviewDates(data) {
+    if (Array.isArray(data.seasons) && data.seasons.length) {
+        return data.seasons.map(s => ({name: s.name || 'Season', start: s.start, end: s.end}));
+    }
+    const names = new Map((data.season_rows || []).map(s => [s.sid, s.name || 'Season']));
+    return (data.date_ranges || []).map(r => ({
+        name: names.get(r.sid) || 'Season', start: r.start, end: r.end
+    }));
+}
+
+function positionDatePreview(card) {
+    const preview = document.getElementById('datePreview');
+    const rect = card.getBoundingClientRect();
+    const gap = 10;
+    let left = rect.right + gap;
+    if (left + preview.offsetWidth > window.innerWidth - 12) left = rect.left - preview.offsetWidth - gap;
+    left = Math.max(12, Math.min(left, window.innerWidth - preview.offsetWidth - 12));
+    let top = Math.max(12, rect.top);
+    if (top + preview.offsetHeight > window.innerHeight - 12) top = window.innerHeight - preview.offsetHeight - 12;
+    preview.style.left = `${left}px`;
+    preview.style.top = `${Math.max(12, top)}px`;
+}
+
+async function showDatePreview(card) {
+    if (datePreviewCard !== card) return;
+    const preview = document.getElementById('datePreview');
+    const dir = card.dataset.dir;
+    const name = card.dataset.name || 'Contract';
+    preview.innerHTML = `<div class="date-preview-title">${esc(name)}</div><div class="date-preview-message">Loading date arrangements…</div>`;
+    preview.classList.add('show');
+    preview.setAttribute('aria-hidden', 'false');
+    positionDatePreview(card);
+
+    try {
+        if (!datePreviewCache.has(dir)) {
+            if (card.dataset.preview !== '1') {
+                datePreviewCache.set(dir, []);
+            } else {
+                const res = await fetch(`/api/contracts/${encodeURIComponent(dir)}/entry_data`);
+                if (!res.ok) throw new Error('Dates unavailable');
+                datePreviewCache.set(dir, normalisePreviewDates(await res.json()));
+            }
+        }
+        if (datePreviewCard !== card) return;
+        const dates = datePreviewCache.get(dir);
+        const rows = dates.length
+            ? dates.map(d => `<div class="date-preview-row"><span class="date-preview-season">${esc(d.name)}</span><span class="date-preview-range">${esc(d.start || '—')} → ${esc(d.end || '—')}</span></div>`).join('')
+            : '<div class="date-preview-message">No saved date arrangements for this contract.</div>';
+        preview.innerHTML = `<div class="date-preview-title">${esc(name)}</div><div class="date-preview-sub">Date arrangements</div>${rows}`;
+        positionDatePreview(card);
+    } catch (e) {
+        if (datePreviewCard === card) preview.innerHTML = `<div class="date-preview-title">${esc(name)}</div><div class="date-preview-message">Date arrangements could not be loaded.</div>`;
+    }
+}
+
+function scheduleDatePreview(card) {
+    clearTimeout(datePreviewTimer);
+    datePreviewCard = card;
+    datePreviewTimer = setTimeout(() => showDatePreview(card), 350);
+}
+
+function hideDatePreview(card) {
+    if (card && datePreviewCard !== card) return;
+    clearTimeout(datePreviewTimer);
+    datePreviewCard = null;
+    const preview = document.getElementById('datePreview');
+    preview.classList.remove('show');
+    preview.setAttribute('aria-hidden', 'true');
 }
 
 /* ── Pagination ───────────────────────────────────── */
@@ -679,6 +785,25 @@ document.getElementById('cardsGrid').addEventListener('click', e => {
         deleteContract(dir, btn.dataset.name || '');
     }
 });
+
+document.getElementById('cardsGrid').addEventListener('mouseover', e => {
+    const card = e.target.closest('.contract-card');
+    if (card && !card.contains(e.relatedTarget)) scheduleDatePreview(card);
+});
+document.getElementById('cardsGrid').addEventListener('mouseout', e => {
+    const card = e.target.closest('.contract-card');
+    if (card && !card.contains(e.relatedTarget)) hideDatePreview(card);
+});
+document.getElementById('cardsGrid').addEventListener('focusin', e => {
+    const card = e.target.closest('.contract-card');
+    if (card) scheduleDatePreview(card);
+});
+document.getElementById('cardsGrid').addEventListener('focusout', e => {
+    const card = e.target.closest('.contract-card');
+    if (card && !card.contains(e.relatedTarget)) hideDatePreview(card);
+});
+window.addEventListener('scroll', () => hideDatePreview(), {passive:true});
+window.addEventListener('resize', () => hideDatePreview());
 
 loadContracts();
 </script>

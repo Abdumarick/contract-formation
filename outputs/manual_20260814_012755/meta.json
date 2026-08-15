@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Soroi Mara Bush Camp",
+  "hotel_group": "Single",
+  "location": "Kenya",
+  "csv_file": "Soroi_Mara_Bush_Camp_20260814_012755.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-08-14T01:27:55.752814",
+  "output_dir": "manual_20260814_012755",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

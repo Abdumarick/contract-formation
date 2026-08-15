@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Chole Mjini Treehouse Lodge",
+  "hotel_group": "Single",
+  "location": "Mafia Island",
+  "csv_file": "Chole_Mjini_Treehouse_Lodge_20260814_184818.csv",
+  "xlsx_file": null,
+  "row_count": 243,
+  "created_at": "2026-08-14T18:48:18.839721",
+  "output_dir": "manual_20260814_171705",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

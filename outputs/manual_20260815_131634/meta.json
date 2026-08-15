@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Butiama Beach Lodge",
+  "hotel_group": "Single",
+  "location": "Mafia Island",
+  "csv_file": "Butiama_Beach_Lodge_20260815_131634.csv",
+  "xlsx_file": null,
+  "row_count": 108,
+  "created_at": "2026-08-15T13:16:34.521924",
+  "output_dir": "manual_20260815_131634",
+  "contract_year": "2026",
+  "base_plan": "HB"
+}

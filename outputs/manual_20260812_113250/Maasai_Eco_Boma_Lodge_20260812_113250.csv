@@ -1,0 +1,55 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (single),test,1,0,4,1,1,0.0,0.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (single),test,1,5,12,1,1,75.0,0.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (single),test,1,13,99,1,1,150.0,0.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (single),test,1,0,4,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (single),test,1,5,12,1,1,41.3,0.0,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (single),test,1,13,99,1,1,82.6,0.0,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (single),test,1,0,4,1,1,0.0,0.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (single),test,1,5,12,1,1,75.0,0.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (single),test,1,13,99,1,1,150.0,0.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Double),test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Double),test,2,5,12,1,2,50.0,100.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Double),test,2,13,99,1,2,100.0,100.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Double),test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Double),test,2,5,12,1,2,41.3,82.6,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Double),test,2,13,99,1,2,82.6,82.6,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Double),test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Double),test,2,5,12,1,2,50.0,100.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Double),test,2,13,99,1,2,100.0,100.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Twin),test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Twin),test,2,5,12,1,2,60.0,120.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Twin),test,2,13,99,1,2,120.0,120.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Twin),test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Twin),test,2,5,12,1,2,41.3,82.6,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Twin),test,2,13,99,1,2,82.6,82.6,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Twin),test,2,0,4,1,2,0.0,0.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Twin),test,2,5,12,1,2,60.0,120.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Twin),test,2,13,99,1,2,120.0,120.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Triple),test,3,0,4,1,3,0.0,0.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Triple),test,3,5,12,1,3,45.0,90.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Triple),test,3,13,99,1,3,90.0,90.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Triple),test,3,0,4,1,3,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Triple),test,3,5,12,1,3,41.3,82.6,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Triple),test,3,13,99,1,3,82.6,82.6,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Triple),test,3,0,4,1,3,0.0,0.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Triple),test,3,5,12,1,3,45.0,90.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Tradi onal boma hut (Triple),test,3,13,99,1,3,90.0,90.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Family Boma hut,test,5,0,4,1,5,0.0,0.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Family Boma hut,test,5,5,12,1,5,42.0,84.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Family Boma hut,test,5,13,99,1,5,84.0,84.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Family Boma hut,test,5,0,4,1,5,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Family Boma hut,test,5,5,12,1,5,28.91,57.82,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Family Boma hut,test,5,13,99,1,5,57.82,57.82,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Family Boma hut,test,5,0,4,1,5,0.0,0.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Family Boma hut,test,5,5,12,1,5,42.0,84.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Family Boma hut,test,5,13,99,1,5,84.0,84.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Private Worrior Camp,test,6,0,4,1,6,0.0,0.0,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Private Worrior Camp,test,6,5,12,1,6,51.66,103.33,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Private Worrior Camp,test,6,13,99,1,6,103.33,103.33,0.0,0.0,01/01/2026,31/03/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Private Worrior Camp,test,6,0,4,1,6,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Private Worrior Camp,test,6,5,12,1,6,41.3,82.6,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Private Worrior Camp,test,6,13,99,1,6,82.6,82.6,0.0,0.0,01/04/2026,31/05/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Private Worrior Camp,test,6,0,4,1,6,0.0,0.0,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Private Worrior Camp,test,6,5,12,1,6,51.66,103.33,0.0,0.0,01/06/2026,31/12/2026
+Arusha,Maasai Eco Boma Lodge,,test,FALSE,0,FALSE,USD,Private Worrior Camp,test,6,13,99,1,6,103.33,103.33,0.0,0.0,01/06/2026,31/12/2026

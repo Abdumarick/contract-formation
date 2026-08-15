@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Tambarare Camp",
+  "hotel_group": "Single",
+  "location": "kenya",
+  "csv_file": "Tambarare_Camp_20260814_010419.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-08-14T01:04:19.440639",
+  "output_dir": "manual_20260814_010419",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

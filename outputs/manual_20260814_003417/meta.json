@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Olonana Lodge",
+  "hotel_group": "Single",
+  "location": "kenya",
+  "csv_file": "Olonana_Lodge_20260814_010821.csv",
+  "xlsx_file": null,
+  "row_count": 90,
+  "created_at": "2026-08-14T01:08:21.679039",
+  "output_dir": "manual_20260814_003417",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

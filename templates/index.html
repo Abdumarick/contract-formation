@@ -28,7 +28,10 @@
 
         body {
             font-family: 'Outfit', sans-serif;
-            background: var(--bg);
+            background:
+                radial-gradient(circle at 12% 5%, rgba(88,166,255,.08), transparent 28rem),
+                radial-gradient(circle at 88% 18%, rgba(57,211,187,.05), transparent 24rem),
+                var(--bg);
             color: var(--text);
             min-height: 100vh;
             padding: 0 0 80px;
@@ -71,17 +74,18 @@
             display: flex;
             background: var(--surface);
             border: 1px solid var(--border);
-            border-radius: 10px;
-            padding: 5px;
-            margin-bottom: 28px;
-            gap: 4px;
+            border-radius: 14px;
+            padding: 6px;
+            margin-bottom: 24px;
+            gap: 6px;
+            box-shadow: 0 10px 30px rgba(0,0,0,.18);
         }
         .mode-tab {
             flex: 1;
-            padding: 10px 16px;
+            padding: 13px 16px;
             background: none;
-            border: none;
-            border-radius: 7px;
+            border: 1px solid transparent;
+            border-radius: 9px;
             color: var(--muted);
             font-family: 'Outfit', sans-serif;
             font-size: .9em;
@@ -90,14 +94,45 @@
             transition: all .2s;
         }
         .mode-tab.active {
-            background: var(--surface2);
-            color: var(--text);
-            box-shadow: 0 1px 6px rgba(0,0,0,.4);
+            background: linear-gradient(135deg, rgba(88,166,255,.2), rgba(57,211,187,.1));
+            border-color: rgba(88,166,255,.42);
+            color: #fff;
+            box-shadow: 0 4px 14px rgba(0,0,0,.28), inset 0 1px rgba(255,255,255,.06);
         }
-        .mode-tab:hover:not(.active) { color: var(--text); }
+        .mode-tab:hover:not(.active) { color: var(--text); background: rgba(255,255,255,.035); }
 
         .mode-panel { display: none; }
         .mode-panel.active { display: block; }
+
+        .manual-welcome {
+            position: relative; overflow: hidden;
+            display: flex; align-items: center; justify-content: space-between; gap: 24px;
+            padding: 22px 24px; margin-bottom: 20px;
+            border: 1px solid rgba(88,166,255,.26); border-radius: 14px;
+            background: linear-gradient(120deg, rgba(88,166,255,.13), rgba(57,211,187,.055) 65%, rgba(188,140,255,.08));
+            box-shadow: 0 12px 35px rgba(0,0,0,.2);
+        }
+        .manual-welcome::after {
+            content: ''; position: absolute; width: 150px; height: 150px;
+            right: -55px; top: -75px; border-radius: 50%; background: rgba(88,166,255,.09);
+        }
+        .manual-welcome-copy { position: relative; z-index: 1; }
+        .manual-eyebrow {
+            color: var(--teal); font-size: .7em; font-weight: 700;
+            letter-spacing: .12em; text-transform: uppercase; margin-bottom: 5px;
+        }
+        .manual-welcome h2 { font-family: 'Playfair Display', serif; font-size: 1.35em; }
+        .manual-welcome p { color: var(--muted); font-size: .82em; margin-top: 5px; line-height: 1.45; }
+        .manual-step {
+            position: relative; z-index: 1; flex: 0 0 auto; padding: 7px 11px;
+            border: 1px solid rgba(57,211,187,.25); border-radius: 20px;
+            background: rgba(57,211,187,.08); color: var(--teal); font-size: .72em; font-weight: 600;
+        }
+        @media(max-width:600px) {
+            .manual-welcome { align-items: flex-start; padding: 18px; }
+            .manual-step { display: none; }
+            .mode-tab { padding: 11px 8px; font-size: .82em; }
+        }
 
         /* ── card ─────────────────────────────────── */
         .card {
@@ -106,9 +141,10 @@
             border-radius: 12px;
             overflow: hidden;
             margin-bottom: 20px;
-            transition: box-shadow .3s;
+            box-shadow: 0 8px 24px rgba(0,0,0,.12);
+            transition: box-shadow .3s, border-color .3s;
         }
-        .card:hover { box-shadow: var(--glow); }
+        .card:hover { border-color: #3b4652; box-shadow: var(--glow); }
 
         .card-header {
             padding: 18px 24px;
@@ -955,6 +991,49 @@
             font-size:.72em; color:var(--muted);
             margin-top:4px; min-height:14px;
         }
+        /* Small-phone layout */
+        @media(max-width:480px) {
+            body { padding-bottom: 48px; }
+            .header {
+                flex-direction: column;
+                align-items: stretch !important;
+                gap: 16px !important;
+                padding: 22px 16px;
+                text-align: left;
+            }
+            .header h1 { font-size: 1.65em; }
+            .header p { font-size: .9em; }
+            .header > a { justify-content: center; width: 100%; }
+            .page { padding: 20px 12px 0; }
+            .mode-tabs { padding: 4px; gap: 3px; margin-bottom: 16px; }
+            .mode-tab { min-height: 48px; padding: 8px 6px; line-height: 1.25; }
+            .manual-welcome { margin-bottom: 14px; padding: 16px; }
+            .manual-welcome h2 { font-size: 1.15em; }
+            .manual-welcome p { font-size: .78em; }
+            .card { margin-bottom: 14px; border-radius: 10px; }
+            .card-header { padding: 15px 14px; gap: 10px; align-items: flex-start; }
+            .card-header-text { min-width: 0; }
+            .card-header-text h3 { line-height: 1.3; }
+            .card-header-text p { line-height: 1.4; }
+            .card-body { padding: 16px 14px; }
+            .card-icon { width: 34px; height: 34px; font-size: 16px; }
+            .drow-season, .drow-ageband, .drow-room, .drow-supp,
+            .drow-daterange, .rcr-row1, .supp-row-top {
+                grid-template-columns: 1fr;
+            }
+            .drow { padding: 12px; }
+            .supp-row { padding: 12px; }
+            .rcr-row2 { flex-direction: column; align-items: stretch; }
+            .rcr-row2 .rcr-field, .rcr-pct-field { width: 100%; min-width: 0; flex-basis: auto; }
+            .actions { flex-direction: column; align-items: stretch; }
+            .actions .btn { width: 100%; justify-content: center; }
+            .sa-header { align-items: flex-start; flex-direction: column; gap: 4px; }
+            .sa-hint { text-align: left; }
+            .year-shift-popover { right: auto; left: 0; min-width: 0; width: min(280px, calc(100vw - 52px)); }
+            .price-adjust-popover { min-width: 0; width: min(300px, calc(100vw - 32px)); }
+            .rate-table-wrap { -webkit-overflow-scrolling: touch; }
+            .rate-table { font-size: .82em; }
+        }
                 </style>
 </head>
 <body>
@@ -980,14 +1059,14 @@
 
     <!-- ── Mode tabs ──────────────────────────────────────────── -->
     <div class="mode-tabs">
-        <button class="mode-tab active" data-target="panel-pdf">📄 PDF Upload</button>
-        <button class="mode-tab"        data-target="panel-manual">✏️ Review &amp; Manual Entry</button>
+        <button class="mode-tab active" data-target="panel-manual">✏️ Review &amp; Manual Entry</button>
+        <button class="mode-tab"        data-target="panel-pdf">📄 PDF Upload</button>
     </div>
 
     <!-- ════════════════════════════════════════════════════════
          PANEL A — PDF UPLOAD  (original logic, kept intact)
     ════════════════════════════════════════════════════════ -->
-    <div class="mode-panel active" id="panel-pdf">
+    <div class="mode-panel" id="panel-pdf">
 
         <div class="card">
             <div class="card-header">
@@ -1041,7 +1120,16 @@
     <!-- ════════════════════════════════════════════════════════
          PANEL B — MANUAL ENTRY
     ════════════════════════════════════════════════════════ -->
-    <div class="mode-panel" id="panel-manual">
+    <div class="mode-panel active" id="panel-manual">
+
+        <div class="manual-welcome">
+            <div class="manual-welcome-copy">
+                <div class="manual-eyebrow">Contract workspace</div>
+                <h2>Review, import or create a contract</h2>
+                <p>Start from a PDF or CSV, or continue directly with the hotel information form.</p>
+            </div>
+            <div class="manual-step">Start here ↓</div>
+        </div>
 
         <!-- ── Optional PDF Auto-fill ───────────────────────── -->
         <div class="card" id="manualPdfCard">

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Banja Amani Lodge",
+  "hotel_group": "Single",
+  "location": "Mafia Island",
+  "csv_file": "Banja_Amani_Lodge_20260815_114306.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-08-15T11:43:06.208980",
+  "output_dir": "manual_20260815_114306",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

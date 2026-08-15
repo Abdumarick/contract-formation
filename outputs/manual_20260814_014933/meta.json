@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Soroi Luxury Migration Camp",
+  "hotel_group": "Single",
+  "location": "Masai Mara kenya",
+  "csv_file": "Soroi_Luxury_Migration_Camp_20260814_014933.csv",
+  "xlsx_file": null,
+  "row_count": 96,
+  "created_at": "2026-08-14T01:49:33.476937",
+  "output_dir": "manual_20260814_014933",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Soroi Samburu Lodge",
+  "hotel_group": "Single",
+  "location": "Samburu",
+  "csv_file": "Soroi_Samburu_Lodge_20260814_024759.csv",
+  "xlsx_file": null,
+  "row_count": 216,
+  "created_at": "2026-08-14T02:47:59.974839",
+  "output_dir": "manual_20260814_024655",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

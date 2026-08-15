@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Kanga Beach Paradise",
+  "hotel_group": "Single",
+  "location": "Mafia Island",
+  "csv_file": "Kanga_Beach_Paradise_20260815_135429.csv",
+  "xlsx_file": null,
+  "row_count": 12,
+  "created_at": "2026-08-15T13:54:29.216624",
+  "output_dir": "manual_20260815_135429",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}
