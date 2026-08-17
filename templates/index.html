@@ -35,6 +35,22 @@
             color: var(--text);
             min-height: 100vh;
             padding: 0 0 80px;
+            overflow-x: hidden;
+        }
+
+        #networkBg {
+            position: fixed;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+            opacity: .9;
+        }
+
+        .app-shell {
+            position: relative;
+            z-index: 1;
         }
 
         /* ── header ───────────────────────────────── */
@@ -992,6 +1008,89 @@
             margin-top:4px; min-height:14px;
         }
         /* Small-phone layout */
+        .workspace-progress {
+            display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 10px;
+            margin-bottom: 10px; scrollbar-width: thin;
+        }
+        .progress-bubble {
+            flex: 1 0 112px; display: flex; align-items: center; gap: 8px;
+            padding: 9px 11px; border: 1px solid var(--border); border-radius: 999px;
+            background: var(--surface); color: var(--muted); font: 600 .74em Outfit,sans-serif;
+            cursor: pointer; transition: .2s;
+        }
+        .progress-bubble::before {
+            content: ''; width: 8px; height: 8px; border-radius: 50%; background: #59636e;
+            box-shadow: 0 0 0 4px rgba(139,148,158,.08); flex: 0 0 auto;
+        }
+        .progress-bubble.done { color: #7ee787; border-color: rgba(63,185,80,.3); background: rgba(63,185,80,.07); }
+        .progress-bubble.done::before { background: var(--accent2); box-shadow: 0 0 0 4px rgba(63,185,80,.12); }
+        .progress-bubble.current { color:#fff; border-color:var(--accent); box-shadow:0 0 0 3px rgba(88,166,255,.1); }
+        .progress-bubble.error { color:#ff7b72; border-color:rgba(248,81,73,.35); background:rgba(248,81,73,.07); }
+        .progress-bubble.error::before { background:var(--rose); box-shadow:0 0 0 4px rgba(248,81,73,.12); }
+        .workspace-bar {
+            position: sticky; top: 8px; z-index: 80; display: flex; align-items: center;
+            justify-content: space-between; gap: 14px; padding: 11px 14px; margin-bottom: 16px;
+            border: 1px solid rgba(88,166,255,.26); border-radius: 12px;
+            background: rgba(22,27,34,.94); backdrop-filter: blur(14px); box-shadow: 0 10px 28px rgba(0,0,0,.28);
+        }
+        .workspace-summary { min-width: 0; }
+        .workspace-summary strong { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .workspace-summary span { color: var(--muted); font-size: .72em; }
+        .draft-state { color: var(--teal); font-size: .72em; white-space: nowrap; }
+        .review-overlay {
+            display: none; position: fixed; inset: 0; z-index: 1000; padding: 20px;
+            background: rgba(5,8,12,.76); backdrop-filter: blur(7px); align-items: center; justify-content: center;
+        }
+        .review-overlay.show { display: flex; }
+        .review-dialog {
+            width: min(560px,100%); max-height: min(680px,90vh); overflow: auto;
+            background: var(--surface); border: 1px solid rgba(88,166,255,.35); border-radius: 16px;
+            padding: 24px; box-shadow: 0 24px 80px rgba(0,0,0,.62);
+        }
+        .review-dialog h2 { font-family: 'Playfair Display',serif; margin-bottom: 5px; }
+        .review-dialog > p { color: var(--muted); font-size: .84em; margin-bottom: 16px; }
+        .review-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+        .review-item { padding: 12px; border: 1px solid var(--border); border-radius: 9px; background: var(--bg); }
+        .review-item span { display: block; color: var(--muted); font-size: .68em; text-transform: uppercase; letter-spacing: .06em; }
+        .review-item strong { display: block; margin-top: 3px; }
+        .review-actions { display: flex; justify-content: flex-end; gap: 9px; margin-top: 20px; }
+        .workspace-actions { display:flex; align-items:center; gap:7px; }
+        .mini-action { padding:7px 10px; border-radius:8px; border:1px solid var(--border); background:var(--surface2); color:var(--text); font:600 .72em Outfit,sans-serif; cursor:pointer; }
+        .mini-action:hover { border-color:var(--accent); color:var(--accent); }
+        .section-badge { margin-left:auto; padding:4px 8px; border-radius:999px; background:rgba(139,148,158,.1); color:var(--muted); font-size:.68em; font-weight:700; white-space:nowrap; }
+        .section-badge.done { background:rgba(63,185,80,.11); color:#7ee787; }
+        .advanced-toggle { margin-left:8px; width:28px; height:28px; border-radius:7px; border:1px solid var(--border); background:var(--surface2); color:var(--muted); cursor:pointer; }
+        .advanced-card.collapsed .card-body { display:none; }
+        .timeline { display:flex; gap:4px; min-height:44px; margin-top:14px; overflow-x:auto; }
+        .timeline-segment { min-width:90px; flex:1; padding:8px 9px; border-radius:8px; background:linear-gradient(135deg,rgba(88,166,255,.18),rgba(57,211,187,.1)); border:1px solid rgba(88,166,255,.25); }
+        .timeline-segment strong { display:block; font-size:.72em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+        .timeline-segment span { color:var(--muted); font-size:.62em; white-space:nowrap; }
+        .rt-missing { background:rgba(248,81,73,.08)!important; box-shadow:inset 0 0 0 1px rgba(248,81,73,.24); }
+        .rate-table thead { position:sticky; top:0; z-index:4; }
+        .focus-mode #manualFormWrap .card { display:none; }
+        .focus-mode #manualFormWrap .card.focus-visible { display:block; }
+        .empty-hint { padding:18px; border:1px dashed var(--border); border-radius:9px; color:var(--muted); text-align:center; font-size:.8em; }
+        #roomList:empty::before { content:'Add your first room in the rate table above.'; display:block; padding:18px; border:1px dashed var(--border); border-radius:9px; color:var(--muted); text-align:center; font-size:.8em; }
+        .source-choices { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-bottom:14px; }
+        .source-choice { padding:11px 8px; text-align:center; border:1px solid var(--border); border-radius:10px; background:var(--surface); color:var(--muted); text-decoration:none; font:600 .76em Outfit,sans-serif; cursor:pointer; }
+        .source-choice:hover { border-color:var(--accent); color:var(--text); background:rgba(88,166,255,.07); }
+        .source-helper-hidden { display:none; }
+        .tools-menu { position:relative; }
+        .tools-menu summary { list-style:none; }
+        .tools-menu summary::-webkit-details-marker { display:none; }
+        .tools-menu-panel { position:absolute; right:0; top:calc(100% + 7px); width:170px; padding:8px; display:grid; gap:6px; background:var(--surface); border:1px solid var(--border); border-radius:10px; box-shadow:0 14px 36px rgba(0,0,0,.5); }
+        .tools-menu-panel .mini-action { width:100%; text-align:left; }
+        #manualFormWrap .card.wizard-hidden { display:none; }
+        .wizard-review { display:none; padding:24px; margin-bottom:16px; border:1px solid rgba(88,166,255,.28); border-radius:14px; background:linear-gradient(135deg,rgba(88,166,255,.08),rgba(57,211,187,.04)); }
+        .wizard-review.show { display:block; }
+        .wizard-review h2 { font-family:'Playfair Display',serif; }
+        .wizard-review > p { color:var(--muted); font-size:.82em; margin:6px 0 16px; }
+        .wizard-navigation { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 0; }
+        .wizard-navigation span { color:var(--muted); font-size:.75em; }
+        .wizard-final-actions { display:none; }
+        .wizard-final-actions.show { display:flex; }
+        .full-form-mode #wizardReview { display:none !important; }
+        .full-form-mode .wizard-navigation { display:none !important; }
         @media(max-width:480px) {
             body { padding-bottom: 48px; }
             .header {
@@ -1033,11 +1132,22 @@
             .price-adjust-popover { min-width: 0; width: min(300px, calc(100vw - 32px)); }
             .rate-table-wrap { -webkit-overflow-scrolling: touch; }
             .rate-table { font-size: .82em; }
+            .workspace-bar { top: 4px; padding: 10px 11px; }
+            .draft-state { display: none; }
+            .review-grid { grid-template-columns: 1fr; }
+            .review-dialog { padding: 18px; }
+            .review-actions { flex-direction: column-reverse; }
+            .review-actions .btn { width: 100%; justify-content: center; }
+            .source-choices { grid-template-columns:1fr 1fr; }
+            .wizard-navigation .btn { padding:9px 11px; font-size:.8em; }
+            .tools-menu-panel { position:fixed; right:12px; top:120px; }
         }
                 </style>
 </head>
 <body>
+<canvas id="networkBg" aria-hidden="true"></canvas>
 
+<div class="app-shell">
 <div class="header" style="display:flex;align-items:center;justify-content:space-between;gap:16px;">
     <div>
         <h1>🏨 Hotel Contract Parser</h1>
@@ -1130,6 +1240,38 @@
             </div>
             <div class="manual-step">Start here ↓</div>
         </div>
+        <div class="source-choices" aria-label="Choose contract source">
+            <button class="source-choice" type="button" onclick="selectContractSource('manual')">✏️ Start manually</button>
+            <button class="source-choice" type="button" onclick="selectContractSource('pdf')">📄 Import PDF</button>
+            <button class="source-choice" type="button" onclick="selectContractSource('csv')">CSV Import CSV</button>
+            <a class="source-choice" href="{{ url_for('library') }}">📚 Reopen contract</a>
+        </div>
+
+        <div class="workspace-progress" id="workspaceProgress" aria-label="Form progress">
+            <button class="progress-bubble" data-step="setup">1&nbsp; Setup</button>
+            <button class="progress-bubble" data-step="pricing">2&nbsp; Dates &amp; Prices</button>
+            <button class="progress-bubble" data-step="policies">3&nbsp; Policies &amp; Charges</button>
+            <button class="progress-bubble" data-step="review">4&nbsp; Review</button>
+        </div>
+
+        <div class="workspace-bar">
+            <div class="workspace-summary">
+                <strong id="workspaceHotel">New contract</strong>
+                <span id="workspaceCounts">Add hotel details to begin</span>
+            </div>
+            <div class="workspace-actions">
+                <span class="draft-state" id="draftState">Draft protection on</span>
+                <details class="tools-menu"><summary class="mini-action">Tools ▾</summary><div class="tools-menu-panel">
+                    <button class="mini-action" id="fullFormBtn">Full form</button>
+                    <button class="mini-action" id="subsectionBtn">Subsections</button>
+                    <button class="mini-action" id="templateBtn">Save template</button>
+                    <button class="mini-action" id="loadTemplateBtn">Use template</button>
+                    <button class="mini-action" id="focusModeBtn">Focus mode</button>
+                    <button class="mini-action" id="clearTopBtn">Clear form</button>
+                </div></details>
+                <button class="mini-action" id="topGenerateBtn">Review</button>
+            </div>
+        </div>
 
         <!-- ── Optional PDF Auto-fill ───────────────────────── -->
         <div class="card" id="manualPdfCard">
@@ -1198,6 +1340,12 @@
         </div>
 
         <div id="manualFormWrap">
+        <div class="wizard-review" id="wizardReview">
+            <div class="manual-eyebrow">Final check</div>
+            <h2>Ready to review your contract?</h2>
+            <p>The summary below updates as you work. Resolve red items before generation; amber items are recommendations.</p>
+            <div class="review-grid" id="inlineReviewGrid"></div>
+        </div>
 
         <!-- ── Hotel Info ───────────────────────────────────── -->
         <div class="card">
@@ -1299,7 +1447,10 @@
                     <h3>Date Ranges</h3>
                     <p>Map each date period to a season — costs pull through automatically from the table above</p>
                 </div>
-                <div style="margin-left:auto;position:relative;">
+                <div style="margin-left:auto;position:relative;display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;">
+                    <button class="date-shift-btn" type="button" onclick="copyDatesToNextYear()" title="Duplicate all current periods one year ahead">
+                        ＋ Copy Next Year
+                    </button>
                     <button class="date-shift-btn" onclick="toggleYearShiftPopover(event)" title="Shift all dates by N years">
                         ⟳ Shift Years
                     </button>
@@ -1309,6 +1460,7 @@
             <div class="card-body">
                 <div class="dynamic-list" id="dateRangeList"></div>
                 <button class="add-btn" id="addDateRangeBtn">＋ Add Date Range</button>
+                <div class="timeline" id="dateTimeline" aria-label="Date arrangement timeline"></div>
             </div>
         </div>
 
@@ -1405,7 +1557,12 @@
         </div>
 
         <!-- ── Actions ─────────────────────────────────────── -->
-        <div class="actions">
+        <div class="wizard-navigation" id="wizardNavigation">
+            <button class="btn btn-ghost" id="wizardBackBtn">← Previous</button>
+            <span id="wizardStepLabel">Step 1 of 4</span>
+            <button class="btn btn-primary" id="wizardNextBtn">Continue →</button>
+        </div>
+        <div class="actions wizard-final-actions">
             <button class="btn btn-green" id="generateBtn">
                 <span>Generate CSV</span>
             </button>
@@ -1429,6 +1586,20 @@
     </div><!-- /panel-manual -->
 
 </div><!-- /page -->
+</div><!-- /app-shell -->
+
+<div class="review-overlay" id="reviewOverlay" role="dialog" aria-modal="true" aria-labelledby="reviewTitle">
+    <div class="review-dialog">
+        <h2 id="reviewTitle">Review contract</h2>
+        <p>Confirm the main details before generating the CSV.</p>
+        <div class="review-grid" id="reviewGrid"></div>
+        <div class="status" id="reviewStatus"></div>
+        <div class="review-actions">
+            <button class="btn btn-ghost" id="reviewBackBtn">Back to form</button>
+            <button class="btn btn-green" id="reviewConfirmBtn">Confirm &amp; Generate</button>
+        </div>
+    </div>
+</div>
 
 <script>
 /* ── PDF helper toggle ───────────────────────────────── */
@@ -2110,6 +2281,17 @@ function addDateRange(d = {}) {
     div.className = 'drow drow-daterange';
     div.id = id;
 
+    let autoStart = false;
+    if (!d.start) {
+        const previousEnd = document.querySelector('#dateRangeList .drow-daterange:last-child .dr-end')?.value;
+        if (previousEnd) {
+            const next = new Date(previousEnd + 'T12:00:00');
+            next.setDate(next.getDate() + 1);
+            d.start = next.toISOString().slice(0, 10);
+            autoStart = true;
+        }
+    }
+
     const seasons = getSeasonRows();
     const opts    = seasons.map(s =>
         `<option value="${s.sid}" ${(d.sid === s.sid) ? 'selected' : ''}>${s.name}</option>`
@@ -2130,6 +2312,22 @@ function addDateRange(d = {}) {
       </div>
       <button class="del-btn" onclick="removeRow('${id}')">×</button>`;
     document.getElementById('dateRangeList').appendChild(div);
+    if (autoStart) div.querySelector('.dr-start').dataset.autoLinked = '1';
+}
+
+function copyDatesToNextYear() {
+    const rows=Array.from(document.querySelectorAll('#dateRangeList .drow-daterange')).map(row=>({
+        sid:row.querySelector('.dr-season-sel').value,
+        start:row.querySelector('.dr-start').value,
+        end:row.querySelector('.dr-end').value,
+    })).filter(r=>r.start&&r.end);
+    if(!rows.length) return alert('Add at least one complete date range first.');
+    rows.forEach(r=>{
+        const start=new Date(r.start+'T12:00:00'), end=new Date(r.end+'T12:00:00');
+        start.setFullYear(start.getFullYear()+1); end.setFullYear(end.getFullYear()+1);
+        addDateRange({sid:r.sid,start:start.toISOString().slice(0,10),end:end.toISOString().slice(0,10)});
+    });
+    updateWorkspace(); saveDraftSoon();
 }
 
 /* ══════════════════════════════════════════════════════
@@ -2862,6 +3060,204 @@ function validateForm(data) {
 /* ══════════════════════════════════════════════════════
    GENERATE CSV
 ══════════════════════════════════════════════════════ */
+const FORM_DRAFT_KEY = 'hotelContractDraftV1';
+let draftTimer = null;
+
+function workspaceSnapshot() {
+    const data = collectForm();
+    const seasons = data.season_rows.length, rooms = data.room_cols.length, dates = data.date_ranges.length;
+    const prices = Object.values(data.cost_matrix).reduce((n,row) => n + Object.values(row).filter(v => Number(v)>0).length, 0);
+    return {data, seasons, rooms, dates, prices};
+}
+function updateWorkspace() {
+    const s = workspaceSnapshot();
+    document.getElementById('workspaceHotel').textContent = s.data.hotel_name || 'New contract';
+    document.getElementById('workspaceCounts').textContent = `${s.seasons} seasons · ${s.rooms} rooms · ${s.dates} date ranges`;
+    const states = {setup:!!s.data.hotel_name,
+        pricing:s.seasons>0&&s.rooms>0&&s.prices>0&&s.dates>0,
+        policies:s.data.age_bands.length>0, review:!validateForm(s.data)};
+    document.querySelectorAll('.progress-bubble').forEach(b => {
+        b.classList.toggle('done', states[b.dataset.step]);
+        b.classList.toggle('error', b.dataset.step==='review' && !!validateForm(s.data) && !!s.data.hotel_name);
+    });
+    refreshWorkspaceDetails(s);
+}
+
+function refreshWorkspaceDetails(s) {
+    document.querySelectorAll('.rt-cost-input').forEach(input => {
+        const missing=!input.disabled && !(Number(input.value)>0);
+        input.closest('.rt-cost-cell')?.classList.toggle('rt-missing',missing);
+    });
+    const totalCells=s.seasons*s.rooms, missing=Math.max(0,totalCells-s.prices);
+    const names=new Map(s.data.season_rows.map(x=>[x.sid,x.name]));
+    document.getElementById('dateTimeline').innerHTML=s.data.date_ranges.map(r=>
+        `<div class="timeline-segment"><strong>${names.get(r.sid)||'Season'}</strong><span>${r.start} → ${r.end}</span></div>`).join('') ||
+        '<div class="empty-hint">Add date ranges to build the timeline.</div>';
+    const sections=[['m_name',!!s.data.hotel_name,'Hotel details'],['rateTable',s.seasons>0&&s.rooms>0,'Rates'],
+        ['dateRangeList',s.dates>0,'Dates'],
+        ['ageBandList',s.data.age_bands.length>0,'Policies']];
+    sections.forEach(([id,done,label])=>decorateSection(id,done,label));
+    setSectionSummary('extraSuppList', `${s.data.extra_supplements.length} extra supplement${s.data.extra_supplements.length===1?'':'s'}`);
+    setSectionSummary('m_notes', s.data.notes ? `${s.data.notes.length} characters` : 'No notes');
+}
+function decorateSection(id,done,label) {
+    const card=document.getElementById(id)?.closest('.card'), header=card?.querySelector('.card-header'); if(!header)return;
+    let badge=header.querySelector('.section-badge');
+    if(!badge){ badge=document.createElement('span'); badge.className='section-badge'; header.appendChild(badge); }
+    badge.textContent=done?'Complete':'Incomplete'; badge.className='section-badge '+(done?'done':'');
+}
+function setSectionSummary(id,text) {
+    const header=document.getElementById(id)?.closest('.card')?.querySelector('.card-header'); if(!header)return;
+    let badge=header.querySelector('.section-badge');
+    if(!badge){badge=document.createElement('span');badge.className='section-badge';header.appendChild(badge);}
+    badge.textContent=text; badge.className='section-badge done';
+}
+function saveDraftSoon() {
+    clearTimeout(draftTimer);
+    document.getElementById('draftState').textContent = 'Saving draft…';
+    draftTimer = setTimeout(() => { try {
+        localStorage.setItem(FORM_DRAFT_KEY, JSON.stringify({savedAt:Date.now(),data:collectForm()}));
+        document.getElementById('draftState').textContent = 'Draft saved';
+    } catch(e) { document.getElementById('draftState').textContent = 'Draft unavailable'; } }, 650);
+}
+function openReviewDialog() {
+    const s = workspaceSnapshot(), err = validateForm(s.data);
+    if (err) { setStatus('manualStatus','err','❌ '+err); return; }
+    const items = [['Hotel',s.data.hotel_name],['Location',s.data.location_name||'Not specified'],
+        ['Contract year',s.data.contract_year||'Not specified'],['Meal plan',s.data.base_plan],
+        ['Seasons',s.seasons],['Rooms',s.rooms],['Date ranges',s.dates],
+        ['Age bands',s.data.age_bands.length],['Rate cells',s.prices],['Extra supplements',s.data.extra_supplements.length]];
+    const safe = v => String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+    document.getElementById('reviewGrid').innerHTML = items.map(([l,v]) =>
+        `<div class="review-item"><span>${safe(l)}</span><strong>${safe(v)}</strong></div>`).join('');
+    document.getElementById('reviewOverlay').classList.add('show');
+    document.getElementById('reviewConfirmBtn').focus();
+}
+function closeReviewDialog() { document.getElementById('reviewOverlay').classList.remove('show'); }
+document.getElementById('reviewBackBtn').addEventListener('click', closeReviewDialog);
+document.getElementById('reviewConfirmBtn').addEventListener('click', () => { closeReviewDialog(); submitManualForm({showDownload:true}); });
+document.getElementById('reviewOverlay').addEventListener('click', e => { if(e.target.id==='reviewOverlay') closeReviewDialog(); });
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeReviewDialog(); });
+const WIZARD_STEPS=['setup','pricing','policies','review'];
+let wizardStep='setup';
+let formViewMode='subsection';
+function wizardCard(id){return document.getElementById(id)?.closest('.card');}
+function setFormViewMode(mode) {
+    formViewMode = mode === 'full' ? 'full' : 'subsection';
+    const full = formViewMode === 'full';
+    document.body.classList.toggle('full-form-mode', full);
+    document.getElementById('wizardNavigation').style.display = full ? 'none' : '';
+    document.getElementById('wizardReview').classList.toggle('show', !full && wizardStep === 'review');
+    document.querySelector('.wizard-final-actions').classList.toggle('show', !full && wizardStep === 'review');
+    document.querySelectorAll('#manualFormWrap > .card').forEach(c => c.classList.remove('wizard-hidden'));
+    if (!full) showWizardStep(wizardStep);
+    updateWorkspace();
+}
+function showWizardStep(step) {
+    if (formViewMode === 'full') return;
+    wizardStep=WIZARD_STEPS.includes(step)?step:'setup';
+    const groups={setup:[wizardCard('m_name')],pricing:[wizardCard('rateTable'),wizardCard('dateRangeList'),wizardCard('roomList')],
+        policies:[wizardCard('ageBandList'),wizardCard('extraSuppList'),wizardCard('m_notes')]};
+    document.querySelectorAll('#manualFormWrap > .card').forEach(c=>c.classList.add('wizard-hidden'));
+    (groups[wizardStep]||[]).forEach(c=>c?.classList.remove('wizard-hidden'));
+    document.getElementById('wizardReview').classList.toggle('show',wizardStep==='review');
+    document.querySelector('.wizard-final-actions').classList.toggle('show',wizardStep==='review');
+    const i=WIZARD_STEPS.indexOf(wizardStep);
+    document.getElementById('wizardBackBtn').disabled=i===0;
+    document.getElementById('wizardNextBtn').style.display=i===WIZARD_STEPS.length-1?'none':'inline-flex';
+    document.getElementById('wizardStepLabel').textContent=`Step ${i+1} of ${WIZARD_STEPS.length}`;
+    document.querySelectorAll('.progress-bubble').forEach(b=>b.classList.toggle('current',b.dataset.step===wizardStep));
+    if(wizardStep==='review') updateInlineReview();
+    window.scrollTo({top:document.getElementById('workspaceProgress').offsetTop-10,behavior:'smooth'});
+}
+function updateInlineReview(){
+    const s=workspaceSnapshot(), entries=[['Hotel',s.data.hotel_name||'Missing'],['Year',s.data.contract_year||'Not specified'],
+        ['Meal plan',s.data.base_plan],['Seasons',s.seasons],['Rooms',s.rooms],['Date ranges',s.dates],
+        ['Age bands',s.data.age_bands.length],['Supplements',s.data.extra_supplements.length]];
+    document.getElementById('inlineReviewGrid').innerHTML=entries.map(([l,v])=>`<div class="review-item"><span>${l}</span><strong>${v}</strong></div>`).join('');
+}
+function selectContractSource(source){
+    document.getElementById('manualPdfCard').classList.add('source-helper-hidden');
+    document.getElementById('csvImportCard').classList.add('source-helper-hidden');
+    if(source==='pdf') document.getElementById('manualPdfCard').classList.remove('source-helper-hidden');
+    if(source==='csv') document.getElementById('csvImportCard').classList.remove('source-helper-hidden');
+    const target=source==='pdf'?'manualPdfCard':source==='csv'?'csvImportCard':'m_name';
+    document.getElementById(target).scrollIntoView({behavior:'smooth',block:'start'});
+}
+document.getElementById('workspaceProgress').addEventListener('click',e=>{const b=e.target.closest('.progress-bubble');if(b)showWizardStep(b.dataset.step);});
+document.getElementById('fullFormBtn').addEventListener('click',()=>setFormViewMode('full'));
+document.getElementById('subsectionBtn').addEventListener('click',()=>setFormViewMode('subsection'));
+document.getElementById('wizardBackBtn').addEventListener('click',()=>showWizardStep(WIZARD_STEPS[Math.max(0,WIZARD_STEPS.indexOf(wizardStep)-1)]));
+document.getElementById('wizardNextBtn').addEventListener('click',()=>{
+    document.getElementById('manualStatus').classList.remove('show');
+    showWizardStep(WIZARD_STEPS[WIZARD_STEPS.indexOf(wizardStep)+1]);
+});
+document.getElementById('topGenerateBtn').addEventListener('click',()=>showWizardStep('review'));
+document.getElementById('clearTopBtn').addEventListener('click',()=>document.getElementById('clearBtn').click());
+document.getElementById('focusModeBtn').addEventListener('click', e => {
+    const enabled=document.body.classList.toggle('focus-mode');
+    e.target.textContent=enabled?'Show all sections':'Focus mode';
+    if(enabled) {
+        const first=document.getElementById('m_name').closest('.card'); first.classList.add('focus-visible');
+        first.scrollIntoView({behavior:'smooth',block:'start'});
+    } else document.querySelectorAll('.focus-visible').forEach(c=>c.classList.remove('focus-visible'));
+});
+const TEMPLATE_KEY='hotelContractTemplatesV1';
+document.getElementById('templateBtn').addEventListener('click', () => {
+    const name=prompt('Template name (for example: Safari Lodge Standard)'); if(!name?.trim())return;
+    const data=collectForm();
+    data.hotel_name=''; data.location_name=''; data.contract_year=''; data.hotel_desc=''; data.notes=''; data.date_ranges=[];
+    Object.keys(data.cost_matrix).forEach(sid=>Object.keys(data.cost_matrix[sid]).forEach(cid=>data.cost_matrix[sid][cid]=0));
+    const templates=JSON.parse(localStorage.getItem(TEMPLATE_KEY)||'[]').filter(t=>t.name!==name.trim());
+    templates.push({name:name.trim(),data}); localStorage.setItem(TEMPLATE_KEY,JSON.stringify(templates));
+    document.getElementById('draftState').textContent='Template saved';
+});
+document.getElementById('loadTemplateBtn').addEventListener('click', () => {
+    const templates=JSON.parse(localStorage.getItem(TEMPLATE_KEY)||'[]');
+    if(!templates.length) return alert('No saved templates yet. Complete the structure and choose Save template.');
+    const list=templates.map((t,i)=>`${i+1}. ${t.name}`).join('\n');
+    const choice=parseInt(prompt(`Choose a template:\n${list}`),10)-1;
+    if(!templates[choice])return;
+    reloadContractData(templates[choice].data); updateWorkspace();
+    document.getElementById('draftState').textContent=`Template: ${templates[choice].name}`;
+});
+function initialiseAdvancedCards() {
+    ['ageBandList','extraSuppList','m_notes'].forEach(id => {
+        const card=document.getElementById(id)?.closest('.card'), header=card?.querySelector('.card-header');
+        if(!card||header.querySelector('.advanced-toggle'))return;
+        card.classList.add('advanced-card','collapsed');
+        const btn=document.createElement('button'); btn.type='button'; btn.className='advanced-toggle'; btn.textContent='▼'; btn.title='Expand or collapse';
+        btn.addEventListener('click',()=>card.classList.toggle('collapsed')); header.appendChild(btn);
+    });
+}
+document.getElementById('manualFormWrap').addEventListener('input', e => {
+    if(e.target.classList.contains('dr-start')) delete e.target.dataset.autoLinked;
+    updateWorkspace(); saveDraftSoon();
+});
+document.getElementById('manualFormWrap').addEventListener('change', e => {
+    if(e.target.classList.contains('dr-end')) {
+        const nextStart=e.target.closest('.drow-daterange')?.nextElementSibling?.querySelector('.dr-start');
+        if(nextStart&&(!nextStart.value||nextStart.dataset.autoLinked==='1')&&e.target.value) {
+            const next=new Date(e.target.value+'T12:00:00'); next.setDate(next.getDate()+1);
+            nextStart.value=next.toISOString().slice(0,10); nextStart.dataset.autoLinked='1';
+        }
+    }
+    updateWorkspace(); saveDraftSoon();
+});
+window.addEventListener('load', () => setTimeout(() => {
+    initialiseAdvancedCards();
+    document.getElementById('manualPdfCard').classList.add('source-helper-hidden');
+    document.getElementById('csvImportCard').classList.add('source-helper-hidden');
+    setFormViewMode('subsection');
+    updateWorkspace();
+    if(new URLSearchParams(location.search).has('reload')) return;
+    try { const draft=JSON.parse(localStorage.getItem(FORM_DRAFT_KEY)||'null');
+        if(draft?.data?.hotel_name&&confirm(`Continue the saved draft for "${draft.data.hotel_name}"?`)) {
+            reloadContractData(draft.data); document.getElementById('draftState').textContent='Draft restored'; updateWorkspace();
+        }
+    } catch(e) { localStorage.removeItem(FORM_DRAFT_KEY); }
+},250));
+
 let currentEditOutputDir = '';
 
 async function submitManualForm({ showDownload }) {
@@ -2887,6 +3283,8 @@ async function submitManualForm({ showDownload }) {
         const result = await res.json();
         if (result.success) {
             currentEditOutputDir = result.output_dir || currentEditOutputDir;
+            localStorage.removeItem(FORM_DRAFT_KEY);
+            document.getElementById('draftState').textContent = 'Saved';
             if (showDownload) {
                 const dl = document.getElementById('manualDownloadBtn');
                 dl.href     = `/download/${result.output_dir}/${result.csv_file}`;
@@ -2910,14 +3308,14 @@ async function submitManualForm({ showDownload }) {
     }
 }
 
-document.getElementById('generateBtn').addEventListener('click', () =>
-    submitManualForm({ showDownload: true }));
+document.getElementById('generateBtn').addEventListener('click', openReviewDialog);
 document.getElementById('saveChangesBtn').addEventListener('click', () =>
     submitManualForm({ showDownload: false }));
 
 /* ── Clear / Reset form ──────────────────────────────── */
 document.getElementById('clearBtn').addEventListener('click', () => {
     if (!confirm('Clear all form data?')) return;
+    localStorage.removeItem(FORM_DRAFT_KEY);
 
     // Reset PDF upload zone
     manualPdfFile = null;
@@ -3669,6 +4067,91 @@ function closeAllPopovers() {
     });
 }
 document.addEventListener('click', closeAllPopovers);
+
+/* ── Animated network background ───────────────────────────────────────── */
+(function initNetworkBg() {
+    const canvas = document.getElementById('networkBg');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d', { alpha: true });
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const state = { w: 0, h: 0, dpr: 1, points: [] };
+
+    function resize() {
+        state.dpr = Math.min(window.devicePixelRatio || 1, 2);
+        state.w = canvas.clientWidth || window.innerWidth;
+        state.h = canvas.clientHeight || window.innerHeight;
+        canvas.width = Math.floor(state.w * state.dpr);
+        canvas.height = Math.floor(state.h * state.dpr);
+        ctx.setTransform(state.dpr, 0, 0, state.dpr, 0, 0);
+
+        const area = state.w * state.h;
+        const count = Math.max(42, Math.min(120, Math.floor(area / 18000)));
+        state.points = Array.from({ length: count }, () => ({
+            x: Math.random() * state.w,
+            y: Math.random() * state.h,
+            vx: (Math.random() - 0.5) * 0.18,
+            vy: (Math.random() - 0.5) * 0.18,
+            r: 1.2 + Math.random() * 1.8
+        }));
+    }
+
+    function step() {
+        ctx.clearRect(0, 0, state.w, state.h);
+
+        const bgFade = ctx.createLinearGradient(0, 0, 0, state.h);
+        bgFade.addColorStop(0, 'rgba(0,0,0,0.18)');
+        bgFade.addColorStop(1, 'rgba(0,0,0,0.30)');
+        ctx.fillStyle = bgFade;
+        ctx.fillRect(0, 0, state.w, state.h);
+
+        const maxDist = Math.min(170, Math.max(125, Math.min(state.w, state.h) / 5));
+
+        for (const p of state.points) {
+            if (!prefersReducedMotion) {
+                p.x += p.vx;
+                p.y += p.vy;
+                if (p.x < -20) p.x = state.w + 20;
+                if (p.x > state.w + 20) p.x = -20;
+                if (p.y < -20) p.y = state.h + 20;
+                if (p.y > state.h + 20) p.y = -20;
+            }
+        }
+
+        for (let i = 0; i < state.points.length; i++) {
+            const a = state.points[i];
+            for (let j = i + 1; j < state.points.length; j++) {
+                const b = state.points[j];
+                const dx = a.x - b.x;
+                const dy = a.y - b.y;
+                const dist = Math.hypot(dx, dy);
+                if (dist > maxDist) continue;
+                const alpha = (1 - dist / maxDist) * 0.22;
+                ctx.beginPath();
+                ctx.strokeStyle = `rgba(255,255,255,${alpha})`;
+                ctx.lineWidth = 1;
+                ctx.moveTo(a.x, a.y);
+                ctx.lineTo(b.x, b.y);
+                ctx.stroke();
+            }
+        }
+
+        for (const p of state.points) {
+            ctx.beginPath();
+            ctx.fillStyle = 'rgba(255,255,255,.72)';
+            ctx.shadowColor = 'rgba(255,255,255,.45)';
+            ctx.shadowBlur = 8;
+            ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+            ctx.fill();
+        }
+        ctx.shadowBlur = 0;
+
+        if (!prefersReducedMotion) requestAnimationFrame(step);
+    }
+
+    resize();
+    step();
+    window.addEventListener('resize', resize, { passive: true });
+})();
 
 </script>
 </body>

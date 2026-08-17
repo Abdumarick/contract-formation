@@ -26,7 +26,33 @@
         color: var(--text);
         font-family: 'Outfit', sans-serif;
         min-height: 100vh;
+        overflow-x: hidden;
     }
+
+    #networkBg {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        opacity: .9;
+    }
+    .app-shell {
+        position: relative;
+        z-index: 1;
+    }
+
+    #networkBg {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+        opacity: .9;
+    }
+    .app-shell { position: relative; z-index: 1; }
 
     /* ── Header ─────────────────────────────────────── */
     .header {
@@ -380,6 +406,8 @@
 </style>
 </head>
 <body>
+<canvas id="networkBg" aria-hidden="true"></canvas>
+<div class="app-shell">
 
 <!-- Header -->
 <div class="header">
@@ -391,6 +419,8 @@
         <a href="{{ url_for('index') }}" class="btn btn-ghost">← Back to Parser</a>
         <button class="btn btn-primary" onclick="loadContracts()">↻ Refresh</button>
     </div>
+</div>
+
 </div>
 
 <!-- Controls -->
@@ -806,6 +836,88 @@ window.addEventListener('scroll', () => hideDatePreview(), {passive:true});
 window.addEventListener('resize', () => hideDatePreview());
 
 loadContracts();
+
+/* ── Animated network background ───────────────────────────────────────── */
+(function initNetworkBg() {
+    const canvas = document.getElementById('networkBg');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d', { alpha: true });
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const state = { w: 0, h: 0, dpr: 1, points: [] };
+
+    function resize() {
+        state.dpr = Math.min(window.devicePixelRatio || 1, 2);
+        state.w = canvas.clientWidth || window.innerWidth;
+        state.h = canvas.clientHeight || window.innerHeight;
+        canvas.width = Math.floor(state.w * state.dpr);
+        canvas.height = Math.floor(state.h * state.dpr);
+        ctx.setTransform(state.dpr, 0, 0, state.dpr, 0, 0);
+        const area = state.w * state.h;
+        const count = Math.max(36, Math.min(110, Math.floor(area / 20000)));
+        state.points = Array.from({ length: count }, () => ({
+            x: Math.random() * state.w,
+            y: Math.random() * state.h,
+            vx: (Math.random() - 0.5) * 0.16,
+            vy: (Math.random() - 0.5) * 0.16,
+            r: 1.1 + Math.random() * 1.8
+        }));
+    }
+
+    function step() {
+        ctx.clearRect(0, 0, state.w, state.h);
+        const bgFade = ctx.createLinearGradient(0, 0, 0, state.h);
+        bgFade.addColorStop(0, 'rgba(0,0,0,0.18)');
+        bgFade.addColorStop(1, 'rgba(0,0,0,0.30)');
+        ctx.fillStyle = bgFade;
+        ctx.fillRect(0, 0, state.w, state.h);
+
+        const maxDist = Math.min(170, Math.max(125, Math.min(state.w, state.h) / 5));
+        for (const p of state.points) {
+            if (!prefersReducedMotion) {
+                p.x += p.vx; p.y += p.vy;
+                if (p.x < -20) p.x = state.w + 20;
+                if (p.x > state.w + 20) p.x = -20;
+                if (p.y < -20) p.y = state.h + 20;
+                if (p.y > state.h + 20) p.y = -20;
+            }
+        }
+
+        for (let i = 0; i < state.points.length; i++) {
+            const a = state.points[i];
+            for (let j = i + 1; j < state.points.length; j++) {
+                const b = state.points[j];
+                const dx = a.x - b.x;
+                const dy = a.y - b.y;
+                const dist = Math.hypot(dx, dy);
+                if (dist > maxDist) continue;
+                const alpha = (1 - dist / maxDist) * 0.22;
+                ctx.beginPath();
+                ctx.strokeStyle = `rgba(255,255,255,${alpha})`;
+                ctx.lineWidth = 1;
+                ctx.moveTo(a.x, a.y);
+                ctx.lineTo(b.x, b.y);
+                ctx.stroke();
+            }
+        }
+
+        for (const p of state.points) {
+            ctx.beginPath();
+            ctx.fillStyle = 'rgba(255,255,255,.72)';
+            ctx.shadowColor = 'rgba(255,255,255,.45)';
+            ctx.shadowBlur = 8;
+            ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+            ctx.fill();
+        }
+        ctx.shadowBlur = 0;
+
+        if (!prefersReducedMotion) requestAnimationFrame(step);
+    }
+
+    resize();
+    step();
+    window.addEventListener('resize', resize, { passive: true });
+})();
 </script>
+</div>
 </body>
 </html>
