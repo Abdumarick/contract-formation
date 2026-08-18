@@ -1,0 +1,125 @@
+{
+  "hotel_name": "Mara Mara Tented Lodge 27",
+  "location_name": "Serengeti National Park",
+  "contract_year": "2027",
+  "base_plan": "FB",
+  "hotel_desc": "Mara Mara Tented Lodge is a modern luxury tented camp in northern Serengeti's prime Kogatende area, near the Mara River. Divided into north and south camps, it features spacious en-suite tents on raised platforms with private verandas offering stunning savannah and wildlife views?deal for the Great Migration river crossings (June-Nov).",
+  "room_desc": "The single tent at Mara Mara Tented Lodge is a spacious, modern luxury safari tent with a comfortable single or large twin bed, premium linens, and mosquito netting. It features an en-suite bathroom with hot shower, private raised veranda offering prime views of the savannah and Mara River wildlife?erfect for Great Migration crossings. Enjoy elegant African-modern design,",
+  "inside_restricted_area": "TRUE",
+  "ignore_proposal_margin": "FALSE",
+  "notes": "Imported from an existing generated CSV. Review before exporting.",
+  "season_rows": [
+    {
+      "sid": "row_1",
+      "name": "low"
+    },
+    {
+      "sid": "row_2",
+      "name": "High"
+    }
+  ],
+  "room_cols": [
+    {
+      "colId": "col_1",
+      "name": "Single Tent",
+      "max_cap": 1,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_2",
+      "name": "Double Tent",
+      "max_cap": 2,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    },
+    {
+      "colId": "col_3",
+      "name": "Triple Tent",
+      "max_cap": 3,
+      "cost_basis": "per_person",
+      "sgl_override": 0,
+      "sgl_override_type": "usd",
+      "price_source": "",
+      "price_source_pct": 0
+    }
+  ],
+  "cost_matrix": {
+    "row_1": {
+      "col_1": 429,
+      "col_2": 300,
+      "col_3": 261
+    },
+    "row_2": {
+      "col_1": 819,
+      "col_2": 559,
+      "col_3": 481
+    }
+  },
+  "date_ranges": [
+    {
+      "sid": "row_1",
+      "start": "01/01/2027",
+      "end": "30/06/2027"
+    },
+    {
+      "sid": "row_2",
+      "start": "01/07/2027",
+      "end": "31/10/2027"
+    },
+    {
+      "sid": "row_1",
+      "start": "01/11/2027",
+      "end": "31/12/2027"
+    }
+  ],
+  "age_bands": [
+    {
+      "label": "infant",
+      "min_age": 0,
+      "max_age": 2,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    },
+    {
+      "label": "child",
+      "min_age": 3,
+      "max_age": 16,
+      "discount": 0,
+      "discount_type": "pct",
+      "hbfb_mode": "same_as_adult",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    },
+    {
+      "label": "adult",
+      "min_age": 17,
+      "max_age": 99,
+      "discount": 100,
+      "discount_type": "pct",
+      "hbfb_mode": "apply_discount",
+      "child_hb": 0,
+      "child_fb": 0,
+      "notes": "Imported from generated CSV"
+    }
+  ],
+  "hb_supplement": 0,
+  "fb_supplement": 0,
+  "meal_costs": {
+    "breakfast": 0,
+    "lunch": 0,
+    "dinner": 0
+  },
+  "extra_supplements": []
+}

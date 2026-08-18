@@ -3,10 +3,10 @@
   "hotel_name": "Serena Dar es Salaam Hotel",
   "hotel_group": "Single",
   "location": "Dar es Salaam",
-  "csv_file": "Serena_Dar_es_Salaam_Hotel_20260726_153853.csv",
+  "csv_file": "Serena_Dar_es_Salaam_Hotel_20260818_121229.csv",
   "xlsx_file": null,
   "row_count": 24,
-  "created_at": "2026-07-26T15:38:53.819135",
+  "created_at": "2026-08-18T12:12:29.401648",
   "output_dir": "manual_20260726_153853",
   "contract_year": "2026",
   "base_plan": "BB"

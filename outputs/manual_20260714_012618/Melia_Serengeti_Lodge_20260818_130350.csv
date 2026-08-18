@@ -1,0 +1,148 @@
+location_name,hotel_name,hotel_group,hotel_desc,inside_restricted_area,margin,ignore_proposal_margin,currency,room_name,room_desc,max_cap,min_age,max_age,min_pax,max_pax,cost,single_supplement,hb_supplement,fb_supplement,start_date,end_date
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,4,11,1,1,350.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,12,99,1,1,700.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,4,11,1,1,217.5,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,12,99,1,1,435.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,4,11,1,1,195.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,12,99,1,1,390.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,4,11,1,1,445.0,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,12,99,1,1,890.0,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,4,11,1,1,350.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,12,99,1,1,700.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,4,11,1,1,217.5,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,12,99,1,1,435.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,4,11,1,1,445.0,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Single,Test,1,12,99,1,1,890.0,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,4,11,1,2,218.75,437.5,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,12,99,1,2,437.5,437.5,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,4,11,1,2,136.25,272.5,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,12,99,1,2,272.5,272.5,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,4,11,1,2,121.25,242.5,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,12,99,1,2,242.5,242.5,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,4,11,1,2,277.5,555.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,12,99,1,2,555.0,555.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,4,11,1,2,218.75,437.5,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,12,99,1,2,437.5,437.5,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,4,11,1,2,136.25,272.5,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,12,99,1,2,272.5,272.5,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,4,11,1,2,277.5,555.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Lagoon View Double,Test,2,12,99,1,2,555.0,555.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,4,11,1,1,430.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,12,99,1,1,860.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,4,11,1,1,270.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,12,99,1,1,540.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,4,11,1,1,245.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,12,99,1,1,490.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,4,11,1,1,527.5,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,12,99,1,1,1055.0,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,4,11,1,1,430.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,12,99,1,1,860.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,4,11,1,1,270.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,12,99,1,1,540.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,0,3,1,1,0.0,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,4,11,1,1,527.5,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Single,Test,1,12,99,1,1,1055.0,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,4,11,1,2,268.75,537.5,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,12,99,1,2,537.5,537.5,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,4,11,1,2,168.75,337.5,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,12,99,1,2,337.5,337.5,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,4,11,1,2,153.75,307.5,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,12,99,1,2,307.5,307.5,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,4,11,1,2,330.0,660.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,12,99,1,2,660.0,660.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,4,11,1,2,268.75,537.5,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,12,99,1,2,537.5,537.5,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,4,11,1,2,168.75,337.5,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,12,99,1,2,337.5,337.5,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,4,11,1,2,330.0,660.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Melia Savannah Panormaic Double,Test,2,12,99,1,2,660.0,660.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,4,11,1,2,392.5,785.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,12,99,1,2,785.0,785.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,4,11,1,2,246.25,492.5,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,12,99,1,2,492.5,492.5,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,4,11,1,2,222.5,445.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,12,99,1,2,445.0,445.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,4,11,1,2,449.0,898.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,12,99,1,2,898.0,898.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,4,11,1,2,392.5,785.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,12,99,1,2,785.0,785.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,4,11,1,2,246.25,492.5,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,12,99,1,2,492.5,492.5,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,4,11,1,2,449.0,898.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Junior Suite,Test,2,12,99,1,2,898.0,898.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,4,11,1,2,450.0,900.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,12,99,1,2,900.0,900.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,4,11,1,2,288.75,577.5,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,12,99,1,2,577.5,577.5,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,4,11,1,2,261.25,522.5,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,12,99,1,2,522.5,522.5,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,4,11,1,2,522.5,1045.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,12,99,1,2,1045.0,1045.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,4,11,1,2,450.0,900.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,12,99,1,2,900.0,900.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,4,11,1,2,288.75,577.5,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,12,99,1,2,577.5,577.5,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,0,3,1,2,0.0,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,4,11,1,2,522.5,1045.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,One Bedroom Suite,Test,2,12,99,1,2,1045.0,1045.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,4,11,1,4,342.5,685.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,12,99,1,4,685.0,685.0,0.0,0.0,04/01/2026,28/02/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,4,11,1,4,220.62,441.25,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,12,99,1,4,441.25,441.25,0.0,0.0,01/03/2026,31/03/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,4,11,1,4,198.75,397.5,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,12,99,1,4,397.5,397.5,0.0,0.0,01/04/2026,31/05/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,4,11,1,4,397.5,795.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,12,99,1,4,795.0,795.0,0.0,0.0,01/06/2026,31/08/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,4,11,1,4,342.5,685.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,12,99,1,4,685.0,685.0,0.0,0.0,01/09/2026,31/10/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,4,11,1,4,220.62,441.25,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,12,99,1,4,441.25,441.25,0.0,0.0,01/11/2026,21/12/2026
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,0,3,1,4,0.0,0.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,4,11,1,4,397.5,795.0,0.0,0.0,22/12/2026,03/01/2027
+Serengeti,Melia Serengeti Lodge,,Test,FALSE,0,FALSE,USD,Two Bedroom Suite,Test,4,12,99,1,4,795.0,795.0,0.0,0.0,22/12/2026,03/01/2027

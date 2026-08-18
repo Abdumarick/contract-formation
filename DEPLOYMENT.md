@@ -356,3 +356,53 @@ The current application uses one shared HTTP Basic username and password. HTTPS 
 transport secure, but individual users cannot be identified separately. For a larger
 team or stronger audit requirements, add individual accounts, roles, login throttling,
 password-reset procedures, and records showing who changed or deleted each contract.
+
+
+Absolutely — here’s a simple safe deploy checklist you can reuse every time.
+Before deploy
+Back up the server outputs/ folder
+Confirm your local changes work in the browser
+Make sure requirements.txt only includes needed packages
+Keep Python 3.9 compatibility in mind
+Avoid uploading .venv, .git, logs, and cache files
+Upload
+Zip only the app code and templates
+Include:*.py
+templates/
+requirements.txt
+passenger_wsgi.py if used
+
+Upload into:~/public_html/ratesapp.kiwoitoafricasafaris.co.tz
+
+Extract directly in that folder, not into a nested subfolder
+Install/update dependencies
+If requirements.txt changed, run:.venv/bin/pip install -r requirements.txt
+
+Restart app
+Restart gunicorn so the new code loads
+If the setup uses systemd, the service should come back automatically
+Then hard refresh the site in the browser
+Verify
+Check local server response:http://127.0.0.1:5000/ should return 200
+
+Open the public URL:https://ratesapp.kiwoitoafricasafaris.co.tz
+
+Test the main flows:home page
+upload
+manual form
+library
+clear/reset
+mobile view
+
+If something breaks
+Check the log first:tail -30 gunicorn.log
+
+Look for:missing imports
+syntax errors
+template errors
+bad file paths
+Python 3.9 incompatibility
+
+The one rule I’d treat as sacred:
+always back up outputs/ before deploy, because that is production data now
+If you want, I can turn this into a very short “one-page deployment SOP” you can keep next to the project.
