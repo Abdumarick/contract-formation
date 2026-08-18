@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Mara Enkaji",
+  "hotel_group": "Single",
+  "location": "Masai Mara",
+  "csv_file": "Mara_Enkaji_20260818_105206.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-08-18T10:52:06.318482",
+  "output_dir": "manual_20260818_095532",
+  "contract_year": "2026",
+  "base_plan": "BB"
+}

@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Villa Rose Kempinski 27",
+  "hotel_group": "Single",
+  "location": "Nairobi",
+  "csv_file": "Villa_Rose_Kempinski_27_20260818_070732.csv",
+  "xlsx_file": null,
+  "row_count": 45,
+  "created_at": "2026-08-18T07:07:32.189811",
+  "output_dir": "manual_20260818_070612",
+  "contract_year": "2027",
+  "base_plan": "FB"
+}

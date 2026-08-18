@@ -1061,10 +1061,41 @@
         .section-badge.done { background:rgba(63,185,80,.11); color:#7ee787; }
         .advanced-toggle { margin-left:8px; width:28px; height:28px; border-radius:7px; border:1px solid var(--border); background:var(--surface2); color:var(--muted); cursor:pointer; }
         .advanced-card.collapsed .card-body { display:none; }
-        .timeline { display:flex; gap:4px; min-height:44px; margin-top:14px; overflow-x:auto; }
-        .timeline-segment { min-width:90px; flex:1; padding:8px 9px; border-radius:8px; background:linear-gradient(135deg,rgba(88,166,255,.18),rgba(57,211,187,.1)); border:1px solid rgba(88,166,255,.25); }
-        .timeline-segment strong { display:block; font-size:.72em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-        .timeline-segment span { color:var(--muted); font-size:.62em; white-space:nowrap; }
+        .timeline {
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 10px;
+            min-height: 44px;
+            margin-top: 14px;
+        }
+        .timeline-segment {
+            padding: 12px 13px;
+            border-radius: 12px;
+            background: linear-gradient(180deg, rgba(22,27,34,.96), rgba(13,17,23,.96));
+            border: 1px solid rgba(88,166,255,.22);
+            box-shadow: inset 0 1px rgba(255,255,255,.03);
+        }
+        .timeline-segment strong {
+            display:block;
+            font-size:.74em;
+            letter-spacing:.04em;
+            text-transform: uppercase;
+            color: var(--teal);
+            margin-bottom: 6px;
+        }
+        .timeline-segment span {
+            color: var(--text);
+            font-size: .78em;
+            line-height: 1.35;
+        }
+        .timeline-empty {
+            padding: 18px;
+            border: 1px dashed var(--border);
+            border-radius: 12px;
+            color: var(--muted);
+            text-align: center;
+            font-size: .8em;
+        }
         .rt-missing { background:rgba(248,81,73,.08)!important; box-shadow:inset 0 0 0 1px rgba(248,81,73,.24); }
         .rate-table thead { position:sticky; top:0; z-index:4; }
         .focus-mode #manualFormWrap .card { display:none; }
@@ -1087,12 +1118,28 @@
         .wizard-review > p { color:var(--muted); font-size:.82em; margin:6px 0 16px; }
         .wizard-navigation { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 0; }
         .wizard-navigation span { color:var(--muted); font-size:.75em; }
-        .wizard-final-actions { display:none; }
+        .wizard-final-actions {
+            display:none;
+            margin-top: 10px;
+            gap: 10px;
+            padding: 12px;
+            border: 1px solid rgba(88,166,255,.22);
+            border-radius: 12px;
+            background: rgba(22,27,34,.94);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 16px 40px rgba(0,0,0,.35);
+        }
         .wizard-final-actions.show { display:flex; }
         .full-form-mode #wizardReview { display:none !important; }
         .full-form-mode .wizard-navigation { display:none !important; }
+        .full-form-mode .wizard-final-actions { display:flex !important; }
         @media(max-width:480px) {
             body { padding-bottom: 48px; }
+            .app-shell {
+                width: min(100%, calc(100vw - 12px));
+                margin: 8px auto 14px;
+                border-radius: 14px;
+            }
             .header {
                 flex-direction: column;
                 align-items: stretch !important;
@@ -1103,9 +1150,24 @@
             .header h1 { font-size: 1.65em; }
             .header p { font-size: .9em; }
             .header > a { justify-content: center; width: 100%; }
+            .header-actions,
+            .workspace-actions,
+            .actions,
+            .wizard-final-actions {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .header-actions .btn,
+            .workspace-actions .btn,
+            .actions .btn,
+            .wizard-final-actions .btn,
+            .source-choices .source-choice {
+                width: 100%;
+                justify-content: center;
+            }
             .page { padding: 20px 12px 0; }
             .mode-tabs { padding: 4px; gap: 3px; margin-bottom: 16px; }
-            .mode-tab { min-height: 48px; padding: 8px 6px; line-height: 1.25; }
+            .mode-tab { min-height: 48px; padding: 8px 6px; line-height: 1.25; flex: 1 1 0; }
             .manual-welcome { margin-bottom: 14px; padding: 16px; }
             .manual-welcome h2 { font-size: 1.15em; }
             .manual-welcome p { font-size: .78em; }
@@ -1116,6 +1178,12 @@
             .card-header-text p { line-height: 1.4; }
             .card-body { padding: 16px 14px; }
             .card-icon { width: 34px; height: 34px; font-size: 16px; }
+            .grid-2, .grid-3,
+            .drow-season, .drow-ageband, .drow-room, .drow-supp,
+            .drow-daterange, .rcr-row1, .supp-row-top,
+            .source-choices, .review-grid, .timeline {
+                grid-template-columns: 1fr;
+            }
             .drow-season, .drow-ageband, .drow-room, .drow-supp,
             .drow-daterange, .rcr-row1, .supp-row-top {
                 grid-template-columns: 1fr;
@@ -1124,23 +1192,39 @@
             .supp-row { padding: 12px; }
             .rcr-row2 { flex-direction: column; align-items: stretch; }
             .rcr-row2 .rcr-field, .rcr-pct-field { width: 100%; min-width: 0; flex-basis: auto; }
-            .actions { flex-direction: column; align-items: stretch; }
-            .actions .btn { width: 100%; justify-content: center; }
             .sa-header { align-items: flex-start; flex-direction: column; gap: 4px; }
             .sa-hint { text-align: left; }
             .year-shift-popover { right: auto; left: 0; min-width: 0; width: min(280px, calc(100vw - 52px)); }
             .price-adjust-popover { min-width: 0; width: min(300px, calc(100vw - 32px)); }
             .rate-table-wrap { -webkit-overflow-scrolling: touch; }
-            .rate-table { font-size: .82em; }
+            .rate-table { font-size: .82em; min-width: 620px; }
             .workspace-bar { top: 4px; padding: 10px 11px; }
+            .workspace-bar { flex-direction: column; align-items: stretch; gap: 10px; }
+            .workspace-summary strong { white-space: normal; }
+            .workspace-progress {
+                gap: 6px;
+                padding-bottom: 6px;
+            }
+            .progress-bubble {
+                min-width: 74px;
+                padding: 8px 10px;
+                font-size: .74em;
+            }
             .draft-state { display: none; }
-            .review-grid { grid-template-columns: 1fr; }
             .review-dialog { padding: 18px; }
             .review-actions { flex-direction: column-reverse; }
             .review-actions .btn { width: 100%; justify-content: center; }
-            .source-choices { grid-template-columns:1fr 1fr; }
             .wizard-navigation .btn { padding:9px 11px; font-size:.8em; }
-            .tools-menu-panel { position:fixed; right:12px; top:120px; }
+            .tools-menu-panel {
+                position: fixed;
+                left: 12px;
+                right: 12px;
+                top: 112px;
+                width: auto;
+            }
+            .wizard-final-actions {
+                padding: 10px;
+            }
         }
                 </style>
 </head>
@@ -3090,9 +3174,11 @@ function refreshWorkspaceDetails(s) {
     });
     const totalCells=s.seasons*s.rooms, missing=Math.max(0,totalCells-s.prices);
     const names=new Map(s.data.season_rows.map(x=>[x.sid,x.name]));
-    document.getElementById('dateTimeline').innerHTML=s.data.date_ranges.map(r=>
-        `<div class="timeline-segment"><strong>${names.get(r.sid)||'Season'}</strong><span>${r.start} → ${r.end}</span></div>`).join('') ||
-        '<div class="empty-hint">Add date ranges to build the timeline.</div>';
+    const timeline = document.getElementById('dateTimeline');
+    timeline.innerHTML = s.data.date_ranges.length
+        ? s.data.date_ranges.map(r=>
+            `<div class="timeline-segment"><strong>${names.get(r.sid)||'Season'}</strong><span>${r.start} to ${r.end}</span></div>`).join('')
+        : '<div class="timeline-empty">Add date ranges to see the arrangement summary.</div>';
     const sections=[['m_name',!!s.data.hotel_name,'Hotel details'],['rateTable',s.seasons>0&&s.rooms>0,'Rates'],
         ['dateRangeList',s.dates>0,'Dates'],
         ['ageBandList',s.data.age_bands.length>0,'Policies']];
@@ -3148,7 +3234,7 @@ function setFormViewMode(mode) {
     document.body.classList.toggle('full-form-mode', full);
     document.getElementById('wizardNavigation').style.display = full ? 'none' : '';
     document.getElementById('wizardReview').classList.toggle('show', !full && wizardStep === 'review');
-    document.querySelector('.wizard-final-actions').classList.toggle('show', !full && wizardStep === 'review');
+    document.querySelector('.wizard-final-actions').classList.toggle('show', full || wizardStep === 'review');
     document.querySelectorAll('#manualFormWrap > .card').forEach(c => c.classList.remove('wizard-hidden'));
     if (!full) showWizardStep(wizardStep);
     updateWorkspace();
@@ -3161,7 +3247,7 @@ function showWizardStep(step) {
     document.querySelectorAll('#manualFormWrap > .card').forEach(c=>c.classList.add('wizard-hidden'));
     (groups[wizardStep]||[]).forEach(c=>c?.classList.remove('wizard-hidden'));
     document.getElementById('wizardReview').classList.toggle('show',wizardStep==='review');
-    document.querySelector('.wizard-final-actions').classList.toggle('show',wizardStep==='review');
+    document.querySelector('.wizard-final-actions').classList.toggle('show', formViewMode === 'full' || wizardStep === 'review');
     const i=WIZARD_STEPS.indexOf(wizardStep);
     document.getElementById('wizardBackBtn').disabled=i===0;
     document.getElementById('wizardNextBtn').style.display=i===WIZARD_STEPS.length-1?'none':'inline-flex';
@@ -3312,10 +3398,43 @@ document.getElementById('generateBtn').addEventListener('click', openReviewDialo
 document.getElementById('saveChangesBtn').addEventListener('click', () =>
     submitManualForm({ showDownload: false }));
 
+function resetToInitialState() {
+    localStorage.removeItem(FORM_DRAFT_KEY);
+    document.body.classList.remove('focus-mode', 'full-form-mode');
+    wizardStep = 'setup';
+    formViewMode = 'subsection';
+    document.getElementById('draftState').textContent = 'Draft protection on';
+    document.getElementById('reviewOverlay').classList.remove('show');
+    document.getElementById('wizardReview').classList.remove('show');
+    document.querySelector('.wizard-final-actions').classList.remove('show');
+    document.getElementById('wizardNavigation').style.display = '';
+    document.getElementById('wizardStepLabel').textContent = 'Step 1 of 4';
+    document.getElementById('inlineReviewGrid').innerHTML = '';
+    document.getElementById('workspaceHotel').textContent = 'New contract';
+    document.getElementById('workspaceCounts').textContent = 'Add hotel details to begin';
+    document.querySelectorAll('.focus-visible').forEach(c => c.classList.remove('focus-visible'));
+    document.querySelectorAll('.advanced-card.collapsed').forEach(card => card.classList.add('collapsed'));
+    document.querySelectorAll('#manualFormWrap > .card').forEach(c => c.classList.remove('wizard-hidden'));
+    document.getElementById('manualPdfCard').classList.add('source-helper-hidden');
+    document.getElementById('csvImportCard').classList.add('source-helper-hidden');
+    document.getElementById('fullFormBtn').textContent = 'Full form';
+    document.getElementById('focusModeBtn').textContent = 'Focus mode';
+    document.getElementById('manualStatus').classList.remove('show');
+    document.getElementById('manualResult').classList.remove('show');
+    document.getElementById('parseStatus').classList.remove('show');
+    document.getElementById('csvImportStatus').classList.remove('show');
+    document.getElementById('hintBox').classList.remove('show');
+    document.getElementById('parseProgress').style.display = 'none';
+    document.getElementById('dateTimeline').innerHTML = '';
+    updateWorkspace();
+    setFormViewMode('subsection');
+    showWizardStep('setup');
+}
+
 /* ── Clear / Reset form ──────────────────────────────── */
 document.getElementById('clearBtn').addEventListener('click', () => {
     if (!confirm('Clear all form data?')) return;
-    localStorage.removeItem(FORM_DRAFT_KEY);
+    resetToInitialState();
 
     // Reset PDF upload zone
     manualPdfFile = null;

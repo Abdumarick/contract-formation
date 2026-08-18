@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Karen Gables",
+  "hotel_group": "Single",
+  "location": "Nairobi",
+  "csv_file": "Karen_Gables_20260818_071758.csv",
+  "xlsx_file": null,
+  "row_count": 18,
+  "created_at": "2026-08-18T07:17:58.208525",
+  "output_dir": "manual_20260818_071758",
+  "contract_year": "2026",
+  "base_plan": "FB"
+}

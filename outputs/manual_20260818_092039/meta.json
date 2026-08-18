@@ -1,0 +1,13 @@
+{
+  "source": "manual",
+  "hotel_name": "Praro Amboseli Camp 27",
+  "hotel_group": "Single",
+  "location": "Nailobi",
+  "csv_file": "Praro_Amboseli_Camp_27_20260818_092039.csv",
+  "xlsx_file": null,
+  "row_count": 72,
+  "created_at": "2026-08-18T09:20:39.263391",
+  "output_dir": "manual_20260818_092039",
+  "contract_year": "2027",
+  "base_plan": "BB"
+}
